@@ -1,2 +1,13 @@
-pyshacl==0.26.0
-pytest==8.3.2
+html5rdf==1.2
+iniconfig==2.0.0
+labelify @ git+https://github.com/Kurrawong/labelify@d41d0b4693483c02b5e122e5a1909fa816e0ffff
+owlrl==6.0.2
+packaging==24.1
+pluggy==1.5.0
+prettytable==3.11.0
+pyparsing==3.2.0
+pyshacl==0.28.1
+pytest==8.3.3
+rdflib==7.1.1
+SPARQLWrapper==2.0.0
+wcwidth==0.2.13

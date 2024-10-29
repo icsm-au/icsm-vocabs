@@ -429,9 +429,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:1.0 rdfs:label "1.0" .
+
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :None ;
+    owl:versionIRI :1.0 ;
     skos:definition "This vocabulary describes the legal instrument under which, or agency with responsibility for, naming of a feature."@en ;
     skos:hasTopConcept
         :aus-hydrographic-office ,

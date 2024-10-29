@@ -170,7 +170,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Access"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :access-road
@@ -183,7 +183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Access Road"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :alleyway
@@ -198,7 +198,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Alleyway"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :amble
@@ -213,7 +213,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Amble"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :ara
@@ -228,7 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Ara"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www.linz.govt.nz/resources/regulatory/guidelines-addressing-fill-developments-2019-linz-op-g-01245"^^xsd:anyURI ;
+    schema:citation "https://www.linz.govt.nz/resources/regulatory/guidelines-addressing-fill-developments-2019-linz-op-g-01245"^^xsd:anyURI ;
 .
 
 :arterial
@@ -257,7 +257,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Banan"@en ;
     skos:scopeNote "Western Australia only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :bay
@@ -282,7 +282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Belt"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :bend
@@ -298,7 +298,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Bend"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :bowl
@@ -314,7 +314,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Bowl"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :brace
@@ -329,7 +329,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Brace"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :brae
@@ -342,7 +342,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Brae"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :bridge
@@ -359,7 +359,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Bridge"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :broadway
@@ -386,7 +386,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Brow"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :busway
@@ -412,7 +412,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Causeway"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :circus
@@ -471,7 +471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Copse"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :corner
@@ -486,7 +486,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Corner"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :corso
@@ -516,7 +516,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Courts"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :courtyard
@@ -531,7 +531,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Courtyard"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :cove
@@ -547,7 +547,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Cove"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :cross
@@ -590,7 +590,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Cutting"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :dale
@@ -603,7 +603,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Dale"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :dell
@@ -620,7 +620,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Dell"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :deviation
@@ -649,7 +649,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Downs"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :driveway
@@ -690,7 +690,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Edge"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :elbow
@@ -705,7 +705,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Elbow"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :end
@@ -718,7 +718,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "End"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :expressway
@@ -751,7 +751,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Fairway"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :firebreak
@@ -794,7 +794,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Follow"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :formation
@@ -809,7 +809,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Formation"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :frontage
@@ -824,7 +824,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Frontage"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :gap
@@ -837,7 +837,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Gap"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :gardens
@@ -852,7 +852,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Gardens"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :gate
@@ -867,7 +867,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Gate"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :gateway
@@ -882,7 +882,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Gateway"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :glen
@@ -898,7 +898,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Glen"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :gully
@@ -913,7 +913,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Gully"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :haven
@@ -942,7 +942,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Heath"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :heights
@@ -957,7 +957,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Heights"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :hill
@@ -973,7 +973,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Hill"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :interchange
@@ -988,7 +988,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Interchange"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :junction
@@ -1003,7 +1003,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Junction"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :key
@@ -1018,7 +1018,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Key"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :landing
@@ -1035,7 +1035,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Landing"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :laneway
@@ -1062,7 +1062,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Line"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :link
@@ -1075,7 +1075,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Link"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :lookout
@@ -1088,7 +1088,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Lookout"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :loop-road
@@ -1101,7 +1101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Loop Road"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :meander
@@ -1114,7 +1114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Meander"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :mile
@@ -1127,7 +1127,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Mile"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :motorway
@@ -1154,7 +1154,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Nook"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :oaks
@@ -1167,7 +1167,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Oaks"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :outlet
@@ -1192,7 +1192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Outlook"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :paddock
@@ -1207,7 +1207,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Paddock"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :park
@@ -1235,7 +1235,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Pass"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :pathway
@@ -1252,7 +1252,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Pathway"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :point
@@ -1269,7 +1269,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Point"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :port
@@ -1282,7 +1282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Port"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :quadrant
@@ -1297,7 +1297,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Quadrant"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :ramble
@@ -1312,7 +1312,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Ramble"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :roadway
@@ -1327,7 +1327,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Roadway"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :rotary
@@ -1342,7 +1342,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Rotary"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :round
@@ -1357,7 +1357,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Round"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :route
@@ -1372,7 +1372,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Route"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :row
@@ -1385,7 +1385,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Row"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :run
@@ -1398,7 +1398,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Run"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :shunt
@@ -1413,7 +1413,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Shunt"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :side-road
@@ -1426,7 +1426,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Side Road"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :slope
@@ -1441,7 +1441,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Slope"@en ;
     skos:scopeNote "Victoria only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :spur
@@ -1454,7 +1454,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Spur"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :strait
@@ -1495,7 +1495,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Tarn"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :te-ara
@@ -1508,7 +1508,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Te Ara"@en ;
     skos:scopeNote "New Zealand only. Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www.linz.govt.nz/resources/regulatory/guidelines-addressing-fill-developments-2019-linz-op-g-01245"^^xsd:anyURI ;
+    schema:citation "https://www.linz.govt.nz/resources/regulatory/guidelines-addressing-fill-developments-2019-linz-op-g-01245"^^xsd:anyURI ;
 .
 
 :top
@@ -1521,7 +1521,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Top"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :tor
@@ -1534,7 +1534,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Tor"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :tunnel
@@ -1549,7 +1549,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Tunnel"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
+    schema:citation "https://discover.data.vic.gov.au/dataset/vicmap-transport-road-and-paper-road-line2"^^xsd:anyURI ;
 .
 
 :turn
@@ -1562,7 +1562,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Turn"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :underpass
@@ -1577,7 +1577,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Underpass"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :vale
@@ -1590,7 +1590,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Vale"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :valley
@@ -1607,7 +1607,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Valley"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :views
@@ -1624,7 +1624,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Views"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :walkway
@@ -1639,7 +1639,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Walkway"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :waters
@@ -1666,7 +1666,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Wynd"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/qsi>
@@ -1688,7 +1688,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Alley"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :anchorage
@@ -1725,7 +1725,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Approach"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :arcade
@@ -1739,7 +1739,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Arcade"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :artery
@@ -1766,7 +1766,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Avenue"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :bank
@@ -1802,7 +1802,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Boardwalk"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :boulevard
@@ -1819,7 +1819,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Boulevard"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :break
@@ -1833,7 +1833,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Break"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :broadwalk
@@ -1860,7 +1860,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Bypass"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :byway
@@ -1907,7 +1907,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Chase"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :circle
@@ -1921,7 +1921,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Circle"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :circlet
@@ -1946,7 +1946,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Circuit"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :close
@@ -1960,7 +1960,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Close"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :cluster
@@ -2008,7 +2008,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Concourse"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :course
@@ -2035,7 +2035,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Court"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :crescent
@@ -2051,7 +2051,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Crescent"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :crest
@@ -2065,7 +2065,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Crest"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :crief
@@ -2211,7 +2211,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Drive"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :entrance
@@ -2225,7 +2225,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Entrance"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :esplanade
@@ -2239,7 +2239,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Esplanade"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :estate
@@ -2275,7 +2275,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Firetrail"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :flat
@@ -2356,7 +2356,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Freeway"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :front
@@ -2394,7 +2394,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Glade"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :grange
@@ -2408,7 +2408,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Grange"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :green
@@ -2422,7 +2422,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Green"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :greens
@@ -2437,7 +2437,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Greens"@en ;
     skos:scopeNote "New Zealand only" ;
     skos:topConceptOf cs: ;
-    schema:source "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
+    schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
 .
 
 :grove
@@ -2453,7 +2453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Grove"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :harbour
@@ -2489,7 +2489,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Highway"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :hollow
@@ -2556,7 +2556,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lane"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :leader
@@ -2582,7 +2582,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Loop"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :lynne
@@ -2605,7 +2605,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Mall"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :manor
@@ -2650,7 +2650,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Mews"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :parade
@@ -2664,7 +2664,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Parade"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :parkway
@@ -2680,7 +2680,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Parkway"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :part
@@ -2705,7 +2705,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Passage"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :path
@@ -2717,7 +2717,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Path"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :piazza
@@ -2742,7 +2742,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Place"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :plaza
@@ -2757,7 +2757,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Plaza"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :pocket
@@ -2773,7 +2773,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Pocket"@en ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :precinct
@@ -2798,7 +2798,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Promenade"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :pursuit
@@ -2834,7 +2834,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Quay"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :quays
@@ -2849,7 +2849,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Quays"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :ramp
@@ -2862,7 +2862,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Ramp"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :range
@@ -2919,7 +2919,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Rest"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
+    schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
 :retreat
@@ -2934,7 +2934,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Retreat"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :return
@@ -2970,7 +2970,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Ridge"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :ring
@@ -2993,7 +2993,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Rise"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :rising
@@ -3018,7 +3018,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Road"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :roads
@@ -3087,7 +3087,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Square"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :steps
@@ -3101,7 +3101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Steps"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :straight
@@ -3137,7 +3137,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Street"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :subway
@@ -3152,7 +3152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Subway"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :terrace
@@ -3166,7 +3166,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Terrace"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :tollway
@@ -3191,7 +3191,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Track"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :trail
@@ -3206,7 +3206,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Trail"@en ;
     skos:scopeNote "Australia only" ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :traverse
@@ -3276,7 +3276,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "View"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :vista
@@ -3292,7 +3292,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Vista"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :vue
@@ -3329,7 +3329,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Walk"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :way
@@ -3341,7 +3341,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Way"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :wharf
@@ -3355,7 +3355,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Wharf"@en ;
     skos:topConceptOf cs: ;
-    schema:source "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :wood

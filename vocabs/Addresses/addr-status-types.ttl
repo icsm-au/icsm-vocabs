@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "AS/NZS4819:2011" ;
     skos:inScheme cs: ;
     skos:prefLabel "alternative"@en ;
-    schema:source "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
+    schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
 .
 
 :official
@@ -36,7 +36,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "AS/NZS4819:2011" ;
     skos:inScheme cs: ;
     skos:prefLabel "primary"@en ;
-    schema:source "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
+    schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
 .
 
 :unknown

@@ -1,0 +1,7 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+<http://www.opengis.net/def/nil/OGC/0/unknown>
+    rdfs:label "unknown" ;
+    schema:description "The value is unknown" ;
+.

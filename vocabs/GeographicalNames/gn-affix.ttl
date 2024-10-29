@@ -209,7 +209,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :0.1 ;
+    owl:versionIRI :1.0 ;
     skos:definition "Affixes (prefixes, infixes, suffixes) applicable to geographical names."@en ;
     skos:hasTopConcept
         :central ,
@@ -258,5 +258,5 @@ cs:
             schema:name "Icsm" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
-    schema:version "0.1" ;
+    schema:version "1.0" ;
 .

@@ -1006,7 +1006,7 @@ cs:
             a prov:Entity ;
             dct:format "application/json" ;
             dct:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
-            rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/CSD-Header/nz-territorial-authority.csv> ;
+            rdfs:seeAlso "file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/CSD-Header/nz-territorial-authority.csv" ;
         ] ;
     prov:wasAssociatedWith
         [
@@ -1015,7 +1015,7 @@ cs:
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
             dct:hasVersion "0.3.44" ;
-            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ;
+            rdfs:seeAlso "https://github.com/opengeospatial/ogc-na-tools" ;
         ] ;
     prov:wasInformedBy
         [

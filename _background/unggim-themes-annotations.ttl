@@ -1,0 +1,343 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/fsdf/themes/airports-and-airfields>
+    rdfs:label "Airports and Airfields"@en ;
+    schema:description "Airports and airfields are defined by the International Civil Aviation Organisation as defined points or areas on land or water intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft. ICAO uses the term aerodromes. Airports are generally facilities that have commercial passenger and cargo facilities."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/australian-collaborative-land-use-and-management-program>
+    rdfs:label "Australian Collaborative Land Use and Management Program"@en ;
+    schema:description """Land use mapping in Australia is coordinated by the Australian Collaborative Land Use and Management Program (ACLUMP), a consortium of state and national agencies. Mapping is conducted at two scales: national scale and catchment scale. Land use is mapped according to the nationally agreed Australian Land Use and Management (ALUM) Classification, a three-tier hierarchical structure.
+
+* National scale land use mapping is produced by ABARES using coarse-scale satellite data (pixel size of 1.1 square kilometres), ABS agricultural statistics and ground control point data for the agricultural land uses and various other digital maps, including the finer resolution catchment scale land use data, for the non-agricultural land uses. National scale (1:2 500 000) land use datasets have been compiled for 1992-93, 1993-94, 1996-97, 1998-99, 2000-01, 2001-02, 2005-06, 2010-11.
+* Catchment scale land use mapping is produced by the state and territory agencies using land tenure and other types of land use data, fine-scale satellite data and information collected in the field. The operational scale of catchment scale land use mapping varies according to the intensity of land-use activities and landscape context. Mapping ranges from fine scale (1:10 000 to 1:25 000) for irrigated and peri-urban areas to coarser scales for cropping regions (1:100 000) and for the semi-arid and arid pastoral zone (1:250 000). Catchment scale mapping is compiled into a national raster (50m) dataset by ABARES as new datasets are available from the jurisdictions.
+"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/australian-electoral-boundaries>
+    rdfs:label "Australian Electoral Boundaries"@en ;
+    schema:description """The geographical boundaries that divide the area of interest for the purposes of an election or referendum held under the Commonwealth Electoral Act, 1918.
+
+Australian Electoral boundaries are a collection of legislative, political boundaries sourced from Federal, State and Territory authorities:
+
+* Federal electoral boundaries
+* State electoral boundaries
+* Local government wards"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/australian-statistical-geographical-standard-boundaries>
+    rdfs:label "Australian Statistical Geographical Standard Boundaries"@en ;
+    schema:description """The geographical boundaries that divide the area of interest on which the statistics are collected for purposes under the Australian Bureau of Statistics Act, 1975.
+
+The Australian Statistical Geography Standard (ASGS) is the Australian Bureau of Statistics' geographical framework.
+
+The ASGS brings all the regions used by the ABS to output data under the one umbrella. They are divided into two broad categories:
+
+    ABS Structures, those regions which are defined and maintained by the ABS.
+    Non-ABS Structures, those regions defined and maintained by other organisations, but for which the ABS supplies data.
+
+The ABS Structures are a hierarchy of regions developed for the release of ABS statistical information. Their main components are listed below:
+
+    Australia
+    State/Territory
+    Statistical Areas Level 4
+    Statistical Areas Level 3
+    Statistical Areas Level 2
+    Statistical Areas Level 1
+    Mesh blocks"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/catchment-boundaries>
+    rdfs:label "Catchment Boundaries"@en ;
+    schema:description "The National Catchments is a topologically consistent and hierologically enforced stream flow aggregation of boundaries"@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/dynamic-land-cover>
+    rdfs:label "Dynamic Land Cover"@en ;
+    schema:description "The Dynamic Land Cover Dataset is a nationally consistent and thematically comprehensive land cover reference for Australia. Dynamic Land Cover Dataset provides an 8 year synoptic overview of land cover at 250 metre resolution for the Australian continent between April 2000 and April 2008."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/flow-direction-grid>
+    rdfs:label "Flow Direction Grid"@en ;
+    schema:description "The Flow Direction Grid is a regular grid of surface flow directions accompanying the GEODATA 9 Second Digital Elevation Model (DEM) Version 3. It ascribes to each DEM point one of eight cardinal directions (E, SE, S, SW, W, NW, N, NE) denoting the direction of surface flow from each grid point to one of its eight immediate neighbours."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/forests-of-australia>
+    rdfs:label "Forests of Australia"@en ;
+    schema:description """Forests of Australia (2018) is a continental spatial dataset of forest extent, by national forest categories and types, assembled for [Australia's State of the Forests Report 2018](http://www.agriculture.gov.au/abares/forestsaustralia/Pages/SOFR2018/sofr-2018.aspx). It was developed from multiple forest, vegetation and land cover data inputs, including contributions from Australian, state and territory government agencies and external sources.
+
+A forest is defined in this dataset as _"An area, incorporating all living and non-living components, that is dominated by trees having usually a single stem and a mature or potentially mature stand height exceeding two metres and with existing or potential crown cover of overstorey strata about equal to or greater than 20 per cent. This includes Australia's diverse native forests and commercial plantations, regardless of age. It is also sufficiently broad to encompass areas of trees that are sometimes described as woodlands"_.
+
+The dataset was compiled by the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES) for the [National Forest Inventory](http://www.agriculture.gov.au/abares/forestsaustralia/Pages/Australia%27s-National-Forest-Inventory.aspx) (NFI), a collaborative partnership between the Australian and state and territory governments. The role of the NFI is to collate, integrate and communicate information on Australia's forests. States and territories agencies collect forest data using independent methods and at varying scales or resolutions. The NFI applies a national classification to state and territory data to allow seamless integration of these datasets. Multiple independent sources of external data are used to fill data gaps and improve the quality of the final dataset.
+
+The NFI classifies forests into three national forest categories (Native forest, Commercial plantation, and Other forest) and then into various forest types. Commercial plantations presented in this dataset were sourced from the [National Plantation Inventory](http://www.agriculture.gov.au/abares/forestsaustralia/plantation-inventory-and-statistics) (NPI) spatial dataset (2016), also produced by ABARES. Another dataset produced by ABARES, the [Catchment scale Land Use and Management](http://www.agriculture.gov.au/abares/aclump/Pages/land-use/data-download.aspx) (CLUM) dataset (2016) was used to identify and mask out land uses that are inappropriate to map as forest."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/fractional-ground-cover>
+    rdfs:label "Fractional Ground Cover"@en ;
+    schema:description "The data represent the fractional cover of Photosynthetic Vegetation (PV), Non-Photosynthetic Vegetation (NPV) and Bare Soil (BS)."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/gazetteer-of-australia>
+    rdfs:label "Gazetteer of Australia"@en ;
+    schema:description """A geographical index or dictionary of the names of cultural and physical features and their associated location in Australia.
+
+These names can include approved, unapproved, commonly used, alternate and historical place names."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/groundwater>
+    rdfs:label "Groundwater"@en ;
+    schema:description "Nationally consistent set of groundwater boundaries and properties including aquifer boundaries, geometry, salinity, yield and hydraulic conductivity. The Interim Aquifer Framework has been used to standardise the hydrogeological unit terminology for this dataset."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/groundwater-bores>
+    rdfs:label "Groundwater Bores"@en ;
+    schema:description "Nationally consistent set of groundwater bores (including monitoring, irrigation and commercial bores) and associated lithology, construction and hydrostratigraphy logs. The National Aquifer Framework has been used to standardise the hydrogeological unit terminology for this dataset."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/groundwater-dependent-ecosystems>
+    rdfs:label "Groundwater Dependent Ecosystems (GDE)"@en ;
+    schema:description "Groundwater Dependent Ecosystems (GDE) is ecological and hydrogeological information on known groundwater dependent ecosystems and ecosystems that potentially use groundwater."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/high-spatial-resolution-low-temporal-coverage>
+    rdfs:label "High Spatial Resolution (>2.5-10m) Low Temporal Coverage (>Quarterly)"@en ;
+    schema:description """These data sets have a spatial resolution of between 2.5-10 m and provide national coverage every quarter. They are primarily operated by Jurisdictions and/or commercial enterprises.
+
+There are an increasing number of these sensors available for both satellite and airborne platforms and an ever-expanding range of applications that use them. The data derived from SPOT from 2005 to Present and ALOS from 2009/2010 is identified as the primary data within this data set."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/hydrological-obstructions>
+    rdfs:label "Hydrological Obstructions"@en ;
+    schema:description "Hydrological obstructions are man-made features that impact the water network either by obstruction, diversion or storage of water"@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/jurisdictional-boundaries>
+    rdfs:label "Jurisdictional Boundaries"@en ;
+    schema:description """The agreed boundary separating the individual states and territories of Australia and bounded by the maritime boundary.
+
+Jurisdictional boundaries are a collection of legislative, regulatory, political and general administrative boundaries sourced from Federal, State and Territory authorities.
+
+* National boundary
+* State/Territory boundary
+* Local government areas
+* Parishes
+* Regions
+* Suburbs"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/land-parcel-boundaries>
+    rdfs:label "Land Parcel Boundaries"@en ;
+    schema:description "The Land Parcel dataset is a data aggregation sourced from the jurisdictions which depicts national and accurate land and strata based information including parcels representing easements, roads, crossing, rail and water."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/land-tenure>
+    rdfs:label "Land Tenure"@en ;
+    schema:description "Aligns land tenure classifications to cadastral parcel identifiers, requiring the use of the CadLite® dataset to visualise or spatially analyse the Land Tenure dataset."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/low-resolution-high-temporal-coverage>
+    rdfs:label "Low Resolution (>80m) High Temporal Coverage (>weekly)"@en ;
+    schema:description """These data sets have a spatial resolution of no closer than 80 m and are collected on a close to weekly basis.
+
+The AVHRR and MODIS sensors service most Australian needs for low resolution optical data. Data is derived from MODIS, AVHRR, VIIRS missions and includes the following spectral ranges, VIS, NIR, SWIR.
+"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/maritime-jurisdiction-boundaries>
+    rdfs:label "Maritime Jurisdiction Boundaries"@en ;
+    schema:description """The delineation of the baseline from which the outer limits of the various maritime zones are measured as set out in the UN Convention of the Law of the Sea (UNCLOS) and Seas and Submerged Lands Act, 1973.
+
+* Territorial Sea Baseline
+* Territorial Sea (12 nautical mile limit)
+* Contiguous Zone (24 nautical mile limit)
+* Exclusive Economic Zone (200 nautical mile limit)
+* Australian Fishing Zone"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/medium-resolution-medium-temporal>
+    rdfs:label "Medium Resolution (>10-80m) Medium Temporal"@en ;
+    schema:description """These data sets have a spatial resolution between 10–80 m and are collected on a weekly to monthly basis. They are the most commonly used category of imagery data.
+
+For several decades the Landsat series of satellites have provided the majority of medium resolution optical imagery for operational programs in Australia. Data is derived from MSS, TM, ETM+, Aster, OLI, Sentinel-2 MSI missions and includes the following spectral ranges, VIS, NIR, SWIR, PAN.
+
+Medium resolution optical sensors have traditionally been operated for public good, although the number of commercial sensors is increasing."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/national-crossings>
+    rdfs:label "National Crossings"@en ;
+    schema:description "Crossings are structures built to facilitate the movement over, under or through another physical feature. In the Transport Theme, crossings include bridges, tunnels, fords, culverts and boardwalks."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/national-digital-elevation-and-depth-model>
+    rdfs:label "National Digital Elevation and Depth Model"@en ;
+    schema:description """The one arc second (~30m) DEMs provide a nationally consistent, medium resolution dataset essential for national and regional scale analysis using the best available source data. It comprises data derived from the Shuttle Radar Topography Mission (SRTM) and LiDAR where available.
+
+Bathymetry is the study and mapping of sea floor topography. It involves obtaining measurements of the depth of the ocean and is equivalent to mapping the topography on land.
+Such measurements can be made using:
+
+* Multibeam (swath) echosounders
+* Airborne laser measurements (LADS)
+* Derived depths from satellite remote sensing
+* Singlebeam echosounders"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/national-geospatial-reference-system>
+    rdfs:label "National Geospatial Reference System"@en ;
+    schema:description """The CORSnet is a network of permanent global navigation satellite systems (GNSS) continuously operating reference stations (CORS) providing DGPS, RTK and RINEX data 24/7 to enable users to achieve sub-metre positional accuracy.
+
+Expanding the CORSnet network of global navigation satellite systems (GNSS) continuously operating reference stations (CORS) providing DGPS, RTK and RINEX data 24/7 to enable users to achieve sub-metre positional accuracy."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/national-topographic-data>
+    rdfs:label "National Topographic Data"@en ;
+    schema:description """National Topographic data – principally referred to in this document as Geodata Topo 250K Series 3 – is a nationally consistent representation of natural and built environment features on the earth's surface for Australia excluding external territories. The data is thematically ordered and includes the following datasets containing up to 92 different feature classes:
+
+* Culture
+* Drainage
+* Elevation
+* Framework
+* Habitation
+* Transport
+    Utility
+    Vegetation"""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/national-vegetation-information-system>
+    rdfs:label "National Vegetation Information System"@en ;
+    schema:description "The NVIS framework was developed to enable the compilation of a nationally consistent vegetation dataset from data collected by states and territories. It provides a comprehensive means of describing and representing vegetation information based on establishing relationships between structural and floristic data. The NVIS Information Hierarchy is a system for describing the structural and floristic patterns of groups of plants in the landscape. Collectively, the different levels in the classification provide a description of vegetation that can be directly related to precise spatial areas as a vegetation map."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/native-title-boundaries>
+    rdfs:label "Native Title Boundaries"@en ;
+    schema:description """Mapping and spatial information play a key role in navigating native title.
+
+Applications, Indigenous land use agreements, and determinations of native title are described geographically and mapped, similar to other interests in land and/or water.
+
+Mapping enables people to gain an understanding of where these matters are in relation to other things, such as towns, roads, farms, mining tenements and local government areas.
+
+Together with other information, maps are also used to notify interested parties about native title matters, enabling them to become involved in the process."""@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/navigation-aids-and-obstacles>
+    rdfs:label "Navigation Aids and Obstacles"@en ;
+    schema:description "Location, height and description of infrastructure, markers or other devices on land which may aid travellers in determining their position or safe course."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/railways-and-railway-stations>
+    rdfs:label "Railways and Railway Stations"@en ;
+    schema:description "Railways are transportation systems using one or more rails to carry freight or passengers. Railway stations are recognised stopping places where goods, vehicles or passengers may be transferred from one form of transport to the rail network, and vice versa. Railway stations can also include what are now called “intermodal transfer stations”."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/roads>
+    rdfs:label "Roads"@en ;
+    schema:description "Roads are defined paths for the transfer of goods or movement of vehicles, people or animals. Unlike Railways, Roads do not have fixed tracks. The Roads dataset includes cycleways, foot tracks and ferry routes."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/surface-hydrology>
+    rdfs:label "Surface Hydrology"@en ;
+    schema:description "The Surface Hydrology dataset provides a set of related feature classes to be used as the basis of the production of consistent hydrological information. This dataset contains a geometric representation of the (major) surface water features of Australia. Primarily, these are natural surface hydrology features, but the dataset also contains some artificial features (notably reservoirs, canals and other hydrographic features)."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/the-geocoded-national-address-file>
+    rdfs:label "The Geocoded National Address File"@en ;
+    schema:description "Validates the captured address and makes it possible to verify a physical address and locate its position."@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/traffic-control-devices>
+    rdfs:label "Traffic Control Devices"@en ;
+    schema:description "Traffic control devices are used to control, calm, slow or impede the movement of traffic. They include roundabouts, gates, stock grids, level crossings, tolls and barriers"@en ;
+.
+
+<https://linked.data.gov.au/def/fsdf/themes/very-high-resolution-very-low-temporal-coverage>
+    rdfs:label "Very High Resolution (<2.5 m) Very Low Temporal Coverage (>annual)"@en ;
+    schema:description """An orthophoto is an aerial photograph geometrically corrected (“orthorectified”) to ensure the scale is uniform: the photo has the same lack of distortion as a map. Unlike an uncorrected aerial photograph, an orthophotograph can be used to measure true distances, because it is an accurate representation of the Earth’s surface, having been adjusted for topographic relief, lens distortion, and camera tilt. The image has been corrected to ensure that horizontal scale is constant
+
+These data sets have a spatial resolution of 2.5m or closer and are primarily operated by Jurisdictions and/or commercial enterprises.
+
+There are an increasing number of these sensors available for both satellite and airborne platforms and an ever-expanding range of applications that use them."""@en ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes>
+    rdfs:label "UN-GGIM Data Themes"@en ;
+    schema:description "UN-GGIM Data Themes vocabulary describes a set of data themes for geospatial data based on the UN-GGIM document"@en ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Addresses>
+    rdfs:label "Addresses"@en ;
+    schema:description "An Address is a structured label, usually containing a property number, a street name and a locality name. It’s used to identify a plot of land, a building or part of a building, or some other construction, together with coordinates indicating their geographic position. Addresses are often used as a proxy for other data themes such as Land Parcels." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Buildings-Settlements>
+    rdfs:label "Buildings and Settlements"@en ;
+    schema:description "A Building refers to any roofed structure permanently constructed or erected on its site, for the protection of humans, animals, things, or the production of economic goods. Settlements are collections of buildings and associated features where a community carries out socio-economic activities." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Elevation-Depth>
+    rdfs:label "Elevation and Depth"@en ;
+    schema:description "The Elevation and Depth theme describes the surface of the Earth both on land and under a body of water, relative to a vertical datum." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/FunctionalAreas>
+    rdfs:label "Functional Areas"@en ;
+    schema:description "Functional Areas are the geographical extent of administrative, legislative, regulatory, electoral, statistical, governance, service delivery and activity management areas." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/GCRF>
+    rdfs:label "Global Geodetic Reference Frame"@en ;
+    schema:description "The Global Geodetic Reference Frame is the framework which allows users to precisely determine and express locations on the Earth, as well as to quantify changes of the Earth in space and time. It is not a data theme in the sense of the other themes, but it is a prerequisite for the accurate collection, integration, and use of all other geospatial data." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/GeographicalNames>
+    rdfs:label "Geographical Names"@en ;
+    schema:description "Geographical Names provide orientation and identity to places. They are location identifiers for cultural and physical features of the real world, such as regions, settlements, or any feature of public or historical interest. They are often used as a proxy for other data themes such as Buildings and Settlements." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Geology-Soils>
+    rdfs:label "Geology and Soils"@en ;
+    schema:description "Geology is the composition and properties of geologic materials (rocks and sediments) underground and outcropping at the Earth’s surface. It includes bedrock, aquifers, geomorphology for land and marine environments, mineral resources and overlying soils. Soils are the upper part of the Earth’s crust, formed by mineral particles, organic matter, water, air, and living organisms." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/LandCover-LandUse>
+    rdfs:label "Land Cover and Land Use"@en ;
+    schema:description "Land Cover represent the physical and biological cover of the Earth’s surface. Land Use is the current and future planned management, and modification of the natural environment for different human purposes or economic activities." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/LandParcels>
+    rdfs:label "Land Parcels"@en ;
+    schema:description "Land Parcels are areas of land or more generally of the Earth’s surface (land and/or water) under common rights (such as ownership or easements), claims (such as minerals or indigenous land) or use. This theme can include individual fields and cadastral parcels." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Orthoimagery>
+    rdfs:label "Orthoimagery"@en ;
+    schema:description "Orthoimagery is geo-referenced rectified image data of the Earth's surface, from satellite or airborne sensors. Although technically not a theme in its own right, Orthoimagery is included as, when interpreted, it’s a widely-used data source for many other data themes." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/PhysicalInfrastructure>
+    rdfs:label "Physical Infrastructure"@en ;
+    schema:description "The Physical Infrastructure theme includes industrial & utility facilities, and the service delivery facilities associated with administrative & social governmental services such as public administrations, utilities, transport, civil protection, schools and hospitals." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/PopulationDistribution>
+    rdfs:label "Population Distribution"@en ;
+    schema:description "The Population Distribution theme covers the geographical distribution of people, including population characteristics." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/TransportNetworks>
+    rdfs:label "Transport Networks"@en ;
+    schema:description "Transport Networks are the suite of road, rail, air, cable and water transport routes and their connectivity." ;
+.
+
+<https://linked.data.gov.au/def/unggim-themes/Water>
+    rdfs:label "Water"@en ;
+    schema:description "The Water theme covers the extent and conditions of all water features including rivers, lakes and marine features." ;
+.
+
+<https://linked.data.gov.au/org/icsm>
+    rdfs:label "Intergovernmental Committee on Surveying & Mapping" ;
+.
+
+<https://orcid.org/0000-0003-2130-0312>
+    rdfs:label "Beyza Yaman" ;
+.

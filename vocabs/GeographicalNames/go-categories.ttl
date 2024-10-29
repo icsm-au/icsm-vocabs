@@ -1,6 +1,6 @@
+PREFIX : <https://linked.data.gov.au/def/go-categories/>
 PREFIX cs: <https://linked.data.gov.au/def/go-categories>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
-PREFIX : <https://linked.data.gov.au/def/go-categories/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,25 +12,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :road-hierarchy
     a skos:Collection ;
-    skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
-    skos:prefLabel "Road Hierarchy"@en ;
     skos:definition "The hierarchy of roads from largest to smallest"@en ;
-    schema:citation "Test or a hyperlink pointing to the origin of this collection" ;
+    skos:inScheme cs: ;
     skos:member
-        :motorway ,
-        :highway ,
-        :secondary-road ,
-        :connector-road ,
-        :local-road ,
-        :restricted-access-road ,
-        :track ,
-        :mall ,
-        :ferry-route ,
         :bikeway ,
-        :walkway ,
         :busway ,
-        :unconstructed-road ;
+        :connector-road ,
+        :ferry-route ,
+        :highway ,
+        :local-road ,
+        :mall ,
+        :motorway ,
+        :restricted-access-road ,
+        :secondary-road ,
+        :track ,
+        :unconstructed-road ,
+        :walkway ;
+    skos:prefLabel "Road Hierarchy"@en ;
+    schema:citation "Test or a hyperlink pointing to the origin of this collection" ;
 .
 
 :abandoned-mine
@@ -617,18 +617,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Bend"@en ;
 .
 
-:bikeway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "Bike Path"@en ,
-        "Cycleway"@en ;
-    skos:definition "A designated path primarily for bicycle use. This is not a shared roadway with vehicular traffic."@en ;
-    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023, with name label amended 2024-05-04 from 'Bicycle Track' for clarity." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Bikeway"@en ;
-.
-
 :billabong
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -894,15 +882,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Created by separating 'Further Education' alternate labels 2024-03-05." ;
     skos:inScheme cs: ;
     skos:prefLabel "Business College"@en ;
-.
-
-:busway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A road which is wholly dedicated as a bus-only transit way. This does not include bus lanes on roads with other trafficability."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Busway"@en ;
 .
 
 :butte
@@ -1428,16 +1407,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Created by separating 'Refuse Transfer Station' alternate labels 2024-06-10." ;
     skos:inScheme cs: ;
     skos:prefLabel "Composting Facility"@en ;
-.
-
-:connector-road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "Collector Road"@en ;
-    skos:definition "Roads that provide for traffic movement between secondary (sub-arterial) and local roads or to distribute traffic to local street systems. Includes rural roads of local significance. These are sometimes known as collector roads."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Connector Road"@en ;
 .
 
 :conservation-park
@@ -2030,18 +1999,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Fence"@en ;
 .
 
-:ferry-route
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "The set route taken by a ferry service."@en ;
-    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :passenger-ferry-route ,
-        :vehicular-ferry-route ;
-    skos:prefLabel "Ferry Route"@en ;
-.
-
 :ferry-transport-infrastructure
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2544,16 +2501,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Heliport"@en ;
-.
-
-:highway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "Arterial Road"@en ;
-    skos:definition "Roads which are of importance in a national sense, and/or are a major interstate through route, and/or are principal connector roads between capitals and/or major regions and or key towns/commercial centres/inter-transport hubs. This category encompasses what are sometimes referred to as arterial roads."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Highway"@en ;
 .
 
 :hill
@@ -3257,15 +3204,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Local Government Area Ward"@en ;
 .
 
-:local-road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Roads that provide primarily property access. These generally have addresses assigned against them. These roads may be privately owned roads that are connected and open to the public network. Includes service roads that may share the same name as higher order roads."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Local Road"@en ;
-.
-
 :locality
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3295,15 +3233,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Lookout"@en ;
-.
-
-:mall
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A road or passage whose main purpose is to provide access to pedestrians but may allow some vehicular access."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Mall"@en ;
 .
 
 :marina
@@ -3812,15 +3741,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Motor Track"@en ;
-.
-
-:motorway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Roads which are of importance in a national sense, and/or are a major interstate through route, and/or are principal connector roads between capitals and/or major regions and or key towns/commercial centres/inter-transport hubs. Also exhibit separated carriageways and unhindered, regulated traffic flow through use of grade-separated crossings and entry/exit ramps (e.g. Pacific Motorway)."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Motorway"@en ;
 .
 
 :mountain
@@ -4912,15 +4832,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Rest Area"@en ;
 .
 
-:restricted-access-road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Roads with a physical restriction or barrier to entry, e.g., gates."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Restricted Access Road"@en ;
-.
-
 :retirement-village
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -5235,16 +5146,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Sea Channel"@en ;
     skos:scopeNote "Term 'Channel' now obsolete and recognised for historically named features only. " ;
     schema:citation "https://iho.int/en/basic-documents-1"^^xsd:anyURI ;
-.
-
-:secondary-road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "Sub-Arterial Road"@en ;
-    skos:definition "Well maintained and widely used roads which are major connectors for national highways or state highways, major centres, key towns, or have major tourist importance or which main function is to form the principal avenue of communication for metropolitan traffic movements. These are sometimes referred to as sub-arterial roads."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Secondary Road"@en ;
 .
 
 :secondary-school
@@ -6005,20 +5906,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Town Site"@en ;
 .
 
-:track
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A natural or minimally developed path or roadway designed for travel by foot, bicycle, horse or vehicles."@en ;
-    skos:historyNote "Broader concept introduced 2024-03-05." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :firebreak ,
-        :non-vehicular-track ,
-        :shared-use-track ,
-        :vehicular-track ;
-    skos:prefLabel "Track"@en ;
-.
-
 :tram-transport-infrastructure
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -6125,16 +6012,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Unclassified"@en ;
     skos:topConceptOf cs: ;
-.
-
-:unconstructed-road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "Paper Road"@en ;
-    skos:definition "A road designation has been made in the spatial cadastre or in Government plans, but road currently does not physically exist. Sometimes referred to as a paper road."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Unconstructed Road"@en ;
 .
 
 :underground-mine
@@ -6347,16 +6224,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:narrower :boardwalk ;
     skos:prefLabel "Walking Trail"@en ;
-.
-
-:walkway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "Pathway"@en ;
-    skos:definition "A designated path primarily for pedestrian use."@en ;
-    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Walkway"@en ;
 .
 
 :wall
@@ -6723,6 +6590,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Air Traffic Control Tower"@en ;
 .
 
+:bikeway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Bike Path"@en ,
+        "Cycleway"@en ;
+    skos:definition "A designated path primarily for bicycle use. This is not a shared roadway with vehicular traffic."@en ;
+    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023, with name label amended 2024-05-04 from 'Bicycle Track' for clarity." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bikeway"@en ;
+.
+
 :breakwater
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -6750,6 +6629,15 @@ thereby reducing beach erosion."""@en ;
     skos:prefLabel "Bus Station"@en ;
 .
 
+:busway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A road which is wholly dedicated as a bus-only transit way. This does not include bus lanes on roads with other trafficability."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Busway"@en ;
+.
+
 :cableway-terminal
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -6758,6 +6646,28 @@ thereby reducing beach erosion."""@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Cableway Terminal"@en ;
+.
+
+:connector-road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Collector Road"@en ;
+    skos:definition "Roads that provide for traffic movement between secondary (sub-arterial) and local roads or to distribute traffic to local street systems. Includes rural roads of local significance. These are sometimes known as collector roads."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Connector Road"@en ;
+.
+
+:ferry-route
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The set route taken by a ferry service."@en ;
+    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :passenger-ferry-route ,
+        :vehicular-ferry-route ;
+    skos:prefLabel "Ferry Route"@en ;
 .
 
 :ferry-station
@@ -6820,6 +6730,16 @@ thereby reducing beach erosion."""@en ;
     skos:prefLabel "Harbour Control Tower"@en ;
 .
 
+:highway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Arterial Road"@en ;
+    skos:definition "Roads which are of importance in a national sense, and/or are a major interstate through route, and/or are principal connector roads between capitals and/or major regions and or key towns/commercial centres/inter-transport hubs. This category encompasses what are sometimes referred to as arterial roads."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Highway"@en ;
+.
+
 :ice-wall
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -6857,6 +6777,24 @@ thereby reducing beach erosion."""@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Light Rail Tunnel"@en ;
+.
+
+:local-road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Roads that provide primarily property access. These generally have addresses assigned against them. These roads may be privately owned roads that are connected and open to the public network. Includes service roads that may share the same name as higher order roads."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Local Road"@en ;
+.
+
+:mall
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A road or passage whose main purpose is to provide access to pedestrians but may allow some vehicular access."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mall"@en ;
 .
 
 :marine-apron
@@ -6979,6 +6917,15 @@ thereby reducing beach erosion."""@en ;
     skos:prefLabel "Mining Centre"@en ;
 .
 
+:motorway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Roads which are of importance in a national sense, and/or are a major interstate through route, and/or are principal connector roads between capitals and/or major regions and or key towns/commercial centres/inter-transport hubs. Also exhibit separated carriageways and unhindered, regulated traffic flow through use of grade-separated crossings and entry/exit ramps (e.g. Pacific Motorway)."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Motorway"@en ;
+.
+
 :offshore-rock
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -7049,6 +6996,15 @@ thereby reducing beach erosion."""@en ;
     skos:prefLabel "Residential Aged Care"@en ;
 .
 
+:restricted-access-road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Roads with a physical restriction or barrier to entry, e.g., gates."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Restricted Access Road"@en ;
+.
+
 :road-bridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -7091,6 +7047,16 @@ thereby reducing beach erosion."""@en ;
     schema:citation "https://iho.int/en/basic-documents-1"^^xsd:anyURI ;
 .
 
+:secondary-road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Sub-Arterial Road"@en ;
+    skos:definition "Well maintained and widely used roads which are major connectors for national highways or state highways, major centres, key towns, or have major tourist importance or which main function is to form the principal avenue of communication for metropolitan traffic movements. These are sometimes referred to as sub-arterial roads."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Secondary Road"@en ;
+.
+
 :subglacial-mount
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -7109,6 +7075,20 @@ thereby reducing beach erosion."""@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Subglacial Trench"@en ;
+.
+
+:track
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A natural or minimally developed path or roadway designed for travel by foot, bicycle, horse or vehicles."@en ;
+    skos:historyNote "Broader concept introduced 2024-03-05." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :firebreak ,
+        :non-vehicular-track ,
+        :shared-use-track ,
+        :vehicular-track ;
+    skos:prefLabel "Track"@en ;
 .
 
 :tram-station
@@ -7131,6 +7111,26 @@ thereby reducing beach erosion."""@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Tram Tunnel"@en ;
+.
+
+:unconstructed-road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Paper Road"@en ;
+    skos:definition "A road designation has been made in the spatial cadastre or in Government plans, but road currently does not physically exist. Sometimes referred to as a paper road."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unconstructed Road"@en ;
+.
+
+:walkway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Pathway"@en ;
+    skos:definition "A designated path primarily for pedestrian use."@en ;
+    skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Walkway"@en ;
 .
 
 :winery
@@ -7177,6 +7177,8 @@ thereby reducing beach erosion."""@en ;
     schema:citation "https://iho.int/en/basic-documents-1"^^xsd:anyURI ;
 .
 
+:1.0.2 rdfs:label "1.0.2" .
+
 cs:
     a skos:ConceptScheme ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
@@ -7215,7 +7217,7 @@ cs:
         ] ;
     schema:dateCreated "2015-01-01"^^xsd:date ;
     schema:dateModified "2024-08-29"^^xsd:date ;
-    schema:keywords unggim:GeographicNames ;
+    schema:keywords unggim:GeographicalNames ;
     schema:publisher <https://linked.data.gov.au/org/qld-resources> ;
     schema:version "1.0.1" ;
 .

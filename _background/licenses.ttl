@@ -1,0 +1,7 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+<http://purl.org/NET/rdflicense/cc-by4.0>
+    rdfs:label "CC BY 4.0" ;
+    schema:description "Creative Commons Attribution 4.0 International" ;
+.

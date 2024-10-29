@@ -17,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Basement"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :floor
@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Floor"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :ground
@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Ground"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :level
@@ -47,7 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Level"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :lower-ground-floor
@@ -57,7 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lower Ground Floor"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :lower-level
@@ -67,7 +67,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lower Level"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 - Standards Australia" ;
 .
 
 :mezzanine
@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Mezzanine"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :observation-deck
@@ -87,7 +87,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Observation Deck"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :parking
@@ -97,7 +97,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Parking"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :penthouse
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Penthouse"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 - Standards Australia" ;
 .
 
 :platform
@@ -117,7 +117,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Platform"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 - Standards Australia" ;
 .
 
 :podium
@@ -127,7 +127,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Podium"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :rooftop
@@ -137,7 +137,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Rooftop"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 :sub-basement
@@ -147,7 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Sub-basement"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 - Standards Australia" ;
 .
 
 :upper-ground-floor
@@ -157,7 +157,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Upper Ground Floor"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
+    schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
 <https://linked.data.gov.au/org/qsi>

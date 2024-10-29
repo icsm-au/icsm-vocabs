@@ -17,8 +17,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Antenna"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :apartment
@@ -28,8 +28,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Apartment"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :automate-teller-machine
@@ -39,8 +39,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Automate Teller Machine"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :barbecue
@@ -50,8 +50,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Barbecue"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :block
@@ -61,7 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Block"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "G-NAF" ;
+    schema:citation "G-NAF" ;
 .
 
 :boatshed
@@ -71,8 +71,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Boatshed"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :building
@@ -82,8 +82,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Building"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :bungalow
@@ -93,8 +93,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Bungalow"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :cage
@@ -104,8 +104,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Cage"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :carpark
@@ -115,8 +115,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Carpark"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :carspace
@@ -126,8 +126,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Carspace"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :club
@@ -137,8 +137,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Club"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :coolroom
@@ -148,8 +148,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Coolroom"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :cottage
@@ -159,8 +159,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Cottage"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :duplex
@@ -170,8 +170,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Duplex"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :factory
@@ -181,8 +181,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Factory"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :flat
@@ -192,8 +192,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Flat"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :garage
@@ -203,8 +203,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Garage"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :hall
@@ -214,8 +214,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Hall"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :house
@@ -225,8 +225,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "House"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :kiosk
@@ -236,8 +236,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Kiosk"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :lease
@@ -247,8 +247,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lease"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :lobby
@@ -258,8 +258,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lobby"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :loft
@@ -269,8 +269,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Loft"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :lot
@@ -280,8 +280,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lot"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :maisonette
@@ -291,8 +291,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Maisonette"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :marine-berth
@@ -302,8 +302,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Marine Berth"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :office
@@ -313,8 +313,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Office"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :penthouse
@@ -324,7 +324,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Penthouse"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "QLD address data" ;
+    schema:citation "QLD address data" ;
 .
 
 :reserve
@@ -334,8 +334,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Reserve"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :room
@@ -345,8 +345,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Room"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :shed
@@ -356,8 +356,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Shed"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :shop
@@ -367,8 +367,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Shop"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :showroom
@@ -378,8 +378,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Showroom"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :sign
@@ -389,8 +389,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Sign"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :site
@@ -400,8 +400,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Site"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :stall
@@ -411,8 +411,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Stall"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :store
@@ -422,8 +422,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Store"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :strata-unit
@@ -433,8 +433,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Strata unit"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :studio
@@ -444,8 +444,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Studio"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :studio-apartment
@@ -455,8 +455,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Studio Apartment"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :substation
@@ -466,8 +466,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Substation"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :suite
@@ -477,8 +477,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Suite"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :tenancy
@@ -488,8 +488,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Tenancy"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :tower
@@ -499,8 +499,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Tower"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :townhouse
@@ -510,8 +510,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Townhouse"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :unit
@@ -523,8 +523,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Unit"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :vault
@@ -534,8 +534,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Vault"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :villa
@@ -545,8 +545,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Villa"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :ward
@@ -556,8 +556,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Ward"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :warehouse
@@ -567,8 +567,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Warehouse"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 :workshop
@@ -578,8 +578,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Workshop"@en ;
     skos:topConceptOf cs: ;
-    schema:provenance "AS4590.1:2017" ;
-    schema:source "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
+    schema:citation "AS4590.1:2017" ;
+    schema:citation "https://store.standards.org.au/product/as-4590-1-2017"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/qsi>

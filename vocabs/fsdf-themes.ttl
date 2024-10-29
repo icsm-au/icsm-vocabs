@@ -9,6 +9,8 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://linked.data.gov.au/def/fsdf/Theme> rdfs:label "Theme" .
+
 :airports-and-airfields
     a
         skos:Concept ,
@@ -479,8 +481,8 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "A building refers to any roofed structure permanently constructed or erected on its site, for the protection of humans, animals, things, or the production of economic goods. Settlements are collections of buildings and associated features where a community carries out socio-economic activities."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Buildings and Settlements"@en ;
-    skos:topConceptOf cs: ;
-    schema:source "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
+    skos:broader :spatial ;
+    schema:citation "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
 .
 
 :geology-and-soils
@@ -491,8 +493,8 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "Geology is the composition and properties of geologic materials (rocks and sediments) underground and outcropping at the Earth’s surface. It includes bedrock, aquifers, geomorphology for land and marine environments, mineral resources and overlying soils. Soils are the upper part of the Earth’s crust, formed by mineral particles, organic matter, water, air, and living organisms."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Geology and Soils"@en ;
-    skos:topConceptOf cs: ;
-    schema:source "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
+    skos:broader :spatial ;
+    schema:citation "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
 .
 
 :physical-infrastructure
@@ -503,8 +505,8 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Physical Infrastructure theme includes industrial & utility facilities, and the service delivery facilities associated with administrative & social governmental services such as public administrations, utilities, transport, civil protection, schools and hospitals."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Physical Infrastructure"@en ;
-    skos:topConceptOf cs: ;
-    schema:source "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
+    skos:broader :spatial ;
+    schema:citation "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
 .
 
 :population-distributions
@@ -515,8 +517,8 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Population Distribution theme covers the geographical distribution of people, including population characteristics."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Population Distributions"@en ;
-    skos:topConceptOf cs: ;
-    schema:source "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
+    skos:broader :spatial ;
+    schema:citation "https://ggim.un.org/documents/E-C20-2018-7-Add_1-Global-fundamental-geospatial-data-themes.pdf"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/ga>
@@ -539,7 +541,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Elevation and Depth theme focusses on foundation datasets which measure the Earth’s surface (wet or dry) above or below a vertical datum to obtain either the height of the land or a bathymetric depth."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Elevation and Depth"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :geocoded-addressing
@@ -550,7 +552,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Geocoded Addressing theme focusses on the connection between a physical address with location information which shows up as a 'place' or 'spot' on the Earth. This makes the information able to be mapped and connected to other location information. An address is a structured label usually containing a property number, a road name and a locality name."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Geocoded Addressing"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :place-names
@@ -561,7 +563,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Place Names theme focuses on foundation datasets for the names of cultural and physical features and their location and extent."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Place Names"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :positioning
@@ -572,7 +574,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The positioning theme is Australia's spatial referencing system. The positioning service defined under this theme includes the coordinates and their uncertainty of all location-based data promulgated from or related to, the Australian Fiducial Network (AFN) and the defining Australian Height Datum tide gauge stations."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Positioning"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :land-parcel-and-property
@@ -583,7 +585,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Land Parcel and Property theme focusses on foundation datasets for the land boundary system. The term Land Parcel and Property can be interchangeable with cadastral, land administration and property systems. Land Parcel and Property contains a record of interest in land."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Land Parcel and Property"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :imagery
@@ -594,7 +596,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Imagery theme focuses on foundation data which captures images of the Earths surface, from many different sensors and cameras. This data is often the base layer over which many other datasets are used."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Imagery"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :administrative-boundaries
@@ -605,7 +607,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Administrative Boundaries theme focusses on foundation datasets which define the spatial extent of legislative jurisdictions and regulatory, electoral, statistical and maritime geographic areas"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Administrative Boundaries"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :land-cover-and-land-use
@@ -616,7 +618,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Land cover and Land Use theme focusses on foundation datasets for Land Cover and Land Use. Both land cover/use are often very interrelated datasets. Land cover shows the natural cover on the Earth's surface including trees, shrubs, grasses, soils, exposed rocks and water bodies; as well as human elements such as plantations, crops and built environments; Land Use refers to the ways in which land cover is used by humans (e.g. residential, industrial, commercial, agricultural, forestry, recreational)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Land Cover and Land Use"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :transport
@@ -627,7 +629,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Transport theme focuses on foundation datasets for moving people, goods and freight, and other services from one location to another."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Transport"@en ;
-    skos:topConceptOf cs: ;
+    skos:broader :spatial ;
 .
 
 :water
@@ -638,37 +640,36 @@ There are an increasing number of these sensors available for both satellite and
     skos:definition "The Water theme focuses on foundation datasets for surface and groundwater and excludes atmospheric, industrial or oceanic water processes."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water"@en ;
+    skos:broader :spatial ;
+.
+
+:spatial
+    a
+        skos:Concept ,
+        fsdf:Theme ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Generic categorisation of spatial"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spatial"@en ;
     skos:topConceptOf cs: ;
 .
+
+:1.1 rdfs:label "1.1" .
 
 cs:
     a skos:ConceptScheme ;
     reg:status astatus:stable ;
     owl:deprecated true ;
-    owl:versionInfo "1.0"^^xsd:string ;
+    owl:versionIRI :1.1 ;
+    owl:versionInfo "1.1"^^xsd:string ;
     skos:definition "This FSDF Themes vocabulary is the taxonomy of dataset themes implemented by the [ANZLIC - The Spatial  Information Council](https://www.anzlic.gov.au)'s' Foundation Spatial Data Framework (FSDF) project which is \"a common reference for the assembly and maintenance of Australian and New Zealand foundation level spatial data\"" ;
-    skos:hasTopConcept
-        :administrative-boundaries ,
-        :buildings-and-settlements ,
-        :elevation-and-depth ,
-        :geocoded-addressing ,
-        :geology-and-soils ,
-        :imagery ,
-        :land-cover-and-land-use ,
-        :land-parcel-and-property ,
-        :physical-infrastructure ,
-        :place-names ,
-        :population-distributions ,
-        :positioning ,
-        :transport ,
-        :water ;
-    skos:historyNote "This vocabulary was developed by Geoscience Australia for ICSM vocabulary testing work in 2021" ;
+    skos:hasTopConcept :spatial ;
+    skos:historyNote "This vocabulary was developed by Geoscience Australia for ICSM vocabulary testing work in 2021 from the FSDF LINK website contains all this information in non-Semantic Web but highly structured, form. v1.1 introduced the singe top concept of 'spatial'" ;
     skos:prefLabel "FSDF Themes" ;
     skos:scopeNote "Use the UNGGIM Themes vocabulary for data classification instead of this one, wherever possible" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2021-04-21"^^xsd:date ;
-    schema:dateModified "2024-08-15"^^xsd:date ;
+    schema:dateModified "2024-10-29"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:provenance "This vocabulary was generated from the FSDF LINK website which containes all this information in non-Semantic Web but highly structured, form" ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
