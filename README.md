@@ -55,4 +55,6 @@ This listing of the resources in this repository is used by the [Prez System](ht
 
 1. Install packages listed in tests/requirements.txt
 2. Use scripts top validate all vocabs: `pytest`
-3. 
+3. Use `tests/labelify_all.py` to identify any missing labels
+    * add any missing to `_background`
+4. Manually create/update the `cattalogue.ttl` file
