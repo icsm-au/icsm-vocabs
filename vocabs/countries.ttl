@@ -15,6 +15,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "ISO 3166 2-letter codes" ;
 .
 
+:1.0
+    rdfs:label "1.0" ;
+.
+
 :AD
     a skos:Concept ;
     reg:status astatus:valid ;
@@ -10290,6 +10294,8 @@ cs:
         owl:Ontology ,
         skos:ConceptScheme ;
     reg:status astatus:stable ;
+    owl:versionIRI :1.0 ;
+    owl:versionInfo "1.0" ;
     skos:definition "Country codes and names from ISO-3166."@en ;
     skos:hasTopConcept
         :AD ,

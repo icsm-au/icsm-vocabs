@@ -33,6 +33,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "Test or a hyperlink pointing to the origin of this collection" ;
 .
 
+:1.0.2
+    rdfs:label "1.0.2" ;
+.
+
 :abandoned-mine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -7176,8 +7180,6 @@ thereby reducing beach erosion."""@en ;
     skos:prefLabel "Deep"@en ;
     schema:citation "https://iho.int/en/basic-documents-1"^^xsd:anyURI ;
 .
-
-:1.0.2 rdfs:label "1.0.2" .
 
 cs:
     a skos:ConceptScheme ;

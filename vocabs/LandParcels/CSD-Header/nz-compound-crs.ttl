@@ -1,6 +1,6 @@
 PREFIX : <http://www.opengis.net/def/crs/EPSG/0/>
 PREFIX cs: <http://www.opengis.net/def/crs/EPSG/0>
-PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -40,20 +40,14 @@ cs:
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
 
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://icsm.gov.au"^^xsd:anyURI ;
-.
-
 []    a prov:Activity ;
     prov:endedAtTime "2024-04-11T06:11:34.590683"^^xsd:dateTime ;
     prov:startedAtTime "2024-04-11T06:11:34.527766"^^xsd:dateTime ;
     prov:used
         [
             a prov:Entity ;
-            dct:format "application/json" ;
-            dct:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
+            dcterms:format "application/json" ;
+            dcterms:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
             rdfs:seeAlso "file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/CSD-Header/nz-compound-crs.csv" ;
         ] ;
     prov:wasAssociatedWith
@@ -62,11 +56,11 @@ cs:
                 prov:Agent ,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.44" ;
+            dcterms:hasVersion "0.3.44" ;
             rdfs:seeAlso "https://github.com/opengeospatial/ogc-na-tools" ;
         ] ;
     prov:wasInformedBy
         [
-            dct:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
+            dcterms:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
         ] ; ;
 .

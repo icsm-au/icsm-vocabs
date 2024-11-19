@@ -435,12 +435,6 @@ There are an increasing number of these sensors available for both satellite and
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://icsm.gov.au"^^xsd:anyURI ;
-.
-
 <https://orcid.org/0000-0003-2130-0312>
     a schema:Person ;
     schema:email "beyza.yaman@adaptcentre.ie"^^xsd:anyURI ;
@@ -544,8 +538,12 @@ There are an increasing number of these sensors available for both satellite and
     skos:topConceptOf cs: ;
 .
 
+:1.0 rdfs:label "1.0" .
+
 cs:
     a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    owl:versionInfo "1.0" ;
     skos:definition "UN-GGIM Data Themes vocabulary describes a set of data themes for geospatial data based on the UN-GGIM document"@en ;
     skos:hasTopConcept
         :Addresses ,

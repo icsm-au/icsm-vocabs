@@ -24,3 +24,10 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "Intergovernmental Committee on Surveying & Mapping" ;
     schema:url "https://www.icsm.gov.au"^^xsd:anyURI ;
 .
+
+<https://linked.data.gov.au/org/qsi>
+    a schema:Organization ;
+    schema:name "Queensland Spatial Information" ;
+    schema:url "https://www.resources.qld.gov.au/data-mapping"^^xsd:anyURI ;
+.
+

@@ -1667,14 +1667,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/qsi>
-    a schema:Organization ;
-    schema:name "Queensland Spatial Information" ;
-    schema:url "https://www.resources.qld.gov.au/data-mapping"^^xsd:anyURI ;
-.
-
 :alley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3391,11 +3383,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://icsm.gov.au"^^xsd:anyURI ;
-.
+:1.0 rdfs:label "1.0" .
 
 cs:
     a skos:ConceptScheme ;

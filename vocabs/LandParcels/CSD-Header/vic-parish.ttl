@@ -1,6 +1,6 @@
 PREFIX : <https://linked.data.gov.au/def/csdm/vic-parish/>
 PREFIX cs: <https://linked.data.gov.au/def/csdm/vic-parish>
-PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -22060,12 +22060,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://icsm-au.github.io/3d-csdm/docs/"^^xsd:anyURI ;
 .
 
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://icsm.gov.au"^^xsd:anyURI ;
-.
-
 cs:
     a skos:ConceptScheme ;
     skos:definition "VIC Parishes"@en ;
@@ -24089,8 +24083,8 @@ cs:
     prov:used
         [
             a prov:Entity ;
-            dct:format "application/json" ;
-            dct:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
+            dcterms:format "application/json" ;
+            dcterms:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
             rdfs:seeAlso "file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/CSD-Header/vic-parish.csv" ;
         ] ;
     prov:wasAssociatedWith
@@ -24099,11 +24093,11 @@ cs:
                 prov:Agent ,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.44" ;
+            dcterms:hasVersion "0.3.44" ;
             rdfs:seeAlso "https://github.com/opengeospatial/ogc-na-tools" ;
         ] ;
     prov:wasInformedBy
         [
-            dct:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
+            dcterms:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
         ] ; ;
 .

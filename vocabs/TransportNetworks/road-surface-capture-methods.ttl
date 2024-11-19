@@ -128,17 +128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Water Authority"@en ;
 .
 
-<https://linked.data.gov.au/org/qsi>
-    a schema:Organization ;
-    schema:name "Queensland Spatial Information" ;
-    schema:url "https://www.resources.qld.gov.au/data-mapping"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://icsm.gov.au"^^xsd:anyURI ;
-.
+:1.0 rdfs:label "1.0" .
 
 cs:
     a skos:ConceptScheme ;
