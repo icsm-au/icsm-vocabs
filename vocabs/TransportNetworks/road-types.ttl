@@ -3793,7 +3793,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-11"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
+    schema:dateModified "2025-02-21"^^xsd:date ;
     schema:keywords unggim:TransportNetworks ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
