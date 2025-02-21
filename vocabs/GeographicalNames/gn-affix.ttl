@@ -269,6 +269,7 @@ cs:
     owl:versionIRI :1.0 ;
     skos:definition "Affixes (prefixes, infixes, suffixes) of a conceptual nature (i.e. unrelated to a place's characteristics) which are applicable to geographical names, though typically not permitted for use in contemporary naming practices."@en ;
     skos:hasTopConcept
+        :branch ,
         :central ,
         :east ,
         :extension ,
