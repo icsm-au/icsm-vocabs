@@ -160,7 +160,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/standard-road-types>
     a skos:Collection ;
-    skos:definition "Road types compliant with Australian standards, accepted for use in Australian road names given after 2011." ;
+    skos:definition "Road types compliant with Australian standards, accepted for use in current road naming processes in Australia." ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
