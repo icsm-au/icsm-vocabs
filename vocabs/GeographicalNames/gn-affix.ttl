@@ -13,6 +13,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "1.0" ;
 .
 
+:branch
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "to divide into separate parts or subdivisions; diverge."@en ;
+    skos:historyNote "Added by QLD on 2025-02-21. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Branch"@en ;
+    skos:topConceptOf cs: ;
+.
 :central
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -51,10 +60,43 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
 .
 
+:deviation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Divergence"@en ;
+    skos:definition "The act of deviating; divergence."@en ;
+    skos:historyNote "Added by QLD on 2025-02-21. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Deviation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:heights
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Height"@en ;
+    skos:definition "A high place or level."@en ;
+    skos:historyNote "Added by QLD on 2025-02-21. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Heights"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inner
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Situated farther within."@en ;
+    skos:historyNote "Added by QLD on 2025-02-21. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Inner"@en ;
+    skos:topConceptOf cs: ;
+.
+
 :left
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "Left Hand"@en ;
+    skos:altLabel "Left-Hand"@en ;
     skos:definition "Belonging or relating to the side of a person or thing which is turned towards the west when facing north."@en ;
     skos:historyNote "Added by QLD on 2024-06-11. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
@@ -124,10 +166,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
 .
 
+:outer
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Farther out."@en ;
+    skos:historyNote "Added by QLD on 2025-02-21. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Outer"@en ;
+    skos:topConceptOf cs: ;
+.
+
 :right
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "Right Hand"@en ;
+    skos:altLabel "Right-Hand"@en ;
     skos:definition "Belonging or relating to the side of a person or thing which is turned towards the east when facing north."@en ;
     skos:historyNote "Added by QLD on 2024-06-11. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
@@ -214,16 +267,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.0 ;
-    skos:definition "Affixes (prefixes, infixes, suffixes) applicable to geographical names."@en ;
+    skos:definition "Affixes (prefixes, infixes, suffixes) of a conceptual nature (i.e. unrelated to a place's characteristics) which are applicable to geographical names, though typically not permitted for use in contemporary naming practices."@en ;
     skos:hasTopConcept
+        :branch ,
         :central ,
         :east ,
         :extension ,
+        :deviation ,
+        :heights ,
+        :inner ,
         :left ,
         :lower ,
         :north ,
         :north-east ,
         :north-west ,
+        :outer ,
         :right ,
         :south ,
         :south-east ,
@@ -238,18 +296,18 @@ cs:
             prov:agent
                 [
                     a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Icsm" ;
+                    schema:email "mailto:icsm@ga.gov.au"^^xsd:anyURI ;
+                    schema:name "ICSM" ;
                 ] ;
         ] ;
     schema:creator
         [
             a schema:Organization ;
             schema:name "Department Of Resources" ;
-            schema:url ""^^xsd:anyURI ;
+            schema:url "https://www.nrmmrrd.qld.gov.au/"^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2024-06-11"^^xsd:date ;
-    schema:dateModified "2024-06-11"^^xsd:date ;
+    schema:dateModified "2025-02-21"^^xsd:date ;
     schema:keywords
         "Affix" ,
         "Geographical Names" ,
@@ -259,8 +317,8 @@ cs:
     schema:publisher
         [
             a schema:Organization ;
-            schema:name "Icsm" ;
-            schema:url ""^^xsd:anyURI ;
+            schema:name "ICSM" ;
+            schema:url "https://www.icsm.gov.au/"^^xsd:anyURI ;
         ] ;
     schema:version "1.0" ;
 .

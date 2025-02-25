@@ -11,9 +11,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/qld-road-types>
+:qld
     a skos:Collection ;
-    skos:definition "Queensland specific road types." ;
+    skos:definition "Queensland-specific road types" ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
@@ -155,6 +155,153 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :woods ,
         :yard ;
     skos:prefLabel "Queensland Road Types" ;
+    prov:wasDerivedFrom cs: ;
+.
+
+:standard
+    a skos:Collection ;
+    skos:definition "Road types accepted for use in current road naming processes in Australia" ;
+    skos:inScheme cs: ;
+    skos:member
+        :alley ,
+        :anchorage ,
+        :annex ,
+        :approach ,
+        :arcade ,
+        :artery ,
+        :avenue ,
+        :bank ,
+        :beach ,
+        :boardwalk ,
+        :boulevard ,
+        :break ,
+        :broadwalk ,
+        :busway ,
+        :bypass ,
+        :byway ,
+        :centre ,
+        :centreway ,
+        :chase ,
+        :circle ,
+        :circlet ,
+        :circuit ,
+        :close ,
+        :cluster ,
+        :colonnade ,
+        :concord ,
+        :concourse ,
+        :course ,
+        :court ,
+        :crescent ,
+        :crest ,
+        :crief ,
+        :crook ,
+        :cruiseway ,
+        :cul-de-sac ,
+        :dash ,
+        :dene ,
+        :dip ,
+        :distributor ,
+        :divide ,
+        :dock ,
+        :domain ,
+        :down ,
+        :drive ,
+        :entrance ,
+        :esplanade ,
+        :estate ,
+        :firetrack ,
+        :firetrail ,
+        :flat ,
+        :flats ,
+        :footway ,
+        :ford ,
+        :foreshore ,
+        :fork ,
+        :freeway ,
+        :front ,
+        :garden ,
+        :glade ,
+        :grange ,
+        :green ,
+        :grove ,
+        :harbour ,
+        :highroad ,
+        :highway ,
+        :hollow ,
+        :hub ,
+        :keys ,
+        :knoll ,
+        :ladder ,
+        :lane ,
+        :leader ,
+        :loop ,
+        :lynne ,
+        :mall ,
+        :manor ,
+        :mead ,
+        :mew ,
+        :mews ,
+        :parade ,
+        :parkway ,
+        :part ,
+        :passage ,
+        :path ,
+        :piazza ,
+        :place ,
+        :plaza ,
+        :pocket ,
+        :precinct ,
+        :promenade ,
+        :pursuit ,
+        :quad ,
+        :quay ,
+        :quays ,
+        :ramp ,
+        :range ,
+        :reach ,
+        :reef ,
+        :reserve ,
+        :rest ,
+        :retreat ,
+        :return ,
+        :ride ,
+        :ridge ,
+        :ring ,
+        :rise ,
+        :rising ,
+        :road ,
+        :roads ,
+        :rue ,
+        :serviceway ,
+        :siding ,
+        :skyline ,
+        :square ,
+        :steps ,
+        :straight ,
+        :strand ,
+        :street ,
+        :subway ,
+        :terrace ,
+        :tollway ,
+        :track ,
+        :trail ,
+        :traverse ,
+        :triangle ,
+        :trunkway ,
+        :twist ,
+        :viaduct ,
+        :view ,
+        :vista ,
+        :vue ,
+        :wade ,
+        :walk ,
+        :way ,
+        :wharf ,
+        :wood ,
+        :woods ,
+        :yard ;
+    skos:prefLabel "Road Types compliant with Australian standards" ;
     prov:wasDerivedFrom cs: ;
 .
 
@@ -1667,7 +1814,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
-:alley
+.
+
+    :alley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
@@ -3644,7 +3793,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-11"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
+    schema:dateModified "2025-02-21"^^xsd:date ;
     schema:keywords unggim:TransportNetworks ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
