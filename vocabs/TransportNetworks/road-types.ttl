@@ -11,9 +11,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/qld-road-types>
+:qld
     a skos:Collection ;
-    skos:definition "Queensland specific road types." ;
+    skos:definition "Queensland-specific road types" ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
@@ -158,9 +158,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:wasDerivedFrom cs: ;
 .
 
-<https://linked.data.gov.au/def/standard-road-types>
+:standard
     a skos:Collection ;
-    skos:definition "Road types accepted for use in current road naming processes in Australia." ;
+    skos:definition "Road types accepted for use in current road naming processes in Australia" ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
@@ -301,7 +301,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :wood ,
         :woods ,
         :yard ;
-    skos:prefLabel "Road Types Compliant with Australian Standards" ;
+    skos:prefLabel "Road Types compliant with Australian standards" ;
     prov:wasDerivedFrom cs: ;
 .
 
