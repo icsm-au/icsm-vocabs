@@ -220,6 +220,47 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:wasDerivedFrom cs: ;
 .
 
+:standard-new-zealand
+    a skos:Collection ;
+    skos:definition "Road types accepted for use in current road naming processes in New Zealand" ;
+    skos:inScheme cs: ;
+    skos:member
+        :alley ,
+        :arcade ,
+        :avenue ,
+        :boulevard ,
+        :circle ,
+        :close ,
+        :court ,
+        :crescent ,
+        :drive ,
+        :esplanade ,
+        :glade ,
+        :green ,
+        :grove ,
+        :highway ,
+        :lane ,
+        :loop ,
+        :mall ,
+        :mews ,
+        :parade ,
+        :place ,
+        :promenade ,
+        :quay ,
+        :rise ,
+        :road ,
+        :square ,
+        :steps ,
+        :street ,
+        :terrace ,
+        :track ,
+        :walk ,
+        :way ,
+        :wharf ;
+    skos:prefLabel "Road Types compliant with New Zealand standards" ;
+    prov:wasDerivedFrom cs: ;
+.
+
 :access
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2757,7 +2798,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "PSGE"@en ,
         "Psge"@en ;
     skos:definition "Narrow street for pedestrians"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
     skos:inScheme cs: ;
     skos:prefLabel "Passage"@en ;
     skos:topConceptOf cs: ;
@@ -2769,7 +2810,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:altLabel "PATH"@en ;
     skos:definition "Roadway used only for pedestrian traffic"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
     skos:inScheme cs: ;
     skos:prefLabel "Path"@en ;
     skos:topConceptOf cs: ;
