@@ -160,6 +160,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
 
+1.0 skos:prefLabel "1.0" .
+
 cs:
     a skos:ConceptScheme ;
     reg:status astatus:experimental ;
