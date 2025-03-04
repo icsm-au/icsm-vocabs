@@ -158,150 +158,106 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:wasDerivedFrom cs: ;
 .
 
-:standard
+:standard-australia
     a skos:Collection ;
     skos:definition "Road types accepted for use in current road naming processes in Australia" ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
-        :anchorage ,
-        :annex ,
         :approach ,
         :arcade ,
-        :artery ,
         :avenue ,
-        :bank ,
-        :beach ,
         :boardwalk ,
         :boulevard ,
         :break ,
-        :broadwalk ,
-        :busway ,
         :bypass ,
-        :byway ,
-        :centre ,
-        :centreway ,
         :chase ,
-        :circle ,
-        :circlet ,
         :circuit ,
         :close ,
-        :cluster ,
-        :colonnade ,
-        :concord ,
         :concourse ,
-        :course ,
         :court ,
         :crescent ,
         :crest ,
-        :crief ,
-        :crook ,
-        :cruiseway ,
-        :cul-de-sac ,
-        :dash ,
-        :dene ,
-        :dip ,
-        :distributor ,
-        :divide ,
-        :dock ,
-        :domain ,
-        :down ,
         :drive ,
         :entrance ,
         :esplanade ,
-        :estate ,
-        :firetrack ,
         :firetrail ,
-        :flat ,
-        :flats ,
-        :footway ,
-        :ford ,
-        :foreshore ,
-        :fork ,
         :freeway ,
-        :front ,
-        :garden ,
         :glade ,
         :grange ,
-        :green ,
         :grove ,
-        :harbour ,
-        :highroad ,
         :highway ,
-        :hollow ,
-        :hub ,
-        :keys ,
-        :knoll ,
-        :ladder ,
         :lane ,
-        :leader ,
         :loop ,
-        :lynne ,
         :mall ,
-        :manor ,
-        :mead ,
-        :mew ,
         :mews ,
         :parade ,
         :parkway ,
-        :part ,
         :passage ,
         :path ,
-        :piazza ,
         :place ,
         :plaza ,
-        :pocket ,
-        :precinct ,
         :promenade ,
-        :pursuit ,
-        :quad ,
-        :quay ,
         :quays ,
         :ramp ,
-        :range ,
-        :reach ,
-        :reef ,
-        :reserve ,
-        :rest ,
         :retreat ,
-        :return ,
-        :ride ,
         :ridge ,
-        :ring ,
         :rise ,
-        :rising ,
         :road ,
-        :roads ,
-        :rue ,
-        :serviceway ,
-        :siding ,
-        :skyline ,
         :square ,
         :steps ,
-        :straight ,
-        :strand ,
         :street ,
         :subway ,
         :terrace ,
-        :tollway ,
         :track ,
         :trail ,
-        :traverse ,
-        :triangle ,
-        :trunkway ,
-        :twist ,
-        :viaduct ,
         :view ,
         :vista ,
-        :vue ,
-        :wade ,
         :walk ,
         :way ,
-        :wharf ,
-        :wood ,
-        :woods ,
-        :yard ;
+        :wharf ;
     skos:prefLabel "Road Types compliant with Australian standards" ;
+    prov:wasDerivedFrom cs: ;
+.
+
+:standard-new-zealand
+    a skos:Collection ;
+    skos:definition "Road types accepted for use in current road naming processes in New Zealand" ;
+    skos:inScheme cs: ;
+    skos:member
+        :alley ,
+        :arcade ,
+        :avenue ,
+        :boulevard ,
+        :circle ,
+        :close ,
+        :court ,
+        :crescent ,
+        :drive ,
+        :esplanade ,
+        :glade ,
+        :green ,
+        :grove ,
+        :highway ,
+        :lane ,
+        :loop ,
+        :mall ,
+        :mews ,
+        :parade ,
+        :place ,
+        :promenade ,
+        :quay ,
+        :rise ,
+        :road ,
+        :square ,
+        :steps ,
+        :street ,
+        :terrace ,
+        :track ,
+        :walk ,
+        :way ,
+        :wharf ;
+    skos:prefLabel "Road Types compliant with New Zealand standards" ;
     prov:wasDerivedFrom cs: ;
 .
 
@@ -2842,7 +2798,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "PSGE"@en ,
         "Psge"@en ;
     skos:definition "Narrow street for pedestrians"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
     skos:inScheme cs: ;
     skos:prefLabel "Passage"@en ;
     skos:topConceptOf cs: ;
@@ -2854,7 +2810,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:altLabel "PATH"@en ;
     skos:definition "Roadway used only for pedestrian traffic"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
     skos:inScheme cs: ;
     skos:prefLabel "Path"@en ;
     skos:topConceptOf cs: ;
