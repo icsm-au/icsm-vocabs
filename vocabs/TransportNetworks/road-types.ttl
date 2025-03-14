@@ -14,6 +14,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :qld
     a skos:Collection ;
     skos:definition "Queensland-specific road types" ;
+    rdfs:isDefinedBy cs: ;
+    skos:historyNote "Collection added by Queensland on 6 March 2024"@en ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
@@ -161,6 +163,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :standard-australia
     a skos:Collection ;
     skos:definition "Road types accepted for use in current road naming processes in Australia" ;
+    rdfs:isDefinedBy "AS/NZS 4819:2011 Rural and urban addressing" ;
+    skos:historyNote "Collection added on 28 February 2025. Collection amended to align with AS/NZS4819:2011 on 4 March 2025."@en ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
@@ -223,6 +227,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :standard-new-zealand
     a skos:Collection ;
     skos:definition "Road types accepted for use in current road naming processes in New Zealand" ;
+    rdfs:isDefinedBy "AS/NZS 4819:2011 Rural and urban addressing" ;
+    skos:historyNote "Collection added on 4 March 2025."@en ;
     skos:inScheme cs: ;
     skos:member
         :alley ,
