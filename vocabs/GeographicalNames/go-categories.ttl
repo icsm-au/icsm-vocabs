@@ -812,7 +812,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :building
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "a substantial structure with a roof and walls."@en ;
+    skos:definition "A substantial structure with a roof and walls."@en ;
     skos:historyNote "Added by Queensland 2024-03-05. Definition from Macquarie Dictionary." ;
     skos:inScheme cs: ;
     skos:prefLabel "Building"@en ;
@@ -6612,9 +6612,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel
         "Mole"@en ,
         "Sea Wall"@en ;
-    skos:definition """A natural or artificial structure along a coast 
-capable of checking the force of the waves, 
-thereby reducing beach erosion."""@en ;
+    skos:definition "A natural or artificial structure along a coast capable of checking the force of the waves, thereby reducing beach erosion."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from Geographical Names Board, NSW." ;
     skos:inScheme cs: ;
     skos:narrower
@@ -7084,6 +7082,7 @@ thereby reducing beach erosion."""@en ;
 :track
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Trail"@en ;
     skos:definition "A natural or minimally developed path or roadway designed for travel by foot, bicycle, horse or vehicles."@en ;
     skos:historyNote "Broader concept introduced 2024-03-05." ;
     skos:inScheme cs: ;
