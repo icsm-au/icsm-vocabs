@@ -5884,6 +5884,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Refined label from original 'state border' feature type." ;
     skos:inScheme cs: ;
     skos:prefLabel "State Border Section"@en ;
+    skos:example "Black Allen line" ;
+    skos:example "White Wade line" ;
+    skos:example "Sheaffe line" ;
 .
 
 :state-electorate
