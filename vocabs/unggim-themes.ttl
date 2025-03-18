@@ -3,6 +3,7 @@ PREFIX cs: <https://linked.data.gov.au/def/unggim-themes>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/themes/>
 PREFIX fsdfcs: <https://linked.data.gov.au/def/fsdf/themes>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -538,7 +539,7 @@ There are an increasing number of these sensors available for both satellite and
     skos:topConceptOf cs: ;
 .
 
-:1.0 rdfs:label "1.0" .
+:1.0 schema:name "1.0" .
 
 cs:
     a skos:ConceptScheme ;

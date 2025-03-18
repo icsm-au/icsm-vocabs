@@ -387,7 +387,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :1.0.2
-    rdfs:label "1.0.2" ;
+    schema:name "1.0.2" ;
 .
 
 :abandoned-mine

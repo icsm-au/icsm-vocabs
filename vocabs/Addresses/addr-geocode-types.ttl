@@ -311,6 +311,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Geocoded National Address File (G-NAF) data definitions. " ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Meter"@en ;
+.
+
 :driveway-frontage
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -331,7 +333,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Property Access Point Setback"@en ;
 .
 
-:1.0 rdfs:label "1.0" .
+:1.0 schema:name "1.0" .
 
 cs:
     a skos:ConceptScheme ;
