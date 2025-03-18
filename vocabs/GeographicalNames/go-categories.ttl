@@ -10,27 +10,380 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:road-hierarchy
+:transport-infrastructure-types
     a skos:Collection ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The hierarchy of roads from largest to smallest"@en ;
+    skos:definition "The  type  for the segment of transport infrastructure. Includes the road hierarchy classification for road segments"@en ;
     skos:inScheme cs: ;
+    skos:prefLabel "Transport Infrastructure Types"@en ;
+    schema:citation "Originally from the Queensland Roads and Tracks dataset" ;
+    skos:historyNote "Collection added by Queensland on 23 September 2024 to support the national address model"@en ;
     skos:member
-        :bikeway ,
-        :busway ,
-        :connector-road ,
-        :ferry-route ,
-        :highway ,
-        :local-road ,
-        :mall ,
         :motorway ,
-        :restricted-access-road ,
+        :highway ,
         :secondary-road ,
+        :connector-road ,
+        :local-road ,
+        :restricted-access-road ,
         :track ,
-        :unconstructed-road ,
-        :walkway ;
-    skos:prefLabel "Road Hierarchy"@en ;
-    schema:citation "Test or a hyperlink pointing to the origin of this collection" ;
+        :mall ,
+        :ferry-route ,
+        :bikeway ,
+        :walkway ,
+        :busway ,
+        :unconstructed-road ;
+.
+
+:transport-infrastructure-sub-types
+    a skos:Collection ;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Transport Infrastructure Sub Types"@en ;
+    skos:definition "The sub type for the segment of transport infrastructure. "@en ;
+    schema:citation "Originally from the Queensland Roads and Tracks dataset. " ;
+    skos:member
+        :bridge ,
+        :causeway ,
+        :crossover ,
+        :level-crossing ,
+        :non-vehicular-track ,
+        :passenger-ferry-route ,
+        :ramp ,
+        :roundabout ,
+        :shared-use-track ,
+        :slip-road ,
+        :tunnel ,
+        :u-turn ,
+        :vehicular-ferry-route ,
+		:vehicular-track ;
+.
+
+:address-geographic-name-types
+    a skos:Collection ;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Address Geographic Name Types"@en ;
+    skos:definition "Geographic object types from which names can be utilised within an address. "@en ;
+    schema:citation "New collection. " ;
+    skos:historyNote "Collection added by Queensland on 23 September 2024 to support the national address model"@en ;
+    skos:member
+        :abattoir ,
+        :abbey ,
+        :academy ,
+        :addressable-property ,
+        :adit ,
+        :aerodrome ,
+        :aged-care ,
+        :air-force-base ,
+        :air-traffic-control-tower ,
+        :airfield ,
+        :airport ,
+        :airstrip ,
+        :alumina-refinery ,
+        :ambulance-station ,
+        :amphitheatre ,
+        :amusement-centre ,
+        :anchorage ,
+        :aquaculture ,
+        :aquarium ,
+        :arboretum ,
+        :arena ,
+        :army-base ,
+        :art-gallery ,
+        :athletic-field ,
+        :automatic-weather-station ,
+        :barracks ,
+        :baseball-field ,
+        :basketball-court ,
+        :beach ,
+        :beacon ,
+        :biomass-power-station ,
+        :bmx-track ,
+        :boat-ramp ,
+        :boating-club ,
+        :bombing-range ,
+        :bore ,
+        :botanic-gardens ,
+        :bowling-green ,
+        :brewery ,
+        :brickworks ,
+        :broadcasting-tower ,
+        :building ,
+        :bus-depot ,
+        :bus-station ,
+        :bus-stop ,
+        :bush-nursing-hospital ,
+        :business-college ,
+        :cableway-terminal ,
+        :cairn ,
+        :camp-ground ,
+        :car-park ,
+        :caravan-park ,
+        :care-facility ,
+        :cargo-terminal ,
+        :cathedral ,
+        :cement-plant ,
+        :cemetery ,
+        :chapel ,
+        :child-care ,
+        :childrens-hospital ,
+        :church ,
+        :cinema ,
+        :coal-field ,
+        :coal-power-station ,
+        :coast-guard-facility ,
+        :coastal-reserve ,
+        :commemorative-tree ,
+        :commercial-premises ,
+        :commune ,
+        :communication-infrastructure ,
+        :communication-tower ,
+        :community-centre ,
+        :community-facility ,
+        :community-fire-refuge ,
+        :community-gardens ,
+        :community-hall ,
+        :community-health-centre ,
+        :composting-facility ,
+        :conservation-park ,
+        :conservatory ,
+        :control-tower ,
+        :cricket-field ,
+        :croquet-green ,
+        :cultural-feature ,
+        :cyclone-shelter ,
+        :dairy ,
+        :day-procedure-centre ,
+        :defence-site ,
+        :defence-training-area ,
+        :dental-hospital ,
+        :diplomatic-mission ,
+        :disability-support-facility ,
+        :distance-education ,
+        :distillery ,
+        :dock ,
+        :drive-in-theatre ,
+        :dry-dock ,
+        :early-education ,
+        :education-complex ,
+        :educational-facility ,
+        :elevated-water-tank ,
+        :emergency-complex ,
+        :emergency-control-centre ,
+        :emergency-facility ,
+        :energy-infrastructure ,
+        :entertainment-centre ,
+        :entertainment-premises ,
+        :equestrian-centre ,
+        :eye-and-ear-hospital ,
+        :farm ,
+        :ferry-station ,
+        :fire-lookout ,
+        :fire-station ,
+        :firing-range ,
+        :fitness-centre ,
+        :football-field ,
+        :forest ,
+        :forest-industry-fire-station ,
+        :fountain ,
+        :further-education ,
+        :gas-field ,
+        :gas-pipeline ,
+        :gas-plant ,
+        :gas-platform ,
+        :gas-power-station ,
+        :gas-well ,
+        :general-hospital ,
+        :general-hospital-emergency ,
+        :geothermal-power-station ,
+        :gold-field ,
+        :gold-refinery ,
+        :golf-course ,
+        :grandstand ,
+        :greyhound-racetrack ,
+        :group-camp ,
+        :hall ,
+        :hangar ,
+        :harbour ,
+        :harbour-control-tower ,
+        :harness-racetrack ,
+        :hatchery ,
+        :health-facility ,
+        :helipad ,
+        :heliport ,
+        :historic-site ,
+        :hockey-field ,
+        :holiday-park ,
+        :homestead ,
+        :hospital ,
+        :hospital-complex ,
+        :hot-spring ,
+        :hut ,
+        :hydroelectric-power-station ,
+        :indigenous-protected-area ,
+        :industrial-production-facility ,
+        :iron-ore-processor ,
+        :jetty ,
+        :landing-area ,
+        :landing-ground ,
+        :landing-place ,
+        :landmark ,
+        :law-court ,
+        :legal-institution ,
+        :library ,
+        :lifesaving-club ,
+        :light-rail-station ,
+        :lighthouse ,
+        :liquid-waste-disposal-site ,
+        :lock ,
+        :marina ,
+        :marine-park ,
+        :market ,
+        :maternal-and-child-health-centre ,
+        :medical-centre ,
+        :memorial ,
+        :mine ,
+        :mineral-field ,
+        :mineral-sand-processing-plant ,
+        :mining-centre ,
+        :mining-feature ,
+        :mission ,
+        :mobile-phone-tower ,
+        :monolith ,
+        :monument ,
+        :mosque ,
+        :motor-track ,
+        :museum ,
+        :national-park ,
+        :naval-base ,
+        :netball-court ,
+        :nickel-refinery ,
+        :obelisk ,
+        :observatory ,
+        :oeec ,
+        :oil-field ,
+        :oil-gas-field ,
+        :oil-gas-platform ,
+        :oil-gas-well ,
+        :oil-pipeline ,
+        :oil-platform ,
+        :oil-refinery ,
+        :oil-well ,
+        :opal-field ,
+        :open-cut-mine ,
+        :outcamp ,
+        :outstation ,
+        :paddock ,
+        :park ,
+        :phone-tower ,
+        :picnic-site ,
+        :pier ,
+        :pipeline ,
+        :place-industrial-activity ,
+        :place-of-worship ,
+        :plantation ,
+        :playground ,
+        :police-station ,
+        :port ,
+        :port-control-tower ,
+        :post-office ,
+        :power-station ,
+        :power-sub-station ,
+        :power-terminal-station ,
+        :primary-school ,
+        :primary-secondary-school ,
+        :prison ,
+        :property ,
+        :protected-area ,
+        :pumping-station ,
+        :quarry ,
+        :racecourse ,
+        :racetrack ,
+        :radio-communication-facility ,
+        :radio-mast ,
+        :radio-station ,
+        :radio-tower ,
+        :rail-station ,
+        :rail-yard ,
+        :recreational-facility ,
+        :recycling-depot ,
+        :refuge ,
+        :refuse-transfer-station ,
+        :reservoir ,
+        :residential-aged-care ,
+        :resource-extraction-feature ,
+        :resource-processing-facility ,
+        :rest-area ,
+        :retirement-village ,
+        :rotunda ,
+        :rowing-course ,
+        :runway ,
+        :rural-fire-station ,
+        :rural-property ,
+        :school ,
+        :school-camp ,
+        :scrap-yard ,
+        :secondary-school ,
+        :ses-facility ,
+        :sewage-treatment-plant ,
+        :shopping-centre ,
+        :showground ,
+        :shrine ,
+        :skate-park ,
+        :smelter ,
+        :solar-power-station ,
+        :special-school ,
+        :specialised-hospital ,
+        :sports-complex ,
+        :sports-court ,
+        :sports-facility ,
+        :sports-field ,
+        :sports-pavilion ,
+        :sports-stadium ,
+        :state-forest ,
+        :steel-works ,
+        :stockyard ,
+        :sugar-refinery ,
+        :swimming-enclosure ,
+        :swimming-pool ,
+        :synagogue ,
+        :tafe-facility ,
+        :tannery ,
+        :taxi-rank ,
+        :telephone-exchange ,
+        :television-communication-facility ,
+        :television-station ,
+        :television-tower ,
+        :tennis-court ,
+        :theme-park ,
+        :timber-operations ,
+        :tourist-attraction ,
+        :town-hall ,
+        :tram-station ,
+        :transport-terminal ,
+        :underground-mine ,
+        :university ,
+        :utility-infrastructure ,
+        :velodrome ,
+        :vihara ,
+        :vineyard ,
+        :waste-infrastructure ,
+        :water-infrastructure ,
+        :water-plant ,
+        :water-point ,
+        :water-tank ,
+        :weather-station ,
+        :weighbridge ,
+        :weir ,
+        :wet-dock ,
+        :wharf ,
+        :wildlife-park ,
+        :wildlife-sanctuary ,
+        :wind-farm ,
+        :wind-turbine ,
+        :winery ,
+        :womens-hospital ,
+        :zoo ;
 .
 
 :1.0.2
@@ -301,18 +654,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ambulance-station
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A structure or other area set aside for storage ofambulance vehicles and medical equipment."@en ;
+    skos:definition "A structure or other area set aside for storage of ambulance vehicles and medical equipment."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Ambulance Station"@en ;
 .
 
-:ampitheatre
+:amphitheatre
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "Natural Amphitheatre"@en ;
     skos:definition "A circular or oval area of ground, surrounded by tiers of seats on a steep slope, for open-air public performances."@en ;
-    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
+    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Concept spelling corrected 14 March 2025."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Amphitheatre"@en ;
 .
@@ -789,7 +1142,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Tower equipped with transmitters and antennas for broadcasting audio (radio) and video (television) signals to the public."@en ;
-    skos:historyNote "Created by separating 'Communicatio Tower' alternate labels 2024-06-10." ;
+    skos:historyNote "Created by separating 'Communication Tower' alternate labels 2024-06-10." ;
     skos:inScheme cs: ;
     skos:narrower
         :radio-tower ,
@@ -812,7 +1165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :building
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "a substantial structure with a roof and walls."@en ;
+    skos:definition "A substantial structure with a roof and walls."@en ;
     skos:historyNote "Added by Queensland 2024-03-05. Definition from Macquarie Dictionary." ;
     skos:inScheme cs: ;
     skos:prefLabel "Building"@en ;
@@ -1339,7 +1692,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:narrower
-        :ampitheatre ,
+        :amphitheatre ,
         :arboretum ,
         :botanic-gardens ,
         :cemetery ,
@@ -1546,7 +1899,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :crossover
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A short roadway connecting two carriageways of a road, often for emergecny service access."@en ;
+    skos:definition "A short roadway connecting two carriageways of a road, often for emergency service access."@en ;
     skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
     skos:inScheme cs: ;
     skos:prefLabel "Crossover"@en ;
@@ -2459,7 +2812,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "Trotting Track"@en ;
-    skos:definition "A track enclosed by rails with start and finish points over which standardbred horses are harnessed to race."@en ;
+    skos:definition "A track enclosed by rails with start and finish points over which Standardbred horses are harnessed to race."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Harness Racetrack"@en ;
@@ -3455,7 +3808,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :marine-salt-dome
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A distinct elevation, often with a rounded profile, one km or more in diameter that is the geomorphologic expression of a diapir formed by vertical intrusion of salt. Commonly found in a PROVINCE of similar features."@en ;
+    skos:definition "A distinct elevation, often with a rounded profile, one kilometre or more in diameter that is the geomorphologic expression of a diapir formed by vertical intrusion of salt. Commonly found in a PROVINCE of similar features."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from General Bathymetric Chart of the Oceans (GEBCO) Sub-Committee on Undersea Features Names (SCUFN)." ;
     skos:inScheme cs: ;
     skos:prefLabel "Marine Salt Dome"@en ;
@@ -3775,6 +4128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Multi Use Trail"@en ,
+        "Multi-Use Trail"@en ,
         "Rail Trail"@en ,
         "Shared Use Trail"@en ;
     skos:definition "A non-vehicular trail designed for shared use access, being walking and bicycle traffic and may also include horse riding or skiing or may be any combination of multiple use. Main uses cycling and walking."@en ;
@@ -5226,7 +5580,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Plaza"@en ,
         "Shopping Mall"@en ,
         "Shopping Precinct"@en ;
-    skos:definition "Typically a named area/property or group of retail businesses with their own infrastructure such as carparks."@en ;
+    skos:definition "Typically a named area/property or group of retail businesses with their own infrastructure such as car parks."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
     skos:prefLabel "Shopping Centre"@en ;
@@ -5530,6 +5884,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Refined label from original 'state border' feature type." ;
     skos:inScheme cs: ;
     skos:prefLabel "State Border Section"@en ;
+    skos:example "Black Allen line" ;
+    skos:example "White Wade line" ;
+    skos:example "Sheaffe line" ;
 .
 
 :state-electorate
@@ -6612,9 +6969,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel
         "Mole"@en ,
         "Sea Wall"@en ;
-    skos:definition """A natural or artificial structure along a coast 
-capable of checking the force of the waves, 
-thereby reducing beach erosion."""@en ;
+    skos:definition "A natural or artificial structure along a coast capable of checking the force of the waves, thereby reducing beach erosion."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from Geographical Names Board, NSW." ;
     skos:inScheme cs: ;
     skos:narrower
@@ -7084,6 +7439,7 @@ thereby reducing beach erosion."""@en ;
 :track
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Trail"@en ;
     skos:definition "A natural or minimally developed path or roadway designed for travel by foot, bicycle, horse or vehicles."@en ;
     skos:historyNote "Broader concept introduced 2024-03-05." ;
     skos:inScheme cs: ;
@@ -7185,8 +7541,8 @@ cs:
     a skos:ConceptScheme ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     owl:versionIRI :1.0.2 ;
-    owl:versionInfo "1.0.2: added a Collection" ;
-    skos:definition "A hierarchy of Geographical (Place) Object categories"@en ;
+    owl:versionInfo "1.0.2: added a collection" ;
+    skos:definition "A hierarchy of Geographical Object Categories (place types)"@en ;
     skos:hasTopConcept
         :administrative-construct ,
         :care-facility ,
@@ -7204,7 +7560,7 @@ cs:
         :unclassified ,
         :utility-infrastructure ,
         :vegetation ;
-    skos:historyNote "This vocabulary was originally generated from the Geoscience Australia's Composite Gazetteer of Australia, and has been amended by the Department of Resources (Queensland) to refine and expand the vocabulary."@en ;
+    skos:historyNote "This vocabulary was originally generated from Geoscience Australia's Composite Gazetteer of Australia, and was amended by then Department of Resources (Queensland) to refine and expand the vocabulary."@en ;
     skos:prefLabel "Geographical Object Categories"@en ;
     prov:qualifiedAttribution
         [
@@ -7218,8 +7574,8 @@ cs:
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2015-01-01"^^xsd:date ;
-    schema:dateModified "2024-08-29"^^xsd:date ;
+    schema:dateModified "2025-03-14"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
     schema:publisher <https://linked.data.gov.au/org/qld-resources> ;
-    schema:version "1.0.1" ;
+    schema:version "1.0.2" ;
 .
