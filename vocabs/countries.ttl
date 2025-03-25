@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :1.0
-    rdfs:label "1.0" ;
+    schema:name "1.0" ;
 .
 
 :AD
@@ -10291,7 +10291,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a
-        owl:Ontology ,
         skos:ConceptScheme ;
     reg:status astatus:stable ;
     owl:versionIRI :1.0 ;

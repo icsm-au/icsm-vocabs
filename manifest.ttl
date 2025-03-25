@@ -1,0 +1,142 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX prez: <https://prez.dev/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+
+[]
+    a prez:Manifest ;
+    prof:hasResource
+        [
+            prof:hasArtifact "catalogue.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
+            schema:name "Catalogue Definition"
+        ] ,
+        [
+            prof:hasArtifact
+                "vocabs/Addresses/addr-classes.ttl" ,
+                "vocabs/Addresses/addr-geocode-types.ttl" ,
+                "vocabs/Addresses/addr-level-types.ttl" ,
+                "vocabs/Addresses/addr-status-types.ttl" ,
+                "vocabs/Addresses/addr-subaddress-types.ttl" ,
+                "vocabs/GeographicalNames/gn-affix.ttl" ,
+                "vocabs/GeographicalNames/gn-part-types.ttl" ,
+                "vocabs/GeographicalNames/go-categories.ttl" ,
+                "vocabs/LandParcels/CSD-Header/icsm-admin-unit-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-annotation.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-compound-crs.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-crs.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-land-district.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-survey-class.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-survey-documentation-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-survey-purpose.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-survey-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-territorial-authority.ttl" ,
+                "vocabs/LandParcels/CSD-Header/nz-vhd.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-annotation.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-county.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-crs.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-local-government-area.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-locality.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-parish.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-survey-documentation-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-survey-purpose.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-survey-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-township.ttl" ,
+                "vocabs/LandParcels/CSD-Header/vic-vhd.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-annotation.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-crs.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-local-government.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-locality.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-survey-documentation-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-survey-purpose.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-survey-type.ttl" ,
+                "vocabs/LandParcels/CSD-Header/wa-vhd.ttl" ,
+                "vocabs/LandParcels/Parcels/icsm-parcel-state.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-interest-type.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-parcel-state.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-parcel-type.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-secondary-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-secondary-parcel-type.ttl" ,
+                "vocabs/LandParcels/Parcels/nz-secondary-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/vic-interest-type.ttl" ,
+                "vocabs/LandParcels/Parcels/vic-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/vic-parcel-state.ttl" ,
+                "vocabs/LandParcels/Parcels/vic-parcel-type.ttl" ,
+                "vocabs/LandParcels/Parcels/vic-secondary-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-interest-type.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-parcel-state.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-parcel-type.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-secondary-parcel-purpose.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-secondary-parcel-type.ttl" ,
+                "vocabs/LandParcels/Parcels/wa-secondary-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/icsm-angle-type.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/icsm-distance-type.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/icsm-equipment-type.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/icsm-procedure-used.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/nz-procedure-used.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/nz-vector-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/vic-procedure-used.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/vic-vector-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/vic-vector-quality.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/wa-procedure-used.ttl" ,
+                "vocabs/LandParcels/SurveyObservations/wa-vector-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/accuracy/nz-point-class.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/accuracy/vic-point-class.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/condition/icsm-condition.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/condition/nz-condition.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/condition/vic-condition.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/condition/wa-condition.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/monument/nz-monument-type.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/monument/vic-monument-type.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/monument/wa-monument-type.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/other/wa-surveypoint-method.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/purpose/icsm-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/purpose/nz-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/purpose/vic-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/purpose/wa-purpose.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/state/icsm-state.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/state/nz-state.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/state/vic-state.ttl" ,
+                "vocabs/LandParcels/SurveyPoints/state/wa-state.ttl" ,
+                "vocabs/TransportNetworks/road-cadastral-relationship.ttl" ,
+                "vocabs/TransportNetworks/road-geometry-notes.ttl" ,
+                "vocabs/TransportNetworks/road-lane-counts.ttl" ,
+                "vocabs/TransportNetworks/road-lrrs-indicators.ttl" ,
+                "vocabs/TransportNetworks/road-maintainers.ttl" ,
+                "vocabs/TransportNetworks/road-operational-statuses.ttl" ,
+                "vocabs/TransportNetworks/road-owners.ttl" ,
+                "vocabs/TransportNetworks/road-scr-indicators.ttl" ,
+                "vocabs/TransportNetworks/road-seasonality.ttl" ,
+                "vocabs/TransportNetworks/road-surface-capture-methods.ttl" ,
+                "vocabs/TransportNetworks/road-surfaces.ttl" ,
+                "vocabs/TransportNetworks/road-trafficability.ttl" ,
+                "vocabs/TransportNetworks/road-travel-directions.ttl" ,
+                "vocabs/TransportNetworks/road-types.ttl" ,
+                "vocabs/TransportNetworks/road-user-access.ttl" ,
+                "vocabs/countries.ttl" ,
+                "vocabs/fsdf-themes.ttl" ,
+                "vocabs/ground-relationships.ttl" ,
+                "vocabs/lifeycle-stage-types.ttl" ,
+                "vocabs/naming-authority.ttl" ,
+                "vocabs/population-zone.ttl" ,
+                "vocabs/pos-accuracy.ttl" ,
+                "vocabs/record-access.ttl" ,
+                "vocabs/spatial-capture-methods.ttl" ,
+                "vocabs/states-and-territories.ttl" ,
+                "vocabs/unggim-themes.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:description "skos:ConceptScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
+            schema:name "Resource Data" ;
+            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
+        ] ,
+        [
+            prof:hasArtifact "labels.ttl" ;
+            prof:hasRole mrr:CompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing all the labels for the container content" ;
+            schema:name "Labels" ;
+        ] ;
+.

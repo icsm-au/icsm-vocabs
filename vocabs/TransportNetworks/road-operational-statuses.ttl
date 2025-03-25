@@ -71,7 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:1.0 rdfs:label "1.0" .
+:1.0 schema:name "1.0" .
 
 cs:
     a skos:ConceptScheme ;

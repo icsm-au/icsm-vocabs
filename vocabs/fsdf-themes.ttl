@@ -520,7 +520,7 @@ There are an increasing number of these sensors available for both satellite and
 .
 
 :1.1
-    rdfs:label "1.1" ;
+    schema:name "1.1" ;
 .
 
 :elevation-and-depth
@@ -657,7 +657,7 @@ There are an increasing number of these sensors available for both satellite and
 .
 
 fsdf:Theme
-    rdfs:label "Theme" ;
+    schema:name "Theme" ;
 .
 
 cs:
