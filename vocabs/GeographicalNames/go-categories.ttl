@@ -6631,6 +6631,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:narrower
         :breakwater ,
         :ice-wall ,
+        :levee ,
         :rock-wall ;
     skos:prefLabel "Wall"@en ;
 .
@@ -6661,7 +6662,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :boat-ramp ,
         :breakwater ,
         :dam-wall ,
-        :groyne ,
         :harbour ,
         :jetty ,
         :landing-place ,
@@ -7008,8 +7008,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from Geographical Names Board, NSW." ;
     skos:inScheme cs: ;
     skos:narrower
-        :groyne ,
-        :levee ;
+        :groyne ;
     skos:prefLabel "Breakwater"@en ;
     schema:citation "https://www.gnb.nsw.gov.au/__data/assets/pdf_file/0011/59627/Glossary_of_Designation_Values.pdf"^^xsd:anyURI ;
 .
