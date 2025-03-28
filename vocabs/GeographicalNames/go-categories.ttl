@@ -113,6 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :bus-station ,
         :bus-stop ,
         :bush-nursing-hospital ,
+        :bush-nursing-centre ,
         :business-college ,
         :cableway-terminal ,
         :cairn ,
@@ -446,6 +447,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :academy
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "College"@en ;
     skos:definition "An educational institution that offers a learning environment for students, often with a focus on a particular field or area of study, and may provide instruction at various levels, from primary to higher education, with some academies having a reputation for academic excellence or specialised programs."@en ;
     skos:historyNote "Created by separating 'Further Education' alternate labels 2024-03-05." ;
     skos:inScheme cs: ;
@@ -840,7 +842,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :backwater
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "Back Water"@en ;
+    skos:altLabel
+        "Back Water"@en ,
+        "Backwash"@en ;
     skos:definition "A body of stagnant water connected to a river."@en ;
     skos:historyNote "Concept created by separating 'Lake' alternate labels 2024-06-10. Definition added from Macquarie Dictionary." ;
     skos:inScheme cs: ;
@@ -1221,6 +1225,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :bus-stop ,
         :busway ;
     skos:prefLabel "Bus Transport Infrastructure"@en ;
+.
+
+:bush-nursing-centre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A medical centre where nurses provide healthcare for rural communities."@en ;
+    skos:historyNote "Added by Qld on 21 March 2025" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bush Nursing Centre"@en ;
 .
 
 :bush-nursing-hospital
@@ -1741,6 +1754,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A health facility that caters for the community, urban and rural."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
+    skos:narrower
+        :bush-nursing-centre ;
     skos:prefLabel "Community Health Centre"@en ;
 .
 
@@ -2341,6 +2356,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :federal-electorate
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Electoral Division"@en ;
     skos:definition "An administrative area of Australia represented by a member of Parliament elected at a House of Representatives election."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -2468,6 +2484,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ford
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Crossing"@en ;
     skos:definition "The shallow part of a river or other body of water which may be crossed by vehicle or by wading."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -3435,7 +3452,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "High Court"@en ,
         "Magistrates Court"@en ,
         "Supreme Court"@en ,
-        "Tribunal"@en ;
+        "Tribunal"@en ,
+        "District Court"@en ;
     skos:definition "A building which houses a tribunal which has power to adjudicate in civil, criminal or military matters."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -3635,6 +3653,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :marine-fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Cone"@en ;
     skos:definition "A relatively smooth depositional feature continuously deepening away from a sediment source commonly located at the lower termination of a canyon or canyon system."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from General Bathymetric Chart of the Oceans (GEBCO) Sub-Committee on Undersea Features Names (SCUFN)." ;
     skos:inScheme cs: ;
@@ -4231,7 +4250,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :non-vehicular-track
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "Trail"@en ;
+    skos:altLabel "Non Vehicular Trail"@en ;
     skos:definition "Track or trail not for vehicle use."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023, with name label amended 2024-05-04 from 'Trail' for clarity." ;
     skos:inScheme cs: ;
@@ -4415,7 +4434,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :outcrop
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A visible exposure of bedrock; a cropping out, as of a stratum or vein at the surface of the earth."@en ;
+    skos:definition "A visible exposure of bedrock; a cropping out, as of a stratum or vein at the surface of the earth."@en ;
     skos:historyNote "Created by separating 'Rock' alternate labels 2024-06-10. Definition adapted from Macquarie Dictionary." ;
     skos:inScheme cs: ;
     skos:prefLabel "Outcrop"@en ;
@@ -4481,7 +4500,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Common"@en ,
         "Forecourt"@en ,
         "Local Park"@en ,
-        "Rec Reserve"@en ;
+        "Rec Reserve"@en ,
+        "Recreation Reserve"@en ;
     skos:definition "An area of land often with recreational and other facilities which is set aside for public use"@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -4539,6 +4559,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
+        "Castle"@en ,
         "Pillar"@en ,
         "Rock Column"@en ,
         "Summit"@en ;
@@ -5265,6 +5286,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :ramp ,
         :rest-area ,
         :road ,
+        :road-bend ,
         :road-bridge ,
         :road-cutting ,
         :road-tunnel ,
@@ -5651,6 +5673,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ski-trail
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Ski Slopes"@en ;
     skos:definition "A trail designed for downhill or cross country in the main."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -5725,7 +5748,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Schools For Specific Purposes"@en ,
         "Special Education School"@en ,
         "Special Needs School"@en ,
-        "Specialist School"@en ;
+        "Specialist School"@en ,
+        "Specialised School"@en ;
     skos:definition "An educational facility that caters for those with learning disabilities."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -5892,6 +5916,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :state-electorate
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Electoral District"@en ;
     skos:definition "An administrative division of a State or Territory represented by a member of Parliament elected at a House of Representatives election."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
     skos:inScheme cs: ;
@@ -6329,6 +6354,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Transport Terminal"@en ;
 .
 
+:tree
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A prominent tree, not of a commemorative nature."@en ;
+    skos:historyNote "Added by Qld on 24 March 2025."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tree"@en ;
+.
+
 :trench
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -6504,6 +6538,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :grove ,
         :scrub ,
         :thicket ,
+        :tree ,
         :wood ;
     skos:prefLabel "Vegetation"@en ;
     skos:topConceptOf cs: ;
@@ -6596,6 +6631,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:narrower
         :breakwater ,
         :ice-wall ,
+        :levee ,
         :rock-wall ;
     skos:prefLabel "Wall"@en ;
 .
@@ -6626,7 +6662,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :boat-ramp ,
         :breakwater ,
         :dam-wall ,
-        :groyne ,
         :harbour ,
         :jetty ,
         :landing-place ,
@@ -6973,8 +7008,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from Geographical Names Board, NSW." ;
     skos:inScheme cs: ;
     skos:narrower
-        :groyne ,
-        :levee ;
+        :groyne ;
     skos:prefLabel "Breakwater"@en ;
     schema:citation "https://www.gnb.nsw.gov.au/__data/assets/pdf_file/0011/59627/Glossary_of_Designation_Values.pdf"^^xsd:anyURI ;
 .
@@ -7194,6 +7228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :marine-gap
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "Marine Passage"@en ;
     skos:definition "A narrow break in a ridge, rise or other elevation."@en ;
     skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. Definition from General Bathymetric Chart of the Oceans (GEBCO) Sub-Committee on Undersea Features Names (SCUFN)." ;
     skos:inScheme cs: ;
@@ -7362,6 +7397,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Added by Queensland 2024-06-04 from Queensland Roads and Tracks dataset." ;
     skos:inScheme cs: ;
     skos:prefLabel "Restricted Access Road"@en ;
+.
+
+:road-bend
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Road Corner"@en ;
+    skos:definition "A place where a road changes direction"@en ;
+    skos:historyNote "Added by Qld on 21 March 2025"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Road Bend"@en ;
 .
 
 :road-bridge
