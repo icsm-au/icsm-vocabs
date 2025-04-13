@@ -16,6 +16,13 @@ def _get_vocpub_graph() -> Graph:
     return graph
 
 
+@pytest.fixture
+def _get_labels_graph() -> Graph:
+    graph = Graph()
+    graph.parse(Path(__file__).parent.parent / "labels.ttl")
+    return graph
+
+
 def _get_vocab_files() -> List[Path]:
     vocab_directories = [
         VOCABS_DIR,
@@ -33,14 +40,16 @@ def _get_vocab_files() -> List[Path]:
 
 
 @pytest.mark.parametrize("vocab_file", _get_vocab_files())
-def test_vocabs(vocab_file: List[Path], _get_vocpub_graph: Graph):
+def test_vocabs(vocab_file: List[Path], _get_vocpub_graph: Graph, _get_labels_graph: Graph):
+    g = Graph().parse(vocab_file)
+
+    # add labels & org details to data
+    g += _get_labels_graph
+
     conforms, _, results_text = pyshacl.validate(
-        data_graph=Graph().parse(vocab_file),
+        data_graph=g,
         shacl_graph=_get_vocpub_graph,
         allow_warnings=True,
     )
 
     assert conforms, f"{vocab_file} failed:\n{results_text}"
-
-    vocab_file: Path
-    Graph().parse(vocab_file).serialize(destination=vocab_file, format="longturtle")
