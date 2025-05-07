@@ -1462,17 +1462,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
-:river
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "RVR"@en ;
-    skos:definition ""@en ;
-    skos:inScheme cs: ;
-    skos:notation "RVR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
-    skos:prefLabel "River"@en ;
-    skos:topConceptOf cs: ;
-.
-
 :roadway
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2571,6 +2560,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "VIC address data" ;
     skos:inScheme cs: ;
     skos:prefLabel "Rising"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:river
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "RVR"@en ;
+    skos:definition ""@en ;
+    skos:inScheme cs: ;
+    skos:notation "RVR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "River"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -3827,6 +3827,7 @@ cs:
         :ring ,
         :rise ,
         :rising ,
+        :river ,
         :road ,
         :roads ,
         :roadway ,
