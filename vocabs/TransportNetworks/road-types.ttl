@@ -1112,17 +1112,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
-:inlet
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "IN"@en ;
-    skos:definition ""@en ;
-    skos:inScheme cs: ;
-    skos:notation "LDG"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
-    skos:prefLabel "Inlet"@en ;
-    skos:topConceptOf cs: ;
-.
-
 :interchange
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2308,6 +2297,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "VIC address data" ;
     skos:inScheme cs: ;
     skos:prefLabel "Hub"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inlet
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "IN"@en ;
+    skos:definition ""@en ;
+    skos:inScheme cs: ;
+    skos:notation "LDG"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "Inlet"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -3761,6 +3761,7 @@ cs:
         :hill ,
         :hollow ,
         :hub ,
+        :inlet ,
         :interchange ,
         :junction ,
         :key ,
