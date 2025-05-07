@@ -13,8 +13,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :qld
     a skos:Collection ;
-    skos:definition "Queensland-specific road types" ;
     rdfs:isDefinedBy cs: ;
+    skos:definition "Queensland-specific road types" ;
     skos:historyNote "Collection added by Queensland on 6 March 2024"@en ;
     skos:inScheme cs: ;
     skos:member
@@ -162,8 +162,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :standard-australia
     a skos:Collection ;
-    skos:definition "Road types accepted for use in current road naming processes in Australia" ;
     rdfs:isDefinedBy "AS/NZS 4819:2011 Rural and urban addressing" ;
+    skos:definition "Road types accepted for use in current road naming processes in Australia" ;
     skos:historyNote "Collection added on 28 February 2025. Collection amended to align with AS/NZS4819:2011 on 4 March 2025."@en ;
     skos:inScheme cs: ;
     skos:member
@@ -226,8 +226,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :standard-new-zealand
     a skos:Collection ;
-    skos:definition "Road types accepted for use in current road naming processes in New Zealand" ;
     rdfs:isDefinedBy "AS/NZS 4819:2011 Rural and urban addressing" ;
+    skos:definition "Road types accepted for use in current road naming processes in New Zealand" ;
     skos:historyNote "Collection added on 4 March 2025."@en ;
     skos:inScheme cs: ;
     skos:member
@@ -265,6 +265,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :wharf ;
     skos:prefLabel "Road Types compliant with New Zealand standards" ;
     prov:wasDerivedFrom cs: ;
+.
+
+:1.0
+    rdfs:label "1.0" ;
 .
 
 :access
@@ -1778,22 +1782,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
-    :alley
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "ALLY"@en-AU ,
-        "Ally"@en-AU ,
-        "ALY"@en-NZ ,
-        "Aly"@en-NZ ;
-    skos:definition "Usually narrow roadway in cities or towns, often through city blocks or squares"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Alley"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :anchorage
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1816,35 +1804,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:approach
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "APP"@en ,
-        "App"@en ;
-    skos:definition "Roadway leading to an area of community interest (e.g. public open space, commercial area, beach etc.). Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Approach"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:arcade
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "ARC"@en ,
-        "Arc"@en ;
-    skos:definition "Passage having an arched roof, or any covered passageway, especially one with shops along the sides. Indicates a pedestrian only thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Arcade"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :artery
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1854,22 +1813,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Artery"@en ;
     skos:topConceptOf cs: ;
-.
-
-:avenue
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "AV"@en-AU ,
-        "Av"@en-AU ,
-        "AVE"@en-NZ ,
-        "Ave"@en-NZ ;
-    skos:definition "Broad roadway, usually planted on each side with trees. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Avenue"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :bank
@@ -1894,51 +1837,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:boardwalk
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "BWLK"@en ,
-        "Bwlk"@en ;
-    skos:definition "Promenade or path, especially of wooden planks, for pedestrians and sometimes vehicles, along or overlooking a beach or waterfront. Indicates a pedestrian only thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Boardwalk"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:boulevard
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "Boulevarde"@en ,
-        "BVD"@en-AU ,
-        "Bvd"@en-AU ,
-        "BLVD"@en-NZ ,
-        "Blvd"@en-NZ ;
-    skos:definition "Wide roadway, well paved, usually ornamented with trees and grass plots. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Boulevard"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:break
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "BRK"@en ,
-        "Brk"@en ;
-    skos:definition "Vehicular access on a formed or unformed surface, which was originally prepared as a firebreak. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Break"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :broadwalk
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1948,22 +1846,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Broadwalk"@en ;
     skos:topConceptOf cs: ;
-.
-
-:bypass
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "BYPA"@en-AU ,
-        "Bypa"@en-AU ,
-        "BYP"@en-NZ ,
-        "Byp"@en-NZ ;
-    skos:definition "Alternative roadway constructed to enable through traffic to avoid congested areas or other obstructions to movement. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Bypass"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :byway
@@ -1999,34 +1881,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:chase
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CH"@en ,
-        "Ch"@en ;
-    skos:definition "Roadway leading down to a valley"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Chase"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:circle
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CIR"@en ,
-        "Cir"@en ;
-    skos:definition "Roadway that generally forms a circle; or a short enclosed roadway bounded by a circle"@en ;
-    skos:historyNote "AS/NZS4819:2011 (New Zealand only), QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Circle"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :circlet
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2036,34 +1890,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Circlet"@en ;
     skos:topConceptOf cs: ;
-.
-
-:circuit
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CCT"@en ,
-        "Cct"@en ;
-    skos:definition "Roadway enclosing an area"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Circuit"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:close
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CL"@en ,
-        "Cl"@en ;
-    skos:definition "Short, enclosed roadway. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Close"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :cluster
@@ -2099,21 +1925,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:concourse
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CON"@en ,
-        "Con"@en ;
-    skos:definition "Roadway that runs around a central area (e.g. public open space or commercial area). Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Concourse"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :course
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2123,52 +1934,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Course"@en ;
     skos:topConceptOf cs: ;
-.
-
-:court
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CT"@en-AU ,
-        "Ct"@en-AU ,
-        "CRT"@en-NZ ,
-        "Crt"@en-NZ ;
-    skos:definition "Short, enclosed roadway. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Court"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:crescent
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CR"@en-AU ,
-        "Cr"@en-AU ,
-        "CRES"@en-NZ ,
-        "Cres"@en-NZ ;
-    skos:definition "Crescent-shaped thoroughfare, especially where both ends join the same thoroughfare. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Crescent"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:crest
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "CRST"@en ,
-        "Crst"@en ;
-    skos:definition "Roadway running along the top or summit of a hill"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Crest"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :crief
@@ -2303,48 +2068,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:drive
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "DR"@en ,
-        "Dr"@en ;
-    skos:definition "Wide thoroughfare allowing a steady flow of traffic without many cross-streets. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Drive"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:entrance
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "ENT"@en ,
-        "Ent"@en ;
-    skos:definition "Roadway connecting other roads. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Entrance"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:esplanade
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "ESP"@en ,
-        "Esp"@en ;
-    skos:definition "Level road, often along the seaside, lake or river. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Esplanade"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :estate
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2365,20 +2088,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Firetrack"@en ;
     skos:topConceptOf cs: ;
-.
-
-:firetrail
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "FTRL"@en ,
-        "Ftrl"@en ;
-    skos:definition "Vehicular access on a formed or unformed surface, which was originally prepared as a firebreak. Should be an open ended  thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Firetrail"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :flat
@@ -2447,21 +2156,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:freeway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "FWY"@en ,
-        "Fwy"@en ;
-    skos:definition "Express, multilane highway, with limited or controlled access. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Freeway"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :front
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2484,50 +2178,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:glade
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "GLDE"@en-AU ,
-        "Glde"@en-AU ,
-        "GLD"@en-NZ ,
-        "Gld"@en-NZ ;
-    skos:definition "Roadway usually in a valley of trees"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Glade"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:grange
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "GRA"@en ,
-        "Gra"@en ;
-    skos:definition "Roadway leading to a country estate, or focal point, public open space, shopping area etc. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Grange"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:green
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "GRN"@en ,
-        "Grn"@en ;
-    skos:definition "Roadway often leading to a grassed public recreation area. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011 (New Zealand only), QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Green"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :greens
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2541,22 +2191,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:scopeNote "New Zealand only" ;
     skos:topConceptOf cs: ;
     schema:citation "https://data.linz.govt.nz/table/53376-nz-roads-road-name-type/data/"^^xsd:anyURI ;
-.
-
-:grove
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "GR"@en-AU ,
-        "Gr"@en-AU ,
-        "GRV"@en-NZ ,
-        "Grv"@en-NZ ;
-    skos:definition "Roadway which features a group of trees standing together"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Grove"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :harbour
@@ -2579,20 +2213,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Highroad"@en ;
     skos:topConceptOf cs: ;
-.
-
-:highway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "HWY"@en ,
-        "Hwy"@en ;
-    skos:definition "Main road or thoroughfare, a main route. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Highway"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :hollow
@@ -2650,18 +2270,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:lane
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "LANE"@en ;
-    skos:definition "Narrow way between walls, buildings etc., a narrow country or city roadway"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Lane"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :leader
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2673,21 +2281,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:loop
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "LOOP"@en ,
-        "LP"@en ,
-        "Lp"@en ;
-    skos:definition "Roadway that diverges from and re-joins the main thoroughfare. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Loop"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :lynne
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2697,18 +2290,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Lynne"@en ;
     skos:topConceptOf cs: ;
-.
-
-:mall
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "MALL"@en ;
-    skos:definition "Sheltered walk, promenade or shopping precinct. Indicates a pedestrian only thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Mall"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :manor
@@ -2744,48 +2325,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:mews
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "MEWS"@en ;
-    skos:definition "Roadway in a group of houses. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Mews"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:parade
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PDE"@en ,
-        "Pde"@en ;
-    skos:definition "Public promenade or roadway which has good pedestrian facilities along the side. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Parade"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:parkway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PWY"@en-AU ,
-        "Pwy"@en-AU ,
-        "PKWY"@en-NZ ,
-        "Pkwy"@en-NZ ;
-    skos:definition "Roadway through parklands or an open grassland area. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Parkway"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :part
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2797,32 +2336,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:passage
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PSGE"@en ,
-        "Psge"@en ;
-    skos:definition "Narrow street for pedestrians"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Passage"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:path
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "PATH"@en ;
-    skos:definition "Roadway used only for pedestrian traffic"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Path"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :piazza
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2832,35 +2345,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Piazza"@en ;
     skos:topConceptOf cs: ;
-.
-
-:place
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PL"@en ,
-        "Pl"@en ;
-    skos:definition "Short, sometimes narrow, enclosed roadway. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Place"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:plaza
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PLZA"@en ,
-        "Plza"@en ;
-    skos:definition "Roadway enclosing the four sides of an area forming a market place or open space. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Plaza"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :pocket
@@ -2890,20 +2374,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:promenade
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "PROM"@en ,
-        "Prom"@en ;
-    skos:definition "Roadway like an avenue with plenty of facilities for the public to take a leisurely walk, a public place for walking. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Promenade"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :pursuit
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2924,48 +2394,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Quad"@en ;
     skos:topConceptOf cs: ;
-.
-
-:quay
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "QY"@en ,
-        "Qy"@en ;
-    skos:definition "Roadway alongside or projecting into water"@en ;
-    skos:historyNote "AS/NZS4819:2011 (New Zealand only), NSW, QLD, VIC, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Quay"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:quays
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "QYS"@en ,
-        "Qys"@en ;
-    skos:definition "Roadway leading to a landing place alongside or projecting into water. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Quays"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:ramp
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "RAMP"@en ;
-    skos:definition "Access road to and from highways and freeways. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Ramp"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :range
@@ -3025,21 +2453,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://www0.landgate.wa.gov.au/__data/assets/pdf_file/0018/52380/Property-Street-address-Data-Dictionary.pdf"^^xsd:anyURI ;
 .
 
-:retreat
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "RTT"@en ,
-        "Rtt"@en ;
-    skos:definition "Roadway forming a place of seclusion. Should be a cul-de-sac"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Retreat"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :return
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3062,20 +2475,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:ridge
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "RDGE"@en ,
-        "Rdge"@en ;
-    skos:definition "Roadway along the top of a hill"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Ridge"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :ring
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3087,18 +2486,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:rise
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "RISE"@en ;
-    skos:definition "Roadway going to a higher place or position"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Rise"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :rising
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3108,20 +2495,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Rising"@en ;
     skos:topConceptOf cs: ;
-.
-
-:road
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "RD"@en ,
-        "Rd"@en ;
-    skos:definition "Open way or public passage primarily for vehicles. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Road"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :roads
@@ -3179,34 +2552,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:square
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "SQ"@en ,
-        "Sq"@en ;
-    skos:definition "Roadway bounding the four sides of an area to be used as an open space or a group of buildings"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Square"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:steps
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "STPS"@en ,
-        "Stps"@en ;
-    skos:definition "Route consisting mainly of steps. Indicates a pedestrian only thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Steps"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :straight
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3229,49 +2574,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:street
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "ST"@en ,
-        "St"@en ;
-    skos:definition "Public roadway in a town, city or urban area, especially a paved thoroughfare with footpaths and buildings along one or both sides. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Street"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:subway
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "SBWY"@en ,
-        "Sbwy"@en ;
-    skos:definition "Underground passage or tunnel that pedestrians use for crossing under a road, railway, river etc. Indicates a pedestrian only thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Subway"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:terrace
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "TCE"@en ,
-        "Tce"@en ;
-    skos:definition "Roadway usually with houses on either side raised above the road level"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Terrace"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
 :tollway
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3281,35 +2583,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Tollway"@en ;
     skos:topConceptOf cs: ;
-.
-
-:track
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "TRK"@en ,
-        "Trk"@en ;
-    skos:definition "Roadway with a single carriageway. A roadway through a natural bushland region. The interpretation for both Track and Trail is limited to roadways, whereas in many areas these are often associated with walking rather than vehicular movement.  Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Track"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
-.
-
-:trail
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "TRL"@en ,
-        "Trl"@en ;
-    skos:definition "Roadway with a single carriageway. A roadway through a natural bushland region. The interpretation for both Track and Trail is limited to roadways, whereas in many areas these are often associated with walking rather than vehicular movement. Should be an open ended thoroughfare"@en ;
-    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Trail"@en ;
-    skos:scopeNote "Australia only" ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :traverse
@@ -3367,6 +2640,420 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:vue
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VUE"@en ;
+    skos:definition "Vue"@en ;
+    skos:historyNote "VIC address data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vue"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wade
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WADE"@en ;
+    skos:definition "Wade"@en ;
+    skos:historyNote "VIC address data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wade"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wood
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WD"@en ;
+    skos:definition "Wood"@en ;
+    skos:historyNote "VIC address data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wood"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:woods
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "WDS"@en ;
+    skos:definition "Woods"@en ;
+    skos:historyNote "VIC address data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Woods"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:yard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "YARD"@en ;
+    skos:definition "Yard"@en ;
+    skos:historyNote "VIC address data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yard"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:approach
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "APP"@en ,
+        "App"@en ;
+    skos:definition "Roadway leading to an area of community interest (e.g. public open space, commercial area, beach etc.). Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Approach"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:boardwalk
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BWLK"@en ,
+        "Bwlk"@en ;
+    skos:definition "Promenade or path, especially of wooden planks, for pedestrians and sometimes vehicles, along or overlooking a beach or waterfront. Indicates a pedestrian only thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Boardwalk"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:break
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BRK"@en ,
+        "Brk"@en ;
+    skos:definition "Vehicular access on a formed or unformed surface, which was originally prepared as a firebreak. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Break"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:bypass
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BYPA"@en-AU ,
+        "Bypa"@en-AU ,
+        "BYP"@en-NZ ,
+        "Byp"@en-NZ ;
+    skos:definition "Alternative roadway constructed to enable through traffic to avoid congested areas or other obstructions to movement. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bypass"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:chase
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CH"@en ,
+        "Ch"@en ;
+    skos:definition "Roadway leading down to a valley"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chase"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:circle
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CIR"@en ,
+        "Cir"@en ;
+    skos:definition "Roadway that generally forms a circle; or a short enclosed roadway bounded by a circle"@en ;
+    skos:historyNote "AS/NZS4819:2011 (New Zealand only), QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Circle"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:circuit
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CCT"@en ,
+        "Cct"@en ;
+    skos:definition "Roadway enclosing an area"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Circuit"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:concourse
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CON"@en ,
+        "Con"@en ;
+    skos:definition "Roadway that runs around a central area (e.g. public open space or commercial area). Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Concourse"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:crest
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CRST"@en ,
+        "Crst"@en ;
+    skos:definition "Roadway running along the top or summit of a hill"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crest"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:entrance
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENT"@en ,
+        "Ent"@en ;
+    skos:definition "Roadway connecting other roads. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Entrance"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:firetrail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "FTRL"@en ,
+        "Ftrl"@en ;
+    skos:definition "Vehicular access on a formed or unformed surface, which was originally prepared as a firebreak. Should be an open ended  thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Firetrail"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:freeway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "FWY"@en ,
+        "Fwy"@en ;
+    skos:definition "Express, multilane highway, with limited or controlled access. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Freeway"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:grange
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "GRA"@en ,
+        "Gra"@en ;
+    skos:definition "Roadway leading to a country estate, or focal point, public open space, shopping area etc. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Grange"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:green
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "GRN"@en ,
+        "Grn"@en ;
+    skos:definition "Roadway often leading to a grassed public recreation area. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011 (New Zealand only), QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Green"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:parkway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PWY"@en-AU ,
+        "Pwy"@en-AU ,
+        "PKWY"@en-NZ ,
+        "Pkwy"@en-NZ ;
+    skos:definition "Roadway through parklands or an open grassland area. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Parkway"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:passage
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PSGE"@en ,
+        "Psge"@en ;
+    skos:definition "Narrow street for pedestrians"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Passage"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:path
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "PATH"@en ;
+    skos:definition "Roadway used only for pedestrian traffic"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Path"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:plaza
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PLZA"@en ,
+        "Plza"@en ;
+    skos:definition "Roadway enclosing the four sides of an area forming a market place or open space. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plaza"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:quay
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QY"@en ,
+        "Qy"@en ;
+    skos:definition "Roadway alongside or projecting into water"@en ;
+    skos:historyNote "AS/NZS4819:2011 (New Zealand only), NSW, QLD, VIC, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Quay"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:quays
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QYS"@en ,
+        "Qys"@en ;
+    skos:definition "Roadway leading to a landing place alongside or projecting into water. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Quays"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:ramp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "RAMP"@en ;
+    skos:definition "Access road to and from highways and freeways. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ramp"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:retreat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "RTT"@en ,
+        "Rtt"@en ;
+    skos:definition "Roadway forming a place of seclusion. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Retreat"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "RDGE"@en ,
+        "Rdge"@en ;
+    skos:definition "Roadway along the top of a hill"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ridge"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:subway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SBWY"@en ,
+        "Sbwy"@en ;
+    skos:definition "Underground passage or tunnel that pedestrians use for crossing under a road, railway, river etc. Indicates a pedestrian only thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Subway"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:trail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TRL"@en ,
+        "Trl"@en ;
+    skos:definition "Roadway with a single carriageway. A roadway through a natural bushland region. The interpretation for both Track and Trail is limited to roadways, whereas in many areas these are often associated with walking rather than vehicular movement. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011 (Australia only), AS4590.1:2017, NSW, QLD, TAS, VIC, WA roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trail"@en ;
+    skos:scopeNote "Australia only" ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
 :view
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3398,26 +3085,376 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
-:vue
+:alley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "VUE"@en ;
-    skos:definition "Vue"@en ;
-    skos:historyNote "VIC address data" ;
+    skos:altLabel
+        "ALLY"@en-AU ,
+        "Ally"@en-AU ,
+        "ALY"@en-NZ ,
+        "Aly"@en-NZ ;
+    skos:definition "Usually narrow roadway in cities or towns, often through city blocks or squares"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, VIC, WA, NZ roads data" ;
     skos:inScheme cs: ;
-    skos:prefLabel "Vue"@en ;
+    skos:prefLabel "Alley"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
-:wade
+:arcade
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "WADE"@en ;
-    skos:definition "Wade"@en ;
-    skos:historyNote "VIC address data" ;
+    skos:altLabel
+        "ARC"@en ,
+        "Arc"@en ;
+    skos:definition "Passage having an arched roof, or any covered passageway, especially one with shops along the sides. Indicates a pedestrian only thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
     skos:inScheme cs: ;
-    skos:prefLabel "Wade"@en ;
+    skos:prefLabel "Arcade"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:avenue
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "AV"@en-AU ,
+        "Av"@en-AU ,
+        "AVE"@en-NZ ,
+        "Ave"@en-NZ ;
+    skos:definition "Broad roadway, usually planted on each side with trees. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Avenue"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:boulevard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Boulevarde"@en ,
+        "BVD"@en-AU ,
+        "Bvd"@en-AU ,
+        "BLVD"@en-NZ ,
+        "Blvd"@en-NZ ;
+    skos:definition "Wide roadway, well paved, usually ornamented with trees and grass plots. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Boulevard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:close
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CL"@en ,
+        "Cl"@en ;
+    skos:definition "Short, enclosed roadway. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Close"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:court
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CT"@en-AU ,
+        "Ct"@en-AU ,
+        "CRT"@en-NZ ,
+        "Crt"@en-NZ ;
+    skos:definition "Short, enclosed roadway. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Court"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:crescent
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CR"@en-AU ,
+        "Cr"@en-AU ,
+        "CRES"@en-NZ ,
+        "Cres"@en-NZ ;
+    skos:definition "Crescent-shaped thoroughfare, especially where both ends join the same thoroughfare. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crescent"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:drive
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "DR"@en ,
+        "Dr"@en ;
+    skos:definition "Wide thoroughfare allowing a steady flow of traffic without many cross-streets. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drive"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:esplanade
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ESP"@en ,
+        "Esp"@en ;
+    skos:definition "Level road, often along the seaside, lake or river. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Esplanade"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:glade
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "GLDE"@en-AU ,
+        "Glde"@en-AU ,
+        "GLD"@en-NZ ,
+        "Gld"@en-NZ ;
+    skos:definition "Roadway usually in a valley of trees"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Glade"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:grove
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "GR"@en-AU ,
+        "Gr"@en-AU ,
+        "GRV"@en-NZ ,
+        "Grv"@en-NZ ;
+    skos:definition "Roadway which features a group of trees standing together"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Grove"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:highway
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "HWY"@en ,
+        "Hwy"@en ;
+    skos:definition "Main road or thoroughfare, a main route. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Highway"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:lane
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "LANE"@en ;
+    skos:definition "Narrow way between walls, buildings etc., a narrow country or city roadway"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lane"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:loop
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "LOOP"@en ,
+        "LP"@en ,
+        "Lp"@en ;
+    skos:definition "Roadway that diverges from and re-joins the main thoroughfare. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Loop"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:mall
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "MALL"@en ;
+    skos:definition "Sheltered walk, promenade or shopping precinct. Indicates a pedestrian only thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mall"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:mews
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "MEWS"@en ;
+    skos:definition "Roadway in a group of houses. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mews"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:parade
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PDE"@en ,
+        "Pde"@en ;
+    skos:definition "Public promenade or roadway which has good pedestrian facilities along the side. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Parade"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:place
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PL"@en ,
+        "Pl"@en ;
+    skos:definition "Short, sometimes narrow, enclosed roadway. Should be a cul-de-sac"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Place"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:promenade
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "PROM"@en ,
+        "Prom"@en ;
+    skos:definition "Roadway like an avenue with plenty of facilities for the public to take a leisurely walk, a public place for walking. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Promenade"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:rise
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "RISE"@en ;
+    skos:definition "Roadway going to a higher place or position"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rise"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "RD"@en ,
+        "Rd"@en ;
+    skos:definition "Open way or public passage primarily for vehicles. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Road"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:square
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SQ"@en ,
+        "Sq"@en ;
+    skos:definition "Roadway bounding the four sides of an area to be used as an open space or a group of buildings"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Square"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:steps
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "STPS"@en ,
+        "Stps"@en ;
+    skos:definition "Route consisting mainly of steps. Indicates a pedestrian only thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Steps"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:street
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ST"@en ,
+        "St"@en ;
+    skos:definition "Public roadway in a town, city or urban area, especially a paved thoroughfare with footpaths and buildings along one or both sides. Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Street"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:terrace
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TCE"@en ,
+        "Tce"@en ;
+    skos:definition "Roadway usually with houses on either side raised above the road level"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Terrace"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
+.
+
+:track
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TRK"@en ,
+        "Trk"@en ;
+    skos:definition "Roadway with a single carriageway. A roadway through a natural bushland region. The interpretation for both Track and Trail is limited to roadways, whereas in many areas these are often associated with walking rather than vehicular movement.  Should be an open ended thoroughfare"@en ;
+    skos:historyNote "AS/NZS4819:2011, AS4590.1:2017, NSW, QLD, TAS, VIC, WA, NZ roads data. Definition from AS/NZS4819:2011." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Track"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
 
 :walk
@@ -3460,41 +3497,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
     schema:citation "AS/NZS 4819:2011 - Standards Australia"^^xsd:anyURI ;
 .
-
-:wood
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "WD"@en ;
-    skos:definition "Wood"@en ;
-    skos:historyNote "VIC address data" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Wood"@en ;
-    skos:topConceptOf cs: ;
-.
-
-:woods
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "WDS"@en ;
-    skos:definition "Woods"@en ;
-    skos:historyNote "VIC address data" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Woods"@en ;
-    skos:topConceptOf cs: ;
-.
-
-:yard
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "YARD"@en ;
-    skos:definition "Yard"@en ;
-    skos:historyNote "VIC address data" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Yard"@en ;
-    skos:topConceptOf cs: ;
-.
-
-:1.0 rdfs:label "1.0" .
 
 cs:
     a skos:ConceptScheme ;
