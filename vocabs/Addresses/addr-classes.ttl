@@ -23,6 +23,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Landmark"@en ;
 .
 
+:non-standard
+    a skos:Concept ;
+    skos:altLabel "U"@en ;
+    skos:definition ""@en ;
+    skos:historyNote "Queensland address data" ;
+    skos:inScheme cs: ;
+    skos:notation "NS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "Non-standard"@en ;
+.
+
 :postal
     a skos:Concept ;
     skos:altLabel "PO"@en ;
@@ -135,6 +145,7 @@ cs:
     skos:definition "This vocabulary describes the address classes or types used in address allocation. "@en ;
     skos:hasTopConcept
         :landmark ,
+        :non-standard ,
         :postal ,
         :thoroughfare ,
         :unknown ;
