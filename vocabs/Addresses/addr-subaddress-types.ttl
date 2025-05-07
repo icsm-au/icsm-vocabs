@@ -19,6 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "ANT"@en ;
     skos:definition "Antenna"@en ;
     skos:inScheme cs: ;
+    skos:notation "ANT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Antenna"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -31,6 +32,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "APT"@en ;
     skos:definition "Apartment"@en ;
     skos:inScheme cs: ;
+    skos:notation "APT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Apartment"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -43,6 +45,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "ATM"@en ;
     skos:definition "Automate Teller Machine"@en ;
     skos:inScheme cs: ;
+    skos:notation "ATM"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Automate Teller Machine"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -55,6 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "BBQ"@en ;
     skos:definition "Barbecue"@en ;
     skos:inScheme cs: ;
+    skos:notation "BBQ"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Barbecue"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -67,6 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "BLCK"@en ;
     skos:definition "Block"@en ;
     skos:inScheme cs: ;
+    skos:notation "BLCK"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Block"@en ;
     skos:topConceptOf cs: ;
     schema:citation "G-NAF" ;
@@ -77,6 +82,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "BTSD"@en ;
     skos:definition "Boatshed"@en ;
     skos:inScheme cs: ;
+    skos:notation "BTSD"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Boatshed"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -89,6 +95,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "BLDG"@en ;
     skos:definition "Building"@en ;
     skos:inScheme cs: ;
+    skos:notation "BLDG"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Building"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -101,6 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "BNGW"@en ;
     skos:definition "Bungalow"@en ;
     skos:inScheme cs: ;
+    skos:notation "BNGW"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Bungalow"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -113,6 +121,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "CAGE"@en ;
     skos:definition "Cage"@en ;
     skos:inScheme cs: ;
+    skos:notation "CAGE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Cage"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -125,6 +134,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "CARP"@en ;
     skos:definition "Carpark"@en ;
     skos:inScheme cs: ;
+    skos:notation "CARP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Carpark"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -137,6 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "CARS"@en ;
     skos:definition "Carspace"@en ;
     skos:inScheme cs: ;
+    skos:notation "CARS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Carspace"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -149,6 +160,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "CLUB"@en ;
     skos:definition "Club"@en ;
     skos:inScheme cs: ;
+    skos:notation "CLUB"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Club"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -161,6 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "COOL"@en ;
     skos:definition "Coolroom"@en ;
     skos:inScheme cs: ;
+    skos:notation "COOL"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Coolroom"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -173,6 +186,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "CTGE"@en ;
     skos:definition "Cottage"@en ;
     skos:inScheme cs: ;
+    skos:notation "CTGE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Cottage"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -185,6 +199,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "DUPL"@en ;
     skos:definition "Duplex"@en ;
     skos:inScheme cs: ;
+    skos:notation "DUPL"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Duplex"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -197,6 +212,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "FCTY"@en ;
     skos:definition "Factory"@en ;
     skos:inScheme cs: ;
+    skos:notation "FCTY"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Factory"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -209,6 +225,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "FLAT"@en ;
     skos:definition "Flat"@en ;
     skos:inScheme cs: ;
+    skos:notation "FLAT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Flat"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -221,6 +238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "GRGE"@en ;
     skos:definition "Garage"@en ;
     skos:inScheme cs: ;
+    skos:notation "GRGE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Garage"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -233,6 +251,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "HALL"@en ;
     skos:definition "Hall"@en ;
     skos:inScheme cs: ;
+    skos:notation "HALL"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Hall"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -245,6 +264,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "HSE"@en ;
     skos:definition "House"@en ;
     skos:inScheme cs: ;
+    skos:notation "HSE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "House"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -257,6 +277,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "KSK"@en ;
     skos:definition "Kiosk"@en ;
     skos:inScheme cs: ;
+    skos:notation "KSK"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Kiosk"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -269,6 +290,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "LSE"@en ;
     skos:definition "Lease"@en ;
     skos:inScheme cs: ;
+    skos:notation "LSE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Lease"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -281,6 +303,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "LBBY"@en ;
     skos:definition "Lobby"@en ;
     skos:inScheme cs: ;
+    skos:notation "LBBY"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Lobby"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -293,6 +316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "LOFT"@en ;
     skos:definition "Loft"@en ;
     skos:inScheme cs: ;
+    skos:notation "LOFT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Loft"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -305,6 +329,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "LOT"@en ;
     skos:definition "Lot"@en ;
     skos:inScheme cs: ;
+    skos:notation "LOT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Lot"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -317,6 +342,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "MSNT"@en ;
     skos:definition "Maisonette"@en ;
     skos:inScheme cs: ;
+    skos:notation "MSNT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Maisonette"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -329,6 +355,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "MBTH"@en ;
     skos:definition "Marine Berth"@en ;
     skos:inScheme cs: ;
+    skos:notation "MBTH"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Marine Berth"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -341,6 +368,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "OFFC"@en ;
     skos:definition "Office"@en ;
     skos:inScheme cs: ;
+    skos:notation "OFFC"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Office"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -353,6 +381,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "PTHS"@en ;
     skos:definition "Penthouse"@en ;
     skos:inScheme cs: ;
+    skos:notation "PTHS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Penthouse"@en ;
     skos:topConceptOf cs: ;
     schema:citation "QLD address data" ;
@@ -363,6 +392,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "RESV"@en ;
     skos:definition "Reserve"@en ;
     skos:inScheme cs: ;
+    skos:notation "RESV"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Reserve"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -375,6 +405,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "ROOM"@en ;
     skos:definition "Room"@en ;
     skos:inScheme cs: ;
+    skos:notation "ROOM"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Room"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -387,6 +418,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SHED"@en ;
     skos:definition "Shed"@en ;
     skos:inScheme cs: ;
+    skos:notation "SHED"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Shed"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -399,6 +431,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SHOP"@en ;
     skos:definition "Shop"@en ;
     skos:inScheme cs: ;
+    skos:notation "SHOP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Shop"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -411,6 +444,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SHRM"@en ;
     skos:definition "Showroom"@en ;
     skos:inScheme cs: ;
+    skos:notation "SHRM"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Showroom"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -423,6 +457,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SIGN"@en ;
     skos:definition "Sign"@en ;
     skos:inScheme cs: ;
+    skos:notation "SIGN"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Sign"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -435,6 +470,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SITE"@en ;
     skos:definition "Site"@en ;
     skos:inScheme cs: ;
+    skos:notation "SITE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Site"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -447,6 +483,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "STLL"@en ;
     skos:definition "Stall"@en ;
     skos:inScheme cs: ;
+    skos:notation "STLL"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Stall"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -459,6 +496,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "STOR"@en ;
     skos:definition "Store"@en ;
     skos:inScheme cs: ;
+    skos:notation "STOR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Store"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -471,6 +509,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "STR"@en ;
     skos:definition "Strata unit"@en ;
     skos:inScheme cs: ;
+    skos:notation "STR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Strata unit"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -483,6 +522,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "STU"@en ;
     skos:definition "Studio"@en ;
     skos:inScheme cs: ;
+    skos:notation "STU"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Studio"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -495,6 +535,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "STUA"@en ;
     skos:definition "Studio Apartment"@en ;
     skos:inScheme cs: ;
+    skos:notation "STUA"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Studio Apartment"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -507,6 +548,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SUBS"@en ;
     skos:definition "Substation"@en ;
     skos:inScheme cs: ;
+    skos:notation "SUBS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Substation"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -519,6 +561,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SE"@en ;
     skos:definition "Suite"@en ;
     skos:inScheme cs: ;
+    skos:notation "SE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Suite"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -531,6 +574,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "TNCY"@en ;
     skos:definition "Tenancy"@en ;
     skos:inScheme cs: ;
+    skos:notation "TNCY"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Tenancy"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -543,6 +587,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "TWR"@en ;
     skos:definition "Tower"@en ;
     skos:inScheme cs: ;
+    skos:notation "TWR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Tower"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -555,6 +600,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "TNHS"@en ;
     skos:definition "Townhouse"@en ;
     skos:inScheme cs: ;
+    skos:notation "TNHS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Townhouse"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -569,6 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "UNIT"@en ;
     skos:definition "Unit"@en ;
     skos:inScheme cs: ;
+    skos:notation "U"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Unit"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -581,6 +628,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "VLT"@en ;
     skos:definition "Vault"@en ;
     skos:inScheme cs: ;
+    skos:notation "VLT"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Vault"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -593,6 +641,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "VLLA"@en ;
     skos:definition "Villa"@en ;
     skos:inScheme cs: ;
+    skos:notation "VLLA"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Villa"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -605,6 +654,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "WARD"@en ;
     skos:definition "Ward"@en ;
     skos:inScheme cs: ;
+    skos:notation "WARD"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Ward"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -617,6 +667,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "WHSE"@en ;
     skos:definition "Warehouse"@en ;
     skos:inScheme cs: ;
+    skos:notation "WHSE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Warehouse"@en ;
     skos:topConceptOf cs: ;
     schema:citation
@@ -629,6 +680,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "WKSH"@en ;
     skos:definition "Workshop"@en ;
     skos:inScheme cs: ;
+    skos:notation "WKSH"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Workshop"@en ;
     skos:topConceptOf cs: ;
     schema:citation
