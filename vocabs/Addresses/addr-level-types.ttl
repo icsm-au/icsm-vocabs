@@ -10,6 +10,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:1.0
+    skos:prefLabel "1.0" ;
+.
+
 :basement
     a skos:Concept ;
     skos:altLabel "B"@en ;
@@ -159,8 +163,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
     schema:citation "AS4590.1:2017 & AS/NZS 4819:2011 - Standards Australia" ;
 .
-
-:1.0 skos:prefLabel "1.0" .
 
 cs:
     a skos:ConceptScheme ;
