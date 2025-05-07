@@ -19,6 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "An additional address that refers to the same physical location as a Primary Address. This may relate to an alternative access point to the same address site"@en ;
     skos:historyNote "AS/NZS4819:2011" ;
     skos:inScheme cs: ;
+    skos:notation "A"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "alternative"@en ;
     schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
 .
@@ -39,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The main officially recognised address for an address site"@en ;
     skos:historyNote "AS/NZS4819:2011" ;
     skos:inScheme cs: ;
+    skos:notation "P"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "primary"@en ;
     schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
 .
