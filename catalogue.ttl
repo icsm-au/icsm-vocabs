@@ -112,13 +112,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/subaddress-types> ,
         <https://linked.data.gov.au/def/surface-capture-method> ,
         <https://linked.data.gov.au/def/unggim-themes> ;
-    skos:historyNote "This catalogue was was created in 2024"@en ;
+    skos:historyNote """2025-05 NJC: All vocabularies' statuses set to experimental
+
+This catalogue was was created in 2024""" ;
     schema:codeRepository "https://github.com/icsm-au/icsm-vocabs" ;
     schema:contributor <https://kurrawong.ai> ;
     schema:creator <https://linked.data.gov.au/org/icsm> ;
     schema:dateCreated "2017"^^xsd:gYear ;
-    schema:dateModified "2024-10-16"^^xsd:date ;
-    schema:description "ICSM's vocabularies of controlled terms" ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:description "ICSM's vocabularies of controlled terms from all ICSM Working Groups and projects" ;
     schema:name "ICSM Vocabularies" ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
