@@ -663,7 +663,7 @@ This vocabulary was developed by Geoscience Australia for ICSM vocabulary testin
     skos:scopeNote "Use the UNGGIM Themes vocabulary for data classification instead of this one, wherever possible" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2021-04-21"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;

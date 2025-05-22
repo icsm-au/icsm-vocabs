@@ -91,16 +91,11 @@ This vocabulary contains lifecycle stage types for features and feature labels s
     prov:qualifiedAttribution
         [
             prov:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Icsm" ;
-                ] ;
+            prov:agent <https://linked.data.gov.au/org/icsm> ;
         ] ;
     schema:creator <https://linked.data.gov.au/org/qld-resources> ;
     schema:dateCreated "2024-06-12"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

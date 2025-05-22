@@ -321,7 +321,7 @@ This vocabulary replaces and extends the Road Suffixes used in the Queensland Ro
         ] ;
     schema:creator <https://linked.data.gov.au/org/qld-resources> ;
     schema:dateCreated "2024-06-11"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:version "1.0" ;

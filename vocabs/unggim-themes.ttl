@@ -571,7 +571,7 @@ The only changes have been to remove the top-level 'Data Theme' Concept and to a
     schema:citation "https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes"^^xsd:anyURI ;
     schema:creator <https://orcid.org/0000-0003-2130-0312> ;
     schema:dateCreated "2020-10-26"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;

@@ -10547,7 +10547,7 @@ cs:
     schema:citation "http://dd.eionet.europa.eu/vocabulary/common/countries/view"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/gsq> ;
     schema:dateCreated "2020-09-01"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

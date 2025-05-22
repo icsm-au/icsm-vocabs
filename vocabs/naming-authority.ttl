@@ -483,16 +483,11 @@ This vocabulary contains naming authorities identified in relation to geographic
     prov:qualifiedAttribution
         [
             prov:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Icsm" ;
-                ] ;
+            prov:agent <https://linked.data.gov.au/org/icsm> ;
         ] ;
-    schema:creator <https://linked.data.gov.au/org/gsq> ;
+    schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-06-03"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
-    schema:publisher <https://linked.data.gov.au/org/gsq> ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

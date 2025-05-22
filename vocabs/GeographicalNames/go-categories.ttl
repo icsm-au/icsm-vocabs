@@ -7608,7 +7608,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/icsm-awg> ;
     schema:dateCreated "2015-01-01"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
     schema:publisher <https://linked.data.gov.au/org/qld-resources> ;
     schema:version "1.0.2" ;

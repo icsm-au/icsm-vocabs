@@ -139,7 +139,7 @@ This vocabulary is a Concept Scheme version of the States & Territories Feature 
     schema:citation "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026" ;
     schema:creator <https://linked.data.gov.au/org/abs> ;
     schema:dateCreated "2022-05-15"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:isPartOf <https://linked.data.gov.au/dataset/asgsed3> ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;

@@ -1,5 +1,4 @@
 PREFIX : <https://linked.data.gov.au/def/building-level-types/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/building-level-types>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -202,7 +201,7 @@ cs:
 2025-05 EC: Added SIR datatype codes
 
 This vocabulary has been derived from the Australian Standards AS 4590, AS 4189""" ;
-    skos:prefLabel "Level Types"@en ;
+    skos:prefLabel "Building Level Types"@en ;
     prov:qualifiedAttribution
         [
             prov:agent <https://linked.data.gov.au/org/icsm> ;
@@ -210,7 +209,7 @@ This vocabulary has been derived from the Australian Standards AS 4590, AS 4189"
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-15"^^xsd:date ;
-    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:dateModified "2025-05-23"^^xsd:date ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
