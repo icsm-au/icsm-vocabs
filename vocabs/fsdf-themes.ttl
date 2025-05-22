@@ -656,12 +656,15 @@ cs:
     owl:versionInfo "1.1"^^xsd:string ;
     skos:definition "This FSDF Themes vocabulary is the taxonomy of dataset themes implemented by the [ANZLIC - The Spatial  Information Council](https://www.anzlic.gov.au)'s' Foundation Spatial Data Framework (FSDF) project which is \"a common reference for the assembly and maintenance of Australian and New Zealand foundation level spatial data\"" ;
     skos:hasTopConcept :spatial ;
-    skos:historyNote "This vocabulary was developed by Geoscience Australia for ICSM vocabulary testing work in 2021 from the FSDF LINK website contains all this information in non-Semantic Web but highly structured, form. v1.1 introduced the singe top concept of 'spatial'" ;
+    skos:historyNote "2025-05 NJC: Added status deprecated. This vocabulary is no longer to be used and the vocabulary UNGGIM Themes (https://linked.data.gov.au/def/unggim-themes) should be used instead
+
+This vocabulary was developed by Geoscience Australia for ICSM vocabulary testing work in 2021 from the FSDF LINK website contains all this information in non-Semantic Web but highly structured, form. v1.1 introduced the singe top concept of 'spatial'" ;
     skos:prefLabel "FSDF Themes" ;
     skos:scopeNote "Use the UNGGIM Themes vocabulary for data classification instead of this one, wherever possible" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2021-04-21"^^xsd:date ;
-    schema:dateModified "2024-10-29"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
 .
