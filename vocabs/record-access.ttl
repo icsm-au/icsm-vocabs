@@ -58,7 +58,7 @@ cs:
         :restricted ;
     skos:historyNote """2025-05 NJC: Added status experimental
 
-This vocabulary was created by the Queensland Spatial Information services."" ;
+This vocabulary was created by the Queensland Spatial Information services.""" ;
     skos:prefLabel "Record Access"@en ;
     prov:qualifiedAttribution
         [
