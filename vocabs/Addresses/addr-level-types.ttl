@@ -198,9 +198,10 @@ cs:
         :rooftop ,
         :sub-basement ,
         :upper-ground-floor ;
-    skos:historyNote """This vocabulary has been derived from the Australian Standards AS 4590, AS 4189
+    skos:historyNote """2025-05 NJC: Added status experimental
+2025-05 EC: Added SIR datatype codes
 
-2025-05 EC: Added SIR datatype codes""" ;
+This vocabulary has been derived from the Australian Standards AS 4590, AS 4189""" ;
     skos:prefLabel "Level Types"@en ;
     prov:qualifiedAttribution
         [
@@ -210,7 +211,7 @@ cs:
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-15"^^xsd:date ;
     schema:dateModified "2025-05-22"^^xsd:date ;
-    schema:identifier "level-types"^^xsd:token ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

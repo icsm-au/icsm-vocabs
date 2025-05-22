@@ -3884,7 +3884,9 @@ cs:
         :woods ,
         :wynd ,
         :yard ;
-    skos:historyNote """This vocabulary contains road types in common usage at the time of publishing. These are sourced from standards including AS/NZS4819:2011, AS4590.1:2017 and jurisdictional datasets across Australia and New Zealand. 
+    skos:historyNote """2025-05 NJC: Added status experimental
+
+This vocabulary contains road types in common usage at the time of publishing. These are sourced from standards including AS/NZS4819:2011, AS4590.1:2017 and jurisdictional datasets across Australia and New Zealand.
 
 2025-05 EC: Added SIR datatype codes""" ;
     skos:prefLabel "Road Types"@en ;
@@ -3898,4 +3900,5 @@ cs:
     schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:TransportNetworks ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

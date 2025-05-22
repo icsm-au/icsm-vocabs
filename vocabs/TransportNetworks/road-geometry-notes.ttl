@@ -91,7 +91,9 @@ cs:
         :pseudo-segment ,
         :short-segment ,
         :unkown ;
-    skos:historyNote "This vocabulary was created by the Queensland Spatial Information services." ;
+        skos:historyNote """2025-05 NJC: Added status experimental
+
+This vocabulary was created by the Queensland Spatial Information services.""" ;
     skos:prefLabel "Road Geometry Notes"@en ;
     prov:qualifiedAttribution
         [
@@ -100,8 +102,8 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-06-06"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
-    schema:identifier "road-geometry-notes"^^xsd:token ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:TransportNetworks ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

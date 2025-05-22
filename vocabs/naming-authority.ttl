@@ -476,11 +476,13 @@ cs:
         :state-other ,
         :utility-provider ,
         :water-authority ;
-    skos:historyNote "This vocabulary contains naming authorities identified in relation to geographic names and addresses in Queensland. "@en ;
+    skos:historyNote """2025-05 NJC: Added status experimental
+
+This vocabulary contains naming authorities identified in relation to geographic names and addresses in Queensland.""" ;
     skos:prefLabel "Naming Authority"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -490,7 +492,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/gsq> ;
     schema:dateCreated "2023-06-03"^^xsd:date ;
-    schema:dateModified "2024-08-01"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/gsq> ;
-    schema:version "None" ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

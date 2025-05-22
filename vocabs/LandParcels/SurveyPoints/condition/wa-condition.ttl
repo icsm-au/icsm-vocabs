@@ -85,13 +85,15 @@ cs:
         :online ,
         :out-of-position ,
         :rusted ;
+    skos:historyNote """2025-05 NJC: Added status experimental""" ;
     skos:prefLabel "WA Monument Condition" ;
     skos:scopeNote "surv:ConditionCode" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2024-08-20"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
 []    a prov:Activity ;

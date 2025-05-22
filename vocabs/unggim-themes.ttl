@@ -561,7 +561,9 @@ cs:
         :PopulationDistribution ,
         :TransportNetworks ,
         :Water ;
-    skos:historyNote """This vocabulary is a slightly reformatted version of the original obtained from https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes.
+    skos:historyNote """2025-05 NJC: Added status experimental
+
+This vocabulary is a slightly reformatted version of the original obtained from https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes.
 
 The only changes have been to remove the top-level 'Data Theme' Concept and to add ConceptScheme and Concept elements required for the VocPub profile of SKOS (https://w3id.org/profile/vocpub/spec)""" ;
     skos:prefLabel "UN-GGIM Data Themes"@en ;
@@ -569,7 +571,8 @@ The only changes have been to remove the top-level 'Data Theme' Concept and to a
     schema:citation "https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes"^^xsd:anyURI ;
     schema:creator <https://orcid.org/0000-0003-2130-0312> ;
     schema:dateCreated "2020-10-26"^^xsd:date ;
-    schema:dateModified "2024-08-16"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

@@ -51,7 +51,9 @@ cs:
         :rural ,
         :unknown ,
         :urban ;
-    skos:historyNote "This vocabulary was created by the Queensland Spatial Information services." ;
+    skos:historyNote """2025-05 NJC: Added status experimental
+
+This vocabulary was created by the Queensland Spatial Information services.""" ;
     skos:prefLabel "Population Zone"@en ;
     prov:qualifiedAttribution
         [
@@ -60,8 +62,8 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-30"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
-    schema:identifier "population-zone"^^xsd:token ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:PopulationDistribution ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

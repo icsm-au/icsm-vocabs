@@ -71,9 +71,10 @@ cs:
         :official ,
         :unknown ,
         :unofficial ;
-    skos:historyNote """This vocabulary was created by the Queensland Spatial Information services.
+    skos:historyNote """2025-05 NJC: Added status experimental
+2025-05 EC: Added SIR datatype codes
 
-2025-05 EC: Added SIR datatype codes""" ;
+This vocabulary was created by the Queensland Spatial Information services.""" ;
     skos:prefLabel "Address Status Type"@en ;
     prov:qualifiedAttribution
         [
@@ -83,7 +84,7 @@ cs:
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-06-05"^^xsd:date ;
     schema:dateModified "2025-05-22"^^xsd:date ;
-    schema:identifier "address-status-type"^^xsd:token ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

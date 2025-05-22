@@ -10542,10 +10542,12 @@ cs:
         :ZA ,
         :ZM ,
         :ZW ;
+    skos:historyNote """2025-05 NJC: Added status experimental""" ;
     skos:prefLabel "Countries"@en ;
     schema:citation "http://dd.eionet.europa.eu/vocabulary/common/countries/view"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/gsq> ;
     schema:dateCreated "2020-09-01"^^xsd:date ;
-    schema:dateModified "2023-03-16"^^xsd:date ;
-    schema:publisher <https://linked.data.gov.au/org/gsq> ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .

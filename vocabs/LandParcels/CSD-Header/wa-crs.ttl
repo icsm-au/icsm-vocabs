@@ -739,7 +739,9 @@ cs:
         :8030 ,
         :8031 ,
         :8032 ;
-    skos:historyNote "2025-05: NJC changed CS IRI to be unique, not EPSG register" ;
+    skos:historyNote """2025-05 NJC: Added status experimental
+
+2025-05: NJC changed CS IRI to be unique, not EPSG register""" ;
     skos:prefLabel "WA Coordinate Reference Systems" ;
     skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
@@ -747,6 +749,7 @@ cs:
     schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
 []    a prov:Activity ;
