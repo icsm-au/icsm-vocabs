@@ -10,6 +10,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:1.0
+    schema:name "1.0" ;
+.
+
 :landmark
     a skos:Concept ;
     skos:altLabel "LA"@en ;
@@ -17,6 +21,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Queensland address data" ;
     skos:inScheme cs: ;
     skos:prefLabel "Landmark"@en ;
+.
+
+:non-standard
+    a skos:Concept ;
+    skos:altLabel "U"@en ;
+    skos:definition ""@en ;
+    skos:historyNote "Queensland address data" ;
+    skos:inScheme cs: ;
+    skos:notation "NS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "Non-standard"@en ;
 .
 
 :postal
@@ -46,6 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Address assigned according to the standard for a site accessed from a rural road"@en ;
     skos:historyNote "Queensland address data" ;
     skos:inScheme cs: ;
+    skos:notation "RU"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Rural"@en ;
 .
 
@@ -55,6 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Address assigned according to the standard for a site accessed from an urban road"@en ;
     skos:historyNote "Queensland address data" ;
     skos:inScheme cs: ;
+    skos:notation "UR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Urban"@en ;
 .
 
@@ -76,6 +92,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Unknown address assignation standard"@en ;
     skos:historyNote "Queensland address data" ;
     skos:inScheme cs: ;
+    skos:notation "UK"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Unknown"@en ;
 .
 
@@ -89,6 +106,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :water-inlet ,
         :water-island ,
         :water-river ;
+    skos:notation "WA"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Water"@en ;
 .
 
@@ -119,8 +137,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "River"@en ;
 .
 
-:1.0 schema:name "1.0" .
-
 cs:
     a skos:ConceptScheme ;
     reg:status astatus:experimental ;
@@ -129,10 +145,13 @@ cs:
     skos:definition "This vocabulary describes the address classes or types used in address allocation. "@en ;
     skos:hasTopConcept
         :landmark ,
+        :non-standard ,
         :postal ,
         :thoroughfare ,
         :unknown ;
-    skos:historyNote "This vocabulary was created by the Queensland Spatial Information services." ;
+    skos:historyNote """This vocabulary was created by the Queensland Spatial Information services.
+
+EC: Added SIR datatype codes""" ;
     skos:prefLabel "Address Classes"@en ;
     prov:qualifiedAttribution
         [
@@ -141,7 +160,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-06-01"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:identifier "address-classes"^^xsd:token ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;

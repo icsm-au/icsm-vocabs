@@ -23,6 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Branch"@en ;
     skos:topConceptOf cs: ;
 .
+
 :central
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -30,33 +31,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "In, at, or near the centre."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "CN"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Central"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
-.
-
-:east
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel
-        "E"@en ,
-        "Eastern"@en ;
-    skos:definition "Cardinal direction of east."@en ;
-    skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "East"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
-.
-
-:extension
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:altLabel "EX"@en ;
-    skos:definition "That by which something is extended; a prolongation."@en ;
-    skos:historyNote "Integrated from AS4590.1:2017. Definition from Macquarie dictionary." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Extension"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
 .
@@ -70,6 +46,34 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Deviation"@en ;
     skos:topConceptOf cs: ;
+.
+
+:east
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "E"@en ,
+        "Eastern"@en ;
+    skos:definition "Cardinal direction of east."@en ;
+    skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
+    skos:inScheme cs: ;
+    skos:notation "E"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "East"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
+.
+
+:extension
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "EX"@en ;
+    skos:definition "That by which something is extended; a prolongation."@en ;
+    skos:historyNote "Integrated from AS4590.1:2017. Definition from Macquarie dictionary." ;
+    skos:inScheme cs: ;
+    skos:notation "EX"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "Extension"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
 .
 
 :heights
@@ -96,8 +100,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :left
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "Left Hand"@en ;
-    skos:altLabel "Left-Hand"@en ;
+    skos:altLabel
+        "Left Hand"@en ,
+        "Left-Hand"@en ;
     skos:definition "Belonging or relating to the side of a person or thing which is turned towards the west when facing north."@en ;
     skos:historyNote "Added by QLD on 2024-06-11. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
@@ -112,6 +117,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Lying or being below the general level."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "LR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Lower"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -126,6 +132,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Cardinal direction of north."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "N"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "North"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -144,6 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Intercardinal direction of north east."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "NE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "North East"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -162,6 +170,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Intercardinal direction of north west."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "NW"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "North West"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -180,8 +189,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :right
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "Right Hand"@en ;
-    skos:altLabel "Right-Hand"@en ;
+    skos:altLabel
+        "Right Hand"@en ,
+        "Right-Hand"@en ;
     skos:definition "Belonging or relating to the side of a person or thing which is turned towards the east when facing north."@en ;
     skos:historyNote "Added by QLD on 2024-06-11. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
@@ -198,6 +208,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Cardinal direction of south."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "S"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "South"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -216,6 +227,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Intercardinal direction of south east."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "SE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "South East"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -234,6 +246,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Intercardinal direction of south west."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "SW"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "South West"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -246,6 +259,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Higher (than something implied) or highest, as in place, or position."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Definition from Macquarie dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "UP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Upper"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -260,6 +274,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Cardinal direction of west."@en ;
     skos:historyNote "Integrated from AS4590.1:2017. Alternate labels expanded by QLD on 2024-06-11." ;
     skos:inScheme cs: ;
+    skos:notation "W"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "West"@en ;
     skos:topConceptOf cs: ;
     schema:citation "AS 4590.1:2017 | Standards Australia"^^xsd:anyURI ;
@@ -272,9 +287,9 @@ cs:
     skos:hasTopConcept
         :branch ,
         :central ,
+        :deviation ,
         :east ,
         :extension ,
-        :deviation ,
         :heights ,
         :inner ,
         :left ,
@@ -289,7 +304,9 @@ cs:
         :south-west ,
         :upper ,
         :west ;
-    skos:historyNote "This vocabulary replaces and extends the Road Suffixes used in the Queensland Roads and Tracks dataset. "@en ;
+    skos:historyNote """This vocabulary replaces and extends the Road Suffixes used in the Queensland Roads and Tracks dataset. 
+
+2025-05 EC: Added SIR datatype codes""" ;
     skos:prefLabel "Geographical Name Affix"@en ;
     prov:qualifiedAttribution
         [
@@ -308,7 +325,7 @@ cs:
             schema:url "https://www.nrmmrrd.qld.gov.au/"^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2024-06-11"^^xsd:date ;
-    schema:dateModified "2025-02-21"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
     schema:publisher
         [

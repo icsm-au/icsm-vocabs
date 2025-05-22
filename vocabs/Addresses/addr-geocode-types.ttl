@@ -11,6 +11,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:1.0
+    schema:name "1.0" ;
+.
+
 :building-access-point
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -18,6 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point of access to the building. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "BAP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Building Access Point"@en ;
     skos:topConceptOf cs: ;
 .
@@ -29,6 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point as centre of building and lying within its bounds (e.g. for u-shaped building). "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "BC"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Building Centroid"@en ;
     skos:topConceptOf cs: ;
 .
@@ -50,6 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A point on the road centre-line opposite the centre of the road frontage of an address site. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "CDF"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Centreline Dropped Frontage"@en ;
     skos:topConceptOf cs: ;
 .
@@ -81,6 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Specific building or address site access point for emergency services. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "EA"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Emergency Access"@en ;
     skos:topConceptOf cs: ;
 .
@@ -92,6 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Specific building or address site secondary access point for emergency services. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "EAS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Emergency Access Secondary"@en ;
     skos:topConceptOf cs: ;
 .
@@ -103,6 +112,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Front door of building"@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "FDA"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Front Door Access"@en ;
     skos:topConceptOf cs: ;
 .
@@ -114,6 +124,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point on the centre of the address site frontage. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "FC"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Frontage Centre"@en ;
     skos:topConceptOf cs: ;
 .
@@ -125,6 +136,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A point set back from the centre of the road frontage within an address site. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "FCS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Frontage Centre Setback"@en ;
     skos:topConceptOf cs: ;
 .
@@ -166,6 +178,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Place where mail is deposited. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "LB"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Letterbox"@en ;
     skos:topConceptOf cs: ;
 .
@@ -204,6 +217,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :property-access-helicopter ,
         :property-access-point-setback ,
         :property-access-water ;
+    skos:notation "PAP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Property Access Point"@en ;
     skos:topConceptOf cs: ;
 .
@@ -225,6 +239,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point of centre of parcels making up an address site and lying within its boundaries (e.g. for l-shaped address site). "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "PC"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Property Centroid"@en ;
     skos:topConceptOf cs: ;
 .
@@ -243,6 +258,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :sewerage-connection-point ,
         :telephone-connection-point ,
         :water-connection-point ;
+    skos:notation "STCP"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Service Connection Point"@en ;
     skos:topConceptOf cs: ;
 .
@@ -258,6 +274,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :electricity-meter ,
         :gas-meter ,
         :water-meter ;
+    skos:notation "STM"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Service Meter"@en ;
     skos:topConceptOf cs: ;
 .
@@ -289,6 +306,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point at centre of unit and lying within its bounds (e.g. for u-shaped unit). "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia). " ;
     skos:inScheme cs: ;
+    skos:notation "UC"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Unit Centroid"@en ;
     skos:topConceptOf cs: ;
 .
@@ -320,6 +338,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Centre of driveway on address site frontage; access point from a road to an address site. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia) with definition amended for clarity 2024-06-11. " ;
     skos:inScheme cs: ;
+    skos:notation "DF"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Driveway Frontage"@en ;
 .
 
@@ -330,10 +349,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Point set back from the access point to an address site. "@en ;
     skos:historyNote "AS 4590.1:2017 (Standards Australia) with definition amended for clarity 2024-06-11. " ;
     skos:inScheme cs: ;
+    skos:notation "PAPS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Property Access Point Setback"@en ;
 .
-
-:1.0 schema:name "1.0" .
 
 cs:
     a skos:ConceptScheme ;
@@ -358,7 +376,9 @@ cs:
         :service-connection-point ,
         :service-meter ,
         :unit-centroid ;
-    skos:historyNote "This vocabulary contains geocodes types in common usage at the time of publishing. These are sourced from standards including AS4590.1:2017 and the Queensland and Geocoded National Address File (G-NAF) data definitions.  address datasets." ;
+    skos:historyNote """This vocabulary contains geocodes types in common usage at the time of publishing. These are sourced from standards including AS4590.1:2017 and the Queensland and Geocoded National Address File (G-NAF) data definitions.  address datasets.
+
+2025-05 EC: Added SIR datatype codes""" ;
     skos:prefLabel "Geocode Types"@en ;
     prov:qualifiedAttribution
         [
@@ -367,7 +387,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-05-11"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:identifier "geocode-types"^^xsd:token ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
