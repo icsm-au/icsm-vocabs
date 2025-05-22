@@ -149,7 +149,9 @@ cs:
         :postal ,
         :thoroughfare ,
         :unknown ;
-    skos:historyNote "This vocabulary was created by the Queensland Spatial Information services." ;
+    skos:historyNote """This vocabulary was created by the Queensland Spatial Information services.
+
+EC: Added SIR datatype codes""" ;
     skos:prefLabel "Address Classes"@en ;
     prov:qualifiedAttribution
         [
@@ -158,7 +160,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/qsi> ;
     schema:dateCreated "2023-06-01"^^xsd:date ;
-    schema:dateModified "2023-11-30"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:identifier "address-classes"^^xsd:token ;
     schema:keywords unggim:Addresses ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
