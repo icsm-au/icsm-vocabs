@@ -123,5 +123,5 @@ cs:
     prov:wasInformedBy
         [
             dcterms:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
-        ] ; ;
+        ] ;
 .
