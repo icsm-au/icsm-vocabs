@@ -1,7 +1,6 @@
 PREFIX apt: <https://linked.data.gov.au/def/addr-part-types/>
 PREFIX cs: <https://linked.data.gov.au/def/addr-part-types>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -229,8 +228,8 @@ apt:thoroughfareName
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2024-09-18"^^xsd:date ;
-    dcterms:modified "2025-05-22"^^xsd:date ;
+    schema:dateCreated "2024-09-18"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     owl:versionIRI apt:None ;
     skos:definition "This vocabulary describes the components for addresses. It is an extended version of ISO19160-1's Address Component Type vocabulary. "@en ;
     skos:hasTopConcept
