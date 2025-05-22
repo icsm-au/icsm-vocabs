@@ -1,5 +1,5 @@
 PREFIX : <http://www.opengis.net/def/crs/EPSG/0/>
-PREFIX cs: <http://www.opengis.net/def/crs/EPSG/0>
+PREFIX cs: <https://linked.data.gov.au/def/csdm/nz-vhd>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -201,11 +201,12 @@ cs:
         :5770 ,
         :5772 ,
         :7839 ;
+    skos:historyNote "2025-05: NJC changed CS IRI to be unique, not EPSG register" ;
     skos:prefLabel "NZ Vertical Height Datums" ;
     skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2024-08-20"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
 .
@@ -232,5 +233,5 @@ cs:
     prov:wasInformedBy
         [
             dcterms:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ;
-        ] ; ;
+        ] ;
 .
