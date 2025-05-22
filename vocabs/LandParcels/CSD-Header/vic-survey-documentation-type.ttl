@@ -548,13 +548,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/csdm-pg>
-    a schema:Organization ;
-    schema:name "CSDM Project Group" ;
-    schema:parentOrganization <https://linked.data.gov.au/org/icsm> ;
-    schema:url "https://icsm-au.github.io/3d-csdm/docs/"^^xsd:anyURI ;
-.
-
 cs:
     a skos:ConceptScheme ;
     skos:definition "VIC types of Survey Documentation"@en ;

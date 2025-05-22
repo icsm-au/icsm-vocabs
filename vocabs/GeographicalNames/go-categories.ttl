@@ -6971,12 +6971,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Zoo"@en ;
 .
 
-<https://linked.data.gov.au/org/qld-resources>
-    a schema:Organization ;
-    schema:name "Queensland Department of Resources" ;
-    schema:url "https://www.resources.qld.gov.au"^^xsd:anyURI ;
-.
-
 :air-traffic-control-tower
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -7612,12 +7606,7 @@ cs:
             prov:agent <https://linked.data.gov.au/org/icsm> ;
             prov:hadRole droles:custodian ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "ICSM Place Names Working Group" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/icsm-awg> ;
     schema:dateCreated "2015-01-01"^^xsd:date ;
     schema:dateModified "2025-03-14"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;

@@ -21,11 +21,47 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:url "http://www.ga.gov.au"^^xsd:anyURI ;
 .
 
-
 <https://linked.data.gov.au/org/icsm>
     a schema:Organization ;
     schema:name "Intergovernmental Committee on Surveying & Mapping" ;
     schema:url "https://www.icsm.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/icsm-awg>
+    a schema:Organization ;
+    schema:name "ICSM Addressing Working Group" ;
+    schema:url "https://www.icsm.gov.au/what-we-do/addressing"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/icsm-pnwg>
+    a schema:Organization ;
+    schema:name "ICSM Place Names Working Group" ;
+    schema:url "https://www.icsm.gov.au/what-we-do/place-names-working-group"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/csdm-pg>
+    a schema:Organization ;
+    schema:name "CSDM Project Group" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/icsm> ;
+    schema:url "https://icsm-au.github.io/3d-csdm/docs/"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/gsq>
+    a schema:Organization ;
+    schema:name "Geological Survey of Queensland" ;
+    schema:url "http://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/abs>
+    a schema:Organization ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://abs.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/qld-resources>
+    a schema:Organization ;
+    schema:name "Queensland Department of Resources" ;
+    schema:url "https://www.resources.qld.gov.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/qsi>

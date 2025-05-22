@@ -488,19 +488,9 @@ cs:
                     schema:name "Icsm" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Department Of Resources, Qld" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/gsq> ;
     schema:dateCreated "2023-06-03"^^xsd:date ;
     schema:dateModified "2024-08-01"^^xsd:date ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Department Of Resources, Qld" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/gsq> ;
     schema:version "None" ;
 .

@@ -318,20 +318,10 @@ cs:
                     schema:name "ICSM" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Department Of Resources" ;
-            schema:url "https://www.nrmmrrd.qld.gov.au/"^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/qld-resources> ;
     schema:dateCreated "2024-06-11"^^xsd:date ;
     schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "ICSM" ;
-            schema:url "https://www.icsm.gov.au/"^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:version "1.0" ;
 .

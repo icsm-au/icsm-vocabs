@@ -266,18 +266,8 @@ cs:
                     schema:name "Icsm" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Department Of Resources" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/qld-resources> ;
     schema:keywords "Address" ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Icsm" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:version "None" ;
 .

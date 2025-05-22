@@ -10283,12 +10283,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://dd.eionet.europa.eu/vocabulary/common/countries/view"^^xsd:anyURI ;
 .
 
-<https://linked.data.gov.au/org/gsq>
-    a schema:Organization ;
-    schema:name "Geological Survey of Queensland" ;
-    schema:url "http://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq"^^xsd:anyURI ;
-.
-
 cs:
     a
         skos:ConceptScheme ;

@@ -115,12 +115,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/abs>
-    a schema:Organization ;
-    schema:name "Australian Bureau of Statistics" ;
-    schema:url "https://abs.gov.au"^^xsd:anyURI ;
-.
-
 cs:
     a
         geo:FeatureCollection ,

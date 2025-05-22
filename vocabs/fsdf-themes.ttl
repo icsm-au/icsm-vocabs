@@ -567,18 +567,6 @@ There are an increasing number of these sensors available for both satellite and
     skos:prefLabel "Positioning"@en ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Geoscience Australia" ;
-    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/icsm>
-    a schema:Organization ;
-    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
-    schema:url "https://www.icsm.gov.au/"^^xsd:anyURI ;
-.
-
 :land-parcel-and-property
     a
         skos:Concept ,
