@@ -304,7 +304,9 @@ cs:
         :south-west ,
         :upper ,
         :west ;
-    skos:historyNote "This vocabulary replaces and extends the Road Suffixes used in the Queensland Roads and Tracks dataset. "@en ;
+    skos:historyNote """This vocabulary replaces and extends the Road Suffixes used in the Queensland Roads and Tracks dataset. 
+
+2025-05 EC: Added SIR datatype codes""" ;
     skos:prefLabel "Geographical Name Affix"@en ;
     prov:qualifiedAttribution
         [
@@ -323,7 +325,7 @@ cs:
             schema:url "https://www.nrmmrrd.qld.gov.au/"^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2024-06-11"^^xsd:date ;
-    schema:dateModified "2025-02-21"^^xsd:date ;
+    schema:dateModified "2025-05-22"^^xsd:date ;
     schema:keywords unggim:GeographicalNames ;
     schema:publisher
         [
