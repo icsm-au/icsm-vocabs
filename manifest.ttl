@@ -16,8 +16,8 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact
                 "vocabs/Addresses/addr-classes.ttl" ,
-                "vocabs/Addresses/addr-geocode-types.ttl" ,
-                "vocabs/Addresses/addr-level-types.ttl" ,
+                "vocabs/Addresses/geocode-types.ttl" ,
+                "vocabs/Addresses/building-level-types.ttl" ,
                 "vocabs/Addresses/addr-status-types.ttl" ,
                 "vocabs/Addresses/addr-subaddress-types.ttl" ,
                 "vocabs/GeographicalNames/gn-affix.ttl" ,
