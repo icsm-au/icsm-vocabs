@@ -1,4 +1,5 @@
 PREFIX : <https://linked.data.gov.au/def/building-level-types/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/building-level-types>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
