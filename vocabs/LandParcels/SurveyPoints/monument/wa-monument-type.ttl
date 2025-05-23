@@ -455,7 +455,7 @@ cs:
     skos:historyNote """2025-05 NJC: Added status experimental""" ;
     skos:prefLabel "WA Monument Form" ;
     skos:scopeNote "surv:MonumentForm" ;
-    schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
+    # schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
     schema:dateModified "2025-05-23"^^xsd:date ;
     schema:keywords unggim:LandParcels ;

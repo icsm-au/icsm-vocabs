@@ -1,5 +1,4 @@
 PREFIX : <https://linked.data.gov.au/def/population-zone/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/population-zone>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -42,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    reg:status astatus:experimental ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     owl:versionIRI :1.0 ;
     owl:versionInfo "1.0" ;
     skos:definition "This vocabulary describes the population zone of rural or urban in which the entity is located. This has also been referred to as zone or entity zone"@en ;

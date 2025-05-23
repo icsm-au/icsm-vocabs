@@ -1,5 +1,4 @@
 PREFIX : <https://linked.data.gov.au/def/road-types/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/road-types>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -3633,7 +3632,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    reg:status astatus:experimental ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     owl:versionIRI :1.0 ;
     owl:versionInfo "1.0" ;
     skos:definition "This vocabulary describes road types. A road type is used as part of a road name and distinguishes the type of road. The road types that do not meet AS/NZS 4819:2011 exist to enable inclusion of roads named prior to the creation of AS/NZS 4819:2011. These types should not be used for any new road designations"@en ;

@@ -1,9 +1,7 @@
 PREFIX : <https://linked.data.gov.au/def/countries/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/countries>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -21,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Андора"@bg ,
@@ -65,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Обединени арабски емирства"@bg ,
@@ -105,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Афганистан"@bg ,
@@ -145,7 +143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Антигуа и Барбуда"@bg ,
@@ -185,7 +183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ангила"@bg ,
@@ -226,7 +224,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Албания"@bg ,
@@ -270,7 +268,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Армения"@bg ,
@@ -314,7 +312,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AN
     a skos:Concept ;
-    reg:status astatus:invalid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Netherlands Antilles"@en ;
     skos:exactMatch
@@ -329,7 +327,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ангола"@bg ,
@@ -369,7 +367,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AQ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Антарктика"@bg ,
@@ -409,7 +407,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Аржентина"@bg ,
@@ -449,7 +447,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Американска Самоа"@bg ,
@@ -489,7 +487,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Австрия"@bg ,
@@ -539,7 +537,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Австралия"@bg ,
@@ -582,7 +580,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Аруба"@bg ,
@@ -623,7 +621,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AX
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстрови Оланд"@bg ,
@@ -662,7 +660,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Азербайджан"@bg ,
@@ -706,7 +704,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Босна и Херцеговина"@bg ,
@@ -750,7 +748,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BB
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Барбадос"@bg ,
@@ -790,7 +788,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бангладеш"@bg ,
@@ -830,7 +828,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Белгия"@bg ,
@@ -880,7 +878,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Буркина Фасо"@bg ,
@@ -920,7 +918,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "България"@bg ,
@@ -969,7 +967,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бахрейн"@bg ,
@@ -1009,7 +1007,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бурунди"@bg ,
@@ -1049,7 +1047,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BJ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бенин"@bg ,
@@ -1089,7 +1087,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сен Бартелеми"@bg ,
@@ -1130,7 +1128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бермуда"@bg ,
@@ -1171,7 +1169,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бруней"@bg ,
@@ -1211,7 +1209,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Боливия"@bg ,
@@ -1251,7 +1249,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BQ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Caribbean Netherlands" ;
     skos:exactMatch
@@ -1265,7 +1263,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бразилия"@bg ,
@@ -1305,7 +1303,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бахамски острови"@bg ,
@@ -1345,7 +1343,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Бутан"@bg ,
@@ -1385,7 +1383,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстров Буве"@bg ,
@@ -1426,7 +1424,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ботсуана"@bg ,
@@ -1466,7 +1464,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Беларус"@bg ,
@@ -1511,7 +1509,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :BZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Белиз"@bg ,
@@ -1551,7 +1549,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Канада"@bg ,
@@ -1593,7 +1591,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кокосови острови"@bg ,
@@ -1633,7 +1631,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Демократична република Конго"@bg ,
@@ -1674,7 +1672,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Централноафриканска република"@bg ,
@@ -1714,7 +1712,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Конго"@bg ,
@@ -1755,7 +1753,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Швейцария"@bg ,
@@ -1801,7 +1799,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кот д’Ивоар"@bg ,
@@ -1841,7 +1839,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстрови Кук"@bg ,
@@ -1881,7 +1879,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Чили"@bg ,
@@ -1921,7 +1919,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Камерун"@bg ,
@@ -1961,7 +1959,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Китай"@bg ,
@@ -2001,7 +1999,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Колумбия"@bg ,
@@ -2041,7 +2039,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Коста Рика"@bg ,
@@ -2081,7 +2079,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Куба"@bg ,
@@ -2121,7 +2119,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кабо Верде"@bg ,
@@ -2161,7 +2159,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Curaçao"@en ;
     skos:exactMatch
@@ -2175,7 +2173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CX
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстров Рождество"@bg ,
@@ -2215,7 +2213,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кипър"@bg ,
@@ -2265,7 +2263,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Чешка република"@bg ,
@@ -2315,7 +2313,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Германия"@bg ,
@@ -2365,7 +2363,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DJ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Джибути"@bg ,
@@ -2405,7 +2403,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Дания"@bg ,
@@ -2455,7 +2453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Доминика"@bg ,
@@ -2495,7 +2493,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Доминиканска република"@bg ,
@@ -2535,7 +2533,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :DZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Алжир"@bg ,
@@ -2579,7 +2577,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :EC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Еквадор"@bg ,
@@ -2619,7 +2617,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :EE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Естония"@bg ,
@@ -2669,7 +2667,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :EG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Египет"@bg ,
@@ -2713,7 +2711,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :EH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Западна Сахара"@bg ,
@@ -2753,7 +2751,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ER
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Еритрея"@bg ,
@@ -2793,7 +2791,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ES
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Испания"@bg ,
@@ -2843,7 +2841,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ET
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Етиопия"@bg ,
@@ -2883,7 +2881,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Финландия"@bg ,
@@ -2933,7 +2931,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FJ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Фиджи"@bg ,
@@ -2973,7 +2971,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Фолкландски острови"@bg ,
@@ -3014,7 +3012,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Микронезия"@bg ,
@@ -3054,7 +3052,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Фарьорски острови"@bg ,
@@ -3095,7 +3093,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :FR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Франция"@bg ,
@@ -3145,7 +3143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Габон"@bg ,
@@ -3185,7 +3183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GB
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Обединено кралство"@bg ,
@@ -3235,7 +3233,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гренада"@bg ,
@@ -3275,7 +3273,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Грузия"@bg ,
@@ -3319,7 +3317,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Френска Гвиана"@bg ,
@@ -3359,7 +3357,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гърнзи"@bg ,
@@ -3399,7 +3397,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гана"@bg ,
@@ -3439,7 +3437,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гибралтар"@bg ,
@@ -3483,7 +3481,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гренландия"@bg ,
@@ -3527,7 +3525,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Gambija"@bg ,
@@ -3566,7 +3564,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гвинея"@bg ,
@@ -3606,7 +3604,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GP
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гваделупа"@bg ,
@@ -3646,7 +3644,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GQ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Екваториална Гвинея"@bg ,
@@ -3686,7 +3684,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гърция"@bg ,
@@ -3736,7 +3734,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Южна Джорджия и Южни Сандвичеви острови"@bg ,
@@ -3777,7 +3775,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гватемала"@bg ,
@@ -3817,7 +3815,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гуам"@bg ,
@@ -3857,7 +3855,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гвинея Бисау"@bg ,
@@ -3897,7 +3895,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :GY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Гвиана"@bg ,
@@ -3937,7 +3935,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Хонконг"@bg ,
@@ -3977,7 +3975,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Heard Island and McDonald Islands"@en ;
     skos:exactMatch
@@ -3992,7 +3990,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Honduras"@en ;
     skos:exactMatch
@@ -4007,7 +4005,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Хърватия"@bg ,
@@ -4055,7 +4053,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Хаити"@bg ,
@@ -4095,7 +4093,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :HU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Унгария"@bg ,
@@ -4145,7 +4143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ID
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Индонезия"@bg ,
@@ -4185,7 +4183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ирландия"@bg ,
@@ -4235,7 +4233,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Израел"@bg ,
@@ -4278,7 +4276,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Остров Ман"@bg ,
@@ -4318,7 +4316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Индия"@bg ,
@@ -4358,7 +4356,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Британски територии в Индийския океан"@bg ,
@@ -4399,7 +4397,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IQ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ирак"@bg ,
@@ -4439,7 +4437,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Иран"@bg ,
@@ -4479,7 +4477,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Исландия"@bg ,
@@ -4524,7 +4522,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :IT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Италия"@bg ,
@@ -4573,7 +4571,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :JE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Джърси"@bg ,
@@ -4613,7 +4611,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :JM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ямайка"@bg ,
@@ -4653,7 +4651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :JO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Йордания"@bg ,
@@ -4696,7 +4694,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :JP
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Япония"@bg ,
@@ -4738,7 +4736,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кения"@bg ,
@@ -4778,7 +4776,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Киргизстан"@bg ,
@@ -4822,7 +4820,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Камбоджа"@bg ,
@@ -4862,7 +4860,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кирибати"@bg ,
@@ -4902,7 +4900,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Коморски острови"@bg ,
@@ -4942,7 +4940,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сейнт Китс и Невис"@bg ,
@@ -4982,7 +4980,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KP
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Северна Корея"@bg ,
@@ -5022,7 +5020,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Южна Корея"@bg ,
@@ -5062,7 +5060,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кувейт"@bg ,
@@ -5102,7 +5100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Кайманови острови"@bg ,
@@ -5143,7 +5141,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :KZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Казахстан"@bg ,
@@ -5187,7 +5185,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Лаос"@bg ,
@@ -5227,7 +5225,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LB
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ливан"@bg ,
@@ -5270,7 +5268,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сейнт Лусия"@bg ,
@@ -5310,7 +5308,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Лихтенщайн"@bg ,
@@ -5355,7 +5353,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Шри Ланка"@bg ,
@@ -5395,7 +5393,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Либерия"@bg ,
@@ -5435,7 +5433,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Лесото"@bg ,
@@ -5475,7 +5473,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Литва"@bg ,
@@ -5525,7 +5523,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Люксембург"@bg ,
@@ -5575,7 +5573,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Латвия"@bg ,
@@ -5625,7 +5623,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :LY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Либия"@bg ,
@@ -5669,7 +5667,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мароко"@bg ,
@@ -5713,7 +5711,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Монако"@bg ,
@@ -5757,7 +5755,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Молдова"@bg ,
@@ -5801,7 +5799,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Черна гора"@bg ,
@@ -5847,7 +5845,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сен Мартен"@bg ,
@@ -5888,7 +5886,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мадагаскар"@bg ,
@@ -5928,7 +5926,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Маршалови острови"@bg ,
@@ -5968,7 +5966,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "The Republic of North Macedonia"@en ;
     skos:definition "Country of North Macedonia"@en ;
@@ -5990,7 +5988,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ML
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мали"@bg ,
@@ -6030,7 +6028,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мианмар/Бирма"@bg ,
@@ -6070,7 +6068,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Монголия"@bg ,
@@ -6111,7 +6109,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Макао"@bg ,
@@ -6151,7 +6149,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MP
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Северни Мариански острови"@bg ,
@@ -6191,7 +6189,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MQ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мартиника"@bg ,
@@ -6231,7 +6229,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мавритания"@bg ,
@@ -6271,7 +6269,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Монтсерат"@bg ,
@@ -6312,7 +6310,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Малта"@bg ,
@@ -6362,7 +6360,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мавриций"@bg ,
@@ -6402,7 +6400,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Малдивски острови"@bg ,
@@ -6442,7 +6440,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Малави"@bg ,
@@ -6482,7 +6480,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мексико"@bg ,
@@ -6522,7 +6520,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Малайзия"@bg ,
@@ -6562,7 +6560,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Мозамбик"@bg ,
@@ -6602,7 +6600,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Намибия"@bg ,
@@ -6642,7 +6640,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Нова Каледония"@bg ,
@@ -6683,7 +6681,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Нигер"@bg ,
@@ -6723,7 +6721,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстров Норфолк"@bg ,
@@ -6763,7 +6761,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Нигерия"@bg ,
@@ -6803,7 +6801,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Никарагуа"@bg ,
@@ -6843,7 +6841,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Нидерландия"@bg ,
@@ -6893,7 +6891,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Норвегия"@bg ,
@@ -6939,7 +6937,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NP
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Непал"@bg ,
@@ -6979,7 +6977,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Науру"@bg ,
@@ -7019,7 +7017,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ниуе"@bg ,
@@ -7059,7 +7057,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Нова Зеландия"@bg ,
@@ -7101,7 +7099,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :OM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Оман"@bg ,
@@ -7141,7 +7139,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Панама"@bg ,
@@ -7181,7 +7179,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Перу"@bg ,
@@ -7221,7 +7219,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Френска Полинезия"@bg ,
@@ -7262,7 +7260,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Папуа-Нова Гвинея"@bg ,
@@ -7302,7 +7300,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Филипини"@bg ,
@@ -7342,7 +7340,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Пакистан"@bg ,
@@ -7382,7 +7380,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Полша"@bg ,
@@ -7432,7 +7430,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сен Пиер и Микелон"@bg ,
@@ -7473,7 +7471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Oстрови Питкерн"@bg ,
@@ -7514,7 +7512,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Пуерто Рико"@bg ,
@@ -7554,7 +7552,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Palestine"@en ;
     skos:exactMatch
@@ -7572,7 +7570,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Португалия"@bg ,
@@ -7622,7 +7620,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Палау"@bg ,
@@ -7662,7 +7660,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :PY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Парагвай"@bg ,
@@ -7702,7 +7700,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :QA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Катар"@bg ,
@@ -7742,7 +7740,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Реюнион"@bg ,
@@ -7782,7 +7780,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Румъния"@bg ,
@@ -7831,7 +7829,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сърбия"@bg ,
@@ -7875,7 +7873,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Русия"@bg ,
@@ -7919,7 +7917,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Руанда"@bg ,
@@ -7959,7 +7957,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Саудитска Арабия"@bg ,
@@ -7999,7 +7997,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SB
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Соломонови острови"@bg ,
@@ -8039,7 +8037,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сейшелски острови"@bg ,
@@ -8079,7 +8077,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Судан"@bg ,
@@ -8119,7 +8117,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Швеция"@bg ,
@@ -8169,7 +8167,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сингапур"@bg ,
@@ -8209,7 +8207,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Света Елена, Възнесение и Тристан да Куня"@bg ,
@@ -8250,7 +8248,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Словения"@bg ,
@@ -8300,7 +8298,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SJ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Свалбард и Ян Майен"@bg ,
@@ -8341,7 +8339,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Словакия"@bg ,
@@ -8391,7 +8389,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сиера Леоне"@bg ,
@@ -8431,7 +8429,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сан Марино"@bg ,
@@ -8475,7 +8473,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сенегал"@bg ,
@@ -8515,7 +8513,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сомалия"@bg ,
@@ -8555,7 +8553,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Суринам"@bg ,
@@ -8595,7 +8593,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of South Sudan"@en ;
     skos:exactMatch
@@ -8609,7 +8607,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ST
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сао Томе и Принсипи"@bg ,
@@ -8649,7 +8647,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Ел Салвадор"@bg ,
@@ -8689,7 +8687,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SX
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country of Sint Maarten"@en ;
     skos:exactMatch
@@ -8703,7 +8701,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сирия"@bg ,
@@ -8746,7 +8744,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :SZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Свазиленд"@bg ,
@@ -8786,7 +8784,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Търкс и Кайкос"@bg ,
@@ -8827,7 +8825,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TD
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Чад"@bg ,
@@ -8867,7 +8865,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Francuske Južne i Antarktičke Zemlje"@bg ,
@@ -8908,7 +8906,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Того"@bg ,
@@ -8948,7 +8946,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TH
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тайланд"@bg ,
@@ -8988,7 +8986,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TJ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Таджикистан"@bg ,
@@ -9032,7 +9030,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Токелау"@bg ,
@@ -9072,7 +9070,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TL
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Източен Тимор"@bg ,
@@ -9112,7 +9110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Туркменистан"@bg ,
@@ -9156,7 +9154,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тунис"@bg ,
@@ -9200,7 +9198,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TO
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тонга"@bg ,
@@ -9240,7 +9238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TR
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Турция"@bg ,
@@ -9286,7 +9284,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тринидад и Тобаго"@bg ,
@@ -9326,7 +9324,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TV
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тувалу"@bg ,
@@ -9366,7 +9364,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Тайван"@bg ,
@@ -9406,7 +9404,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :TZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Танзания"@bg ,
@@ -9446,7 +9444,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :UA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Украйна"@bg ,
@@ -9490,7 +9488,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :UG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Уганда"@bg ,
@@ -9530,7 +9528,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :UM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Малки отдалечени острови на Съединените щати"@bg ,
@@ -9570,7 +9568,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Съединени щати"@bg ,
@@ -9613,7 +9611,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :UY
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Уругвай"@bg ,
@@ -9653,7 +9651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :UZ
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Узбекистан"@bg ,
@@ -9697,7 +9695,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Светия престол/"@bg ,
@@ -9740,7 +9738,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VC
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Сейнт Винсънт и Гренадини"@bg ,
@@ -9780,7 +9778,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Венецуела"@bg ,
@@ -9820,7 +9818,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VG
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Британски Вирджински острови"@bg ,
@@ -9861,7 +9859,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VI
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Американски Вирджински острови"@bg ,
@@ -9901,7 +9899,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VN
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Виетнам"@bg ,
@@ -9941,7 +9939,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :VU
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Вануату"@bg ,
@@ -9981,7 +9979,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :WF
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Уолис и Футуна"@bg ,
@@ -10022,7 +10020,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :WS
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Самоа"@bg ,
@@ -10062,7 +10060,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :XK
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:definition "As established under UNSCR 1244/99" ;
     skos:exactMatch
@@ -10082,7 +10080,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :YE
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Йемен"@bg ,
@@ -10122,7 +10120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :YT
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Майот"@bg ,
@@ -10163,7 +10161,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ZA
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Южна Африка"@bg ,
@@ -10205,7 +10203,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ZM
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Замбия"@bg ,
@@ -10245,7 +10243,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ZW
     a skos:Concept ;
-    reg:status astatus:valid ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/valid> ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
         "Зимбабве"@bg ,
@@ -10286,7 +10284,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a
         skos:ConceptScheme ;
-    reg:status astatus:stable ;
     owl:versionIRI :1.0 ;
     owl:versionInfo "1.0" ;
     skos:definition "Country codes and names from ISO-3166."@en ;

@@ -1,5 +1,4 @@
 PREFIX : <https://linked.data.gov.au/def/fsdf/themes/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/fsdf/themes>
 PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -650,7 +649,6 @@ fsdf:Theme
 
 cs:
     a skos:ConceptScheme ;
-    reg:status astatus:stable ;
     owl:deprecated true ;
     owl:versionIRI :1.1 ;
     owl:versionInfo "1.1"^^xsd:string ;
