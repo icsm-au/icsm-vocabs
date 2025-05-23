@@ -16,9 +16,10 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact
                 "vocabs/Addresses/addr-classes.ttl" ,
-                "vocabs/Addresses/geocode-types.ttl" ,
-                "vocabs/Addresses/building-level-types.ttl" ,
+                "vocabs/Addresses/addr-part-types.ttl" ,
                 "vocabs/Addresses/addr-status-types.ttl" ,
+                "vocabs/Addresses/building-level-types.ttl" ,
+                "vocabs/Addresses/geocode-types.ttl" ,
                 "vocabs/Addresses/subaddress-types.ttl" ,
                 "vocabs/GeographicalNames/gn-affix.ttl" ,
                 "vocabs/GeographicalNames/gn-part-types.ttl" ,
