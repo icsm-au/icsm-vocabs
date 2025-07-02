@@ -108,6 +108,7 @@ PREFIX schema: <https://schema.org/>
                 "vocabs/TransportNetworks/road-lane-counts.ttl" ,
                 "vocabs/TransportNetworks/road-lrrs-indicators.ttl" ,
                 "vocabs/TransportNetworks/road-maintainers.ttl" ,
+                "vocabs/TransportNetworks/road-name-part-types.ttl" ,
                 "vocabs/TransportNetworks/road-operational-statuses.ttl" ,
                 "vocabs/TransportNetworks/road-owners.ttl" ,
                 "vocabs/TransportNetworks/road-scr-indicators.ttl" ,
