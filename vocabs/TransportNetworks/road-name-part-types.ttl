@@ -67,7 +67,6 @@ cs:
     skos:definition "This vocabulary describes values of name part types used in road naming"@en ;
     skos:hasTopConcept
         :roadGivenName ,
-        :roadPrefix ,
         :roadSuffix ,
         :roadType ;
         skos:historyNote """2025-05 NJC: Added status experimental
