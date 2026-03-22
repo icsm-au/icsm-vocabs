@@ -10,7 +10,7 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
-            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
+            schema:description "The definition of, and metadata for, the container which here is a dcat:Catalog object" ;
             schema:name "Catalogue Definition"
         ] ,
         [
