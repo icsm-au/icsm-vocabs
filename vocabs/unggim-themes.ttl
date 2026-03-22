@@ -440,7 +440,7 @@ There are an increasing number of these sensors available for both satellite and
     a schema:Person ;
     schema:email "beyza.yaman@adaptcentre.ie"^^xsd:anyURI ;
     schema:name "Beyza Yaman" ;
-    schema:url "https://dblp.org/pers/y/Yaman:Beyza.html" ;
+    schema:url "https://dblp.org/pers/y/Yaman:Beyza.html"^^xsd:anyURI ;
 .
 
 :Addresses

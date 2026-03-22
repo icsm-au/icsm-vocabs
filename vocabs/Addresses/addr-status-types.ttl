@@ -3,24 +3,29 @@ PREFIX cs: <https://linked.data.gov.au/def/addr-status-type>
 PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:1.0
-    schema:name "1.0" ;
+:qld
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Queensland-specific address status types" ;
+    skos:historyNote "Collection added by Queensland on 6 March 2024"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :alternative ,
+        :primary ,
+        :unknown ;
+    skos:prefLabel "Queensland Address Status" ;
+    prov:wasDerivedFrom cs: ;
 .
 
-:alternative
-    a skos:Concept ;
-    skos:definition "An additional address that refers to the same physical location as a Primary Address. This may relate to an alternative access point to the same address site"@en ;
-    skos:historyNote "AS/NZS4819:2011" ;
-    skos:inScheme cs: ;
-    skos:notation "A"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
-    skos:prefLabel "alternative"@en ;
-    schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
+:1.0
+    schema:name "1.0" ;
 .
 
 :official
@@ -32,6 +37,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :alternative ,
         :primary ;
     skos:prefLabel "official"@en ;
+.
+
+:unofficial
+    a skos:Concept ;
+    skos:definition "The address was not assigned by an official addressing authority"@en ;
+    skos:historyNote "Presented in the original ISO19160-1 standard’s AddressStatus codelist" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unofficial"@en ;
+.
+
+:alternative
+    a skos:Concept ;
+    skos:definition "An additional address that refers to the same physical location as a Primary Address. This may relate to an alternative access point to the same address site"@en ;
+    skos:historyNote "AS/NZS4819:2011" ;
+    skos:inScheme cs: ;
+    skos:notation "A"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:prefLabel "alternative"@en ;
+    schema:citation "https://store.standards.org.au/product/as-nzs-iso-19160-1-2018"^^xsd:anyURI ;
 .
 
 :primary
@@ -50,14 +73,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Presented in the original ISO19160-1 standard’s AddressStatus codelist" ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
-.
-
-:unofficial
-    a skos:Concept ;
-    skos:definition "The address was not assigned by an official addressing authority"@en ;
-    skos:historyNote "Presented in the original ISO19160-1 standard’s AddressStatus codelist" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "unofficial"@en ;
 .
 
 cs:
