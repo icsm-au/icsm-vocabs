@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-type.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:N67e6c9f0640d460cb4d990d013ef8696 ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:Nd174d81ad1b142d5a95a321445bbaa1c ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:25:03.114392"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:25:03.035587"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:21.511535"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:21.433442"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-type.csv> ] ;
-            prov:wasAssociatedWith _:N67e6c9f0640d460cb4d990d013ef8696 ;
+            prov:wasAssociatedWith _:Nd174d81ad1b142d5a95a321445bbaa1c ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/wa-parcel-type/community-titles-building-scheme> a skos:Concept,
         surv:ParcelType ;
@@ -60,7 +60,7 @@
     skos:prefLabel "WA Parcel Type" ;
     skos:scopeNote "surv:ParcelType" .
 
-_:N67e6c9f0640d460cb4d990d013ef8696 a prov:Agent,
+_:Nd174d81ad1b142d5a95a321445bbaa1c a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

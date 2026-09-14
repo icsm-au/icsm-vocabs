@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-procedure-used.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:N5724396102804377bc6da7f00c9f2aa6 ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:N8f2700de77eb43039682c550660673e2 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:24:56.763528"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:24:56.676737"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:19.876461"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:19.792483"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-procedure-used.csv> ] ;
-            prov:wasAssociatedWith _:N5724396102804377bc6da7f00c9f2aa6 ;
+            prov:wasAssociatedWith _:N8f2700de77eb43039682c550660673e2 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/wa-procedure-used/SSA> a skos:Concept,
         sosa:Procedure ;
@@ -103,7 +103,7 @@
     skos:prefLabel "WA Survey Procedures" ;
     skos:scopeNote "sosa:Procedure" .
 
-_:N5724396102804377bc6da7f00c9f2aa6 a prov:Agent,
+_:N8f2700de77eb43039682c550660673e2 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-local-government-area.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:Nf17620c2a813466a99d53c0acc99e4fd ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:N775a8548373e4d1db8bf78b528d82320 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:25:02.097577"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:25:01.946826"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:27.348776"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:27.201913"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-local-government-area.csv> ] ;
-            prov:wasAssociatedWith _:Nf17620c2a813466a99d53c0acc99e4fd ;
+            prov:wasAssociatedWith _:N775a8548373e4d1db8bf78b528d82320 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/vic-local-government-area/300> a skos:Concept,
         termtype:AdminUnit ;
@@ -626,7 +626,7 @@
     skos:prefLabel "VIC Local Government Areas" ;
     skos:scopeNote "termtype:AdminUnit" .
 
-_:Nf17620c2a813466a99d53c0acc99e4fd a prov:Agent,
+_:N775a8548373e4d1db8bf78b528d82320 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

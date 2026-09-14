@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-annotation.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:Nec1f46c8314b4f12873752ce78548419 ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:N28f689f69403476bbbec35a829d5d580 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:25:03.798086"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:25:03.723603"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:21.316304"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:21.244816"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-annotation.csv> ] ;
-            prov:wasAssociatedWith _:Nec1f46c8314b4f12873752ce78548419 ;
+            prov:wasAssociatedWith _:N28f689f69403476bbbec35a829d5d580 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/nz-annotation/certification> a skos:Concept,
         termtype:Annotation ;
@@ -31,7 +31,7 @@
     skos:prefLabel "NZ CSD Annotation" ;
     skos:scopeNote "termtype:Annotation" .
 
-_:Nec1f46c8314b4f12873752ce78548419 a prov:Agent,
+_:N28f689f69403476bbbec35a829d5d580 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

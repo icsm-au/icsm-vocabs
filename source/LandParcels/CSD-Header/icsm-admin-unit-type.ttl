@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/icsm-admin-unit-type.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:Nf46903ad6d604298a725e577e55acb86 ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:N12a77d5544e74ece89d9980d32be166d ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:25:08.746788"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:25:08.666601"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:22.854975"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:22.777151"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/icsm-admin-unit-type.csv> ] ;
-            prov:wasAssociatedWith _:Nf46903ad6d604298a725e577e55acb86 ;
+            prov:wasAssociatedWith _:N12a77d5544e74ece89d9980d32be166d ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/county> a skos:Concept,
         termtype:AdminUnitType ;
@@ -69,7 +69,7 @@
     skos:prefLabel "ICSM Administrative Unit Types" ;
     skos:scopeNote "termtype:AdminUnitType" .
 
-_:Nf46903ad6d604298a725e577e55acb86 a prov:Agent,
+_:N12a77d5544e74ece89d9980d32be166d a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

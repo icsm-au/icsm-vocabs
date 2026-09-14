@@ -8,18 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-vector-purpose.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
-    prov:wasAttributedTo _:Nc0e760314d6a4ebbb739b724e81fcf76 ;
+    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
+    prov:wasAttributedTo _:Nfcbf5aaec03c4984bf8b00f1696212b9 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:25:02.686510"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:25:02.495366"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:28:34.027608"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:28:33.744455"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    dct:hasVersion "git:f58dd5edbf304d36636cb07bce5f4da06b7a3331" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-vector-purpose.csv> ] ;
-            prov:wasAssociatedWith _:Nc0e760314d6a4ebbb739b724e81fcf76 ;
+            prov:wasAssociatedWith _:Nfcbf5aaec03c4984bf8b00f1696212b9 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+                    dct:identifier "2b322def-51cb-40f3-960a-d4d65baff684" ] ] .
 
 <https://linked.data.gov.au/def/csdm/wa-vector-purpose/3D-Construct> a skos:Concept,
         termtype:VectorPurpose ;
@@ -1025,7 +1025,7 @@
     skos:prefLabel "WA Vector Purpose" ;
     skos:scopeNote "termtype:VectorPurpose" .
 
-_:Nc0e760314d6a4ebbb739b724e81fcf76 a prov:Agent,
+_:Nfcbf5aaec03c4984bf8b00f1696212b9 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;
