@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Administrative Unit Types",
+  "class": "termtype:AdminUnitType",
+  "concepts": [
+    {
+      "preflabel": "Land District",
+      "definition": "A Land District is a NZ administrative area that all titles and surveys were registered against prior to Landonline.",
+      "notation": "landDistrict",
+      "altlabel": null,
+      "related": null,
+      "@id": "landDistrict",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Territorial Authority",
+      "definition": "A NZ territorial authority is defined under the Local Government Act 2002, NZ, as a city or a district council",
+      "notation": "territorialAuthority",
+      "altlabel": "Municipality",
+      "related": null,
+      "@id": "territorialAuthority",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "County",
+      "definition": "A Victorian cadastral division for cadastral or land administration purposes",
+      "notation": "county",
+      "altlabel": null,
+      "related": null,
+      "@id": "county",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Parish",
+      "definition": "A subdivision of a Victorian County",
+      "notation": "parish",
+      "altlabel": null,
+      "related": null,
+      "@id": "parish",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Local Government Area",
+      "definition": "Local government is the third level of government in Australia, administered with limited autonomy under the states and territories, and in turn beneath the federal government",
+      "notation": "localGovernmentArea",
+      "altlabel": "Local Government",
+      "related": "Municipality",
+      "@id": "localGovernmentArea",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Locality",
+      "definition": "A subdivision of a Western Australian Local Government Area",
+      "notation": "locality",
+      "altlabel": null,
+      "related": null,
+      "@id": "locality",
+      "type": "termtype:AdminUnitType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

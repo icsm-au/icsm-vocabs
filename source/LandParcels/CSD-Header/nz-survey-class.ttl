@@ -1,0 +1,61 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-class.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nce518183de0340a9ac286843bc8686d9 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.198720"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.117948"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-class.csv> ] ;
+            prov:wasAssociatedWith _:Nce518183de0340a9ac286843bc8686d9 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-class/a> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Urban and the most accurate. The class A tolerance for boundary points increases from 0.06m at a rate of 0.015m per 100m." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-class> ;
+    skos:notation "a" ;
+    skos:prefLabel "Class A" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-class/b> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Rural and not as accurate as class A. The class B tolerance for boundary points increases from 0.30m at a rate of 0.06m per 100m." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-class> ;
+    skos:notation "b" ;
+    skos:prefLabel "Class B" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-class/c> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Used in specified rural circumstances where a less accurate boundary is acceptable. The class C tolerance for boundary points increases from 1.00m at a rate of 0.30m per 100m." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-class> ;
+    skos:notation "c" ;
+    skos:prefLabel "Class C" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-class/d> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "(used in exceptional circumstances where the existing boundary accuracy is unknown or unable to be determined and it is appropriate to permit these inaccuracies to remain" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-class> ;
+    skos:notation "d" ;
+    skos:prefLabel "Class D" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-class> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Survey Class" ;
+    skos:scopeNote "termtype:SurveyType" .
+
+_:Nce518183de0340a9ac286843bc8686d9 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

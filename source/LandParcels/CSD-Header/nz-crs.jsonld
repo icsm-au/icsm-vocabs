@@ -1,0 +1,572 @@
+{
+  "@context": [
+    {
+      "@base": "http://www.opengis.net/def/crs/EPSG/0/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "http://www.opengis.net/def/crs/EPSG/0",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Coordinate Reference Systems",
+  "class": "termtype:AllowableCoordinateReferenceSystem",
+  "concepts": [
+    {
+      "preflabel": "NZGD2000 / Collingwood 2000",
+      "definition": null,
+      "notation": "2114",
+      "altlabel": "COLLTM2000",
+      "related": null,
+      "@id": "2114",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Collingwood Circuit",
+      "definition": null,
+      "notation": "27214",
+      "altlabel": "COLLTM1949",
+      "related": null,
+      "@id": "27214",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Gawler 2000",
+      "definition": null,
+      "notation": "2125",
+      "altlabel": "GAWLTM2000",
+      "related": null,
+      "@id": "2125",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Gawler Circuit",
+      "definition": null,
+      "notation": "27225",
+      "altlabel": "GAWLTM1949",
+      "related": null,
+      "@id": "27225",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Grey 2000",
+      "definition": null,
+      "notation": "2118",
+      "altlabel": "GREYTM2000",
+      "related": null,
+      "@id": "2118",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Grey Circuit",
+      "definition": null,
+      "notation": "27218",
+      "altlabel": "GREYTM1949",
+      "related": null,
+      "@id": "27218",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Hawkes Bay 2000",
+      "definition": null,
+      "notation": "2108",
+      "altlabel": "HAWKTM2000",
+      "related": null,
+      "@id": "2108",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Hawkes Bay Circuit",
+      "definition": null,
+      "notation": "27208",
+      "altlabel": "HAWKTM1949",
+      "related": null,
+      "@id": "27208",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Hokitika 2000",
+      "definition": null,
+      "notation": "2121",
+      "altlabel": "HOKITM2000",
+      "related": null,
+      "@id": "2121",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Hokitika Circuit",
+      "definition": null,
+      "notation": "27221",
+      "altlabel": "HOKITM1949",
+      "related": null,
+      "@id": "27221",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Jacksons Bay 2000",
+      "definition": null,
+      "notation": "2123",
+      "altlabel": "JACKTM2000",
+      "related": null,
+      "@id": "2123",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Jacksons Bay Circuit",
+      "definition": null,
+      "notation": "27223",
+      "altlabel": "JACKTM1949",
+      "related": null,
+      "@id": "27223",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Karamea 2000",
+      "definition": null,
+      "notation": "2116",
+      "altlabel": "KARATM2000",
+      "related": null,
+      "@id": "2116",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Karamea Circuit",
+      "definition": null,
+      "notation": "27216",
+      "altlabel": "KARATM1949",
+      "related": null,
+      "@id": "27216",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Lindis Peak 2000",
+      "definition": null,
+      "notation": "2127",
+      "altlabel": "LINDTM2000",
+      "related": null,
+      "@id": "2127",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Lindis Peak Circuit",
+      "definition": null,
+      "notation": "27227",
+      "altlabel": "LINDTM1949",
+      "related": null,
+      "@id": "27227",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Marlborough 2000",
+      "definition": null,
+      "notation": "2120",
+      "altlabel": "MARLTM2000",
+      "related": null,
+      "@id": "2120",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Marlborough Circuit",
+      "definition": null,
+      "notation": "27220",
+      "altlabel": "MARLTM1949",
+      "related": null,
+      "@id": "27220",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Mount Eden 2000",
+      "definition": null,
+      "notation": "2105",
+      "altlabel": "EDENTM2000",
+      "related": null,
+      "@id": "2105",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Mount Eden Circuit",
+      "definition": null,
+      "notation": "27205",
+      "altlabel": "EDENTM1949",
+      "related": null,
+      "@id": "27205",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Bay of Plenty 2000",
+      "definition": null,
+      "notation": "2106",
+      "altlabel": "PLENTM2000",
+      "related": null,
+      "@id": "2106",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Bay of Plenty Circuit",
+      "definition": null,
+      "notation": "27206",
+      "altlabel": "PLENTM1949",
+      "related": null,
+      "@id": "27206",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Mount Pleasant 2000",
+      "definition": null,
+      "notation": "2124",
+      "altlabel": "PLEATM2000",
+      "related": null,
+      "@id": "2124",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Mount Pleasant Circuit",
+      "definition": null,
+      "notation": "27224",
+      "altlabel": "PLEATM1949",
+      "related": null,
+      "@id": "27224",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Mount York 2000",
+      "definition": null,
+      "notation": "2129",
+      "altlabel": "YORKTM2000",
+      "related": null,
+      "@id": "2129",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Mount York Circuit",
+      "definition": null,
+      "notation": "27229",
+      "altlabel": "YORKTM1949",
+      "related": null,
+      "@id": "27229",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Mount Nicholas 2000",
+      "definition": null,
+      "notation": "2128",
+      "altlabel": "NICHTM2000",
+      "related": null,
+      "@id": "2128",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Mount Nicholas Circuit",
+      "definition": null,
+      "notation": "27228",
+      "altlabel": "NICHTM1949",
+      "related": null,
+      "@id": "27228",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Nelson 2000",
+      "definition": null,
+      "notation": "2115",
+      "altlabel": "NELSTM2000",
+      "related": null,
+      "@id": "2115",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Nelson Circuit",
+      "definition": null,
+      "notation": "27215",
+      "altlabel": "NELSTM1949",
+      "related": null,
+      "@id": "27215",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / North Taieri 2000",
+      "definition": null,
+      "notation": "2131",
+      "altlabel": "TAIETM2000",
+      "related": null,
+      "@id": "2131",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / North Taieri Circuit",
+      "definition": null,
+      "notation": "27231",
+      "altlabel": "TAIETM1949",
+      "related": null,
+      "@id": "27231",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Observation Point 2000",
+      "definition": null,
+      "notation": "2130",
+      "altlabel": "OBSETM2000",
+      "related": null,
+      "@id": "2130",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Observation Point Circuit",
+      "definition": null,
+      "notation": "27230",
+      "altlabel": "OBSETM1949",
+      "related": null,
+      "@id": "27230",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Okarito 2000",
+      "definition": null,
+      "notation": "2122",
+      "altlabel": "OKARTM2000",
+      "related": null,
+      "@id": "2122",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Okarito Circuit",
+      "definition": null,
+      "notation": "27222",
+      "altlabel": "OKARTM1949",
+      "related": null,
+      "@id": "27222",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Poverty Bay 2000",
+      "definition": null,
+      "notation": "2107",
+      "altlabel": "POVETM2000",
+      "related": null,
+      "@id": "2107",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Poverty Bay Circuit",
+      "definition": null,
+      "notation": "27207",
+      "altlabel": "POVETM1949",
+      "related": null,
+      "@id": "27207",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Taranaki 2000",
+      "definition": null,
+      "notation": "2109",
+      "altlabel": "TARATM2000",
+      "related": null,
+      "@id": "2109",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Taranaki Circuit",
+      "definition": null,
+      "notation": "27209",
+      "altlabel": "TARATM1949",
+      "related": null,
+      "@id": "27209",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Timaru 2000",
+      "definition": null,
+      "notation": "2126",
+      "altlabel": "TIMATM2000",
+      "related": null,
+      "@id": "2126",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Timaru Circuit",
+      "definition": null,
+      "notation": "27226",
+      "altlabel": "TIMATM1949",
+      "related": null,
+      "@id": "27226",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Tuhirangi 2000",
+      "definition": null,
+      "notation": "2110",
+      "altlabel": "TUHITM2000",
+      "related": null,
+      "@id": "2110",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Tuhirangi Circuit",
+      "definition": null,
+      "notation": "27210",
+      "altlabel": "TUHITM1949",
+      "related": null,
+      "@id": "27210",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Wairarapa 2000",
+      "definition": null,
+      "notation": "2112",
+      "altlabel": "WAIRTM2000",
+      "related": null,
+      "@id": "2112",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Wairarapa Circuit",
+      "definition": null,
+      "notation": "27212",
+      "altlabel": "WAIRTM1949",
+      "related": null,
+      "@id": "27212",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Wanganui 2000",
+      "definition": null,
+      "notation": "2111",
+      "altlabel": "WANGTM2000",
+      "related": null,
+      "@id": "2111",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Wanganui Circuit",
+      "definition": null,
+      "notation": "27211",
+      "altlabel": "WANGTM1949",
+      "related": null,
+      "@id": "27211",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / Wellington 2000",
+      "definition": null,
+      "notation": "2113",
+      "altlabel": "WELLTM2000",
+      "related": null,
+      "@id": "2113",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / Wellington Circuit",
+      "definition": null,
+      "notation": "27213",
+      "altlabel": "WELLTM1949",
+      "related": null,
+      "@id": "27213",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49",
+      "definition": null,
+      "notation": "4272",
+      "altlabel": "NZGD1949",
+      "related": null,
+      "@id": "4272",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000",
+      "definition": null,
+      "notation": "4167",
+      "altlabel": null,
+      "related": null,
+      "@id": "4167",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD49 / New Zealand Map Grid",
+      "definition": null,
+      "notation": "27200",
+      "altlabel": "NZMG",
+      "related": null,
+      "@id": "27200",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZGD2000 / New Zealand Transverse Mercator 2000",
+      "definition": null,
+      "notation": "2193",
+      "altlabel": "NZTM",
+      "related": null,
+      "@id": "2193",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    }
+  ]
+}

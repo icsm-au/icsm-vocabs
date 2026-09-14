@@ -1,0 +1,159 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/condition/nz-condition.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N2e0c2141c5e0486291fec994c624965b ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:56.859220"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:56.768067"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/condition/nz-condition.csv> ] ;
+            prov:wasAssociatedWith _:N2e0c2141c5e0486291fec994c624965b ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/conv> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "Derived from DCDB" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "conv" ;
+    skos:prefLabel "Conversion" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/dest> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was destroyed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "dest" ;
+    skos:prefLabel "Destroyed" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/dmgd> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was damaged" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "dmgd" ;
+    skos:prefLabel "Damaged" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/dngr> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "dngr" ;
+    skos:prefLabel "Dangerous" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/empl> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "New mark placed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "empl" ;
+    skos:prefLabel "Emplaced" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/impm> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The boundary mark could not be placed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "impm" ;
+    skos:prefLabel "Impracticable to Mark" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/mkfd> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark is in good condition and is suitable for survey purposes" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "mkfd" ;
+    skos:prefLabel "Mark Found" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/move> a skos:Concept,
+        surv:ConditionCode ;
+    skos:altLabel "Disturbed" ;
+    skos:definition "The mark has been disturbed from its original position" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "move" ;
+    skos:prefLabel "Moved" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/nacc> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was not accessible" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "nacc" ;
+    skos:prefLabel "Not Accessible" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/nfnd> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark has been searched for and could not be found" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "nfnd" ;
+    skos:prefLabel "Searched For and Not Found" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/nspe> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The condition of the mark was not determined while the survey was being conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "nspe" ;
+    skos:prefLabel "Not Specified" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/relb> a skos:Concept,
+        surv:ConditionCode ;
+    skos:altLabel "Reliable" ;
+    skos:definition "The mark is in good condition and is suitable for survey purposes" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "relb" ;
+    skos:prefLabel "Reliably Placed" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/remv> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was removed when the survey was conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "remv" ;
+    skos:prefLabel "Removed" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/subm> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was submerged" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "subm" ;
+    skos:prefLabel "Submerged" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/temp> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark used during the survey was only a temporary mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "temp" ;
+    skos:prefLabel "Temporary" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/thrt> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was in a position where it may become damaged or destroyed in future e.g., the mark is now the edge of a subsiding cliff" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "thrt" ;
+    skos:prefLabel "Threatened" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/unst> a skos:Concept,
+        surv:ConditionCode ;
+    skos:definition "The mark was in an unstable position" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "unst" ;
+    skos:prefLabel "Unstable" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition/unxt> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-condition> ;
+    skos:notation "unxt" ;
+    skos:prefLabel "Uncertain Existence" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-condition> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Monument Condition" ;
+    skos:scopeNote "surv:ConditionCode" .
+
+_:N2e0c2141c5e0486291fec994c624965b a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

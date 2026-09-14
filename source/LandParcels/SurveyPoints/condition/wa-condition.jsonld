@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-monument-condition/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-monument-condition",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Monument Condition",
+  "class": "surv:ConditionCode",
+  "concepts": [
+    {
+      "preflabel": "OK",
+      "definition": null,
+      "notation": "ok",
+      "altlabel": null,
+      "related": null,
+      "@id": "ok",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Leaning",
+      "definition": null,
+      "notation": "leaning",
+      "altlabel": null,
+      "related": null,
+      "@id": "leaning",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rusted",
+      "definition": null,
+      "notation": "rusted",
+      "altlabel": null,
+      "related": null,
+      "@id": "rusted",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Out of Position",
+      "definition": null,
+      "notation": "out-of-position",
+      "altlabel": null,
+      "related": null,
+      "@id": "out-of-position",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Online",
+      "definition": null,
+      "notation": "online",
+      "altlabel": null,
+      "related": null,
+      "@id": "online",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Offset",
+      "definition": null,
+      "notation": "offset",
+      "altlabel": null,
+      "related": null,
+      "@id": "offset",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Secondary Parcel Type",
+  "class": "surv:ParcelType",
+  "concepts": [
+    {
+      "preflabel": "Freehold",
+      "definition": "Parcel is Freehold Land",
+      "notation": "freehold",
+      "altlabel": null,
+      "related": null,
+      "@id": "freehold",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown",
+      "definition": "Parcel is Crown Land",
+      "notation": "crown",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Leasehold",
+      "definition": "Parcel is Leasehold",
+      "notation": "leasehold",
+      "altlabel": null,
+      "related": null,
+      "@id": "leasehold",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Area",
+      "definition": "An are3a defining multiple easements. May be Freehold, Crown, or Leasehold land",
+      "notation": "easement-area",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-area",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

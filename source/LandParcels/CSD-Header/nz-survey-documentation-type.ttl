@@ -1,0 +1,497 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-documentation-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nf9a249d46a004fc1a0a96e57a5ca1557 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:08.531153"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:08.275394"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-documentation-type.csv> ] ;
+            prov:wasAssociatedWith _:Nf9a249d46a004fc1a0a96e57a5ca1557 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/a-rqt> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Request from a surveyor giving authority for a change to be made to their survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "a-rqt" ;
+    skos:prefLabel "Amendments Request" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/aca> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Affidavit required in support of the claim for accretion to land. Declaration by an independent person verifying that accretion has been caused by the slow and imperceptible build up of land." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "aca" ;
+    skos:prefLabel "Accretion Claim Affidavit" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/acpi> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Additional image of a colour plan." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "acpi" ;
+    skos:prefLabel "Additional Colour Plan Image" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/af> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Form approved for use in registration, either by the Registrar General of Land (RGL) or Senior Regulatory Adviser (SRA). Any fees are paid against the instrument type FAP." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "af" ;
+    skos:prefLabel "Approved Form" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/al> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "List of amendments required to amend a cadastral survey transaction." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "al" ;
+    skos:prefLabel "Amendment List" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/andm> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Correspondence that may accompany a plan returned from the Maori Land Court with the Judge's signature." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "andm" ;
+    skos:prefLabel "Approved notice from MLC" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/aod> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Adjoining owners consents for the definition of boundaries as set out in the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "aod" ;
+    skos:prefLabel "Adjoining Owners Declarations" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/ar> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report of the items amended for a cadastral survey transaction and how the amendments were done." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "ar" ;
+    skos:prefLabel "Amendment Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/ard> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Declined request for issue of an appellation for the creation of a parcel of land." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "ard" ;
+    skos:prefLabel "Appellation Request Declined" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/as> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Schedule of parcels defined in an e-survey for Legalisation or Crown Subdivision purposes. Contains information such as legal description, land status and proposed action. Not to be used for easement/covenant information or for Land Transfer Plans. This SUD type does not bundle with the CSD or Title Plans." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "as" ;
+    skos:prefLabel "Area Schedule" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/c> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Letters and other correspondence associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "c" ;
+    skos:prefLabel "Correspondence" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/c-p> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Miscellaneous consents. Note consents to the deposit of unit plans have a document type of CON and fees are recorded against that instrument type." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "c-p" ;
+    skos:prefLabel "Consent / Permit" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/c-t> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Trustee details for Friendly Societies, etc (as opposed to Charitable Trusts). No fees are paid and the application is not registered." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "c-t" ;
+    skos:prefLabel "Change of Trustee" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/co> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Court Orders received for Lapsing of Caveats, Joint Family Home advertising etc." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "co" ;
+    skos:prefLabel "Court Order" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/cs> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Sheet of calculations associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "cs" ;
+    skos:prefLabel "Calculation Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/cslb-d> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A Supervision Order requested by the Cadastral Survey Licensing Board (CSLB). The affected surveyor submits their survey with a letter from another licensed surveyor (attached as a supporting document) stating that the survey meets the survey rule requirements. The CSLB will advise the affected surveyor when this supporting document type is to be used." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "cslb-d" ;
+    skos:prefLabel "CSLB (Cadastral Survey Licensing Board) Document" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/cspt-dlr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A report prepared by the approving surveyor outlining any anomalies found by a cadastral survey with existing title." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "cspt-dlr" ;
+    skos:prefLabel "Chief Surveyors Plan Report to DLR" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/d-doc> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Document deposited to support a survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "d-doc" ;
+    skos:prefLabel "Deposit Document" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/dar> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report details from Chief Surveyor recommending disciplinary action against a Surveyor." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "dar" ;
+    skos:prefLabel "Disciplinary Action Recommendation" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/db-mlc> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Description of the land as set out by the MLC. Māori Land Court Order copy associated with a Māori Land survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "db-mlc" ;
+    skos:prefLabel "Description of Boundaries ML Court" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/dd> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Details of a particular datum used for a survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "dd" ;
+    skos:prefLabel "Datum Details" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/dlpf> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A template form for the surveyor to complete to indicate the complexity of the e-survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "dlpf" ;
+    skos:prefLabel "Dataset Lodgement Profile Form" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/edd> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A request accompanying a manual dealing requesting LINZ to exempt the conveyancer from having to present it as an e-dealing." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "edd" ;
+    skos:prefLabel "E-Dealing Dispensation" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/eir> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report detailing the errors identified and the impact on other data." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "eir" ;
+    skos:prefLabel "Error Item Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/esftpr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Requests priority processing for an e-survey with an associated lodged dealing. This document is available as a .pdf on the LINZ website. Solicitors can lodge an e-request via workspace, which is automated." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "esftpr" ;
+    skos:prefLabel "E-Survey Fast Track Processing Request Form" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/et> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report of equipment test results." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "et" ;
+    skos:prefLabel "Equipment Test" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/f-r> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Instructions issued for field audit of a cadastral survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "f-r" ;
+    skos:prefLabel "Field Request" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/fi> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Record of observations taken in the field by a surveyor and associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "fi" ;
+    skos:prefLabel "Field Information" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/fq> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A fee query linked to an associated e-dealing or e-survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "fq" ;
+    skos:prefLabel "Fee Query" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/fr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "The report prepared after field audit of a survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "fr" ;
+    skos:prefLabel "Field Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/go> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Miscellaneous geodetic report associated with a geodetic work." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "go" ;
+    skos:prefLabel "Geodetic Other" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/gwr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A report supplied by a geodetic contractor giving details of a geodetic work." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "gwr" ;
+    skos:prefLabel "Geodetic Work Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/lf> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A form included with a survey or dealing transaction when manually lodged." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "lf" ;
+    skos:prefLabel "Lodgement Form" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/m> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Memoranda under s209 Land Transfer Act 2017 (also registered as a document)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "m" ;
+    skos:prefLabel "Memorandum" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/m-vr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Mark and Vectors report for the e-survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "m-vr" ;
+    skos:prefLabel "Mark and Vectors Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/md> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Details of a survey mark. Usually associated with a geodetic mark." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "md" ;
+    skos:prefLabel "Mark Details" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/mp> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Photograph of a mark. Usually associated with a geodetic mark." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "mp" ;
+    skos:prefLabel "Mark Photograph" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/nc> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Confirmation of location of a proposed node/mark." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "nc" ;
+    skos:prefLabel "Node Confirmation" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/o-r> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "The instructions issued for an office audit of a cadastral survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "o-r" ;
+    skos:prefLabel "Office Request" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/oc> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Owner's consent or  adjoining owner's consent submitted as a separate document but as part of a transaction." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "oc" ;
+    skos:prefLabel "Owners Consent" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/od> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Diagram of occupation associated with the survey to attach to a Digital Survey Plan." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "od" ;
+    skos:prefLabel "Occupation Diagram" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/or> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report prepared after office audit of a cadastral survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "or" ;
+    skos:prefLabel "Office Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/p-ar> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A request for LINZ to allocate one or more new title numbers what will issue when a land transfer survey deposits." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "p-ar" ;
+    skos:prefLabel "Pre-Allocation Request" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/p-crl> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A copy of a rejection letter or report from LINZ attached to the re-lodged dealing or survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "p-crl" ;
+    skos:prefLabel "Pre-Check Rejection Letter" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/p-d> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Plot or diagram to support survey definition, e.g., aerial photograph, digitised stream fix." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "p-d" ;
+    skos:prefLabel "Plot / Diagram" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/pa> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Power of Attorney summary (also registered as a document)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "pa" ;
+    skos:prefLabel "Power of Attorney" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/pg> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Commonly used to depict parcels on CSD's that have permanent structure boundaries or stratum boundaries, e.g., Unit & Cross Lease CSD's. Can be used to show plan, elevation or cross-section views. The Plan Graphic forms part of the Survey Diagram and Diagram of Parcels and bundles with the CSD and Title Plans. This SUD type can also be used for a plan returned from the Maori Land Court signed by the Judge to attach to CSD and Title Plans." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "pg" ;
+    skos:prefLabel "Plan Graphic" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/psbg> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Used to depict easements defined by Permanent Structure Boundaries where survey purpose is Easement, Lease or Statutory Easement/Right.  When this supporting document type is selected, the attached documents are incorporated into the CSD or Title Plan images, allowing the CSD to be submitted without spatial capture." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "psbg" ;
+    skos:prefLabel "PSB Non Primary Graphic (PSBG)" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/r-rr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "An online form provided by LINZ to allow conveyancers and surveyors to request LINZ to review the reasons for rejection or requisition of a dealing or survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "r-rr" ;
+    skos:prefLabel "Requisition/Rejection Review" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/r-sfr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "An online form provided by LINZ to allow conveyancers and surveyors to request LINZ to review the fees for rejection or requisition of a dealing or survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "r-sfr" ;
+    skos:prefLabel "Re-submission Fee Review" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/rrn> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Surveyors reply to a requisition associated with a survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "rrn" ;
+    skos:prefLabel "Response to Requisition Notice" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/s-m> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Schedule or memorandum containing information about easements as required by Rule 10.2 of the Rules for Cadastral Survey 2010. Can also be used for recording covenant information required by Rule 10.3 of the Rules for Cadastral Survey 2010." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "s-m" ;
+    skos:prefLabel "Schedule / Memorandum" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/s211> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Request by the Senior Regulatory Adviser (SRA) for a customer to produce an instrument or title." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "s211" ;
+    skos:prefLabel "Request to produce instrument (s211 Land Transfer Act 1952)" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sar> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A report by a surveyor as required by Rule 8.2 of the Rules for Cadastral Survey 2010." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sar" ;
+    skos:prefLabel "Survey Assistance Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sd> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Details of a geodetic site which may contain one or more survey marks." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sd" ;
+    skos:prefLabel "Site Details" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sdg> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A type of plan graphic containing survey data to be incorporated with the Record of Survey. Used to depict survey data that is not required to be captured by the Standard for lodgement of cadastral survey datasets (LINZS70000). For example can be used for recording survey data on Simple and Complex Boundary Reinstatement CSDs." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sdg" ;
+    skos:prefLabel "Survey Data Graphic" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sfw> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Report associated with searching." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sfw" ;
+    skos:prefLabel "Search Fee Wastage" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sp> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Geodetic network planning.",
+        "Photo of survey monuments (usually associated with geodetic marks)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sp" ;
+    skos:prefLabel "Scheme Plan",
+        "Site Photograph" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/sr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A report by a surveyor giving details of a survey as required under the Surveyor-Generals Guidelines." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "sr" ;
+    skos:prefLabel "Survey Report" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/ta-c> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Certification from a TA to attach to a Digital Survey Plan and Digital Title Plan." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "ta-c" ;
+    skos:prefLabel "Territorial Authority (TA) Certificate" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/tac> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Miscellaneous.  Territorial Authority correspondence associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "tac" ;
+    skos:prefLabel "TA Correspondence" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/tacpi> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "A scanned image of a certified paper survey plan." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "tacpi" ;
+    skos:prefLabel "Territorial Authority (TA) Certificate  Plan Image" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/ts> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Traverse sheets associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "ts" ;
+    skos:prefLabel "Traverse Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/uevc> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Valuer's Unit Entitlement and Certification for Unit Developments." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "uevc" ;
+    skos:prefLabel "Unit Entitlements and Valuers Certification" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/wbr> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Record of the position of any new water boundary associated with the survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "wbr" ;
+    skos:prefLabel "Water Boundary Record" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/wi-d> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Request to withdraw an instrument or dealing." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> ;
+    skos:notation "wi-d" ;
+    skos:prefLabel "Withdraw Instrument/Dealing" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-documentation-type> a skos:ConceptScheme ;
+    skos:prefLabel "NZ types of Survey Documentation" ;
+    skos:scopeNote "termtype:DocType" .
+
+_:Nf9a249d46a004fc1a0a96e57a5ca1557 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

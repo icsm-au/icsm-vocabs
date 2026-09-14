@@ -1,0 +1,117 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-land-district.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Na11505a68c3f4a8a941640eac31fa732 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:04.176662"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:04.091543"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-land-district.csv> ] ;
+            prov:wasAssociatedWith _:Na11505a68c3f4a8a941640eac31fa732 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/CB> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Canterbury administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "CB" ;
+    skos:prefLabel "Canterbury" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/GS> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Gisborne administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "GS" ;
+    skos:prefLabel "Gisborne" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/HB> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Hawkes Bay administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "HB" ;
+    skos:prefLabel "Hawkes Bay" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/MB> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Marlborough administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "MB" ;
+    skos:prefLabel "Marlborough" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/NA> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "North Auckland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "NA" ;
+    skos:prefLabel "North Auckland" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/NL> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Nelson administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "NL" ;
+    skos:prefLabel "Nelson" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/OT> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Otago administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "OT" ;
+    skos:prefLabel "Otago" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/SA> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "South Auckland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "SA" ;
+    skos:prefLabel "South Auckland" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/SL> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Southland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "SL" ;
+    skos:prefLabel "Southland" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/TN> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Taranaki administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "TN" ;
+    skos:prefLabel "Taranaki" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/WN> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Wellington administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "WN" ;
+    skos:prefLabel "Wellington" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district/WS> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "Westland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-land-district> ;
+    skos:notation "WS" ;
+    skos:prefLabel "Westland" .
+
+<https://linked.data.gov.au/def/csdm/nz-land-district> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Land Districts" ;
+    skos:scopeNote "termtype:AdminUnit" .
+
+_:Na11505a68c3f4a8a941640eac31fa732 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

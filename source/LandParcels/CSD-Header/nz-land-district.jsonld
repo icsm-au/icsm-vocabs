@@ -1,0 +1,152 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-land-district/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-land-district",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Land Districts",
+  "class": "termtype:AdminUnit",
+  "concepts": [
+    {
+      "preflabel": "North Auckland",
+      "definition": "North Auckland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "NA",
+      "altlabel": null,
+      "related": null,
+      "@id": "NA",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "South Auckland",
+      "definition": "South Auckland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "SA",
+      "altlabel": null,
+      "related": null,
+      "@id": "SA",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gisborne",
+      "definition": "Gisborne administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "GS",
+      "altlabel": null,
+      "related": null,
+      "@id": "GS",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hawkes Bay",
+      "definition": "Hawkes Bay administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "HB",
+      "altlabel": null,
+      "related": null,
+      "@id": "HB",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Taranaki",
+      "definition": "Taranaki administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "TN",
+      "altlabel": null,
+      "related": null,
+      "@id": "TN",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wellington",
+      "definition": "Wellington administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "WN",
+      "altlabel": null,
+      "related": null,
+      "@id": "WN",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nelson",
+      "definition": "Nelson administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "NL",
+      "altlabel": null,
+      "related": null,
+      "@id": "NL",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marlborough",
+      "definition": "Marlborough administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "MB",
+      "altlabel": null,
+      "related": null,
+      "@id": "MB",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Canterbury",
+      "definition": "Canterbury administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "CB",
+      "altlabel": null,
+      "related": null,
+      "@id": "CB",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Westland",
+      "definition": "Westland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "WS",
+      "altlabel": null,
+      "related": null,
+      "@id": "WS",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Otago",
+      "definition": "Otago administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "OT",
+      "altlabel": null,
+      "related": null,
+      "@id": "OT",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Southland",
+      "definition": "Southland administrative area that all titles and surveys were registered against prior to Landonline. It is required to uniquely identify survey and title records created prior to Landonline.",
+      "notation": "SL",
+      "altlabel": null,
+      "related": null,
+      "@id": "SL",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    }
+  ]
+}

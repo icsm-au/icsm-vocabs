@@ -1,0 +1,712 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA secondary Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Implied Easement",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "implied-easement",
+      "altlabel": "implied-easement",
+      "related": null,
+      "@id": "implied-easement",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Expressed Easement",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "expressed-easement",
+      "altlabel": "expressed-easement",
+      "related": null,
+      "@id": "expressed-easement",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mineral Reservation",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "mineral-reservation",
+      "altlabel": "mineral-reservation",
+      "related": null,
+      "@id": "mineral-reservation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Grant in Trust",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "crown-grant-in-trust",
+      "altlabel": "crown-grant-in-trust",
+      "related": null,
+      "@id": "crown-grant-in-trust",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Right",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "carbon-right",
+      "altlabel": "carbon-right",
+      "related": null,
+      "@id": "carbon-right",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tree Plantation",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "tree-plantation",
+      "altlabel": "tree-plantation",
+      "related": null,
+      "@id": "tree-plantation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Covenant - Burden",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "carbon-covenant-burden",
+      "altlabel": "carbon-covenant-burden",
+      "related": null,
+      "@id": "carbon-covenant-burden",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Covenant - Benefit",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "carbon-covenant-benefit",
+      "altlabel": "carbon-covenant-benefit",
+      "related": null,
+      "@id": "carbon-covenant-benefit",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Contaminated Site",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "contaminated-site",
+      "altlabel": "contaminated-site",
+      "related": null,
+      "@id": "contaminated-site",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Caveat",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "caveat",
+      "altlabel": "caveat",
+      "related": null,
+      "@id": "caveat",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lease",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "lease",
+      "altlabel": "lease",
+      "related": null,
+      "@id": "lease",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Freehold Lease",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "freehold-lease",
+      "altlabel": "freehold-lease",
+      "related": null,
+      "@id": "freehold-lease",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Profit a prendre",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "profit-a-prendre",
+      "altlabel": "profit-a-prendre",
+      "related": null,
+      "@id": "profit-a-prendre",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant - Benefit",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-benefit",
+      "altlabel": "restrictive-covenant-benefit",
+      "related": null,
+      "@id": "restrictive-covenant-benefit",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant - Burden",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-burden",
+      "altlabel": "restrictive-covenant-burden",
+      "related": null,
+      "@id": "restrictive-covenant-burden",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "covenant",
+      "altlabel": "covenant",
+      "related": null,
+      "@id": "covenant",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right of Carriageway",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "right-of-carriageway",
+      "altlabel": "right-of-carriageway",
+      "related": null,
+      "@id": "right-of-carriageway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement",
+      "altlabel": "easement",
+      "related": null,
+      "@id": "easement",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Drainage)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-drainage",
+      "altlabel": "easement-drainage",
+      "related": null,
+      "@id": "easement-drainage",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Sewerage)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-sewerage",
+      "altlabel": "easement-sewerage",
+      "related": null,
+      "@id": "easement-sewerage",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Water Supply)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-water-supply",
+      "altlabel": "easement-water-supply",
+      "related": null,
+      "@id": "easement-water-supply",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Irrigation)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-irrigation",
+      "altlabel": "easement-irrigation",
+      "related": null,
+      "@id": "easement-irrigation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Electricity Supply)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-electricity-supply",
+      "altlabel": "easement-electricity-supply",
+      "related": null,
+      "@id": "easement-electricity-supply",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Gas Supply)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-gas-supply",
+      "altlabel": "easement-gas-supply",
+      "related": null,
+      "@id": "easement-gas-supply",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Electricity)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-electricity",
+      "altlabel": "easement-electricity",
+      "related": null,
+      "@id": "easement-electricity",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Water Supply Services)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-water-supply-services",
+      "altlabel": "easement-water-supply-services",
+      "related": null,
+      "@id": "easement-water-supply-services",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Telecommunications Supply Services)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-telecommunications-supply-services",
+      "altlabel": "easement-telecommunications-supply-services",
+      "related": null,
+      "@id": "easement-telecommunications-supply-services",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Right of Footway)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-right-of-footway",
+      "altlabel": "easement-right-of-footway",
+      "related": null,
+      "@id": "easement-right-of-footway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Party Wall Rights)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-party-wall-rights",
+      "altlabel": "easement-party-wall-rights",
+      "related": null,
+      "@id": "easement-party-wall-rights",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Eaves & Gutters)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-eaves-gutters",
+      "altlabel": "easement-eaves-gutters",
+      "related": null,
+      "@id": "easement-eaves-gutters",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Motor Vehicle Parking)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-motor-vehicle-parking",
+      "altlabel": "easement-motor-vehicle-parking",
+      "related": null,
+      "@id": "easement-motor-vehicle-parking",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission of Electricity by Overhead Cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-of-electricity-by-overhead-cable",
+      "altlabel": "easement-transmission-of-electricity-by-overhead-cable",
+      "related": null,
+      "@id": "easement-transmission-of-electricity-by-overhead-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission of Electricity by Underground Cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-of-electricity-by-underground-cable",
+      "altlabel": "easement-transmission-of-electricity-by-underground-cable",
+      "related": null,
+      "@id": "easement-transmission-of-electricity-by-underground-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission of Television Signals by Underground Cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-of-television-signals-by-underground-cable",
+      "altlabel": "easement-transmission-of-television-signals-by-underground-cable",
+      "related": null,
+      "@id": "easement-transmission-of-television-signals-by-underground-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Vehicle Access)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-vehicle-access",
+      "altlabel": "easement-vehicle-access",
+      "related": null,
+      "@id": "easement-vehicle-access",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Light & Air)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-light-and-air",
+      "altlabel": "easement-light-and-air",
+      "related": null,
+      "@id": "easement-light-and-air",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Party Wall)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-party-wall",
+      "altlabel": "easement-party-wall",
+      "related": null,
+      "@id": "easement-party-wall",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Intrusion)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-intrusion",
+      "altlabel": "easement-intrusion",
+      "related": null,
+      "@id": "easement-intrusion",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Pedestrian Access)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-pedestrian-access",
+      "altlabel": "easement-pedestrian-access",
+      "related": null,
+      "@id": "easement-pedestrian-access",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Easement in Gross)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-gross",
+      "altlabel": "easement-gross",
+      "related": null,
+      "@id": "easement-gross",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission and distribution of electricity by overhead cable and conductors)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-distribution-electricity-overhead-cabled-conductors",
+      "altlabel": "easement-transmission-and-distribution-of-electricity-by-overhead-cable-and-conductors",
+      "related": null,
+      "@id": "easement-transmission-distribution-electricity-overhead-cabled-conductors",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission and distribution of electricity by underground cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-distribution-electricity-underground-cable",
+      "altlabel": "easement-transmission-and-distribution-of-electricity-by-underground-cable",
+      "related": null,
+      "@id": "easement-transmission-distribution-electricity-underground-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission of communication signals by overhead cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-communication-signals-overhead-cable",
+      "altlabel": "easement-transmission-of-communication-signals-by-overhead-cable",
+      "related": null,
+      "@id": "easement-transmission-communication-signals-overhead-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Transmission of communication signals by underground cable)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-transmission-communication-signals-underground-cable",
+      "altlabel": "easement-transmission-of-communication-signals-by-underground-cable",
+      "related": null,
+      "@id": "easement-transmission-communication-signals-underground-cable",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement (Generation, storage or conversion of energy)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "easement-generation-storage-conversion-energy",
+      "altlabel": "easement-generation-storage-or-conversion-of-energy",
+      "related": null,
+      "@id": "easement-generation-storage-conversion-energy",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant (Right of Way)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-row",
+      "altlabel": "restrictive-covenant-right-of-way",
+      "related": null,
+      "@id": "restrictive-covenant-row",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant (Land Use)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-land-use",
+      "altlabel": "restrictive-covenant-land-use",
+      "related": null,
+      "@id": "restrictive-covenant-land-use",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant (Conservation)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-conservation",
+      "altlabel": "restrictive-covenant-conservation",
+      "related": null,
+      "@id": "restrictive-covenant-conservation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant (Building Envelope)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-building-envelope",
+      "altlabel": "restrictive-covenant-building-envelope",
+      "related": null,
+      "@id": "restrictive-covenant-building-envelope",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant (Fire)",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-covenant-fire",
+      "altlabel": "restrictive-covenant-fire",
+      "related": null,
+      "@id": "restrictive-covenant-fire",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Use",
+      "definition": "Easements, Covenants, Memorials & other Interests",
+      "notation": "restrictive-use",
+      "altlabel": "restrictive-use",
+      "related": null,
+      "@id": "restrictive-use",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Memorial",
+      "definition": "Vesting, Notifications & Memorials",
+      "notation": "memorial",
+      "altlabel": "memorial",
+      "related": null,
+      "@id": "memorial",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Notification",
+      "definition": "Vesting, Notifications & Memorials",
+      "notation": "notification",
+      "altlabel": "notification",
+      "related": null,
+      "@id": "notification",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve",
+      "altlabel": "reserve",
+      "related": null,
+      "@id": "reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Recreation",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-recreation",
+      "altlabel": "reserve-for-recreation",
+      "related": null,
+      "@id": "reserve-for-recreation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Foreshore Management",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-foreshore-management",
+      "altlabel": "reserve-for-foreshore-management",
+      "related": null,
+      "@id": "reserve-for-foreshore-management",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Conservation",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-conservation",
+      "altlabel": "reserve-for-conservation",
+      "related": null,
+      "@id": "reserve-for-conservation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Waterway Management",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-waterway-management",
+      "altlabel": "reserve-for-waterway-management",
+      "related": null,
+      "@id": "reserve-for-waterway-management",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for the strategic water supply for fire fighting purposes",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-strategic-water-supply-fire-purposes",
+      "altlabel": "reserve-for-the-strategic-water-supply-for-fire-fighting-purposes",
+      "related": null,
+      "@id": "reserve-strategic-water-supply-fire-purposes",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Drainage",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-drainage",
+      "altlabel": "reserve-for-drainage",
+      "related": null,
+      "@id": "reserve-for-drainage",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Parks and Recreation",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-parks-and-recreation",
+      "altlabel": "reserve-for-parks-and-recreation",
+      "related": null,
+      "@id": "reserve-for-parks-and-recreation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Public Open Space",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-public-open-space",
+      "altlabel": "reserve-for-public-open-space",
+      "related": null,
+      "@id": "reserve-for-public-open-space",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Pedestrian Accessway",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-pedestrian-accessway",
+      "altlabel": "reserve-for-pedestrian-accessway",
+      "related": null,
+      "@id": "reserve-for-pedestrian-accessway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Right of Way",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-for-right-of-way",
+      "altlabel": "reserve-for-right-of-way",
+      "related": null,
+      "@id": "reserve-for-right-of-way",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Conservation or Protection of the Environment",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-conservation-protection-environment",
+      "altlabel": "reserve-for-conservation-or-protection-of-the-environment",
+      "related": null,
+      "@id": "reserve-conservation-protection-environment",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Sewerage",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-sewerage",
+      "altlabel": "reserve-for-sewerage",
+      "related": null,
+      "@id": "reserve-sewerage",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve for Electrcity Supply",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "reserve-electrcity-supply",
+      "altlabel": "reserve-for-electrcity-supply",
+      "related": null,
+      "@id": "reserve-electrcity-supply",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non-extinguisment of Native Title",
+      "definition": "Vestings, Notifications & Memorials",
+      "notation": "non-extinguisment-native-title",
+      "altlabel": "non-extinguisment-of-native-title",
+      "related": null,
+      "@id": "non-extinguisment-native-title",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

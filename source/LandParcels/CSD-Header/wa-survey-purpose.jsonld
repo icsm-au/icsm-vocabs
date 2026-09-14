@@ -1,0 +1,252 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-survey-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Survey Purpose",
+  "class": "surv:SurveyPurpose",
+  "concepts": [
+    {
+      "preflabel": "Field Record",
+      "definition": "Field Record",
+      "notation": "field-record",
+      "altlabel": null,
+      "related": null,
+      "@id": "field-record",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subdivision",
+      "definition": "Plan of Subdivsion",
+      "notation": "subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Acquisition",
+      "definition": "Plan for the Purpose of Taking or Acquisition",
+      "notation": "acquisition",
+      "altlabel": null,
+      "related": null,
+      "@id": "acquisition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conversion",
+      "definition": "Plan for the Purpose of Conversion",
+      "notation": "conversion",
+      "altlabel": null,
+      "related": null,
+      "@id": "conversion",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Redefinition",
+      "definition": "Plan for the Purpose of Redefinition",
+      "notation": "redefinition",
+      "altlabel": null,
+      "related": null,
+      "@id": "redefinition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest",
+      "definition": "Plan for Interest purposes only",
+      "notation": "interest",
+      "altlabel": null,
+      "related": null,
+      "@id": "interest",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory",
+      "definition": "Plan for Statutory purpose",
+      "notation": "statutory",
+      "altlabel": null,
+      "related": null,
+      "@id": "statutory",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Land Amalgamation",
+      "definition": "Plan for the Purpose of Crown Land Amalgamation",
+      "notation": "amalgamation",
+      "altlabel": null,
+      "related": null,
+      "@id": "amalgamation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road",
+      "definition": "Plan for the Purpose of creating Road",
+      "notation": "road",
+      "altlabel": null,
+      "related": null,
+      "@id": "road",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Acquisition (Road)",
+      "definition": "Plan for the Purpose of Acquisition for Road",
+      "notation": "acquisition-road",
+      "altlabel": null,
+      "related": null,
+      "@id": "acquisition-road",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Closure",
+      "definition": "Plan for the Purpose of Road Closure",
+      "notation": "road-closure",
+      "altlabel": null,
+      "related": null,
+      "@id": "road-closure",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vesting in the Crown",
+      "definition": "Plan for the Purpose ofVesting in the Crown",
+      "notation": "vesting-in-the-crown",
+      "altlabel": null,
+      "related": null,
+      "@id": "vesting-in-the-crown",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Re-Subdivision - Type 4",
+      "definition": "Plan for the Purpose of Re-Subdivision - Type 4",
+      "notation": "re-subdivision-type-4",
+      "altlabel": null,
+      "related": null,
+      "@id": "re-subdivision-type-4",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Consolidation of Lots - Type 3",
+      "definition": "Plan for the Purpose of Consolidation of Lots - Type 3",
+      "notation": "consolidation-type-3",
+      "altlabel": null,
+      "related": null,
+      "@id": "consolidation-type-3",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Merger of Land and Building",
+      "definition": "Plan for the Purpose of Merger of Land and Building",
+      "notation": "merger-land-building",
+      "altlabel": null,
+      "related": null,
+      "@id": "merger-land-building",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Redefinition of Boundaries",
+      "definition": "Plan for the Purpose of Redefinition of Boundaries",
+      "notation": "redefinition-of-boundaries",
+      "altlabel": null,
+      "related": null,
+      "@id": "redefinition-of-boundaries",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Re-Subdivision - Type 1(a)",
+      "definition": "Plan for the Purpose of Add Land from Outside the Parcel to Common Property - Type 1(a)",
+      "notation": "re-subdivision-type-1a",
+      "altlabel": null,
+      "related": null,
+      "@id": "re-subdivision-type-1a",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Re-Subdivision - Type 2",
+      "definition": "Plan for the Purpose of Removal of Common Property from the Parcel - Type 2",
+      "notation": "re-subdivision-type-2",
+      "altlabel": null,
+      "related": null,
+      "@id": "re-subdivision-type-2",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Re-Subdivision - Type 1(b)",
+      "definition": "Plan for the Purpose of Transfer Lots to Common Property - Type 1(b) subdivision",
+      "notation": "re-subdivision-type-1b",
+      "altlabel": null,
+      "related": null,
+      "@id": "re-subdivision-type-1b",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lot definition amendment",
+      "definition": "Plan for the Purpose of Lot definition amendment",
+      "notation": "lot-definition-amendment",
+      "altlabel": null,
+      "related": null,
+      "@id": "lot-definition-amendment",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tier parcel boundary amendment",
+      "definition": "Plan for the Purpose of Tier parcel boundary amendment",
+      "notation": "teir-parcel-boundary-amendment",
+      "altlabel": null,
+      "related": null,
+      "@id": "teir-parcel-boundary-amendment",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary redefinition ",
+      "definition": "Plan for the Purpose of Boundary Redefinition",
+      "notation": "boundary-redefinition",
+      "altlabel": null,
+      "related": null,
+      "@id": "boundary-redefinition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

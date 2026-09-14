@@ -1,0 +1,832 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-territorial-authority/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Territorial Authorities",
+  "class": "termtype:AdminUnit",
+  "concepts": [
+    {
+      "preflabel": "Far North District",
+      "definition": "A district council constituted by Local Government (Northland Region) Reorganisation Order 1989, Gazette 1989, p 2391",
+      "notation": "001",
+      "altlabel": null,
+      "related": null,
+      "@id": "001",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Whangarei District",
+      "definition": "A district council constituted by Local Government (Northland Region) Reorganisation Order 1989, Gazette 1989, p 2391",
+      "notation": "002",
+      "altlabel": null,
+      "related": null,
+      "@id": "002",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kaipara District",
+      "definition": "A district council constituted by Local Government (Northland Region) Reorganisation Order 1989, Gazette 1989, p 2391",
+      "notation": "003",
+      "altlabel": null,
+      "related": null,
+      "@id": "003",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rodney District",
+      "definition": "A district council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "4",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "4",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "North Shore City",
+      "definition": "A city council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "5",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "5",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waitakere City",
+      "definition": "A city council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "6",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "6",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Auckland City",
+      "definition": "A city council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "7",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "7",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Manukau City",
+      "definition": "A city council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "8",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "8",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Papakura District",
+      "definition": "A district council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "9",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "9",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Franklin District",
+      "definition": "A district council constituted by Local Government (Auckland Region) Reorganisation Order 1989 and amalgamated into Auckland by section 6(1) of the Local Government (Auckland Council) Act 2009",
+      "notation": "10",
+      "altlabel": null,
+      "related": "Auckland Council",
+      "@id": "10",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Thames-Coromandel District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "011",
+      "altlabel": null,
+      "related": null,
+      "@id": "011",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hauraki District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "012",
+      "altlabel": null,
+      "related": null,
+      "@id": "012",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waikato District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "013",
+      "altlabel": null,
+      "related": null,
+      "@id": "013",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Used",
+      "definition": null,
+      "notation": "14",
+      "altlabel": null,
+      "related": null,
+      "@id": "14",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Matamata-Piako District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "015",
+      "altlabel": null,
+      "related": null,
+      "@id": "015",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hamilton City",
+      "definition": "A city council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "016",
+      "altlabel": null,
+      "related": null,
+      "@id": "016",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waipa District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "017",
+      "altlabel": null,
+      "related": null,
+      "@id": "017",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "\u014ctorohanga District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460 and amended by clause 3 of the Local Government (\u014ctorohanga District Council) Order 2019 (LI 2019/330)",
+      "notation": "018",
+      "altlabel": "Otorohanga District",
+      "related": null,
+      "@id": "018",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "South Waikato District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "019",
+      "altlabel": null,
+      "related": null,
+      "@id": "019",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waitomo District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "020",
+      "altlabel": null,
+      "related": null,
+      "@id": "020",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Taupo District",
+      "definition": "A district council constituted by Local Government (Waikato Region) Reorganisation Order 1989, Gazette 1989, p 2460",
+      "notation": "021",
+      "altlabel": null,
+      "related": null,
+      "@id": "021",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Western Bay of Plenty District",
+      "definition": "A district council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275",
+      "notation": "022",
+      "altlabel": null,
+      "related": null,
+      "@id": "022",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Western Bay of Plenty Dist.",
+      "definition": "An alternative spelling of Western Bay of Plenty District",
+      "notation": "22",
+      "altlabel": null,
+      "related": "Western Bay of Plenty District",
+      "@id": "22",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tauranga City",
+      "definition": "A city council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275 and amended by clause 5 of the Local Government (Tauranga City Council) Order 2003 (SR 2003/275)",
+      "notation": "023",
+      "altlabel": null,
+      "related": null,
+      "@id": "023",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rotorua District",
+      "definition": "A district council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275",
+      "notation": "024",
+      "altlabel": null,
+      "related": null,
+      "@id": "024",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Whakatane District",
+      "definition": "A district council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275",
+      "notation": "025",
+      "altlabel": null,
+      "related": null,
+      "@id": "025",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kawerau District",
+      "definition": "A district council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275",
+      "notation": "026",
+      "altlabel": null,
+      "related": null,
+      "@id": "026",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "\u014cp\u014dtiki District",
+      "definition": "A district council constituted by Local Government (Bay of Plenty Region) Reorganisation Order 1989, Gazette 1989, p 2275 and amended by clause 3 of the Local Government (\u014cp\u014dtiki District Council) Order 2019 (LI 2019/331)",
+      "notation": "027",
+      "altlabel": "Opotiki District",
+      "related": null,
+      "@id": "027",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gisborne District",
+      "definition": "A district council constituted by \tLocal Government (Gisborne Region) Reorganisation Order 1989, Gazette 1989, p 2328",
+      "notation": "028",
+      "altlabel": null,
+      "related": null,
+      "@id": "028",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wairoa District",
+      "definition": "A district council constituted by Local Government (Hawke\u2019s Bay Region) Reorganisation Order 1989, Gazette 1989, p 2334",
+      "notation": "029",
+      "altlabel": null,
+      "related": null,
+      "@id": "029",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hastings District",
+      "definition": "A district council constituted by Local Government (Hawke\u2019s Bay Region) Reorganisation Order 1989, Gazette 1989, p 2334",
+      "notation": "030",
+      "altlabel": null,
+      "related": null,
+      "@id": "030",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Napier City",
+      "definition": "A city council constituted by Local Government (Hawke\u2019s Bay Region) Reorganisation Order 1989, Gazette 1989, p 2334",
+      "notation": "031",
+      "altlabel": null,
+      "related": null,
+      "@id": "031",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Central Hawke's Bay District",
+      "definition": "A district council constituted by Local Government (Hawke\u2019s Bay Region) Reorganisation Order 1989, Gazette 1989, p 2334",
+      "notation": "032",
+      "altlabel": null,
+      "related": null,
+      "@id": "032",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Central Hawkes Bay District",
+      "definition": "An alternative spelling of Central Hawke's Bay District",
+      "notation": "32",
+      "altlabel": null,
+      "related": "Central Hawke's Bay District",
+      "@id": "32",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "New Plymouth District",
+      "definition": "A district council constituted by Local Government (Taranaki Region) Reorganisation Order 1989, Gazette 1989, p 2445",
+      "notation": "033",
+      "altlabel": null,
+      "related": null,
+      "@id": "033",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stratford District",
+      "definition": "A district council constituted by Local Government (Taranaki Region) Reorganisation Order 1989, Gazette 1989, p 2445",
+      "notation": "034",
+      "altlabel": null,
+      "related": null,
+      "@id": "034",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "South Taranaki District",
+      "definition": "A district council constituted by Local Government (Taranaki Region) Reorganisation Order 1989, Gazette 1989, p 2445",
+      "notation": "035",
+      "altlabel": null,
+      "related": null,
+      "@id": "035",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ruapehu District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "036",
+      "altlabel": null,
+      "related": null,
+      "@id": "036",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Whanganui District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351 and amended by clause 3 of the Local Government (Whanganui District Council) Order 2015 (LI 2015/275)",
+      "notation": "037",
+      "altlabel": null,
+      "related": null,
+      "@id": "037",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rangitikei District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "038",
+      "altlabel": null,
+      "related": null,
+      "@id": "038",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Manawatu District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "039",
+      "altlabel": null,
+      "related": null,
+      "@id": "039",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Palmerston North City",
+      "definition": "A city council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "040",
+      "altlabel": null,
+      "related": null,
+      "@id": "040",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tararua District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "041",
+      "altlabel": null,
+      "related": null,
+      "@id": "041",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Horowhenua District",
+      "definition": "A district council constituted by Local Government (Manawatu-Wanganui Region) Reorganisation Order 1989, Gazette 1989, p 2351",
+      "notation": "042",
+      "altlabel": null,
+      "related": null,
+      "@id": "042",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kapiti Coast District",
+      "definition": "A district council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "043",
+      "altlabel": null,
+      "related": null,
+      "@id": "043",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Porirua City",
+      "definition": "A city council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "044",
+      "altlabel": null,
+      "related": null,
+      "@id": "044",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Upper Hutt City",
+      "definition": "A city council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "045",
+      "altlabel": null,
+      "related": null,
+      "@id": "045",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hutt City",
+      "definition": "A city council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "046",
+      "altlabel": "Lower Hutt City",
+      "related": null,
+      "@id": "046",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wellington City",
+      "definition": "A city council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "047",
+      "altlabel": null,
+      "related": null,
+      "@id": "047",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Masterton District",
+      "definition": "A district council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "048",
+      "altlabel": null,
+      "related": null,
+      "@id": "048",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carterton District",
+      "definition": "A district council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "049",
+      "altlabel": null,
+      "related": null,
+      "@id": "049",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "South Wairarapa District",
+      "definition": "A district council constituted by Local Government (Wellington Region) Reorganisation Order 1989, Gazette 1989, p 2491",
+      "notation": "050",
+      "altlabel": null,
+      "related": null,
+      "@id": "050",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tasman District",
+      "definition": "A district council constituted by Local Government (Nelson\u2013Marlborough Region) Reorganisation Order 1989, Gazette 1989, p 2375",
+      "notation": "051",
+      "altlabel": null,
+      "related": null,
+      "@id": "051",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nelson City",
+      "definition": "A city council constituted by Local Government (Nelson\u2013Marlborough Region) Reorganisation Order 1989, Gazette 1989, p 2375",
+      "notation": "052",
+      "altlabel": null,
+      "related": null,
+      "@id": "052",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marlborough District",
+      "definition": "A district council constituted by Local Government (Nelson\u2013Marlborough Region) Reorganisation Order 1989, Gazette 1989, p 2375",
+      "notation": "053",
+      "altlabel": null,
+      "related": null,
+      "@id": "053",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kaikoura District",
+      "definition": "A district council constituted by Local Government (Nelson\u2013Marlborough Region) Reorganisation Order 1989, Gazette 1989, p 2375",
+      "notation": "054",
+      "altlabel": null,
+      "related": null,
+      "@id": "054",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Buller District",
+      "definition": "A district council constituted by Local Government (West Coast Region) Reorganisation Order 1989, Gazette 1989, p 2517",
+      "notation": "055",
+      "altlabel": null,
+      "related": null,
+      "@id": "055",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grey District",
+      "definition": "A district council constituted by Local Government (West Coast Region) Reorganisation Order 1989, Gazette 1989, p 2517",
+      "notation": "056",
+      "altlabel": null,
+      "related": null,
+      "@id": "056",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Westland District",
+      "definition": "A district council constituted by Local Government (West Coast Region) Reorganisation Order 1989, Gazette 1989, p 2517",
+      "notation": "057",
+      "altlabel": null,
+      "related": null,
+      "@id": "057",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hurunui District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "058",
+      "altlabel": null,
+      "related": null,
+      "@id": "058",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waimakariri District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "059",
+      "altlabel": null,
+      "related": null,
+      "@id": "059",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Christchurch City",
+      "definition": "A city council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "060",
+      "altlabel": null,
+      "related": null,
+      "@id": "060",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Banks Peninsula District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296, and amalgamated by Christchurch City Council in 2006",
+      "notation": "61",
+      "altlabel": null,
+      "related": "Christchurch City",
+      "@id": "61",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Selwyn District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "062",
+      "altlabel": null,
+      "related": null,
+      "@id": "062",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ashburton District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "063",
+      "altlabel": null,
+      "related": null,
+      "@id": "063",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Timaru District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "064",
+      "altlabel": null,
+      "related": null,
+      "@id": "064",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mackenzie District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "065",
+      "altlabel": null,
+      "related": null,
+      "@id": "065",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waimate District",
+      "definition": "A district council constituted by Local Government (Canterbury Region) Reorganisation Order 1989, Gazette 1989, p 2296",
+      "notation": "066",
+      "altlabel": null,
+      "related": null,
+      "@id": "066",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Chatham Islands Territory",
+      "definition": "A territorial authority constituted by the Chatham Islands Council Act 1995",
+      "notation": "067",
+      "altlabel": null,
+      "related": null,
+      "@id": "067",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waitaki District",
+      "definition": "A district council constituted by Local Government (Otago Region) Reorganisation Order 1989, Gazette 1989, p 2408",
+      "notation": "068",
+      "altlabel": null,
+      "related": null,
+      "@id": "068",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Central Otago District",
+      "definition": "A district council constituted by Local Government (Otago Region) Reorganisation Order 1989, Gazette 1989, p 2408",
+      "notation": "069",
+      "altlabel": null,
+      "related": null,
+      "@id": "069",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Queenstown-Lakes District",
+      "definition": "A district council constituted by Local Government (Otago Region) Reorganisation Order 1989, Gazette 1989, p 2408",
+      "notation": "070",
+      "altlabel": null,
+      "related": null,
+      "@id": "070",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dunedin City",
+      "definition": "A city council constituted by Local Government (Otago Region) Reorganisation Order 1989, Gazette 1989, p 2408",
+      "notation": "071",
+      "altlabel": null,
+      "related": null,
+      "@id": "071",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Clutha District",
+      "definition": "A district council constituted by Local Government (Otago Region) Reorganisation Order 1989, Gazette 1989, p 2408",
+      "notation": "072",
+      "altlabel": null,
+      "related": null,
+      "@id": "072",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Southland District",
+      "definition": "A district council constituted by Local Government (Southland Region) Reorganisation Order 1989, Gazette 1989, p 2430",
+      "notation": "073",
+      "altlabel": null,
+      "related": null,
+      "@id": "073",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gore District",
+      "definition": "A district council constituted by Local Government (Southland Region) Reorganisation Order 1989, Gazette 1989, p 2430",
+      "notation": "074",
+      "altlabel": null,
+      "related": null,
+      "@id": "074",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Invercargill City",
+      "definition": "A city council constituted by Local Government (Invercargill City) Reorganisation Order 1990, Gazette 1990, p 2326",
+      "notation": "075",
+      "altlabel": null,
+      "related": null,
+      "@id": "075",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Auckland",
+      "definition": "A city council constituted by section 6(1) of the Local Government (Auckland Council) Act 2009 and amended by section 113(1) of the Local Government (Auckland Transitional Provisions) Act 2010 (2010 No 37)",
+      "notation": "076",
+      "altlabel": null,
+      "related": null,
+      "@id": "076",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Minister of Local Government",
+      "definition": null,
+      "notation": "800",
+      "altlabel": null,
+      "related": null,
+      "@id": "800",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Area Outside Territorial Authority",
+      "definition": null,
+      "notation": "999",
+      "altlabel": null,
+      "related": null,
+      "@id": "999",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    }
+  ]
+}

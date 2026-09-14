@@ -1,0 +1,159 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-secondary-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ne4f7e5aca2644c0f8488d21a6e61de09 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.130102"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.040427"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-secondary-purpose.csv> ] ;
+            prov:wasAssociatedWith _:Ne4f7e5aca2644c0f8488d21a6e61de09 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/prow> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to walk upon the Servient Tenement (Burdened Land) as a means of access to or egress from the Dominant Tenement" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "prow" ;
+    skos:prefLabel "Pedestrian Right of Way" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/r-ct> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity and electrical telecommunications without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "r-ct" ;
+    skos:prefLabel "Right to convey Telecommunications" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rce> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity and electrical impulses without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rce" ;
+    skos:prefLabel "Right to convey Electricity" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rcg> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey gas without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rcg" ;
+    skos:prefLabel "Right to convey Gas" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rcm> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey computer media without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rcm" ;
+    skos:prefLabel "Right to convey Computer Media" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rct-cm> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity, electrical impulses, and computer media without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rct-cm" ;
+    skos:prefLabel "Right to convey Telecommunications and Computer Media" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rcw> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey water in free and unimpeded flow without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rcw" ;
+    skos:prefLabel "Right to convey Water" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rds> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to drain, discharge, and convey sewage and other waste material and waste fluids in any quantity without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rds" ;
+    skos:prefLabel "Right to drain Sewage" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rdsw> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey storm water in any quantity without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rdsw" ;
+    skos:prefLabel "Right to drain Storm Water" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rdw> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey water (whether sourced from rain, springs, soakage, or seepage) in any quantity without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rdw" ;
+    skos:prefLabel "Right to drain Water" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/red> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to emit dust" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "red" ;
+    skos:prefLabel "Right to emit Dust" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/ren> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to emit noise" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "ren" ;
+    skos:prefLabel "Right to emit Noise" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/res> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to emit spray" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "res" ;
+    skos:prefLabel "Right to emit Spray" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rl-a> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to ensure the Servient Tenement (Burdened Land) provides unobstructed access to light and air" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rl-a" ;
+    skos:prefLabel "Right to Light and Air" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/roe> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to allow eaves to encroach over the Servient Tenement (Burdened Land)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "roe" ;
+    skos:prefLabel "Right to Overhang Eaves" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/row> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) as a means of access to or egress from the Dominant Tenement" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "row" ;
+    skos:prefLabel "Rights of Way" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rp> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to park vehicles without interruption or impediment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rp" ;
+    skos:prefLabel "Right to Parking" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose/rs> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A right held by the Dominant Tenement (Benefited Land) to require the Servient Tenement (Burdened Land) to ensure structures on the Dominant Tenement are supported" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-secondary-purpose> ;
+    skos:notation "rs" ;
+    skos:prefLabel "Right to Support" .
+
+<https://linked.data.gov.au/def/csdm/nz-secondary-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Secondary Purpose" ;
+    skos:scopeNote "termtype:ParcelPurpose" .
+
+_:Ne4f7e5aca2644c0f8488d21a6e61de09 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

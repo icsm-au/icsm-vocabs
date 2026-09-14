@@ -1,0 +1,162 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Secondary Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Covenant \u2013 Flat/Crosslease",
+      "definition": "A parcel defining an exclusive use area on a flat plan / cross lease dataset",
+      "notation": "c-fc",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-fc",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant - Land",
+      "definition": "A parcel defining an area subject to an agreement where one person promises that they will give, do, or not do, something to their land, e.g., QE2 Covenant, Consent Notice under Section 221 of the RMA 1991",
+      "notation": "c-l",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-l",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant to be revoked",
+      "definition": "A parcel defining the part of a covenant to be revoked",
+      "notation": "c2br",
+      "altlabel": null,
+      "related": null,
+      "@id": "c2br",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cross Lease Building",
+      "definition": "A parcel created to enable a record of title comprising a leasehold estate and a share of the estate in fee simple to be issued",
+      "notation": "clb",
+      "altlabel": null,
+      "related": null,
+      "@id": "clb",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Customary Entitlement",
+      "definition": "A parcel to be created as part of a Treaty Settlement, such as a nohoanga entitlement",
+      "notation": "ce",
+      "altlabel": null,
+      "related": null,
+      "@id": "ce",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Customary Marine Title",
+      "definition": "A parcel defined on an order from the High Court recognising a customary marine title (CMT)",
+      "notation": "cmt",
+      "altlabel": null,
+      "related": null,
+      "@id": "cmt",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement",
+      "definition": "A parcel creating a right by the owner of a property to use part of the land in another title for a specific purpose, for example water right, right of way, etc., and includes M\u0101ori Roadways in the nature of an easement",
+      "notation": "e",
+      "altlabel": null,
+      "related": null,
+      "@id": "e",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easements to be Surrendered",
+      "definition": "A parcel defining the part of an easement to be surrendered",
+      "notation": "e2bs",
+      "altlabel": null,
+      "related": null,
+      "@id": "e2bs",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Esplanade Strip",
+      "definition": "A parcel of land created by the registration of an instrument for one or more of the following purposes: (a) to contribute to the protection of conservation values by, in particular, (i) maintaining or enhancing the natural functioning of the adjacent sea, river, or lake; or (ii) maintaining or enhancing water quality; or (iii) maintaining or enhancing aquatic habitats; or (iv) protecting the natural values associated with the esplanade reserve or esplanade strip; or (v) mitigating natural hazards; or (b) to enable public access to or along any sea, river, or lake; or (c) to enable public recreational use of the esplanade reserve or esplanade strip and adjacent sea, river, or lake, where the use is compatible with conservation values (sections 2 and 229 of the Resource Management Act 1991)",
+      "notation": "es",
+      "altlabel": null,
+      "related": null,
+      "@id": "es",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lease",
+      "definition": "A parcel defining a Lease including one requiring subdivision consent under the Resource Management Act 1991",
+      "notation": "l",
+      "altlabel": null,
+      "related": null,
+      "@id": "l",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Licence/Permit",
+      "definition": "A parcel defining a Licence/Permit parcel, for example mining permit area, crown forest licence, etc.",
+      "notation": "l-p",
+      "altlabel": null,
+      "related": null,
+      "@id": "l-p",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marginal Strip-Movable",
+      "definition": "A parcel defining a movable marginal strip in accordance with rule 84 Cadastral Survey Rules 2021",
+      "notation": "ms-m",
+      "altlabel": null,
+      "related": null,
+      "@id": "ms-m",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve Reclassification",
+      "definition": "A parcel defining part of a reserve to be reclassified for a different purpose under the Reserves Act 1977, where a separate title will not issue",
+      "notation": "rr",
+      "altlabel": null,
+      "related": null,
+      "@id": "rr",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

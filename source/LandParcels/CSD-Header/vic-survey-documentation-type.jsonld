@@ -1,0 +1,522 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC types of Survey Documentation",
+  "class": "termtype:DocType",
+  "concepts": [
+    {
+      "preflabel": "Abstract of Field Records",
+      "definition": null,
+      "notation": "afr",
+      "altlabel": null,
+      "related": null,
+      "@id": "afr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Application Document",
+      "definition": null,
+      "notation": "ad",
+      "altlabel": null,
+      "related": null,
+      "@id": "ad",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Application to Amend Certified Plan (Form 8)",
+      "definition": null,
+      "notation": "form-8",
+      "altlabel": null,
+      "related": null,
+      "@id": "form-8",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Application To Amend Planning Permit",
+      "definition": null,
+      "notation": "aapp",
+      "altlabel": null,
+      "related": null,
+      "@id": "aapp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Arborist report",
+      "definition": null,
+      "notation": "ar",
+      "altlabel": null,
+      "related": null,
+      "@id": "ar",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "c.56 Residential subdivision assessment",
+      "definition": null,
+      "notation": "c-56",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-56",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Compiled ePlan",
+      "definition": null,
+      "notation": "cep",
+      "altlabel": null,
+      "related": null,
+      "@id": "cep",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Compiled ePlan Validation Report",
+      "definition": null,
+      "notation": "cep-vr",
+      "altlabel": null,
+      "related": null,
+      "@id": "cep-vr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Compiled Plan Sheets",
+      "definition": null,
+      "notation": "cps",
+      "altlabel": null,
+      "related": null,
+      "@id": "cps",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Copy of Planning Permit",
+      "definition": null,
+      "notation": "cpp",
+      "altlabel": null,
+      "related": null,
+      "@id": "cpp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Copy of Title",
+      "definition": null,
+      "notation": "ct",
+      "altlabel": null,
+      "related": null,
+      "@id": "ct",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant Document",
+      "definition": null,
+      "notation": "cd",
+      "altlabel": null,
+      "related": null,
+      "@id": "cd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covering Letter",
+      "definition": null,
+      "notation": "cl",
+      "altlabel": null,
+      "related": null,
+      "@id": "cl",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Digital Survey Geometry",
+      "definition": null,
+      "notation": "dsg",
+      "altlabel": null,
+      "related": null,
+      "@id": "dsg",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Engineering Plan",
+      "definition": null,
+      "notation": "ep",
+      "altlabel": null,
+      "related": null,
+      "@id": "ep",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Enhanced Diagram File",
+      "definition": null,
+      "notation": "edf",
+      "altlabel": null,
+      "related": null,
+      "@id": "edf",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Enhanced Diagram File (Compiled ePlan)",
+      "definition": null,
+      "notation": "edf-cep",
+      "altlabel": null,
+      "related": null,
+      "@id": "edf-cep",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "ePlan",
+      "definition": null,
+      "notation": "eplan",
+      "altlabel": null,
+      "related": null,
+      "@id": "eplan",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "ePlan Validation Report",
+      "definition": null,
+      "notation": "eplan-vr",
+      "altlabel": null,
+      "related": null,
+      "@id": "eplan-vr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Form 1 / Owners Consent",
+      "definition": null,
+      "notation": "form-1",
+      "altlabel": null,
+      "related": null,
+      "@id": "form-1",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Form 13 and SAFR Declaration",
+      "definition": null,
+      "notation": "form-13",
+      "altlabel": null,
+      "related": null,
+      "@id": "form-13",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Landscape or vegetation plan",
+      "definition": null,
+      "notation": "lvp",
+      "altlabel": null,
+      "related": null,
+      "@id": "lvp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Neighbourhood and Site Description",
+      "definition": null,
+      "notation": "n-sd",
+      "altlabel": null,
+      "related": null,
+      "@id": "n-sd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NICO/Encumbrance Overlay Diagram",
+      "definition": null,
+      "notation": "nico-e-od",
+      "altlabel": null,
+      "related": null,
+      "@id": "nico-e-od",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other Document Type",
+      "definition": null,
+      "notation": "odt",
+      "altlabel": null,
+      "related": null,
+      "@id": "odt",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Consent to Amend Certified Plan",
+      "definition": null,
+      "notation": "ocacp",
+      "altlabel": null,
+      "related": null,
+      "@id": "ocacp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Corporation Details",
+      "definition": null,
+      "notation": "ocd",
+      "altlabel": null,
+      "related": null,
+      "@id": "ocd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Photos",
+      "definition": null,
+      "notation": "photo",
+      "altlabel": null,
+      "related": null,
+      "@id": "photo",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan for Endorsement",
+      "definition": null,
+      "notation": "pe",
+      "altlabel": null,
+      "related": null,
+      "@id": "pe",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan of Subdivision or Consolidation",
+      "definition": null,
+      "notation": "psc",
+      "altlabel": null,
+      "related": null,
+      "@id": "psc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pre-approved RA Consent",
+      "definition": null,
+      "notation": "p-ara-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "p-ara-c",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Release for Lodgement",
+      "definition": null,
+      "notation": "rl",
+      "altlabel": null,
+      "related": null,
+      "@id": "rl",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Request for Extension of Time for a Planning Permit",
+      "definition": null,
+      "notation": "ret-pp",
+      "altlabel": null,
+      "related": null,
+      "@id": "ret-pp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Request for Secondary Consent",
+      "definition": null,
+      "notation": "rsc",
+      "altlabel": null,
+      "related": null,
+      "@id": "rsc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Response to Request for Further Information",
+      "definition": null,
+      "notation": "r-rfi",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-rfi",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Response to Request for Further Information - Referral Authority",
+      "definition": null,
+      "notation": "r-rfi-ra",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-rfi-ra",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RFI Extension of Time Request",
+      "definition": null,
+      "notation": "rfi-eot-r",
+      "altlabel": null,
+      "related": null,
+      "@id": "rfi-eot-r",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Name History Form",
+      "definition": null,
+      "notation": "rnhf",
+      "altlabel": null,
+      "related": null,
+      "@id": "rnhf",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Site context and design response (Subdivision)",
+      "definition": null,
+      "notation": "scdr-s",
+      "altlabel": null,
+      "related": null,
+      "@id": "scdr-s",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory Declaration for Advertising",
+      "definition": null,
+      "notation": "sda",
+      "altlabel": null,
+      "related": null,
+      "@id": "sda",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supplementary Abstract of Field Records (SAFR)",
+      "definition": null,
+      "notation": "safr",
+      "altlabel": null,
+      "related": null,
+      "@id": "safr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supplementary Surveyors Report",
+      "definition": null,
+      "notation": "ssr",
+      "altlabel": null,
+      "related": null,
+      "@id": "ssr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey plan",
+      "definition": null,
+      "notation": "sp",
+      "altlabel": null,
+      "related": null,
+      "@id": "sp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surveyors Report",
+      "definition": null,
+      "notation": "sr",
+      "altlabel": null,
+      "related": null,
+      "@id": "sr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Telecommunications Advice",
+      "definition": null,
+      "notation": "ta",
+      "altlabel": null,
+      "related": null,
+      "@id": "ta",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unanimous Resolution of Owners Corporation Members",
+      "definition": null,
+      "notation": "ur-ocm",
+      "altlabel": null,
+      "related": null,
+      "@id": "ur-ocm",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unanimous Resolution or VCAT Order added",
+      "definition": null,
+      "notation": "ur-vcat",
+      "altlabel": null,
+      "related": null,
+      "@id": "ur-vcat",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "VCAT Order Under section 34D",
+      "definition": null,
+      "notation": "vcat-34d",
+      "altlabel": null,
+      "related": null,
+      "@id": "vcat-34d",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "VicSmart Supporting Document",
+      "definition": null,
+      "notation": "vsd",
+      "altlabel": null,
+      "related": null,
+      "@id": "vsd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-equipment-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Equipment Type",
+  "class": "sosa:Sensor",
+  "concepts": [
+    {
+      "preflabel": "GNSS (inc. GPS) System",
+      "definition": null,
+      "notation": "gnss",
+      "altlabel": null,
+      "related": "LA_GNSSObservation",
+      "@id": "gnss",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Level",
+      "definition": null,
+      "notation": "level",
+      "altlabel": null,
+      "related": "LA_LevelObservation",
+      "@id": "level",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tape",
+      "definition": null,
+      "notation": "tape",
+      "altlabel": null,
+      "related": null,
+      "@id": "tape",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Theodolite and EDM",
+      "definition": null,
+      "notation": "t-edm",
+      "altlabel": null,
+      "related": "LA_TPSObservation",
+      "@id": "t-edm",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Theodolite and Steel Band",
+      "definition": null,
+      "notation": "t-band",
+      "altlabel": null,
+      "related": null,
+      "@id": "t-band",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Total Station",
+      "definition": null,
+      "notation": "ts",
+      "altlabel": null,
+      "related": "LA_TPSObservation",
+      "@id": "ts",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LiDAR",
+      "definition": null,
+      "notation": "lidar",
+      "altlabel": null,
+      "related": "LA_PointCloud",
+      "@id": "lidar",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Camera",
+      "definition": null,
+      "notation": "camera",
+      "altlabel": null,
+      "related": "LA_ImageObservation",
+      "@id": "camera",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Inertial Navigation System",
+      "definition": null,
+      "notation": "ins",
+      "altlabel": null,
+      "related": null,
+      "@id": "ins",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Theodolite",
+      "definition": null,
+      "notation": "t",
+      "altlabel": null,
+      "related": "LA_TPSObservation",
+      "@id": "t",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "EDM",
+      "definition": null,
+      "notation": "edm",
+      "altlabel": null,
+      "related": "LA_TPSObservation",
+      "@id": "edm",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Prism",
+      "definition": null,
+      "notation": "p",
+      "altlabel": null,
+      "related": null,
+      "@id": "p",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Software",
+      "definition": null,
+      "notation": "software",
+      "altlabel": null,
+      "related": null,
+      "@id": "software",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GPPS Base",
+      "definition": null,
+      "notation": "base",
+      "altlabel": null,
+      "related": "LA_GNSSObservation",
+      "@id": "base",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GPS Rover",
+      "definition": null,
+      "notation": "rover",
+      "altlabel": null,
+      "related": "LA_GNSSObservation",
+      "@id": "rover",
+      "type": "sosa:Sensor",
+      "@type": "skos:Concept"
+    }
+  ]
+}

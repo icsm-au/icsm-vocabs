@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-procedure-used/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-procedure-used",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Survey Procedures",
+  "class": "sosa:Procedure",
+  "concepts": [
+    {
+      "preflabel": "adopted",
+      "definition": "The dimensions of the observation were adopted from a previous survey where the dimensions had been measured",
+      "notation": "adopted",
+      "altlabel": null,
+      "related": null,
+      "@id": "adopted",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "calculated",
+      "definition": "The dimensions of the observation where calculated",
+      "notation": "calculated",
+      "altlabel": null,
+      "related": null,
+      "@id": "calculated",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "measured",
+      "definition": "The dimensions of the observation were measured when the survey was conducted",
+      "notation": "measured",
+      "altlabel": null,
+      "related": null,
+      "@id": "measured",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "scaled",
+      "definition": "The dimensions of the observation were scaled from a graphical plot",
+      "notation": "scaled",
+      "altlabel": "calculated",
+      "related": null,
+      "@id": "scaled",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "reinadopted",
+      "definition": "The dimensions of the observation were used for a reinstated boundary \u2013 no parcels are created",
+      "notation": "reinadopted",
+      "altlabel": "rein adopted",
+      "related": null,
+      "@id": "reinadopted",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "reincalculated",
+      "definition": "The dimensions of the observation were used for a reinstated boundary \u2013 no parcels are created",
+      "notation": "reincalculated",
+      "altlabel": "rein calculated",
+      "related": null,
+      "@id": "reincalculated",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    }
+  ]
+}

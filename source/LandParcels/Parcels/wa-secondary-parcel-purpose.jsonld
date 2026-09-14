@@ -1,0 +1,632 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Secondary Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Interest",
+      "definition": "Interest or encumbrance",
+      "notation": "interest",
+      "altlabel": null,
+      "related": "int",
+      "@id": "interest",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve",
+      "definition": "Reserve",
+      "notation": "reserve",
+      "altlabel": null,
+      "related": "3",
+      "@id": "reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lease",
+      "definition": "Lease",
+      "notation": "lease",
+      "altlabel": null,
+      "related": "4",
+      "@id": "lease",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "State Forest",
+      "definition": "State Forrest",
+      "notation": "state-forest",
+      "altlabel": null,
+      "related": "5",
+      "@id": "state-forest",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "UCL",
+      "definition": "Unallocated Crown Land",
+      "notation": "ucl",
+      "altlabel": null,
+      "related": "6",
+      "@id": "ucl",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drain Reserve",
+      "definition": "Drain Reserve",
+      "notation": "drain-reserve",
+      "altlabel": null,
+      "related": "8",
+      "@id": "drain-reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Timber Reserve",
+      "definition": "Timber Reserve",
+      "notation": "timber-reserve",
+      "altlabel": null,
+      "related": "9",
+      "@id": "timber-reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Water Feature",
+      "definition": "Water Feature",
+      "notation": "water-feature",
+      "altlabel": null,
+      "related": "11",
+      "@id": "water-feature",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tramway",
+      "definition": "Tramway",
+      "notation": "tramway",
+      "altlabel": null,
+      "related": "12",
+      "@id": "tramway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Reserve",
+      "definition": "Marine Reserve",
+      "notation": "marine-reserve",
+      "altlabel": null,
+      "related": "14",
+      "@id": "marine-reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stock Route",
+      "definition": "Stock Route",
+      "notation": "stock-route",
+      "altlabel": null,
+      "related": "15",
+      "@id": "stock-route",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Parent of Survey Strata",
+      "definition": "Parent of Survey Strata",
+      "notation": "parent-of-survey strata",
+      "altlabel": null,
+      "related": "22",
+      "@id": "parent-of-survey-strata",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surround",
+      "definition": "Surround",
+      "notation": "surround",
+      "altlabel": null,
+      "related": "181",
+      "@id": "surround",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Surround",
+      "definition": "Interest Surround",
+      "notation": "interest-surround",
+      "altlabel": null,
+      "related": "182",
+      "@id": "interest-surround",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cancelled Surround",
+      "definition": "Cancelled Surround",
+      "notation": "cancelled-surround",
+      "altlabel": null,
+      "related": "183",
+      "@id": "cancelled-surround",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Retired Surround",
+      "definition": "Retired Surround",
+      "notation": "retired-surround",
+      "altlabel": null,
+      "related": "184",
+      "@id": "retired-surround",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conversion",
+      "definition": "Conversion",
+      "notation": "conversion",
+      "altlabel": null,
+      "related": "186",
+      "@id": "conversion",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory Plan",
+      "definition": "Statutory Plan",
+      "notation": "statutory-plan",
+      "altlabel": null,
+      "related": "187",
+      "@id": "statutory-plan",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Crown",
+      "definition": "Superseded Crown",
+      "notation": "superseded-crown",
+      "altlabel": null,
+      "related": "200",
+      "@id": "superseded-crown",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Infrastructure 1",
+      "definition": "Infrastructure 1",
+      "notation": "infrastructure-1",
+      "altlabel": null,
+      "related": "146",
+      "@id": "infrastructure-1",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Infrastructure 2",
+      "definition": "Infrastructure 2",
+      "notation": "infrastructure-2",
+      "altlabel": null,
+      "related": "147",
+      "@id": "infrastructure-2",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Critical Port Areas (CPA)",
+      "definition": "Critical Port Areas (CPA)",
+      "notation": "critical-port-areas-cpa",
+      "altlabel": null,
+      "related": "148",
+      "@id": "critical-port-areas-cpa",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "ILUA",
+      "definition": "ILUA",
+      "notation": "ilua",
+      "altlabel": null,
+      "related": "149",
+      "@id": "ilua",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LGA Town-site",
+      "definition": "LGA Town-site",
+      "notation": "LGA-town-site",
+      "altlabel": null,
+      "related": "151",
+      "@id": "LGA-town-site",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Postal Locality",
+      "definition": "Postal Locality",
+      "notation": "postal-locality",
+      "altlabel": null,
+      "related": "152",
+      "@id": "postal-locality",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Linked LGA",
+      "definition": "Linked LGA",
+      "notation": "linked-LGA",
+      "altlabel": null,
+      "related": "153",
+      "@id": "linked-LGA",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LGA Ward",
+      "definition": "LGA Ward",
+      "notation": "LGA-ward",
+      "altlabel": null,
+      "related": "154",
+      "@id": "LGA-ward",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PreGazetted LGA Ward",
+      "definition": "PreGazetted LGA Ward",
+      "notation": "pregazetted-LGA-ward",
+      "altlabel": null,
+      "related": "155",
+      "@id": "pregazetted-LGA-ward",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 1 Land",
+      "definition": "Project 1 Land",
+      "notation": "project-1-land",
+      "altlabel": null,
+      "related": "156",
+      "@id": "project-1-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 2 Land",
+      "definition": "Project 2 Land",
+      "notation": "project-2-land",
+      "altlabel": null,
+      "related": "157",
+      "@id": "project-2-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 3 Land",
+      "definition": "Project 3 Land",
+      "notation": "project-3-land",
+      "altlabel": null,
+      "related": "158",
+      "@id": "project-3-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 4 Land",
+      "definition": "Project 4 Land",
+      "notation": "project-4-land",
+      "altlabel": null,
+      "related": "159",
+      "@id": "project-4-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLA",
+      "definition": "MLA",
+      "notation": "MLA",
+      "altlabel": null,
+      "related": "160",
+      "@id": "MLA",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLC",
+      "definition": "MLC",
+      "notation": "MLC",
+      "altlabel": null,
+      "related": "161",
+      "@id": "MLC",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed MLA Land",
+      "definition": "Proposed MLA Land",
+      "notation": "proposed-MLA-land",
+      "altlabel": null,
+      "related": "162",
+      "@id": "proposed-MLA-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed MLC Land",
+      "definition": "Proposed MLC Land",
+      "notation": "proposed-MLC-land",
+      "altlabel": null,
+      "related": "163",
+      "@id": "proposed-MLC-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pre Gazetted LGA Land",
+      "definition": "Pre Gazetted LGA Land",
+      "notation": "pre-gazetted-LGA-land",
+      "altlabel": null,
+      "related": "164",
+      "@id": "pre-gazetted-LGA-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "State Border",
+      "definition": "State Border",
+      "notation": "state-border",
+      "altlabel": null,
+      "related": "165",
+      "@id": "state-border",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Division",
+      "definition": "Land Division",
+      "notation": "land-division",
+      "altlabel": null,
+      "related": "166",
+      "@id": "land-division",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land District",
+      "definition": "Land District",
+      "notation": "land-district",
+      "altlabel": null,
+      "related": "167",
+      "@id": "land-district",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Agricultural Area",
+      "definition": "Agricultural Area",
+      "notation": "agricultural-area",
+      "altlabel": null,
+      "related": "168",
+      "@id": "agricultural-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Suburban Area",
+      "definition": "Suburban Area",
+      "notation": "suburban-area",
+      "altlabel": null,
+      "related": "169",
+      "@id": "suburban-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Estate Area",
+      "definition": "Estate Area",
+      "notation": "estate-area",
+      "altlabel": null,
+      "related": "170",
+      "@id": "estate-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town-site Land Act",
+      "definition": "Town-site Land Act",
+      "notation": "town-site-land-act",
+      "altlabel": null,
+      "related": "171",
+      "@id": "town-site-land-act",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Settlement Area",
+      "definition": "Special Settlement Area",
+      "notation": "special-settlement-area",
+      "altlabel": null,
+      "related": "172",
+      "@id": "special-settlement-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Riverpark Area",
+      "definition": "Riverpark Area",
+      "notation": "riverpark-area",
+      "altlabel": null,
+      "related": "173",
+      "@id": "riverpark-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Development Control Area",
+      "definition": "Development Control Area",
+      "notation": "development-control-area",
+      "altlabel": null,
+      "related": "174",
+      "@id": "development-control-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Park",
+      "definition": "Marine Park",
+      "notation": "marine-park",
+      "altlabel": null,
+      "related": "177",
+      "@id": "marine-park",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Nature Reserve",
+      "definition": "Marine Nature Reserve",
+      "notation": "marine-nature-reserve",
+      "altlabel": null,
+      "related": "178",
+      "@id": "marine-nature-reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Management Area",
+      "definition": "Marine Management Area",
+      "notation": "marine-management-area",
+      "altlabel": null,
+      "related": "179",
+      "@id": "marine-management-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Water Control Area",
+      "definition": "Water Control Area",
+      "notation": "water-control-area",
+      "altlabel": null,
+      "related": "185",
+      "@id": "water-control-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Port Authority",
+      "definition": "Port Authority",
+      "notation": "port-authority",
+      "altlabel": null,
+      "related": "190",
+      "@id": "port-authority",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine & Harbour Area",
+      "definition": "Marine & Harbour Area",
+      "notation": "marine-and-harbour-area",
+      "altlabel": null,
+      "related": "191",
+      "@id": "marine-and-harbour-area",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Survey Area",
+      "definition": "Special Survey Area",
+      "notation": "SSA",
+      "altlabel": null,
+      "related": "192",
+      "@id": "SSA",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shipping and Pilotage Land",
+      "definition": "Shipping and Pilotage Land",
+      "notation": "shipping-and-pilotage-land",
+      "altlabel": null,
+      "related": "193",
+      "@id": "shipping-and-pilotage-land",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Railway Corridor",
+      "definition": "Railway Corridor",
+      "notation": "railway-corridor",
+      "altlabel": null,
+      "related": "194",
+      "@id": "railway-corridor",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "DBNGP Corridor",
+      "definition": "DBNGP Corridor",
+      "notation": "DBNGP-corridor",
+      "altlabel": null,
+      "related": "195",
+      "@id": "DBNGP-corridor",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) NNTT",
+      "definition": "LCMU (Native Title) NNTT",
+      "notation": "LCMU-native-title-NNTT",
+      "altlabel": null,
+      "related": "196",
+      "@id": "LCMU-native-title-NNTT",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) Fed",
+      "definition": "LCMU (Native Title) Fed",
+      "notation": "LCMU-native-title-Fed",
+      "altlabel": null,
+      "related": "197",
+      "@id": "LCMU-native-title-Fed",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) Det",
+      "definition": "LCMU (Native Title) Det",
+      "notation": "LCMU-native-title-Det",
+      "altlabel": null,
+      "related": "198",
+      "@id": "LCMU-native-title-Det",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

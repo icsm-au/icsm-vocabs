@@ -1,0 +1,103 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nb1c0f6512f624b8d971c68105ef4f1d9 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:54.553883"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:54.470011"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-purpose.csv> ] ;
+            prov:wasAssociatedWith _:Nb1c0f6512f624b8d971c68105ef4f1d9 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/cmca> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "The marine and coastal area other than: (a) specified freehold land located in that area; and (b) any area that is owned by the Crown and has the status of any of the following kinds: (i) a conservation area within the meaning of section 2(1) of the Conservation Act 1987; (ii) a national park within the meaning of section 2 of the National Parks Act 1980; (iii) a reserve within the meaning of section 2(1) of the Reserves Act 1977; and (c) the bed of Te Whaanga Lagoon in the Chatham Islands (Marine and Coastal Area (Takutai Moana) Act 2011)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "cmca" ;
+    skos:prefLabel "Common Marine and Coastal Area" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/erosion> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel defining the portion of land that has been eroded from a parcel being extinguished." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "erosion" ;
+    skos:prefLabel "Erosion" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/fst> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel created for a Fee Simple title, including a parcel with a height limited/stratum boundary. This could include a SO Crown subdivision parcel, reclamation parcel or a parcel shown on a Legalisation CSD (other than a balance parcel)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "fst" ;
+    skos:prefLabel "Fee Simple Title" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/hydro> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A Primary Parcel defining the residual or balance portion of the bed of a lake, river, stream or the sea. Includes land that has already become part of the common marine and coastal area pursuant to the Marine & Coastal Area Act 2011. Land that will become common marine and coastal area on subdivision pursuant to Sec 237A (1)(b) RM Act must have the parcel intent of Common Marine and Coastal Area." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "hydro" ;
+    skos:prefLabel "Hydro" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/legalisation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel on a Legalisation CSD, including a parcel with a height-limited/stratum boundary, that is intended to be subject to a statutory action (including road to be stopped and land to be taken for road). For new parcels not directly subject to the proposed legalisation, but which are required under rule 39 (accounting for all of the land in existing primary parcels), the parcel intent should reflect its current status, for example Fee Simple Title for a fee simple parcel." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "legalisation" ;
+    skos:prefLabel "Legalisation" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/m-ori> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Primary parcel created on a Māori Land CSD by an order from the Māori Land Court (MLC). (Includes Roadways if the MLC has declared the roadway to be a separate primary parcel similar in the nature of a Road)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "māori" ;
+    skos:prefLabel "Māori" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/railway> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel which is to remain railway (for example when creating a balance railway parcel)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "railway" ;
+    skos:prefLabel "Railway" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/residual> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A parcel that is the residual portion of a primary parcel remaining as a result of a survey: i. for removal of limitations as to parcels, or ii. for an adverse possession claim, or iii. to change the registration of land from the Deeds Registration Act 1908 to the Land Transfer Act 2017." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "residual" ;
+    skos:prefLabel "Residual Parcel" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/road> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel which is to remain legal road (for example when creating a balance road parcel)." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "road" ;
+    skos:prefLabel "Road" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose/vest> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "A primary parcel vested on Deposit. Vested parcels include accessways, Government Purpose Reserves, historic reserves (Crown or Territorial Authority), Local Purpose Reserve, Nature Reserve (Crown or Territorial Authority), Recreation Reserve (Crown or Territorial Authority), Road, Scenic Reserve (Crown or Territorial Authority), Scientific Reserve (Crown or Territorial Authority), Service Lane, in Lieu of a Reserve (Crown or Territorial Authority), in the Crown under sec. 239(1)(c) of the Resource Management Act 1991 or the territorial Authority under sec. 237A(1)(a) of the Resource management Act 1991." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-purpose> ;
+    skos:notation "vest" ;
+    skos:prefLabel "Vesting on deposit" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Parcel Purpose" ;
+    skos:scopeNote "termtype:ParcelPurpose" .
+
+_:Nb1c0f6512f624b8d971c68105ef4f1d9 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

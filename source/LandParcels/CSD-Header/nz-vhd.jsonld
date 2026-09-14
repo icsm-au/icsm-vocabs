@@ -1,0 +1,172 @@
+{
+  "@context": [
+    {
+      "@base": "http://www.opengis.net/def/crs/EPSG/0/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "http://www.opengis.net/def/crs/EPSG/0",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Vertical Height Datums",
+  "class": "termtype:AllowableCoordinateReferenceSystem",
+  "concepts": [
+    {
+      "preflabel": "One Tree Point 1964 height",
+      "definition": null,
+      "notation": "5767",
+      "altlabel": "ONTPHT1964",
+      "related": null,
+      "@id": "5767",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Auckland 1946 height",
+      "definition": null,
+      "notation": "5759",
+      "altlabel": "AUCKHT1946",
+      "related": null,
+      "@id": "5759",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moturiki 1953 height",
+      "definition": null,
+      "notation": "5764",
+      "altlabel": "MOTUHT1953",
+      "related": null,
+      "@id": "5764",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gisborne 1926 height",
+      "definition": null,
+      "notation": "5762",
+      "altlabel": "GISBHT1926",
+      "related": null,
+      "@id": "5762",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Napier 1962 height",
+      "definition": null,
+      "notation": "5765",
+      "altlabel": "NAPIHT1962",
+      "related": null,
+      "@id": "5765",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Taranaki 1970 height",
+      "definition": null,
+      "notation": "5769",
+      "altlabel": "TARAHT1970",
+      "related": null,
+      "@id": "5769",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wellington 1953 height",
+      "definition": null,
+      "notation": "5770",
+      "altlabel": "WELLHT1953",
+      "related": null,
+      "@id": "5770",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nelson 1955 height",
+      "definition": null,
+      "notation": "5766",
+      "altlabel": "NELSHT1955",
+      "related": null,
+      "@id": "5766",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lyttelton 1937 height",
+      "definition": null,
+      "notation": "5763",
+      "altlabel": "LYTTHT1937",
+      "related": null,
+      "@id": "5763",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dunedin 1958 height",
+      "definition": null,
+      "notation": "5761",
+      "altlabel": "DUNEHT1958",
+      "related": null,
+      "@id": "5761",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dunedin-Bluff 1960 height",
+      "definition": null,
+      "notation": "4458",
+      "altlabel": "DUBLHT1960",
+      "related": null,
+      "@id": "4458",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bluff 1955 height",
+      "definition": null,
+      "notation": "5760",
+      "altlabel": "BLUFHT1955",
+      "related": null,
+      "@id": "5760",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stewart Island 1977 height",
+      "definition": null,
+      "notation": "5772",
+      "altlabel": "STISHT1977",
+      "related": null,
+      "@id": "5772",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "NZVD2016 height",
+      "definition": null,
+      "notation": "7839",
+      "altlabel": null,
+      "related": null,
+      "@id": "7839",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    }
+  ]
+}

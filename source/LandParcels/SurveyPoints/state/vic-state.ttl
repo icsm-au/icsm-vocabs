@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/vic-state.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nc289cb504f554f4289e2317e683ac3d8 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.285379"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.207747"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/vic-state.csv> ] ;
+            prov:wasAssociatedWith _:Nc289cb504f554f4289e2317e683ac3d8 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/existing> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:definition "A mark of any type that was existing at the time of the cadastral survey. For these marks, the condition defines what condition the mark is in when it was located." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "existing" ;
+    skos:prefLabel "Existing" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/new> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:definition "A mark of any type that is created as part of the cadastral survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "new" ;
+    skos:prefLabel "New" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/proposed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "proposed" ;
+    skos:prefLabel "Proposed" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Monument State" ;
+    skos:scopeNote "surv:SurveyPointState" .
+
+_:Nc289cb504f554f4289e2317e683ac3d8 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

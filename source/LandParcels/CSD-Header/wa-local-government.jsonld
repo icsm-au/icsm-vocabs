@@ -1,0 +1,1422 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-local-government/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-local-government",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Local Government Districts",
+  "class": "termtype:AdminUnit",
+  "concepts": [
+    {
+      "preflabel": "City of Albany",
+      "definition": null,
+      "notation": "city-of-albany",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-albany",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Armadale",
+      "definition": null,
+      "notation": "city-of-armadale",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-armadale",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Ashburton",
+      "definition": null,
+      "notation": "shire-of-ashburton",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-ashburton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Augusta Margaret River",
+      "definition": null,
+      "notation": "shire-of-augusta-margaret-river",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-augusta-margaret-river",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Bassendean",
+      "definition": null,
+      "notation": "town-of-bassendean",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-bassendean",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Bayswater",
+      "definition": null,
+      "notation": "city-of-bayswater",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-bayswater",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Belmont",
+      "definition": null,
+      "notation": "city-of-belmont",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-belmont",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Beverley",
+      "definition": null,
+      "notation": "shire-of-beverley",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-beverley",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Boddington",
+      "definition": null,
+      "notation": "shire-of-boddington",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-boddington",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Boyup Brook",
+      "definition": null,
+      "notation": "shire-of-boyup-brook",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-boyup-brook",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Bridgetown-Greenbushes",
+      "definition": null,
+      "notation": "shire-of-bridgetown-greenbushes",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-bridgetown-greenbushes",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Brookton",
+      "definition": null,
+      "notation": "shire-of-brookton",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-brookton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Broome",
+      "definition": null,
+      "notation": "shire-of-broome",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-broome",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Broomehill-Tambellup",
+      "definition": null,
+      "notation": "shire-of-broomehill-tambellup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-broomehill-tambellup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Bruce Rock",
+      "definition": null,
+      "notation": "shire-of-bruce-rock",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-bruce-rock",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Bunbury",
+      "definition": null,
+      "notation": "city-of-bunbury",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-bunbury",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Busselton",
+      "definition": null,
+      "notation": "city-of-busselton",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-busselton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Cambridge",
+      "definition": null,
+      "notation": "town-of-cambridge",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-cambridge",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Canning",
+      "definition": null,
+      "notation": "city-of-canning",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-canning",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Capel",
+      "definition": null,
+      "notation": "shire-of-capel",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-capel",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Carnamah",
+      "definition": null,
+      "notation": "shire-of-carnamah",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-carnamah",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Carnarvon",
+      "definition": null,
+      "notation": "shire-of-carnarvon",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-carnarvon",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Chapman Valley",
+      "definition": null,
+      "notation": "shire-of-chapman-valley",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-chapman-valley",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Chittering",
+      "definition": null,
+      "notation": "shire-of-chittering",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-chittering",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Christmas Island",
+      "definition": null,
+      "notation": "shire-of-christmas-island",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-christmas-island",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Claremont",
+      "definition": null,
+      "notation": "town-of-claremont",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-claremont",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Cockburn",
+      "definition": null,
+      "notation": "city-of-cockburn",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-cockburn",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Cocos Islands",
+      "definition": null,
+      "notation": "shire-of-cocos-islands",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-cocos-islands",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Collie",
+      "definition": null,
+      "notation": "shire-of-collie",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-collie",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Coolgardie",
+      "definition": null,
+      "notation": "shire-of-coolgardie",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-coolgardie",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Coorow",
+      "definition": null,
+      "notation": "shire-of-coorow",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-coorow",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Corrigin",
+      "definition": null,
+      "notation": "shire-of-corrigin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-corrigin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Cottesloe",
+      "definition": null,
+      "notation": "town-of-cottesloe",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-cottesloe",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Cranbrook",
+      "definition": null,
+      "notation": "shire-of-cranbrook",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-cranbrook",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Cuballing",
+      "definition": null,
+      "notation": "shire-of-cuballing",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-cuballing",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Cue",
+      "definition": null,
+      "notation": "shire-of-cue",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-cue",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Cunderdin",
+      "definition": null,
+      "notation": "shire-of-cunderdin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-cunderdin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dalwallinu",
+      "definition": null,
+      "notation": "shire-of-dalwallinu",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dalwallinu",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dandaragan",
+      "definition": null,
+      "notation": "shire-of-dandaragan",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dandaragan",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dardanup",
+      "definition": null,
+      "notation": "shire-of-dardanup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dardanup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Denmark",
+      "definition": null,
+      "notation": "shire-of-denmark",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-denmark",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Derby-West Kimberley",
+      "definition": null,
+      "notation": "shire-of-derby-west-kimberley",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-derby-west-kimberley",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Donnybrook-Balingup",
+      "definition": null,
+      "notation": "shire-of-donnybrook-balingup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-donnybrook-balingup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dowerin",
+      "definition": null,
+      "notation": "shire-of-dowerin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dowerin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dumbleyung",
+      "definition": null,
+      "notation": "shire-of-dumbleyung",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dumbleyung",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Dundas",
+      "definition": null,
+      "notation": "shire-of-dundas",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-dundas",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of East Fremantle",
+      "definition": null,
+      "notation": "town-of-east-fremantle",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-east-fremantle",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of East Pilbara",
+      "definition": null,
+      "notation": "shire-of-east-pilbara",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-east-pilbara",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Esperance",
+      "definition": null,
+      "notation": "shire-of-esperance",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-esperance",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Exmouth",
+      "definition": null,
+      "notation": "shire-of-exmouth",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-exmouth",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Fremantle",
+      "definition": null,
+      "notation": "city-of-fremantle",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-fremantle",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Gingin",
+      "definition": null,
+      "notation": "shire-of-gingin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-gingin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Gnowangerup",
+      "definition": null,
+      "notation": "shire-of-gnowangerup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-gnowangerup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Goomalling",
+      "definition": null,
+      "notation": "shire-of-goomalling",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-goomalling",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Gosnells",
+      "definition": null,
+      "notation": "city-of-gosnells",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-gosnells",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Greater Geraldton",
+      "definition": null,
+      "notation": "city-of-greater-geraldton",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-greater-geraldton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Halls Creek",
+      "definition": null,
+      "notation": "shire-of-halls-creek",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-halls-creek",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Harvey",
+      "definition": null,
+      "notation": "shire-of-harvey",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-harvey",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Irwin",
+      "definition": null,
+      "notation": "shire-of-irwin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-irwin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Jerramungup",
+      "definition": null,
+      "notation": "shire-of-jerramungup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-jerramungup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Joondalup",
+      "definition": null,
+      "notation": "city-of-joondalup",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-joondalup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Kalamunda",
+      "definition": null,
+      "notation": "city-of-kalamunda",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-kalamunda",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Kalgoorlie-Boulder",
+      "definition": null,
+      "notation": "city-of-kalgoorlie-boulder",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-kalgoorlie-boulder",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Karratha",
+      "definition": null,
+      "notation": "city-of-karratha",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-karratha",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Katanning",
+      "definition": null,
+      "notation": "shire-of-katanning",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-katanning",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Kellerberrin",
+      "definition": null,
+      "notation": "shire-of-kellerberrin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-kellerberrin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Kent",
+      "definition": null,
+      "notation": "shire-of-kent",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-kent",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Kojonup",
+      "definition": null,
+      "notation": "shire-of-kojonup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-kojonup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Kondinin",
+      "definition": null,
+      "notation": "shire-of-kondinin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-kondinin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Koorda",
+      "definition": null,
+      "notation": "shire-of-koorda",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-koorda",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Kulin",
+      "definition": null,
+      "notation": "shire-of-kulin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-kulin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Kwinana",
+      "definition": null,
+      "notation": "city-of-kwinana",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-kwinana",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Lake Grace",
+      "definition": null,
+      "notation": "shire-of-lake-grace",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-lake-grace",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Laverton",
+      "definition": null,
+      "notation": "shire-of-laverton",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-laverton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Leonora",
+      "definition": null,
+      "notation": "shire-of-leonora",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-leonora",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Mandurah",
+      "definition": null,
+      "notation": "city-of-mandurah",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-mandurah",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Manjimup",
+      "definition": null,
+      "notation": "shire-of-manjimup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-manjimup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Meekatharra",
+      "definition": null,
+      "notation": "shire-of-meekatharra",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-meekatharra",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Melville",
+      "definition": null,
+      "notation": "city-of-melville",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-melville",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Menzies",
+      "definition": null,
+      "notation": "shire-of-menzies",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-menzies",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Merredin",
+      "definition": null,
+      "notation": "shire-of-merredin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-merredin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Mingenew",
+      "definition": null,
+      "notation": "shire-of-mingenew",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-mingenew",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Moora",
+      "definition": null,
+      "notation": "shire-of-moora",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-moora",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Morawa",
+      "definition": null,
+      "notation": "shire-of-morawa",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-morawa",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Mosman Park",
+      "definition": null,
+      "notation": "town-of-mosman-park",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-mosman-park",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Mount Magnet",
+      "definition": null,
+      "notation": "shire-of-mount-magnet",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-mount-magnet",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Mount Marshall",
+      "definition": null,
+      "notation": "shire-of-mount-marshall",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-mount-marshall",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Mukinbudin",
+      "definition": null,
+      "notation": "shire-of-mukinbudin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-mukinbudin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Mundaring",
+      "definition": null,
+      "notation": "shire-of-mundaring",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-mundaring",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Murchison",
+      "definition": null,
+      "notation": "shire-of-murchison",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-murchison",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Murray",
+      "definition": null,
+      "notation": "shire-of-murray",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-murray",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Nannup",
+      "definition": null,
+      "notation": "shire-of-nannup",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-nannup",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Narembeen",
+      "definition": null,
+      "notation": "shire-of-narembeen",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-narembeen",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Narrogin",
+      "definition": null,
+      "notation": "shire-of-narrogin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-narrogin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Nedlands",
+      "definition": null,
+      "notation": "city-of-nedlands",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-nedlands",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Ngaanyatjarraku",
+      "definition": null,
+      "notation": "shire-of-ngaanyatjarraku",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-ngaanyatjarraku",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Northam",
+      "definition": null,
+      "notation": "shire-of-northam",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-northam",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Northampton",
+      "definition": null,
+      "notation": "shire-of-northampton",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-northampton",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Nungarin",
+      "definition": null,
+      "notation": "shire-of-nungarin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-nungarin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Peppermint Grove",
+      "definition": null,
+      "notation": "shire-of-peppermint-grove",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-peppermint-grove",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Perenjori",
+      "definition": null,
+      "notation": "shire-of-perenjori",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-perenjori",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Perth",
+      "definition": null,
+      "notation": "city-of-perth",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-perth",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Pingelly",
+      "definition": null,
+      "notation": "shire-of-pingelly",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-pingelly",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Plantagenet",
+      "definition": null,
+      "notation": "shire-of-plantagenet",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-plantagenet",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Port Hedland",
+      "definition": null,
+      "notation": "town-of-port-hedland",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-port-hedland",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Quairading",
+      "definition": null,
+      "notation": "shire-of-quairading",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-quairading",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Ravensthorpe",
+      "definition": null,
+      "notation": "shire-of-ravensthorpe",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-ravensthorpe",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Rockingham",
+      "definition": null,
+      "notation": "city-of-rockingham",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-rockingham",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Sandstone",
+      "definition": null,
+      "notation": "shire-of-sandstone",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-sandstone",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Serpentine-Jarrahdale",
+      "definition": null,
+      "notation": "shire-of-serpentine-jarrahdale",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-serpentine-jarrahdale",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Shark Bay",
+      "definition": null,
+      "notation": "shire-of-shark-bay",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-shark-bay",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of South Perth",
+      "definition": null,
+      "notation": "city-of-south-perth",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-south-perth",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Stirling",
+      "definition": null,
+      "notation": "city-of-stirling",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-stirling",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Subiaco",
+      "definition": null,
+      "notation": "city-of-subiaco",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-subiaco",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Swan",
+      "definition": null,
+      "notation": "city-of-swan",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-swan",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Tammin",
+      "definition": null,
+      "notation": "shire-of-tammin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-tammin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Three Springs",
+      "definition": null,
+      "notation": "shire-of-three-springs",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-three-springs",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Toodyay",
+      "definition": null,
+      "notation": "shire-of-toodyay",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-toodyay",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Trayning",
+      "definition": null,
+      "notation": "shire-of-trayning",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-trayning",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Upper Gascoyne",
+      "definition": null,
+      "notation": "shire-of-upper-gascoyne",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-upper-gascoyne",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town of Victoria Park",
+      "definition": null,
+      "notation": "town-of-victoria-park",
+      "altlabel": null,
+      "related": null,
+      "@id": "town-of-victoria-park",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Victoria Plains",
+      "definition": null,
+      "notation": "shire-of-victoria-plains",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-victoria-plains",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Vincent",
+      "definition": null,
+      "notation": "city-of-vincent",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-vincent",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wagin",
+      "definition": null,
+      "notation": "shire-of-wagin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wagin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wandering",
+      "definition": null,
+      "notation": "shire-of-wandering",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wandering",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "City of Wanneroo",
+      "definition": null,
+      "notation": "city-of-wanneroo",
+      "altlabel": null,
+      "related": null,
+      "@id": "city-of-wanneroo",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Waroona",
+      "definition": null,
+      "notation": "shire-of-waroona",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-waroona",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of West Arthur",
+      "definition": null,
+      "notation": "shire-of-west-arthur",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-west-arthur",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Westonia",
+      "definition": null,
+      "notation": "shire-of-westonia",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-westonia",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wickepin",
+      "definition": null,
+      "notation": "shire-of-wickepin",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wickepin",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Williams",
+      "definition": null,
+      "notation": "shire-of-williams",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-williams",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wiluna",
+      "definition": null,
+      "notation": "shire-of-wiluna",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wiluna",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wongan-Ballidu",
+      "definition": null,
+      "notation": "shire-of-wongan-ballidu",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wongan-ballidu",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Woodanilling",
+      "definition": null,
+      "notation": "shire-of-woodanilling",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-woodanilling",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wyalkatchem",
+      "definition": null,
+      "notation": "shire-of-wyalkatchem",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wyalkatchem",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Wyndham-East Kimberley",
+      "definition": null,
+      "notation": "shire-of-wyndham-east-kimberley",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-wyndham-east-kimberley",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Yalgoo",
+      "definition": null,
+      "notation": "shire-of-yalgoo",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-yalgoo",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of Yilgarn",
+      "definition": null,
+      "notation": "shire-of-yilgarn",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-yilgarn",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shire of York",
+      "definition": null,
+      "notation": "shire-of-york",
+      "altlabel": null,
+      "related": null,
+      "@id": "shire-of-york",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    }
+  ]
+}

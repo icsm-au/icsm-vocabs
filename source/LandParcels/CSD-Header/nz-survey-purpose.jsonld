@@ -1,0 +1,582 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-survey-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Survey Purpose",
+  "class": "surv:SurveyPurpose",
+  "concepts": [
+    {
+      "preflabel": "Application",
+      "definition": "To be used when registering land under the Land Transfer Act for the first time \u2013 usually from Deeds Registered land. Includes Adverse Possession under the Land Transfer Amendment Act 1963. Application for Accretion. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "application",
+      "altlabel": null,
+      "related": null,
+      "@id": "application",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Forest Lease",
+      "definition": "To be used to depict Crown Forest License areas. Note: to be recorded in terms of OSG Policy 1997/01. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in crown forest licenses only. ",
+      "notation": "cfl",
+      "altlabel": null,
+      "related": null,
+      "@id": "cfl",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement",
+      "definition": "To be used for depicting an easement when it is not part of a current land subdivision survey. Includes survey of Profit-a-Prendre and Esplanade Strips. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in easements only. ",
+      "notation": "easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flat plan/Crosslease Plan",
+      "definition": "To depict a standard CSD that shows Flats or Cross Leases. Survey of Restrictive Covenant areas only. No survey system information is provided. Tenure system information may be used to define interests in flat and cross lease parcels only. ",
+      "notation": "fpcp",
+      "altlabel": null,
+      "related": null,
+      "@id": "fpcp",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flat plan/Crosslease with Survey Sheet",
+      "definition": "To depict a standard CSD that shows Flats or Cross Leases and Survey of Restrictive Covenant areas only that includes a survey sheet. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in flat and cross lease parcels, easements or covenants only. ",
+      "notation": "fpcp-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "fpcp-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Transfer Plan Land Covenant",
+      "definition": "To be used for depicting land covenants on registered land when only the covenant is shown on the plan i.e. not associated with a current land subdivision survey. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in land covenants only. ",
+      "notation": "ltlc",
+      "altlabel": null,
+      "related": null,
+      "@id": "ltlc",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LT Subdivision",
+      "definition": "To be used to depict subdivisions of land owned in fee simple. Includes a new definition of a single parcel. Includes surveys of Amalgamation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "lts",
+      "altlabel": null,
+      "related": null,
+      "@id": "lts",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lease",
+      "definition": "To be used to depict parcels for leasehold title. These overlay but do not supersede the underlying cadastre. Survey system information may be adopted by other surveys. Tenure system information may be used to define leasehold interest in the land only.",
+      "notation": "lease",
+      "altlabel": null,
+      "related": null,
+      "@id": "lease",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Limited Title",
+      "definition": "To be used to depict a definition or subdivision of land owned in fee simple when that land is held in a title Limited asto parcels. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "lt",
+      "altlabel": null,
+      "related": null,
+      "@id": "lt",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reclamation",
+      "definition": "To be used to depict land registered under the LandTransfer Act for reclamation of seabed, foreshore, stream/riverbed, or lakebed. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "reclamation",
+      "altlabel": null,
+      "related": null,
+      "@id": "reclamation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Standard Unit Plan",
+      "definition": "To depict a standard Unit Title CSD produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "sup",
+      "altlabel": null,
+      "related": null,
+      "@id": "sup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Standard Unit Plan with Survey Sheet",
+      "definition": "To depict a standard Unit Title CSD with survey sheet produced under the Unit Titles Act 1972. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "sup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "sup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subsidiary Standard Unit Plan",
+      "definition": "To depict a subsidiary standard Unit Title CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "ssup",
+      "altlabel": null,
+      "related": null,
+      "@id": "ssup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subsidiary Standard Unit Plan with Survey Sheet",
+      "definition": "To depict a subsidiary standard Unit Title CSD with survey sheet produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "ssup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "ssup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed Unit Development",
+      "definition": "To depict a standard proposed Unit Development CSD produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "pud",
+      "altlabel": null,
+      "related": null,
+      "@id": "pud",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed Unit Development with Survey Sheet",
+      "definition": "To depict a proposed Unit Development plan with survey sheet produced under the Unit Titles Act 1972. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "pud-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "pud-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "First Stage Unit Plan",
+      "definition": "To depict the first stage of a Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "fsup",
+      "altlabel": null,
+      "related": null,
+      "@id": "fsup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "First Stage Unit Plan with Survey Sheet",
+      "definition": "To depict the first stage of a Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "fsup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "fsup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stage Unit Plan",
+      "definition": "To depict a further stage (other than the complete stage) of a Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "stage-up",
+      "altlabel": null,
+      "related": null,
+      "@id": "stage-up",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stage Unit Plan with Survey Sheet",
+      "definition": "To depict a further stage (other than the complete stage) of a Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "stage-up-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "stage-up-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Complete Stage Unit Plan",
+      "definition": "To depict a complete Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "csup",
+      "altlabel": null,
+      "related": null,
+      "@id": "csup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Complete Stage Unit Plan with Survey Sheet",
+      "definition": "To depict a complete Unit Title staged development CSD with survey sheet produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "csup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "csup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subsidiary Proposed Unit Development",
+      "definition": "To depict a subsidiary proposed Unit Development CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "spud",
+      "altlabel": null,
+      "related": null,
+      "@id": "spud",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subsidiary Proposed Unit Development with Survey Sheet",
+      "definition": "To depict a subsidiary proposed Unit Development CSD with survey sheet, produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "spud-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "spud-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Substituted Proposed Unit Development",
+      "definition": "To depict a substituted proposed Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "sub-pud",
+      "altlabel": null,
+      "related": null,
+      "@id": "sub-pud",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Substituted Proposed Unit Development with Survey Sheet",
+      "definition": "To depict a substituted proposed Unit Title staged development CSD with survey sheet produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "sub-udp-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "sub-udp-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Redevelopment Unit Plan",
+      "definition": "To depict a redevelopment Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures",
+      "notation": "rup",
+      "altlabel": null,
+      "related": null,
+      "@id": "rup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Redevelopment Unit Plan with Survey Sheet",
+      "definition": "To depict a redevelopment Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "rup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "rup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Simple Redevelopment Unit Plan",
+      "definition": "To depict a simple redevelopment Unit Title CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "srup",
+      "altlabel": null,
+      "related": null,
+      "@id": "srup",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Simple Redevelopment Unit Plan with Survey Sheet",
+      "definition": "To depict a simple redevelopment Unit Title CSD with survey sheet produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "srup-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "srup-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unit Plan in Substitution",
+      "definition": "To depict a standard Unit Title \u2018CSD in substitution\u2019 produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures.",
+      "notation": "ups",
+      "altlabel": null,
+      "related": null,
+      "@id": "ups",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unit Plan in Substitution with Survey Sheet",
+      "definition": "To depict Unit Title \u2018CSD in substitution\u2019 with survey sheet produced under the Unit Titles Act 1972. Survey system information  may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only.",
+      "notation": "ups-ss",
+      "altlabel": null,
+      "related": null,
+      "@id": "ups-ss",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Complex Boundary Reinstatement",
+      "definition": "Used to record one or more boundary marks when the boundary points are not required by the Cadastral Survey Rules 2021. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "cbr",
+      "altlabel": null,
+      "related": null,
+      "@id": "cbr",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Subdivision Plan",
+      "definition": "To be used to depict subdivisions of Crown land. Includes definition of a single Crown land parcel. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "csp",
+      "altlabel": null,
+      "related": null,
+      "@id": "csp",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Office Plan Land Covenant",
+      "definition": "To be used for depicting land covenants over unregistered land when only the covenant is shown on the plan (ie not associated with a current land subdivision survey) Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in land covenants only. . ",
+      "notation": "soplc",
+      "altlabel": null,
+      "related": null,
+      "@id": "soplc",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Legalisation",
+      "definition": "To be used to depict land to be taken for road or other public purpose. Also may include definition of severances or areas of road to be closed. Includes Treaty Settlement Plans. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "legalisation",
+      "altlabel": null,
+      "related": null,
+      "@id": "legalisation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Farming",
+      "definition": "To be used to depict areas required for Marine Farming purposes. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in marine farming leases only. ",
+      "notation": "mf",
+      "altlabel": null,
+      "related": null,
+      "@id": "mf",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mining",
+      "definition": "To be used to depict areas of land (including water) with a mining permit or license. These overlay but do not supersede the underlying cadastre. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "mining",
+      "altlabel": null,
+      "related": null,
+      "@id": "mining",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Simple Boundary Reinstatement",
+      "definition": "Used to record the placement of one or more boundary marks on an existing boundary point in accordance with Cadastral Survey Rules 2021. Mandatory supporting document (survey report) is to be attached. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "sbr",
+      "altlabel": null,
+      "related": null,
+      "@id": "sbr",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nohoanga (Campsite)",
+      "definition": "To be used to depict areas of land designated as Nohoanga (campsite) sites in M\u0101ori Claim Settlement legislation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in Nohoanga sites only.",
+      "notation": "n-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "n-c",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Customary Entitlement",
+      "definition": "To be used to depict areas of land of customary entitlement (other than Nohoanga (campsite) sites) in M\u0101ori Claim Settlement legislation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in Customary Entitlement sites only.",
+      "notation": "ce",
+      "altlabel": null,
+      "related": null,
+      "@id": "ce",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory Easement/Right",
+      "definition": "To be used for depicting a statutory easement or right when it is not part of a current land subdivision survey. Includes plans of Marginal Strips. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in statutory easements or rights only. ",
+      "notation": "se-r",
+      "altlabel": null,
+      "related": null,
+      "@id": "se-r",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory Vesting",
+      "definition": "To depict the boundary of a land area when such is required for Statutory vesting purposes only. Survey system information may be adopted by other surveys. Tenure system information to be used for the Statutory vesting purposes only. It is NOT to be used for any land tenure or title purposes.",
+      "notation": "sv",
+      "altlabel": null,
+      "related": null,
+      "@id": "sv",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Information",
+      "definition": "To depict survey work which does not define parcels. Survey system information may be adopted by other surveys. These surveys contain no tenure system information. ",
+      "notation": "si",
+      "altlabel": null,
+      "related": null,
+      "@id": "si",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Amalgamations",
+      "definition": "To be used to depict amalgamations of M\u0101ori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "amalgamation",
+      "altlabel": null,
+      "related": null,
+      "@id": "amalgamation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Consolidations",
+      "definition": "To be used to depict consolidations of M\u0101ori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "consolidation",
+      "altlabel": null,
+      "related": null,
+      "@id": "consolidation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Partition",
+      "definition": "To be used to depict partitions (subdivisions) in accordance with a M\u0101ori Land Court Partition Order. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "partition",
+      "altlabel": null,
+      "related": null,
+      "@id": "partition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Revesting",
+      "definition": "To be used to depict parcels to be revested as M\u0101ori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures.",
+      "notation": "revesting",
+      "altlabel": null,
+      "related": null,
+      "@id": "revesting",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Roadway",
+      "definition": "To be used to depict roadways over M\u0101ori land. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. ",
+      "notation": "roadway",
+      "altlabel": null,
+      "related": null,
+      "@id": "roadway",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Complex Boundary Reinstatement",
+      "definition": "Historical survey purpose - Boundary Reinstatement - Full CSD",
+      "notation": "h-cbr",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-cbr",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Applicable",
+      "definition": "Historical survey purpose - Compiled Survey Information OR Offsetting (for record purposes only) OR Redefinition Record Purposes Only OR Statutory Boundary",
+      "notation": "h-na",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-na",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Information",
+      "definition": "Historical survey purpose - Control OR Offsetting (for approval as to survey) OR Traverses OR Inspection",
+      "notation": "h-s-i",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-s-i",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Transfer Plan Land Covenant, or Survey Office Plan Land Covenant",
+      "definition": "Historical survey purpose - Covenant",
+      "notation": "h-covenant",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-covenant",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Subdivision",
+      "definition": "Historical survey purpose - Crown Parcel Definition",
+      "notation": "h-c-s",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-c-s",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Simple Boundary Reinstatement",
+      "definition": "Historical survey purpose - Monumentation CSD",
+      "notation": "h-sbr",
+      "altlabel": null,
+      "related": null,
+      "@id": "h-sbr",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

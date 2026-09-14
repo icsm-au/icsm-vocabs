@@ -1,0 +1,102 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-point-class/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-point-class",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Point Quality Classes",
+  "class": "termtype:PointQualityClass",
+  "concepts": [
+    {
+      "preflabel": "0",
+      "definition": null,
+      "notation": "0",
+      "altlabel": null,
+      "related": null,
+      "@id": "0",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "1",
+      "definition": null,
+      "notation": "1",
+      "altlabel": null,
+      "related": null,
+      "@id": "1",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "2",
+      "definition": null,
+      "notation": "2",
+      "altlabel": null,
+      "related": null,
+      "@id": "2",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3",
+      "definition": null,
+      "notation": "3",
+      "altlabel": null,
+      "related": null,
+      "@id": "3",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "4",
+      "definition": null,
+      "notation": "4",
+      "altlabel": null,
+      "related": null,
+      "@id": "4",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "5",
+      "definition": null,
+      "notation": "5",
+      "altlabel": null,
+      "related": null,
+      "@id": "5",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "99",
+      "definition": null,
+      "notation": "99",
+      "altlabel": null,
+      "related": null,
+      "@id": "99",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    }
+  ]
+}

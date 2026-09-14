@@ -1,0 +1,592 @@
+{
+  "@context": [
+    {
+      "@base": "http://www.opengis.net/def/crs/EPSG/0/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "http://www.opengis.net/def/crs/EPSG/0",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Coordinate Reference Systems",
+  "class": "termtype:AllowableCoordinateReferenceSystem",
+  "concepts": [
+    {
+      "preflabel": "GDA2020",
+      "definition": "Geodetic Geographic 2D",
+      "notation": "7844",
+      "altlabel": null,
+      "related": null,
+      "@id": "7844",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 46",
+      "definition": "Projected GDA2020 / MGA zone 46",
+      "notation": "7846",
+      "altlabel": "46, MGA2020",
+      "related": null,
+      "@id": "7846",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 47",
+      "definition": "Projected GDA2020 / MGA zone 47",
+      "notation": "7847",
+      "altlabel": "47, MGA2020",
+      "related": null,
+      "@id": "7847",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 48",
+      "definition": "Projected GDA2020 / MGA zone 48",
+      "notation": "7848",
+      "altlabel": "48, MGA2020",
+      "related": null,
+      "@id": "7848",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 49",
+      "definition": "Projected GDA2020 / MGA zone 49",
+      "notation": "7849",
+      "altlabel": "49, MGA2020",
+      "related": null,
+      "@id": "7849",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 50",
+      "definition": "Projected GDA2020 / MGA zone 50",
+      "notation": "7850",
+      "altlabel": "50, MGA2020",
+      "related": null,
+      "@id": "7850",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 51",
+      "definition": "Projected GDA2020 / MGA zone 51",
+      "notation": "7851",
+      "altlabel": "51, MGA2020",
+      "related": null,
+      "@id": "7851",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 52",
+      "definition": "Projected GDA2020 / MGA zone 52",
+      "notation": "7852",
+      "altlabel": "52, MGA2020",
+      "related": null,
+      "@id": "7852",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / ALB2020",
+      "definition": "Projected GDA2020 / Albany Grid 2020",
+      "notation": "8013",
+      "altlabel": "ALB2020",
+      "related": null,
+      "@id": "8013",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / BIO2020",
+      "definition": "Projected GDA2020 / Barrow Island and Onslow Grid 2020",
+      "notation": "8014",
+      "altlabel": "BIO2020",
+      "related": null,
+      "@id": "8014",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / BRO2020",
+      "definition": "Projected GDA2020 / Broome Grid 2020",
+      "notation": "8015",
+      "altlabel": "BRO2020",
+      "related": null,
+      "@id": "8015",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / BCG2020",
+      "definition": "Projected GDA2020 / Busselton Coastal Grid 2020",
+      "notation": "8016",
+      "altlabel": "BCG2020",
+      "related": null,
+      "@id": "8016",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / CARN2020",
+      "definition": "Projected GDA2020 / Carnarvon Grid 2020",
+      "notation": "8017",
+      "altlabel": "CARN2020",
+      "related": null,
+      "@id": "8017",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / CIG2020",
+      "definition": "Projected GDA2020 / Christmas Island Grid 2020",
+      "notation": "8018",
+      "altlabel": "CIG2020",
+      "related": null,
+      "@id": "8018",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / CKIG2020",
+      "definition": "Projected GDA2020 / Cocos (Keeling) Islands Grid 2020",
+      "notation": "8019",
+      "altlabel": "CKIG2020",
+      "related": null,
+      "@id": "8019",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / COL2020",
+      "definition": "Projected GDA2020 / Collie Grid 2020",
+      "notation": "8020",
+      "altlabel": "COL2020",
+      "related": null,
+      "@id": "8020",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / ESP2020",
+      "definition": "Projected GDA2020 / Esperance Grid 2020",
+      "notation": "8021",
+      "altlabel": "ESP2020",
+      "related": null,
+      "@id": "8021",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / EXM2020",
+      "definition": "Projected GDA2020 / Exmouth Grid 2020",
+      "notation": "8022",
+      "altlabel": "EXM2020",
+      "related": null,
+      "@id": "8022",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / GCG2020",
+      "definition": "Projected GDA2020 / Geraldton Coastal Grid 2020",
+      "notation": "8023",
+      "altlabel": "GCG2020",
+      "related": null,
+      "@id": "8023",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / GOLD2020",
+      "definition": "Projected GDA2020 / Goldfields Grid 2020",
+      "notation": "8024",
+      "altlabel": "GOLD2020",
+      "related": null,
+      "@id": "8024",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / JCG2020",
+      "definition": "Projected GDA2020 / Jurien Coastal Grid 2020",
+      "notation": "8025",
+      "altlabel": "JCG2020",
+      "related": null,
+      "@id": "8025",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / KALB2020",
+      "definition": "Projected GDA2020 / Kalbarri Grid 2020",
+      "notation": "8026",
+      "altlabel": "KALB2020",
+      "related": null,
+      "@id": "8026",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / KAR2020",
+      "definition": "Projected GDA2020 / Karratha Grid 2020",
+      "notation": "8027",
+      "altlabel": "KAR2020",
+      "related": null,
+      "@id": "8027",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / KUN2020",
+      "definition": "Projected GDA2020 / Kununurra Grid 2020",
+      "notation": "8028",
+      "altlabel": "KUN2020",
+      "related": null,
+      "@id": "8028",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / LCG2020",
+      "definition": "Projected GDA2020 / Lancelin Coastal Grid 2020",
+      "notation": "8029",
+      "altlabel": "LCG2020",
+      "related": null,
+      "@id": "8029",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MRCG2020",
+      "definition": "Projected GDA2020 / Margaret River Coastal Grid 2020",
+      "notation": "8030",
+      "altlabel": "MRCG2020",
+      "related": null,
+      "@id": "8030",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / PCG2020",
+      "definition": "Projected GDA2020 / Perth Coastal Grid 2020",
+      "notation": "8031",
+      "altlabel": "PCG2020",
+      "related": null,
+      "@id": "8031",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / PHG2020",
+      "definition": "Projected GDA2020 / Port Hedland Grid 2020",
+      "notation": "8032",
+      "altlabel": "PHG2020",
+      "related": null,
+      "@id": "8032",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94",
+      "definition": "Geodetic Geographic 2D",
+      "notation": "4283",
+      "altlabel": null,
+      "related": null,
+      "@id": "4283",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 46",
+      "definition": "Projected projected GDA94 / MGA zone 46",
+      "notation": "6736",
+      "altlabel": "46, MGA",
+      "related": null,
+      "@id": "6736",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 47",
+      "definition": "Projected projected GDA94 / MGA zone 47",
+      "notation": "6737",
+      "altlabel": "47, MGA",
+      "related": null,
+      "@id": "6737",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 48",
+      "definition": "Projected projected GDA94 / MGA zone 48",
+      "notation": "28348",
+      "altlabel": "48, MGA",
+      "related": null,
+      "@id": "28348",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 49",
+      "definition": "Projected projected GDA94 / MGA zone 49",
+      "notation": "28349",
+      "altlabel": "49, MGA",
+      "related": null,
+      "@id": "28349",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 50",
+      "definition": "Projected projected GDA94 / MGA zone 50",
+      "notation": "28350",
+      "altlabel": "50, MGA",
+      "related": null,
+      "@id": "28350",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 51",
+      "definition": "Projected projected GDA94 / MGA zone 51",
+      "notation": "28351",
+      "altlabel": "51, MGA",
+      "related": null,
+      "@id": "28351",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 52",
+      "definition": "Projected projected GDA94 / MGA zone 52",
+      "notation": "28352",
+      "altlabel": "52, MGA",
+      "related": null,
+      "@id": "28352",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / ALB94",
+      "definition": "Projected GDA94 / Albany Grid 1994",
+      "notation": "10448",
+      "altlabel": "ALB94",
+      "related": null,
+      "@id": "10448",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / BIO94",
+      "definition": "Projected GDA94 / Barrow Island and Onslow Grid 1994",
+      "notation": "10449",
+      "altlabel": "BIO94",
+      "related": null,
+      "@id": "10449",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / BRO94",
+      "definition": "Projected GDA94 / Broome Grid 1994",
+      "notation": "10450",
+      "altlabel": "BRO94",
+      "related": null,
+      "@id": "10450",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / BCG94",
+      "definition": "Projected GDA94 / Busselton Coastal Grid 1994",
+      "notation": "10451",
+      "altlabel": "BCG94",
+      "related": null,
+      "@id": "10451",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / CARN94",
+      "definition": "Projected GDA94 / Carnarvon Grid 1994",
+      "notation": "10452",
+      "altlabel": "CARN94",
+      "related": null,
+      "@id": "10452",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / CIG94",
+      "definition": "Projected GDA94 / Christmas Island Grid 1994",
+      "notation": "6721",
+      "altlabel": "CIG94",
+      "related": null,
+      "@id": "6721",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / CKIG94",
+      "definition": "Projected GDA94 / Cocos (Keeling) Islands Grid 1994",
+      "notation": "6723",
+      "altlabel": "CKIG94",
+      "related": null,
+      "@id": "6723",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / COL94",
+      "definition": "Projected GDA94 / Collie Grid 1994",
+      "notation": "10453",
+      "altlabel": "COL94",
+      "related": null,
+      "@id": "10453",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / ESP94",
+      "definition": "Projected GDA94 / Esperance Grid 1994",
+      "notation": "10454",
+      "altlabel": "ESP94",
+      "related": null,
+      "@id": "10454",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / EXM94",
+      "definition": "Projected GDA94 / Exmouth Grid 1994",
+      "notation": "10455",
+      "altlabel": "EXM94",
+      "related": null,
+      "@id": "10455",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / GCG94",
+      "definition": "Projected GDA94 / Geraldton Coastal Grid 1994",
+      "notation": "10456",
+      "altlabel": "GCG94",
+      "related": null,
+      "@id": "10456",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / GOLD94",
+      "definition": "Projected GDA94 / Goldfields Grid 1994",
+      "notation": "10457",
+      "altlabel": "GOLD94",
+      "related": null,
+      "@id": "10457",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / JCG94",
+      "definition": "Projected GDA94 / Jurien Coastal Grid 1994",
+      "notation": "10458",
+      "altlabel": "JCG94",
+      "related": null,
+      "@id": "10458",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / KALB94",
+      "definition": "Projected GDA94 / Kalbarri Grid 1994",
+      "notation": "10459",
+      "altlabel": "KALB94",
+      "related": null,
+      "@id": "10459",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / KAR94",
+      "definition": "Projected GDA94 / Karratha Grid 1994",
+      "notation": "10460",
+      "altlabel": "KAR94",
+      "related": null,
+      "@id": "10460",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / KUN94",
+      "definition": "Projected GDA94 / Kununurra Grid 1994",
+      "notation": "10461",
+      "altlabel": "KUN94",
+      "related": null,
+      "@id": "10461",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / LCG94",
+      "definition": "Projected GDA94 / Lancelin Coastal Grid 1994",
+      "notation": "10462",
+      "altlabel": "LCG94",
+      "related": null,
+      "@id": "10462",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MRCG94",
+      "definition": "Projected GDA94 / Margaret River Coastal Grid 1994",
+      "notation": "10463",
+      "altlabel": "MRCG94",
+      "related": null,
+      "@id": "10463",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / PCG94",
+      "definition": "Projected GDA94 / Perth Coastal Grid 1994",
+      "notation": "10464",
+      "altlabel": "PCG94",
+      "related": null,
+      "@id": "10464",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / PHG94",
+      "definition": "Projected GDA95 / Port Hedland Grid 1994",
+      "notation": "10465",
+      "altlabel": "PHG94",
+      "related": null,
+      "@id": "10465",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    }
+  ]
+}

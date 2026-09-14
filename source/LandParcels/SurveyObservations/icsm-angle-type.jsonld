@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-angle-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-angle-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Angle Types",
+  "class": "surv:Angle",
+  "concepts": [
+    {
+      "preflabel": "Bearing",
+      "definition": "The horizontal angle measured clockwise from the CRS meridian to the observed vector",
+      "notation": "bearing",
+      "altlabel": null,
+      "related": "azimuth",
+      "@id": "bearing",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Angle",
+      "definition": "The acute horizontal angle measured from a reference vector to the observed vector",
+      "notation": "angle",
+      "altlabel": null,
+      "related": null,
+      "@id": "angle",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Azimuth",
+      "definition": "The horizontal angle measured clockwise from any reference meridian to the observed vector",
+      "notation": "azimuth",
+      "altlabel": null,
+      "related": "bearing",
+      "@id": "azimuth",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vertical Angle",
+      "definition": "The vertical angle measured from the horizontal plane to the observed vector",
+      "notation": "v-angle",
+      "altlabel": null,
+      "related": null,
+      "@id": "v-angle",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mid-azimuth",
+      "definition": "The mean of the forward azimuth at the start of the line and the reverse azimuth at the end of the line",
+      "notation": "mid-azimuth",
+      "altlabel": null,
+      "related": null,
+      "@id": "mid-azimuth",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Subtended",
+      "definition": "A subtended angle is an angle formed by two lines, or line segments that originate from the same point and extend to two different points on a circle's circumference.",
+      "notation": "subtended",
+      "altlabel": null,
+      "related": null,
+      "@id": "subtended",
+      "type": "surv:Angle",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/monument/nz-monument-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nd43f221986cd43cc8838fee7af41ac27 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.203132"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.117186"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/monument/nz-monument-type.csv> ] ;
+            prov:wasAssociatedWith _:Nd43f221986cd43cc8838fee7af41ac27 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/bp> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a plaque, including a bronze plaque" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "bp" ;
+    skos:prefLabel "Plaque" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/dcdb> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "dcdb" ;
+    skos:prefLabel "DCDB" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/disk> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a disk, including a disk on a post" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "disk" ;
+    skos:prefLabel "Disk" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/fctr> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "fctr" ;
+    skos:prefLabel "Forced Centering" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/is> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a Spike, typically an iron spike, but includes a Bar, Bolt, Rod, Dog, etc." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "is" ;
+    skos:prefLabel "Spike" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/it> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a tube, typically an iron tube" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "it" ;
+    skos:prefLabel "Tube" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/lp> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "plug" ;
+    skos:definition "The monument is a plug, typically a lead plug" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "lp" ;
+    skos:prefLabel "Lead Plug" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/nail> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a nail" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "nail" ;
+    skos:prefLabel "Nail" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/othr> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "General catchall for a momument type not listed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "othr" ;
+    skos:prefLabel "Other" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/peg> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a peg" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "peg" ;
+    skos:prefLabel "Peg" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/pin> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a pin" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "pin" ;
+    skos:prefLabel "Pin" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/post> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The monument is a post" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "post" ;
+    skos:prefLabel "Post" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/unkw> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The type of monument is unknown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "unkw" ;
+    skos:prefLabel "Unknown" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form/unmk> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "The survey point does not have a physical monument identifying its position" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-monument-form> ;
+    skos:notation "unmk" ;
+    skos:prefLabel "Unmarked" .
+
+<https://linked.data.gov.au/def/csdm/nz-monument-form> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Monument Form" ;
+    skos:scopeNote "surv:MonumentForm" .
+
+_:Nd43f221986cd43cc8838fee7af41ac27 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

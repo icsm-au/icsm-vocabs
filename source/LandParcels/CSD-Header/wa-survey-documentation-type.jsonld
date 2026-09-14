@@ -1,0 +1,212 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Survey Documentation",
+  "class": "termtype:DocType",
+  "concepts": [
+    {
+      "preflabel": "Plan (PDF)",
+      "definition": "Plan in PDF format",
+      "notation": "2d-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "2d-plan",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan (3DCSDM)",
+      "definition": "Plan in 3DCSDM format",
+      "notation": "3d-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "3d-plan",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan - Survey Sheet (PDF)",
+      "definition": "Plan Survey Sheet in PDF format",
+      "notation": "2d-plan-survey-sheet",
+      "altlabel": null,
+      "related": null,
+      "@id": "2d-plan-survey-sheet",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan - Survey Sheet (3DCSDM)",
+      "definition": "Plan Survey Sheet in 3DCSDM format",
+      "notation": "3d-plan-survey-sheet",
+      "altlabel": null,
+      "related": null,
+      "@id": "3d-plan-survey-sheet",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Report",
+      "definition": "Survey Report and/or additional notes",
+      "notation": "survey-report",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey-report",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan Scheme",
+      "definition": "Scheme Reference that this is parent or child of which this is part",
+      "notation": "plan-scheme",
+      "altlabel": null,
+      "related": null,
+      "@id": "plan-scheme",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Scheme (UE)",
+      "definition": "Scheme Schedule of Unit Entitlement (version required)",
+      "notation": "scheme-ue",
+      "altlabel": null,
+      "related": null,
+      "@id": "scheme-ue",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Scheme Form",
+      "definition": "Multiple forms for additional scheme information",
+      "notation": "scheme-form",
+      "altlabel": null,
+      "related": null,
+      "@id": "scheme-form",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Scheme Record Form",
+      "definition": "Record of Scheme Schedule (formerly Form 8)",
+      "notation": "scheme-record-form",
+      "altlabel": null,
+      "related": null,
+      "@id": "scheme-record-form",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "2 year certificate",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "2-year-certificate",
+      "altlabel": null,
+      "related": null,
+      "@id": "2-year-certificate",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Initial Survey Certificate",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "initial-survey-certificate",
+      "altlabel": null,
+      "related": null,
+      "@id": "initial-survey-certificate",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Limited marking approval",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "limited-marking-approval",
+      "altlabel": null,
+      "related": null,
+      "@id": "limited-marking-approval",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Name Exemption",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "road-name-exemption",
+      "altlabel": null,
+      "related": null,
+      "@id": "road-name-exemption",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "WAPC exemption",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "wapc-exemption",
+      "altlabel": null,
+      "related": null,
+      "@id": "wapc-exemption",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Final Survey Certificate",
+      "definition": "Note: To be confirmed if part of final schema design",
+      "notation": "final-survey-certificate",
+      "altlabel": null,
+      "related": null,
+      "@id": "final-survey-certificate",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Field record certificate",
+      "definition": " Note: To be confirmed if part of final schema design",
+      "notation": "field-record-certificate",
+      "altlabel": null,
+      "related": null,
+      "@id": "field-record-certificate",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Field record",
+      "definition": " \"Field book in PDF or image format\"",
+      "notation": "field-record",
+      "altlabel": null,
+      "related": null,
+      "@id": "field-record",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Sketch plan",
+      "definition": "Supporting document",
+      "notation": "sketch-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "sketch-plan",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

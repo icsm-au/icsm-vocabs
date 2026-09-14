@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nfa45bb7a5620435c9dc8491a2111101a ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:54.221860"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:54.145901"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-type.csv> ] ;
+            prov:wasAssociatedWith _:Nfa45bb7a5620435c9dc8491a2111101a ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-type/non-survey> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Plan is not based on survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-type> ;
+    skos:notation "non-survey" ;
+    skos:prefLabel "Non-Survey" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-type/partial-survey> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Plan meets criteria for partial survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-type> ;
+    skos:notation "partial-survey" ;
+    skos:prefLabel "Partial Survey" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-type/survey> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Plan is based on full survey." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-type> ;
+    skos:notation "survey" ;
+    skos:prefLabel "Survey" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-type> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Survey Type" ;
+    skos:scopeNote "termtype:SurveyType" .
+
+_:Nfa45bb7a5620435c9dc8491a2111101a a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

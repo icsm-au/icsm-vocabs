@@ -1,0 +1,212 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-procedure-used/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-procedure-used",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Survey Procedures",
+  "class": "sosa:Procedure",
+  "concepts": [
+    {
+      "preflabel": "Measured",
+      "definition": "observation has been directly measured by the surveyor",
+      "notation": "m",
+      "altlabel": null,
+      "related": null,
+      "@id": "m",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Derived",
+      "definition": "Observation determined from another source or indirect measurement type",
+      "notation": "d",
+      "altlabel": null,
+      "related": null,
+      "@id": "d",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "About",
+      "definition": "Observations that are approximate/can't be measured directly.",
+      "notation": "a",
+      "altlabel": null,
+      "related": null,
+      "@id": "a",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Adjustment",
+      "definition": null,
+      "notation": "adjustment",
+      "altlabel": null,
+      "related": null,
+      "@id": "adjustment",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cadastral",
+      "definition": null,
+      "notation": "cadastral",
+      "altlabel": null,
+      "related": null,
+      "@id": "cadastral",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Digitised",
+      "definition": null,
+      "notation": "digitised",
+      "altlabel": null,
+      "related": null,
+      "@id": "digitised",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GPS(Differential)",
+      "definition": null,
+      "notation": "gps-differential",
+      "altlabel": null,
+      "related": null,
+      "@id": "gps-differential",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GPS(Kinematics)",
+      "definition": null,
+      "notation": "gps-kinematic",
+      "altlabel": null,
+      "related": null,
+      "@id": "gps-kinematic",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GPS(Single Point)",
+      "definition": null,
+      "notation": "gps-single-point",
+      "altlabel": null,
+      "related": null,
+      "@id": "gps-single-point",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Intersection",
+      "definition": null,
+      "notation": "intersection",
+      "altlabel": null,
+      "related": null,
+      "@id": "intersection",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plot",
+      "definition": null,
+      "notation": "plot",
+      "altlabel": null,
+      "related": null,
+      "@id": "plot",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Radiation",
+      "definition": null,
+      "notation": "radiation",
+      "altlabel": null,
+      "related": null,
+      "@id": "radiation",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Resection",
+      "definition": null,
+      "notation": "resection",
+      "altlabel": null,
+      "related": null,
+      "@id": "resection",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Transformed",
+      "definition": null,
+      "notation": "transformed",
+      "altlabel": null,
+      "related": null,
+      "@id": "transformed",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Traverse",
+      "definition": null,
+      "notation": "traverse",
+      "altlabel": null,
+      "related": null,
+      "@id": "traverse",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Triangulation",
+      "definition": null,
+      "notation": "triangulation",
+      "altlabel": null,
+      "related": null,
+      "@id": "triangulation",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unchecked Radiation",
+      "definition": null,
+      "notation": "unchecked-radiation",
+      "altlabel": null,
+      "related": null,
+      "@id": "unchecked-radiation",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unknown",
+      "definition": null,
+      "notation": "unknown",
+      "altlabel": null,
+      "related": null,
+      "@id": "unknown",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    }
+  ]
+}

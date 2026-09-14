@@ -1,0 +1,153 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/condition/vic-condition.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ne7f07006823e4e67a132147803b9a11d ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.029866"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.937055"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/condition/vic-condition.csv> ] ;
+            prov:wasAssociatedWith _:Ne7f07006823e4e67a132147803b9a11d ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/abandoned> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "abandoned" ;
+    skos:prefLabel "Abandoned" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/damaged> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "damaged" ;
+    skos:prefLabel "Damaged" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/destroyed> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "destroyed" ;
+    skos:prefLabel "Destroyed" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/disturbed> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "disturbed" ;
+    skos:prefLabel "Disturbed" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/found> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "found" ;
+    skos:prefLabel "Found" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/leaning> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "leaning" ;
+    skos:prefLabel "Leaning" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/loose> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "loose" ;
+    skos:prefLabel "Loose" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/nipple-damaged> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "nipple-damaged" ;
+    skos:prefLabel "Nipple Damaged" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/not-found> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "not-found" ;
+    skos:prefLabel "Not Found" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/not-used> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "not-used" ;
+    skos:prefLabel "Not Used" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/ok> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "ok" ;
+    skos:prefLabel "OK" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/origin> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "origin" ;
+    skos:prefLabel "Origin" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/origin-unknown> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "origin-unknown" ;
+    skos:prefLabel "Origin unknown" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/plaque-missing> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "plaque-missing" ;
+    skos:prefLabel "Plaque Missing" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/remains> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "remains" ;
+    skos:prefLabel "Remains" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/removed> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "removed" ;
+    skos:prefLabel "Removed" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/replaced> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "replaced" ;
+    skos:prefLabel "Replaced" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/suspect> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "suspect" ;
+    skos:prefLabel "Suspect" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/unknown> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "unknown" ;
+    skos:prefLabel "Unknown" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition/unstable> a skos:Concept,
+        surv:ConditionCode ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-condition> ;
+    skos:notation "unstable" ;
+    skos:prefLabel "Unstable" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-condition> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Monument Condition" ;
+    skos:scopeNote "surv:ConditionCode" .
+
+_:Ne7f07006823e4e67a132147803b9a11d a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

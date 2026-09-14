@@ -1,0 +1,212 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Secondary Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Rights of Way",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) as a means of access to or egress from the Dominant Tenement",
+      "notation": "row",
+      "altlabel": null,
+      "related": null,
+      "@id": "row",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pedestrian Right of Way",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to walk upon the Servient Tenement (Burdened Land) as a means of access to or egress from the Dominant Tenement",
+      "notation": "prow",
+      "altlabel": null,
+      "related": null,
+      "@id": "prow",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Computer Media",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey computer media without interruption or impediment",
+      "notation": "rcm",
+      "altlabel": null,
+      "related": null,
+      "@id": "rcm",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Electricity",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity and electrical impulses without interruption or impediment",
+      "notation": "rce",
+      "altlabel": null,
+      "related": null,
+      "@id": "rce",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Gas",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey gas without interruption or impediment",
+      "notation": "rcg",
+      "altlabel": null,
+      "related": null,
+      "@id": "rcg",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Telecommunications",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity and electrical telecommunications without interruption or impediment",
+      "notation": "r-ct",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-ct",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Telecommunications and Computer Media",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey electricity, electrical impulses, and computer media without interruption or impediment",
+      "notation": "rct-cm",
+      "altlabel": null,
+      "related": null,
+      "@id": "rct-cm",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to convey Water",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey water in free and unimpeded flow without interruption or impediment",
+      "notation": "rcw",
+      "altlabel": null,
+      "related": null,
+      "@id": "rcw",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to drain Water",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey water (whether sourced from rain, springs, soakage, or seepage) in any quantity without interruption or impediment",
+      "notation": "rdw",
+      "altlabel": null,
+      "related": null,
+      "@id": "rdw",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to drain Storm Water",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to convey storm water in any quantity without interruption or impediment",
+      "notation": "rdsw",
+      "altlabel": null,
+      "related": null,
+      "@id": "rdsw",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to drain Sewage",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to drain, discharge, and convey sewage and other waste material and waste fluids in any quantity without interruption or impediment",
+      "notation": "rds",
+      "altlabel": null,
+      "related": null,
+      "@id": "rds",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to emit Dust",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to emit dust",
+      "notation": "red",
+      "altlabel": null,
+      "related": null,
+      "@id": "red",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to emit Noise",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to emit noise",
+      "notation": "ren",
+      "altlabel": null,
+      "related": null,
+      "@id": "ren",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to emit Spray",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to emit spray",
+      "notation": "res",
+      "altlabel": null,
+      "related": null,
+      "@id": "res",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to Support",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to require the Servient Tenement (Burdened Land) to ensure structures on the Dominant Tenement are supported",
+      "notation": "rs",
+      "altlabel": null,
+      "related": null,
+      "@id": "rs",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to Overhang Eaves",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to allow eaves to encroach over the Servient Tenement (Burdened Land)",
+      "notation": "roe",
+      "altlabel": null,
+      "related": null,
+      "@id": "roe",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to Light and Air",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to ensure the Servient Tenement (Burdened Land) provides unobstructed access to light and air",
+      "notation": "rl-a",
+      "altlabel": null,
+      "related": null,
+      "@id": "rl-a",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right to Parking",
+      "definition": "A right held by the Dominant Tenement (Benefited Land) to use the Servient Tenement (Burdened Land) to park vehicles without interruption or impediment",
+      "notation": "rp",
+      "altlabel": null,
+      "related": null,
+      "@id": "rp",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

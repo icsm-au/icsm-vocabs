@@ -1,0 +1,577 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N5d545971604a4472b1c139165bc3e3ed ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:59.104862"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.966472"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N5d545971604a4472b1c139165bc3e3ed ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/carbon-covenant-benefit> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "carbon-covenant-benefit" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "carbon-covenant-benefit" ;
+    skos:prefLabel "Carbon Covenant - Benefit" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/carbon-covenant-burden> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "carbon-covenant-burden" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "carbon-covenant-burden" ;
+    skos:prefLabel "Carbon Covenant - Burden" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/carbon-right> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "carbon-right" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "carbon-right" ;
+    skos:prefLabel "Carbon Right" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/caveat> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "caveat" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "caveat" ;
+    skos:prefLabel "Caveat" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/contaminated-site> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "contaminated-site" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "contaminated-site" ;
+    skos:prefLabel "Contaminated Site" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/covenant> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "covenant" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "covenant" ;
+    skos:prefLabel "Covenant" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/crown-grant-in-trust> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "crown-grant-in-trust" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "crown-grant-in-trust" ;
+    skos:prefLabel "Crown Grant in Trust" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement" ;
+    skos:prefLabel "Easement" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-drainage> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-drainage" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-drainage" ;
+    skos:prefLabel "Easement (Drainage)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-eaves-gutters> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-eaves-gutters" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-eaves-gutters" ;
+    skos:prefLabel "Easement (Eaves & Gutters)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-electricity> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-electricity" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-electricity" ;
+    skos:prefLabel "Easement (Electricity)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-electricity-supply> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-electricity-supply" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-electricity-supply" ;
+    skos:prefLabel "Easement (Electricity Supply)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-gas-supply> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-gas-supply" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-gas-supply" ;
+    skos:prefLabel "Easement (Gas Supply)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-generation-storage-conversion-energy> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-generation-storage-or-conversion-of-energy" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-generation-storage-conversion-energy" ;
+    skos:prefLabel "Easement (Generation, storage or conversion of energy)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-gross> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-gross" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-gross" ;
+    skos:prefLabel "Easement (Easement in Gross)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-intrusion> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-intrusion" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-intrusion" ;
+    skos:prefLabel "Easement (Intrusion)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-irrigation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-irrigation" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-irrigation" ;
+    skos:prefLabel "Easement (Irrigation)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-light-and-air> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-light-and-air" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-light-and-air" ;
+    skos:prefLabel "Easement (Light & Air)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-motor-vehicle-parking> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-motor-vehicle-parking" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-motor-vehicle-parking" ;
+    skos:prefLabel "Easement (Motor Vehicle Parking)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-party-wall> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-party-wall" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-party-wall" ;
+    skos:prefLabel "Easement (Party Wall)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-party-wall-rights> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-party-wall-rights" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-party-wall-rights" ;
+    skos:prefLabel "Easement (Party Wall Rights)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-pedestrian-access> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-pedestrian-access" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-pedestrian-access" ;
+    skos:prefLabel "Easement (Pedestrian Access)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-right-of-footway> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-right-of-footway" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-right-of-footway" ;
+    skos:prefLabel "Easement (Right of Footway)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-sewerage> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-sewerage" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-sewerage" ;
+    skos:prefLabel "Easement (Sewerage)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-telecommunications-supply-services> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-telecommunications-supply-services" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-telecommunications-supply-services" ;
+    skos:prefLabel "Easement (Telecommunications Supply Services)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-communication-signals-overhead-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-of-communication-signals-by-overhead-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-communication-signals-overhead-cable" ;
+    skos:prefLabel "Easement (Transmission of communication signals by overhead cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-communication-signals-underground-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-of-communication-signals-by-underground-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-communication-signals-underground-cable" ;
+    skos:prefLabel "Easement (Transmission of communication signals by underground cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-distribution-electricity-overhead-cabled-conductors> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-and-distribution-of-electricity-by-overhead-cable-and-conductors" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-distribution-electricity-overhead-cabled-conductors" ;
+    skos:prefLabel "Easement (Transmission and distribution of electricity by overhead cable and conductors)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-distribution-electricity-underground-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-and-distribution-of-electricity-by-underground-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-distribution-electricity-underground-cable" ;
+    skos:prefLabel "Easement (Transmission and distribution of electricity by underground cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-of-electricity-by-overhead-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-of-electricity-by-overhead-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-of-electricity-by-overhead-cable" ;
+    skos:prefLabel "Easement (Transmission of Electricity by Overhead Cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-of-electricity-by-underground-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-of-electricity-by-underground-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-of-electricity-by-underground-cable" ;
+    skos:prefLabel "Easement (Transmission of Electricity by Underground Cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-transmission-of-television-signals-by-underground-cable> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-transmission-of-television-signals-by-underground-cable" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-transmission-of-television-signals-by-underground-cable" ;
+    skos:prefLabel "Easement (Transmission of Television Signals by Underground Cable)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-vehicle-access> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-vehicle-access" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-vehicle-access" ;
+    skos:prefLabel "Easement (Vehicle Access)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-water-supply> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-water-supply" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-water-supply" ;
+    skos:prefLabel "Easement (Water Supply)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/easement-water-supply-services> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "easement-water-supply-services" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "easement-water-supply-services" ;
+    skos:prefLabel "Easement (Water Supply Services)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/expressed-easement> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "expressed-easement" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "expressed-easement" ;
+    skos:prefLabel "Expressed Easement" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/freehold-lease> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "freehold-lease" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "freehold-lease" ;
+    skos:prefLabel "Freehold Lease" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/implied-easement> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "implied-easement" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "implied-easement" ;
+    skos:prefLabel "Implied Easement" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/lease> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "lease" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "lease" ;
+    skos:prefLabel "Lease" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/memorial> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "memorial" ;
+    skos:definition "Vesting, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "memorial" ;
+    skos:prefLabel "Memorial" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/mineral-reservation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "mineral-reservation" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "mineral-reservation" ;
+    skos:prefLabel "Mineral Reservation" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/non-extinguisment-native-title> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "non-extinguisment-of-native-title" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "non-extinguisment-native-title" ;
+    skos:prefLabel "Non-extinguisment of Native Title" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/notification> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "notification" ;
+    skos:definition "Vesting, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "notification" ;
+    skos:prefLabel "Notification" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/profit-a-prendre> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "profit-a-prendre" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "profit-a-prendre" ;
+    skos:prefLabel "Profit a prendre" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve" ;
+    skos:prefLabel "Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-conservation-protection-environment> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-conservation-or-protection-of-the-environment" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-conservation-protection-environment" ;
+    skos:prefLabel "Reserve for Conservation or Protection of the Environment" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-electrcity-supply> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-electrcity-supply" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-electrcity-supply" ;
+    skos:prefLabel "Reserve for Electrcity Supply" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-conservation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-conservation" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-conservation" ;
+    skos:prefLabel "Reserve for Conservation" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-drainage> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-drainage" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-drainage" ;
+    skos:prefLabel "Reserve for Drainage" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-foreshore-management> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-foreshore-management" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-foreshore-management" ;
+    skos:prefLabel "Reserve for Foreshore Management" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-parks-and-recreation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-parks-and-recreation" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-parks-and-recreation" ;
+    skos:prefLabel "Reserve for Parks and Recreation" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-pedestrian-accessway> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-pedestrian-accessway" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-pedestrian-accessway" ;
+    skos:prefLabel "Reserve for Pedestrian Accessway" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-public-open-space> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-public-open-space" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-public-open-space" ;
+    skos:prefLabel "Reserve for Public Open Space" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-recreation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-recreation" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-recreation" ;
+    skos:prefLabel "Reserve for Recreation" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-right-of-way> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-right-of-way" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-right-of-way" ;
+    skos:prefLabel "Reserve for Right of Way" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-for-waterway-management> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-waterway-management" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-for-waterway-management" ;
+    skos:prefLabel "Reserve for Waterway Management" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-sewerage> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-sewerage" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-sewerage" ;
+    skos:prefLabel "Reserve for Sewerage" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/reserve-strategic-water-supply-fire-purposes> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "reserve-for-the-strategic-water-supply-for-fire-fighting-purposes" ;
+    skos:definition "Vestings, Notifications & Memorials" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "reserve-strategic-water-supply-fire-purposes" ;
+    skos:prefLabel "Reserve for the strategic water supply for fire fighting purposes" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-benefit> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-benefit" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-benefit" ;
+    skos:prefLabel "Restrictive Covenant - Benefit" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-building-envelope> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-building-envelope" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-building-envelope" ;
+    skos:prefLabel "Restrictive Covenant (Building Envelope)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-burden> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-burden" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-burden" ;
+    skos:prefLabel "Restrictive Covenant - Burden" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-conservation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-conservation" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-conservation" ;
+    skos:prefLabel "Restrictive Covenant (Conservation)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-fire> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-fire" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-fire" ;
+    skos:prefLabel "Restrictive Covenant (Fire)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-land-use> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-land-use" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-land-use" ;
+    skos:prefLabel "Restrictive Covenant (Land Use)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-covenant-row> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-covenant-right-of-way" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-covenant-row" ;
+    skos:prefLabel "Restrictive Covenant (Right of Way)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/restrictive-use> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "restrictive-use" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "restrictive-use" ;
+    skos:prefLabel "Restrictive Use" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/right-of-carriageway> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "right-of-carriageway" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "right-of-carriageway" ;
+    skos:prefLabel "Right of Carriageway" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose/tree-plantation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:altLabel "tree-plantation" ;
+    skos:definition "Easements, Covenants, Memorials & other Interests" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-purpose> ;
+    skos:notation "tree-plantation" ;
+    skos:prefLabel "Tree Plantation" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "WA secondary Parcel Purpose" ;
+    skos:scopeNote "termtype:ParcelPurpose" .
+
+_:N5d545971604a4472b1c139165bc3e3ed a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

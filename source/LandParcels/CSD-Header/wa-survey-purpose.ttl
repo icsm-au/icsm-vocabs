@@ -1,0 +1,187 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N61d7692aa82e492fb7eafa4481ee2821 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.867643"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.775070"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N61d7692aa82e492fb7eafa4481ee2821 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/acquisition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Taking or Acquisition" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "acquisition" ;
+    skos:prefLabel "Acquisition" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/acquisition-road> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Acquisition for Road" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "acquisition-road" ;
+    skos:prefLabel "Acquisition (Road)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/amalgamation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Crown Land Amalgamation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "amalgamation" ;
+    skos:prefLabel "Crown Land Amalgamation" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/boundary-redefinition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Boundary Redefinition" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "boundary-redefinition" ;
+    skos:prefLabel "Boundary redefinition " .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/consolidation-type-3> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Consolidation of Lots - Type 3" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "consolidation-type-3" ;
+    skos:prefLabel "Consolidation of Lots - Type 3" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/conversion> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Conversion" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "conversion" ;
+    skos:prefLabel "Conversion" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/field-record> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Field Record" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "field-record" ;
+    skos:prefLabel "Field Record" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/interest> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for Interest purposes only" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "interest" ;
+    skos:prefLabel "Interest" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/lot-definition-amendment> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Lot definition amendment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "lot-definition-amendment" ;
+    skos:prefLabel "Lot definition amendment" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/merger-land-building> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Merger of Land and Building" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "merger-land-building" ;
+    skos:prefLabel "Merger of Land and Building" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/re-subdivision-type-1a> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Add Land from Outside the Parcel to Common Property - Type 1(a)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "re-subdivision-type-1a" ;
+    skos:prefLabel "Re-Subdivision - Type 1(a)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/re-subdivision-type-1b> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Transfer Lots to Common Property - Type 1(b) subdivision" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "re-subdivision-type-1b" ;
+    skos:prefLabel "Re-Subdivision - Type 1(b)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/re-subdivision-type-2> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Removal of Common Property from the Parcel - Type 2" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "re-subdivision-type-2" ;
+    skos:prefLabel "Re-Subdivision - Type 2" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/re-subdivision-type-4> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Re-Subdivision - Type 4" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "re-subdivision-type-4" ;
+    skos:prefLabel "Re-Subdivision - Type 4" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/redefinition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Redefinition" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "redefinition" ;
+    skos:prefLabel "Redefinition" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/redefinition-of-boundaries> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Redefinition of Boundaries" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "redefinition-of-boundaries" ;
+    skos:prefLabel "Redefinition of Boundaries" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/road> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of creating Road" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "road" ;
+    skos:prefLabel "Road" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/road-closure> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Road Closure" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "road-closure" ;
+    skos:prefLabel "Road Closure" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/statutory> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for Statutory purpose" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "statutory" ;
+    skos:prefLabel "Statutory" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan of Subdivsion" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "subdivision" ;
+    skos:prefLabel "Subdivision" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/teir-parcel-boundary-amendment> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose of Tier parcel boundary amendment" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "teir-parcel-boundary-amendment" ;
+    skos:prefLabel "Tier parcel boundary amendment" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose/vesting-in-the-crown> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Plan for the Purpose ofVesting in the Crown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-purpose> ;
+    skos:notation "vesting-in-the-crown" ;
+    skos:prefLabel "Vesting in the Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "WA Survey Purpose" ;
+    skos:scopeNote "surv:SurveyPurpose" .
+
+_:N61d7692aa82e492fb7eafa4481ee2821 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

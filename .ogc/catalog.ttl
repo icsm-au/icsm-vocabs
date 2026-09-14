@@ -7,17 +7,16 @@
 _:ICSM_Cadastre a dcat:Catalog ;
   dct:title "ICSM Cadastre Model Profile vocabularies" ;
   dcat:dataset  _:vocabs-uplift ;
-  dcfg:breakme_hasProfileSource "sparql:http://defs-dev.opengis.net:8080/rdf4j-server/repositories/profiles",
-    ".ogc/profiles.ttl" ;
+  dcfg:hasProfileSource ".ogc/profiles.ttl" ;
   dcfg:ignoreProfileArtifactErrors true ;
 .
 
 _:vocabs-uplift a dcat:Dataset, dcfg:UpliftConfiguration ;
   dct:description "Cadastre Profile vocabularies uplift" ;
-  dcfg:glob "cadastre/**/*.csv" ;
+  dcfg:glob "source/**/*.csv" ;
   dcfg:hasUpliftDefinition [
     dcfg:order 1 ;
-    dcfg:file "cadastre/vocabs-uplift.yml" ;
+    dcfg:file "source/vocabs-uplift.yml" ;
   ] ;
 .
 

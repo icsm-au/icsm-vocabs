@@ -1,0 +1,102 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-parcel-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-parcel-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Parcel State",
+  "class": "termtype:ParcelState",
+  "concepts": [
+    {
+      "preflabel": "affected",
+      "definition": "The parcel must be amalgamated with one or more parcels created by the survey when the survey is deposited",
+      "notation": "a",
+      "altlabel": null,
+      "related": null,
+      "@id": "a",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "created",
+      "definition": "The parcel is being created by the survey",
+      "notation": "c",
+      "altlabel": null,
+      "related": null,
+      "@id": "c",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "encroached",
+      "definition": "The parcel has been subject to natural erosion and/or accretion and the definition of the parcel has been/should be updated. Relevant where the parcel affected by the accretion/erosion is not extinguished by the survey",
+      "notation": "enc",
+      "altlabel": null,
+      "related": null,
+      "@id": "enc",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "existing",
+      "definition": "The parcel is referenced by the survey",
+      "notation": "exist",
+      "altlabel": null,
+      "related": "referenced",
+      "@id": "exist",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "extinguished",
+      "definition": "The parcel is being replaced by one or more parcels created by the survey",
+      "notation": "exting",
+      "altlabel": null,
+      "related": null,
+      "@id": "exting",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "proposed",
+      "definition": "The parcel is introduced on the survey but has not actually been \u2018created\u2019. This will generally only apply to parcels such as Future Development Units (FDU) on a Proposed Unit Development plan (PUD). The parcel will be created in a subsequent plan, e.g., Stage 1 of the Unit Development",
+      "notation": "prop",
+      "altlabel": null,
+      "related": null,
+      "@id": "prop",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "referenced",
+      "definition": "The parcel is referenced by the survey",
+      "notation": "ref",
+      "altlabel": null,
+      "related": null,
+      "@id": "ref",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

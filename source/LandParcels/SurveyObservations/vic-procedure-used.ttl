@@ -1,0 +1,144 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-procedure-used.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N4caa5b2a4c034d60a4b329c2ab8e92f9 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:53.978495"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:53.845430"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-procedure-used.csv> ] ;
+            prov:wasAssociatedWith _:N4caa5b2a4c034d60a4b329c2ab8e92f9 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/a> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Observations that are approximate/can't be measured directly." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "a" ;
+    skos:prefLabel "About" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/adjustment> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "adjustment" ;
+    skos:prefLabel "Adjustment" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/cadastral> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "cadastral" ;
+    skos:prefLabel "Cadastral" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/d> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Observation determined from another source or indirect measurement type" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "d" ;
+    skos:prefLabel "Derived" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/digitised> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "digitised" ;
+    skos:prefLabel "Digitised" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/gps-differential> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "gps-differential" ;
+    skos:prefLabel "GPS(Differential)" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/gps-kinematic> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "gps-kinematic" ;
+    skos:prefLabel "GPS(Kinematics)" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/gps-single-point> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "gps-single-point" ;
+    skos:prefLabel "GPS(Single Point)" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/intersection> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "intersection" ;
+    skos:prefLabel "Intersection" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/m> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "observation has been directly measured by the surveyor" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "m" ;
+    skos:prefLabel "Measured" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/plot> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "plot" ;
+    skos:prefLabel "Plot" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/radiation> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "radiation" ;
+    skos:prefLabel "Radiation" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/resection> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "resection" ;
+    skos:prefLabel "Resection" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/transformed> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "transformed" ;
+    skos:prefLabel "Transformed" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/traverse> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "traverse" ;
+    skos:prefLabel "Traverse" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/triangulation> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "triangulation" ;
+    skos:prefLabel "Triangulation" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/unchecked-radiation> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "unchecked-radiation" ;
+    skos:prefLabel "Unchecked Radiation" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used/unknown> a skos:Concept,
+        sosa:Procedure ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-procedure-used> ;
+    skos:notation "unknown" ;
+    skos:prefLabel "Unknown" .
+
+<https://linked.data.gov.au/def/csdm/vic-procedure-used> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Survey Procedures" ;
+    skos:scopeNote "sosa:Procedure" .
+
+_:N4caa5b2a4c034d60a4b329c2ab8e92f9 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

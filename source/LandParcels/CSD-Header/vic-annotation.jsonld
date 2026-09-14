@@ -1,0 +1,440 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-annotation/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-annotation",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC CSD Annotation",
+  "class": "termtype:Annotation",
+  "concepts": [
+    {
+      "preflabel": "Section 35 - See Recording of Vesting Table Attached",
+      "definition": null,
+      "notation": "s35-rvta",
+      "altlabel": null,
+      "related": null,
+      "@id": "s35-rvta",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35 Compulsory",
+      "definition": null,
+      "notation": "s35-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "s35-c",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35 Agreement",
+      "definition": null,
+      "notation": "s35-a",
+      "altlabel": null,
+      "related": null,
+      "@id": "s35-a",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Planning Permit",
+      "definition": null,
+      "notation": "pp",
+      "altlabel": null,
+      "related": null,
+      "@id": "pp",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Report on Datum",
+      "definition": null,
+      "notation": "rod",
+      "altlabel": null,
+      "related": null,
+      "@id": "rod",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Instrument and Calibration Details",
+      "definition": null,
+      "notation": "icd",
+      "altlabel": null,
+      "related": null,
+      "@id": "icd",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Section",
+      "definition": null,
+      "notation": "cs",
+      "altlabel": null,
+      "related": null,
+      "@id": "cs",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Allotment",
+      "definition": null,
+      "notation": "ca",
+      "altlabel": null,
+      "related": null,
+      "@id": "ca",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Portion",
+      "definition": null,
+      "notation": "cp",
+      "altlabel": null,
+      "related": null,
+      "@id": "cp",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other Crown Description",
+      "definition": null,
+      "notation": "ocd",
+      "altlabel": null,
+      "related": null,
+      "@id": "ocd",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Parcel with Area by Deduction",
+      "definition": null,
+      "notation": "pad",
+      "altlabel": null,
+      "related": null,
+      "@id": "pad",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restriction Expiry Date",
+      "definition": null,
+      "notation": "red",
+      "altlabel": null,
+      "related": null,
+      "@id": "red",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "General Plan Notation",
+      "definition": null,
+      "notation": "gpn",
+      "altlabel": null,
+      "related": null,
+      "@id": "gpn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Abstract of Field Records Notation",
+      "definition": null,
+      "notation": "afrn",
+      "altlabel": null,
+      "related": null,
+      "@id": "afrn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surveyor's Report Notation",
+      "definition": null,
+      "notation": "srn",
+      "altlabel": null,
+      "related": null,
+      "@id": "srn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Title Closure Justification",
+      "definition": null,
+      "notation": "tcj",
+      "altlabel": null,
+      "related": null,
+      "@id": "tcj",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "General Easement Notation",
+      "definition": null,
+      "notation": "gen",
+      "altlabel": null,
+      "related": null,
+      "@id": "gen",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Qualification",
+      "definition": null,
+      "notation": "eq",
+      "altlabel": null,
+      "related": null,
+      "@id": "eq",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Implied Easement Notation",
+      "definition": null,
+      "notation": "ien",
+      "altlabel": null,
+      "related": null,
+      "@id": "ien",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Purpose",
+      "definition": null,
+      "notation": "ep",
+      "altlabel": null,
+      "related": null,
+      "@id": "ep",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Origin",
+      "definition": null,
+      "notation": "eo",
+      "altlabel": null,
+      "related": null,
+      "@id": "eo",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Beneficiary",
+      "definition": null,
+      "notation": "eb",
+      "altlabel": null,
+      "related": null,
+      "@id": "eb",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Width",
+      "definition": null,
+      "notation": "ew",
+      "altlabel": null,
+      "related": null,
+      "@id": "ew",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supply of Supplementary Field Record Notation",
+      "definition": null,
+      "notation": "ssfrn",
+      "altlabel": null,
+      "related": null,
+      "@id": "ssfrn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Building Boundary Notation",
+      "definition": null,
+      "notation": "bbn",
+      "altlabel": null,
+      "related": null,
+      "@id": "bbn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Corporation Notation",
+      "definition": null,
+      "notation": "ocn",
+      "altlabel": null,
+      "related": null,
+      "@id": "ocn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Additional Purpose of Plan",
+      "definition": null,
+      "notation": "app",
+      "altlabel": null,
+      "related": null,
+      "@id": "app",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 12(2) of the Subdivision Act 1988 applies vide this plan",
+      "definition": null,
+      "notation": "s12-2-a",
+      "altlabel": null,
+      "related": null,
+      "@id": "s12-2-a",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 12(2) of the Subdivision Act 1988 does not apply vide this plan",
+      "definition": null,
+      "notation": "s12-2-dn",
+      "altlabel": null,
+      "related": null,
+      "@id": "s12-2-dn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Purpose of Plan",
+      "definition": null,
+      "notation": "pop",
+      "altlabel": null,
+      "related": null,
+      "@id": "pop",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grounds for Removal",
+      "definition": null,
+      "notation": "gr",
+      "altlabel": null,
+      "related": null,
+      "@id": "gr",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grounds for Variation",
+      "definition": null,
+      "notation": "gv",
+      "altlabel": null,
+      "related": null,
+      "@id": "gv",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grounds for Vesting",
+      "definition": null,
+      "notation": "gfv",
+      "altlabel": null,
+      "related": null,
+      "@id": "gfv",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Future Plan Number",
+      "definition": null,
+      "notation": "fpn",
+      "altlabel": null,
+      "related": null,
+      "@id": "fpn",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Prior Survey",
+      "definition": null,
+      "notation": "ps",
+      "altlabel": null,
+      "related": null,
+      "@id": "ps",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Balance Of Existing OC Entitlement",
+      "definition": null,
+      "notation": "beoce",
+      "altlabel": null,
+      "related": null,
+      "@id": "beoce",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Balance Of Existing OC Liability",
+      "definition": null,
+      "notation": "beocl",
+      "altlabel": null,
+      "related": null,
+      "@id": "beocl",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Corporation Parcel",
+      "definition": null,
+      "notation": "corp-parcel",
+      "@id": "corp-parcel",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Head of Power",
+      "definition": null,
+      "notation": "hop",
+      "altlabel": null,
+      "related": null,
+      "@id": "hop",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan certified under Section 6 of the Subdivision Act 1988",
+      "definition": null,
+      "notation": "s6",
+      "altlabel": null,
+      "related": null,
+      "@id": "s6",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "public open space under section 18 or 18A of the Subdivision Act 1988",
+      "definition": null,
+      "notation": "pos18-a",
+      "altlabel": null,
+      "related": null,
+      "@id": "pos18-a",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    }
+  ]
+}

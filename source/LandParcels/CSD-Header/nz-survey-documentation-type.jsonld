@@ -1,0 +1,702 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ types of Survey Documentation",
+  "class": "termtype:DocType",
+  "concepts": [
+    {
+      "preflabel": "Accretion Claim Affidavit",
+      "definition": "Affidavit required in support of the claim for accretion to land. Declaration by an independent person verifying that accretion has been caused by the slow and imperceptible build up of land.",
+      "notation": "aca",
+      "altlabel": null,
+      "related": null,
+      "@id": "aca",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Additional Colour Plan Image",
+      "definition": "Additional image of a colour plan.",
+      "notation": "acpi",
+      "altlabel": null,
+      "related": null,
+      "@id": "acpi",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Adjoining Owners Declarations",
+      "definition": "Adjoining owners consents for the definition of boundaries as set out in the survey.",
+      "notation": "aod",
+      "altlabel": null,
+      "related": null,
+      "@id": "aod",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Amendment List",
+      "definition": "List of amendments required to amend a cadastral survey transaction.",
+      "notation": "al",
+      "altlabel": null,
+      "related": null,
+      "@id": "al",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Amendment Report",
+      "definition": "Report of the items amended for a cadastral survey transaction and how the amendments were done.",
+      "notation": "ar",
+      "altlabel": null,
+      "related": null,
+      "@id": "ar",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Amendments Request",
+      "definition": "Request from a surveyor giving authority for a change to be made to their survey.",
+      "notation": "a-rqt",
+      "altlabel": null,
+      "related": null,
+      "@id": "a-rqt",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Appellation Request Declined",
+      "definition": "Declined request for issue of an appellation for the creation of a parcel of land.",
+      "notation": "ard",
+      "altlabel": null,
+      "related": null,
+      "@id": "ard",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Approved notice from MLC",
+      "definition": "Correspondence that may accompany a plan returned from the Maori Land Court with the Judge's signature.",
+      "notation": "andm",
+      "altlabel": null,
+      "related": null,
+      "@id": "andm",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Approved Form",
+      "definition": "Form approved for use in registration, either by the Registrar General of Land (RGL) or Senior Regulatory Adviser (SRA). Any fees are paid against the instrument type FAP.",
+      "notation": "af",
+      "altlabel": null,
+      "related": null,
+      "@id": "af",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Area Schedule",
+      "definition": "Schedule of parcels defined in an e-survey for Legalisation or Crown Subdivision purposes. Contains information such as legal description, land status and proposed action. Not to be used for easement/covenant information or for Land Transfer Plans. This SUD type does not bundle with the CSD or Title Plans.",
+      "notation": "as",
+      "altlabel": null,
+      "related": null,
+      "@id": "as",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Calculation Sheet",
+      "definition": "Sheet of calculations associated with the survey.",
+      "notation": "cs",
+      "altlabel": null,
+      "related": null,
+      "@id": "cs",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Change of Trustee",
+      "definition": "Trustee details for Friendly Societies, etc (as opposed to Charitable Trusts). No fees are paid and the application is not registered.",
+      "notation": "c-t",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-t",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Chief Surveyors Plan Report to DLR",
+      "definition": "A report prepared by the approving surveyor outlining any anomalies found by a cadastral survey with existing title.",
+      "notation": "cspt-dlr",
+      "altlabel": null,
+      "related": null,
+      "@id": "cspt-dlr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Consent / Permit",
+      "definition": "Miscellaneous consents. Note consents to the deposit of unit plans have a document type of CON and fees are recorded against that instrument type.",
+      "notation": "c-p",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-p",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Correspondence",
+      "definition": "Letters and other correspondence associated with the survey.",
+      "notation": "c",
+      "altlabel": null,
+      "related": null,
+      "@id": "c",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Court Order",
+      "definition": "Court Orders received for Lapsing of Caveats, Joint Family Home advertising etc.",
+      "notation": "co",
+      "altlabel": null,
+      "related": null,
+      "@id": "co",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "CSLB (Cadastral Survey Licensing Board) Document",
+      "definition": "A Supervision Order requested by the Cadastral Survey Licensing Board (CSLB). The affected surveyor submits their survey with a letter from another licensed surveyor (attached as a supporting document) stating that the survey meets the survey rule requirements. The CSLB will advise the affected surveyor when this supporting document type is to be used.",
+      "notation": "cslb-d",
+      "altlabel": null,
+      "related": null,
+      "@id": "cslb-d",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dataset Lodgement Profile Form",
+      "definition": "A template form for the surveyor to complete to indicate the complexity of the e-survey.",
+      "notation": "dlpf",
+      "altlabel": null,
+      "related": null,
+      "@id": "dlpf",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Datum Details",
+      "definition": "Details of a particular datum used for a survey.",
+      "notation": "dd",
+      "altlabel": null,
+      "related": null,
+      "@id": "dd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Deposit Document",
+      "definition": "Document deposited to support a survey.",
+      "notation": "d-doc",
+      "altlabel": null,
+      "related": null,
+      "@id": "d-doc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Description of Boundaries ML Court",
+      "definition": "Description of the land as set out by the MLC. M\u0101ori Land Court Order copy associated with a M\u0101ori Land survey.",
+      "notation": "db-mlc",
+      "altlabel": null,
+      "related": null,
+      "@id": "db-mlc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Disciplinary Action Recommendation",
+      "definition": "Report details from Chief Surveyor recommending disciplinary action against a Surveyor.",
+      "notation": "dar",
+      "altlabel": null,
+      "related": null,
+      "@id": "dar",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "E-Dealing Dispensation",
+      "definition": "A request accompanying a manual dealing requesting LINZ to exempt the conveyancer from having to present it as an e-dealing.",
+      "notation": "edd",
+      "altlabel": null,
+      "related": null,
+      "@id": "edd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Equipment Test",
+      "definition": "Report of equipment test results.",
+      "notation": "et",
+      "altlabel": null,
+      "related": null,
+      "@id": "et",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Error Item Report",
+      "definition": "Report detailing the errors identified and the impact on other data.",
+      "notation": "eir",
+      "altlabel": null,
+      "related": null,
+      "@id": "eir",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "E-Survey Fast Track Processing Request Form",
+      "definition": "Requests priority processing for an e-survey with an associated lodged dealing. This document is available as a .pdf on the LINZ website. Solicitors can lodge an e-request via workspace, which is automated.",
+      "notation": "esftpr",
+      "altlabel": null,
+      "related": null,
+      "@id": "esftpr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fee Query",
+      "definition": "A fee query linked to an associated e-dealing or e-survey.",
+      "notation": "fq",
+      "altlabel": null,
+      "related": null,
+      "@id": "fq",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Field Information",
+      "definition": "Record of observations taken in the field by a surveyor and associated with the survey.",
+      "notation": "fi",
+      "altlabel": null,
+      "related": null,
+      "@id": "fi",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Field Report",
+      "definition": "The report prepared after field audit of a survey.",
+      "notation": "fr",
+      "altlabel": null,
+      "related": null,
+      "@id": "fr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Field Request",
+      "definition": "Instructions issued for field audit of a cadastral survey.",
+      "notation": "f-r",
+      "altlabel": null,
+      "related": null,
+      "@id": "f-r",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Other",
+      "definition": "Miscellaneous geodetic report associated with a geodetic work.",
+      "notation": "go",
+      "altlabel": null,
+      "related": null,
+      "@id": "go",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Work Report",
+      "definition": "A report supplied by a geodetic contractor giving details of a geodetic work.",
+      "notation": "gwr",
+      "altlabel": null,
+      "related": null,
+      "@id": "gwr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lodgement Form",
+      "definition": "A form included with a survey or dealing transaction when manually lodged.",
+      "notation": "lf",
+      "altlabel": null,
+      "related": null,
+      "@id": "lf",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark and Vectors Report",
+      "definition": "Mark and Vectors report for the e-survey.",
+      "notation": "m-vr",
+      "altlabel": null,
+      "related": null,
+      "@id": "m-vr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Details",
+      "definition": "Details of a survey mark. Usually associated with a geodetic mark.",
+      "notation": "md",
+      "altlabel": null,
+      "related": null,
+      "@id": "md",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Photograph",
+      "definition": "Photograph of a mark. Usually associated with a geodetic mark.",
+      "notation": "mp",
+      "altlabel": null,
+      "related": null,
+      "@id": "mp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Memorandum",
+      "definition": "Memoranda under s209 Land Transfer Act 2017 (also registered as a document).",
+      "notation": "m",
+      "altlabel": null,
+      "related": null,
+      "@id": "m",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Node Confirmation",
+      "definition": "Confirmation of location of a proposed node/mark.",
+      "notation": "nc",
+      "altlabel": null,
+      "related": null,
+      "@id": "nc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Occupation Diagram",
+      "definition": "Diagram of occupation associated with the survey to attach to a Digital Survey Plan.",
+      "notation": "od",
+      "altlabel": null,
+      "related": null,
+      "@id": "od",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Office Report",
+      "definition": "Report prepared after office audit of a cadastral survey.",
+      "notation": "or",
+      "altlabel": null,
+      "related": null,
+      "@id": "or",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Office Request",
+      "definition": "The instructions issued for an office audit of a cadastral survey.",
+      "notation": "o-r",
+      "altlabel": null,
+      "related": null,
+      "@id": "o-r",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Consent",
+      "definition": "Owner's consent or  adjoining owner's consent submitted as a separate document but as part of a transaction.",
+      "notation": "oc",
+      "altlabel": null,
+      "related": null,
+      "@id": "oc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plan Graphic",
+      "definition": "Commonly used to depict parcels on CSD's that have permanent structure boundaries or stratum boundaries, e.g., Unit & Cross Lease CSD's. Can be used to show plan, elevation or cross-section views. The Plan Graphic forms part of the Survey Diagram and Diagram of Parcels and bundles with the CSD and Title Plans. This SUD type can also be used for a plan returned from the Maori Land Court signed by the Judge to attach to CSD and Title Plans.",
+      "notation": "pg",
+      "altlabel": null,
+      "related": null,
+      "@id": "pg",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plot / Diagram",
+      "definition": "Plot or diagram to support survey definition, e.g., aerial photograph, digitised stream fix.",
+      "notation": "p-d",
+      "altlabel": null,
+      "related": null,
+      "@id": "p-d",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Power of Attorney",
+      "definition": "Power of Attorney summary (also registered as a document).",
+      "notation": "pa",
+      "altlabel": null,
+      "related": null,
+      "@id": "pa",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pre-Allocation Request",
+      "definition": "A request for LINZ to allocate one or more new title numbers what will issue when a land transfer survey deposits.",
+      "notation": "p-ar",
+      "altlabel": null,
+      "related": null,
+      "@id": "p-ar",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pre-Check Rejection Letter",
+      "definition": "A copy of a rejection letter or report from LINZ attached to the re-lodged dealing or survey.",
+      "notation": "p-crl",
+      "altlabel": null,
+      "related": null,
+      "@id": "p-crl",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PSB Non Primary Graphic (PSBG)",
+      "definition": "Used to depict easements defined by Permanent Structure Boundaries where survey purpose is Easement, Lease or Statutory Easement/Right.  When this supporting document type is selected, the attached documents are incorporated into the CSD or Title Plan images, allowing the CSD to be submitted without spatial capture.",
+      "notation": "psbg",
+      "altlabel": null,
+      "related": null,
+      "@id": "psbg",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Request to produce instrument (s211 Land Transfer Act 1952)",
+      "definition": "Request by the Senior Regulatory Adviser (SRA) for a customer to produce an instrument or title.",
+      "notation": "s211",
+      "altlabel": null,
+      "related": null,
+      "@id": "s211",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Requisition/Rejection Review",
+      "definition": "An online form provided by LINZ to allow conveyancers and surveyors to request LINZ to review the reasons for rejection or requisition of a dealing or survey.",
+      "notation": "r-rr",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-rr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Response to Requisition Notice",
+      "definition": "Surveyors reply to a requisition associated with a survey.",
+      "notation": "rrn",
+      "altlabel": null,
+      "related": null,
+      "@id": "rrn",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Re-submission Fee Review",
+      "definition": "An online form provided by LINZ to allow conveyancers and surveyors to request LINZ to review the fees for rejection or requisition of a dealing or survey.",
+      "notation": "r-sfr",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-sfr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Schedule / Memorandum",
+      "definition": "Schedule or memorandum containing information about easements as required by Rule 10.2 of the Rules for Cadastral Survey 2010. Can also be used for recording covenant information required by Rule 10.3 of the Rules for Cadastral Survey 2010.",
+      "notation": "s-m",
+      "altlabel": null,
+      "related": null,
+      "@id": "s-m",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Scheme Plan",
+      "definition": "Geodetic network planning.",
+      "notation": "sp",
+      "altlabel": null,
+      "related": null,
+      "@id": "sp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Search Fee Wastage",
+      "definition": "Report associated with searching.",
+      "notation": "sfw",
+      "altlabel": null,
+      "related": null,
+      "@id": "sfw",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Site Details",
+      "definition": "Details of a geodetic site which may contain one or more survey marks.",
+      "notation": "sd",
+      "altlabel": null,
+      "related": null,
+      "@id": "sd",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Site Photograph",
+      "definition": "Photo of survey monuments (usually associated with geodetic marks).",
+      "notation": "sp",
+      "altlabel": null,
+      "related": null,
+      "@id": "sp",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Assistance Report",
+      "definition": "A report by a surveyor as required by Rule 8.2 of the Rules for Cadastral Survey 2010.",
+      "notation": "sar",
+      "altlabel": null,
+      "related": null,
+      "@id": "sar",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Data Graphic",
+      "definition": "A type of plan graphic containing survey data to be incorporated with the Record of Survey. Used to depict survey data that is not required to be captured by the Standard for lodgement of cadastral survey datasets (LINZS70000). For example can be used for recording survey data on Simple and Complex Boundary Reinstatement CSDs.",
+      "notation": "sdg",
+      "altlabel": null,
+      "related": null,
+      "@id": "sdg",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Report",
+      "definition": "A report by a surveyor giving details of a survey as required under the Surveyor-Generals Guidelines.",
+      "notation": "sr",
+      "altlabel": null,
+      "related": null,
+      "@id": "sr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "TA Correspondence",
+      "definition": "Miscellaneous.  Territorial Authority correspondence associated with the survey.",
+      "notation": "tac",
+      "altlabel": null,
+      "related": null,
+      "@id": "tac",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Territorial Authority (TA) Certificate",
+      "definition": "Certification from a TA to attach to a Digital Survey Plan and Digital Title Plan.",
+      "notation": "ta-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "ta-c",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Territorial Authority (TA) Certificate  Plan Image",
+      "definition": "A scanned image of a certified paper survey plan.",
+      "notation": "tacpi",
+      "altlabel": null,
+      "related": null,
+      "@id": "tacpi",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Traverse Sheet",
+      "definition": "Traverse sheets associated with the survey.",
+      "notation": "ts",
+      "altlabel": null,
+      "related": null,
+      "@id": "ts",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unit Entitlements and Valuers Certification",
+      "definition": "Valuer's Unit Entitlement and Certification for Unit Developments.",
+      "notation": "uevc",
+      "altlabel": null,
+      "related": null,
+      "@id": "uevc",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Water Boundary Record",
+      "definition": "Record of the position of any new water boundary associated with the survey.",
+      "notation": "wbr",
+      "altlabel": null,
+      "related": null,
+      "@id": "wbr",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Withdraw Instrument/Dealing",
+      "definition": "Request to withdraw an instrument or dealing.",
+      "notation": "wi-d",
+      "altlabel": null,
+      "related": null,
+      "@id": "wi-d",
+      "type": "termtype:DocType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

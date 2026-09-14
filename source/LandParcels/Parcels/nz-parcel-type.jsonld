@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-parcel-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-parcel-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Parcel Type",
+  "class": "surv:ParcelType",
+  "concepts": [
+    {
+      "preflabel": "Lot",
+      "definition": "An area of land",
+      "notation": "l",
+      "altlabel": null,
+      "related": "Section",
+      "@id": "l",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section",
+      "definition": "An area of land",
+      "notation": "s",
+      "altlabel": null,
+      "related": "Lot",
+      "@id": "s",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Principal unit",
+      "definition": "A unit: (a) that is designed for use (whether in conjunction with any accessory unit or not) as a place of residence or business or for any other use of any nature, and that is shown on a unit plan as a principal unit; and (b) that (i) contains a building or part of a building or is contained in a building (although the unit may or may not be bounded by the physical dimensions of the building); or (ii) is 1 or more car parks (Unit Titles Act 2010)",
+      "notation": "pu",
+      "altlabel": null,
+      "related": null,
+      "@id": "pu",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Future Development Unit",
+      "definition": "In relation to a subdivision of land or a principal unit into units in stages, means a unit that is proposed to be developed or subdivided into 1 or more principal units (with or without accessory units or common property) at a later stage of the development, and that is shown on a stage unit plan as a future development unit (Unit Titles Act 2010)",
+      "notation": "fdu",
+      "altlabel": null,
+      "related": null,
+      "@id": "fdu",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Accessory Unit",
+      "definition": "A unit that is designed for use with any principal unit (including, without limitation, a garden, garage, car parking space, storage space, swimming pool, laundry, stairway, or passage) and that is shown on a unit plan as an accessory unit (Unit Titles Act 2010)",
+      "notation": "au",
+      "altlabel": null,
+      "related": null,
+      "@id": "au",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unit",
+      "definition": "Means a part of the land consisting of a space of any shape situated below, on, or above the surface of the land, or partly in one such situation and partly in another or others, all the dimensions of which are limited, and that is designed for separate ownership",
+      "notation": "u",
+      "altlabel": null,
+      "related": null,
+      "@id": "u",
+      "type": "surv:ParcelType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

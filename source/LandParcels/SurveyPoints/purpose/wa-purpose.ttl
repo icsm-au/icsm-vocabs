@@ -1,0 +1,372 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/purpose/wa-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N300b3a855d4b4c0f93c139b03e0cf666 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.254385"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.135763"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/purpose/wa-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N300b3a855d4b4c0f93c139b03e0cf666 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/3d-normal> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "14" ;
+    skos:definition "3D Normal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "3d-normal" ;
+    skos:prefLabel "3D Normal" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/admin> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "150" ;
+    skos:definition "Admin" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "admin" ;
+    skos:prefLabel "Admin" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/administration-point> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "150" ;
+    skos:definition "Administration point" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "administration-point" ;
+    skos:prefLabel "Administration point" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/construct-mining> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "78" ;
+    skos:definition "Construct Mining" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "construct-mining" ;
+    skos:prefLabel "Construct Mining" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/control> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Control" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "control" ;
+    skos:prefLabel "Control" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/general-mining> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "60" ;
+    skos:definition "General Mining" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "general-mining" ;
+    skos:prefLabel "General Mining" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/geodetic-bench-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "46" ;
+    skos:definition "Geodetic Bench Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "geodetic-bench-mark" ;
+    skos:prefLabel "Geodetic Bench Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/geodetic-reference-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "48" ;
+    skos:definition "Geodetic Reference Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "geodetic-reference-mark" ;
+    skos:prefLabel "Geodetic Reference Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/geodetic-temporary-control-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "47" ;
+    skos:definition "Geodetic Temporary Control Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "geodetic-temporary-control-mark" ;
+    skos:prefLabel "Geodetic Temporary Control Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/group-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "4" ;
+    skos:definition "Group Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "group-boundary" ;
+    skos:prefLabel "Group Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/hat> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Highest Astronomical Tide-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "hat" ;
+    skos:prefLabel "HAT" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/hwm-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "HWM Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "hwm-boundary" ;
+    skos:prefLabel "HWM Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/interest-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "21" ;
+    skos:definition "Interest Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "interest-boundary" ;
+    skos:prefLabel "Interest Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/interest-construct> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "22" ;
+    skos:definition "Interest Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "interest-construct" ;
+    skos:prefLabel "Interest Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/internal-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "2" ;
+    skos:definition "Internal Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "internal-boundary" ;
+    skos:prefLabel "Internal Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/lat> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Lowest Astronomical Tide-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "lat" ;
+    skos:prefLabel "LAT" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/lwm-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "LWM Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "lwm-boundary" ;
+    skos:prefLabel "LWM Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/mhw> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Mean High Water-Common Law-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "mhw" ;
+    skos:prefLabel "MHW" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/mhws> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Mean High Water Springs-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "mhws" ;
+    skos:prefLabel "MHWS" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/mlw> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Mean Low Water-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "mlw" ;
+    skos:prefLabel "MLW" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/mlws> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Mean Low Water Springs-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "mlws" ;
+    skos:prefLabel "MLWS" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/monument> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Monument" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "monument" ;
+    skos:prefLabel "Monument" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/msl> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Mean Sea Level-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "msl" ;
+    skos:prefLabel "MSL" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/nautical-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "8" ;
+    skos:definition "Nautical Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "nautical-boundary" ;
+    skos:prefLabel "Nautical Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/network-construct> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Network Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "network-construct" ;
+    skos:prefLabel "Network Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/non-geodetic> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "49" ;
+    skos:definition "Non Geodetic" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "non-geodetic" ;
+    skos:prefLabel "Non Geodetic" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/non-geodetic-connection> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "43" ;
+    skos:definition "Non Geodetic Connection" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "non-geodetic-connection" ;
+    skos:prefLabel "Non Geodetic Connection" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/non-geodetic-temporary-control-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "44" ;
+    skos:definition "Non Geodetic Temporary Control Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "non-geodetic-temporary-control-mark" ;
+    skos:prefLabel "Non Geodetic Temporary Control Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/other> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Other" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "other" ;
+    skos:prefLabel "Other" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/permanent-control-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "42" ;
+    skos:definition "Permanent Control Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "permanent-control-mark" ;
+    skos:prefLabel "Permanent Control Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/permanent-survey-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "41" ;
+    skos:definition "Permanent Survey Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "permanent-survey-mark" ;
+    skos:prefLabel "Permanent Survey Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/poly-tie-construct> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "12" ;
+    skos:definition "Poly Tie Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "poly-tie-construct" ;
+    skos:prefLabel "Poly Tie Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/road-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "1" ;
+    skos:definition "Road Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "road-boundary" ;
+    skos:prefLabel "Road Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/standard-survey-mark> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "45" ;
+    skos:definition "Standard Survey Mark" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "standard-survey-mark" ;
+    skos:prefLabel "Standard Survey Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/superseded-crown> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "200" ;
+    skos:definition "Superseded Crown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "superseded-crown" ;
+    skos:prefLabel "Superseded Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/superseded-freehold> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "201" ;
+    skos:definition "Superseded Freehold" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "superseded-freehold" ;
+    skos:prefLabel "Superseded Freehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/superseded-lease> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "202" ;
+    skos:definition "Superseded Lease" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "superseded-lease" ;
+    skos:prefLabel "Superseded Lease" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/superseded-mining> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "61" ;
+    skos:definition "Superseded Mining" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "superseded-mining" ;
+    skos:prefLabel "Superseded Mining" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/surround-point> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "181",
+        "203" ;
+    skos:definition "Surround Point" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "surround-point" ;
+    skos:prefLabel "Surround Point" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/survey> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "survey" ;
+    skos:prefLabel "Survey" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/temporary-control-point> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "44" ;
+    skos:definition "Temporary Control Point" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "temporary-control-point" ;
+    skos:prefLabel "Temporary Control Point" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/unknown> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:definition "Unknown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "unknown" ;
+    skos:prefLabel "Unknown" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/water-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:altLabel "3" ;
+    skos:definition "Water Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> ;
+    skos:notation "water-boundary" ;
+    skos:prefLabel "Water Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "WA Survey Point Purpose" ;
+    skos:scopeNote "surv:SurveyPointPurpose" .
+
+_:N300b3a855d4b4c0f93c139b03e0cf666 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

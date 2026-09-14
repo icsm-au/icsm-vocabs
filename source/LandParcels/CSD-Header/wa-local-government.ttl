@@ -1,0 +1,867 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-local-government.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N4c9772b51abe40c0a932db2a276bb762 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:08.165481"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:07.970823"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-local-government.csv> ] ;
+            prov:wasAssociatedWith _:N4c9772b51abe40c0a932db2a276bb762 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-albany> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-albany" ;
+    skos:prefLabel "City of Albany" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-armadale> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-armadale" ;
+    skos:prefLabel "City of Armadale" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-bayswater> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-bayswater" ;
+    skos:prefLabel "City of Bayswater" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-belmont> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-belmont" ;
+    skos:prefLabel "City of Belmont" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-bunbury> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-bunbury" ;
+    skos:prefLabel "City of Bunbury" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-busselton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-busselton" ;
+    skos:prefLabel "City of Busselton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-canning> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-canning" ;
+    skos:prefLabel "City of Canning" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-cockburn> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-cockburn" ;
+    skos:prefLabel "City of Cockburn" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-fremantle> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-fremantle" ;
+    skos:prefLabel "City of Fremantle" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-gosnells> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-gosnells" ;
+    skos:prefLabel "City of Gosnells" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-greater-geraldton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-greater-geraldton" ;
+    skos:prefLabel "City of Greater Geraldton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-joondalup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-joondalup" ;
+    skos:prefLabel "City of Joondalup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-kalamunda> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-kalamunda" ;
+    skos:prefLabel "City of Kalamunda" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-kalgoorlie-boulder> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-kalgoorlie-boulder" ;
+    skos:prefLabel "City of Kalgoorlie-Boulder" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-karratha> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-karratha" ;
+    skos:prefLabel "City of Karratha" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-kwinana> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-kwinana" ;
+    skos:prefLabel "City of Kwinana" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-mandurah> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-mandurah" ;
+    skos:prefLabel "City of Mandurah" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-melville> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-melville" ;
+    skos:prefLabel "City of Melville" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-nedlands> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-nedlands" ;
+    skos:prefLabel "City of Nedlands" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-perth> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-perth" ;
+    skos:prefLabel "City of Perth" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-rockingham> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-rockingham" ;
+    skos:prefLabel "City of Rockingham" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-south-perth> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-south-perth" ;
+    skos:prefLabel "City of South Perth" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-stirling> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-stirling" ;
+    skos:prefLabel "City of Stirling" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-subiaco> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-subiaco" ;
+    skos:prefLabel "City of Subiaco" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-swan> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-swan" ;
+    skos:prefLabel "City of Swan" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-vincent> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-vincent" ;
+    skos:prefLabel "City of Vincent" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/city-of-wanneroo> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "city-of-wanneroo" ;
+    skos:prefLabel "City of Wanneroo" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-ashburton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-ashburton" ;
+    skos:prefLabel "Shire of Ashburton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-augusta-margaret-river> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-augusta-margaret-river" ;
+    skos:prefLabel "Shire of Augusta Margaret River" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-beverley> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-beverley" ;
+    skos:prefLabel "Shire of Beverley" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-boddington> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-boddington" ;
+    skos:prefLabel "Shire of Boddington" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-boyup-brook> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-boyup-brook" ;
+    skos:prefLabel "Shire of Boyup Brook" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-bridgetown-greenbushes> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-bridgetown-greenbushes" ;
+    skos:prefLabel "Shire of Bridgetown-Greenbushes" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-brookton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-brookton" ;
+    skos:prefLabel "Shire of Brookton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-broome> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-broome" ;
+    skos:prefLabel "Shire of Broome" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-broomehill-tambellup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-broomehill-tambellup" ;
+    skos:prefLabel "Shire of Broomehill-Tambellup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-bruce-rock> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-bruce-rock" ;
+    skos:prefLabel "Shire of Bruce Rock" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-capel> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-capel" ;
+    skos:prefLabel "Shire of Capel" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-carnamah> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-carnamah" ;
+    skos:prefLabel "Shire of Carnamah" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-carnarvon> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-carnarvon" ;
+    skos:prefLabel "Shire of Carnarvon" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-chapman-valley> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-chapman-valley" ;
+    skos:prefLabel "Shire of Chapman Valley" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-chittering> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-chittering" ;
+    skos:prefLabel "Shire of Chittering" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-christmas-island> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-christmas-island" ;
+    skos:prefLabel "Shire of Christmas Island" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-cocos-islands> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-cocos-islands" ;
+    skos:prefLabel "Shire of Cocos Islands" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-collie> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-collie" ;
+    skos:prefLabel "Shire of Collie" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-coolgardie> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-coolgardie" ;
+    skos:prefLabel "Shire of Coolgardie" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-coorow> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-coorow" ;
+    skos:prefLabel "Shire of Coorow" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-corrigin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-corrigin" ;
+    skos:prefLabel "Shire of Corrigin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-cranbrook> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-cranbrook" ;
+    skos:prefLabel "Shire of Cranbrook" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-cuballing> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-cuballing" ;
+    skos:prefLabel "Shire of Cuballing" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-cue> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-cue" ;
+    skos:prefLabel "Shire of Cue" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-cunderdin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-cunderdin" ;
+    skos:prefLabel "Shire of Cunderdin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dalwallinu> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dalwallinu" ;
+    skos:prefLabel "Shire of Dalwallinu" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dandaragan> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dandaragan" ;
+    skos:prefLabel "Shire of Dandaragan" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dardanup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dardanup" ;
+    skos:prefLabel "Shire of Dardanup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-denmark> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-denmark" ;
+    skos:prefLabel "Shire of Denmark" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-derby-west-kimberley> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-derby-west-kimberley" ;
+    skos:prefLabel "Shire of Derby-West Kimberley" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-donnybrook-balingup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-donnybrook-balingup" ;
+    skos:prefLabel "Shire of Donnybrook-Balingup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dowerin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dowerin" ;
+    skos:prefLabel "Shire of Dowerin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dumbleyung> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dumbleyung" ;
+    skos:prefLabel "Shire of Dumbleyung" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-dundas> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-dundas" ;
+    skos:prefLabel "Shire of Dundas" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-east-pilbara> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-east-pilbara" ;
+    skos:prefLabel "Shire of East Pilbara" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-esperance> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-esperance" ;
+    skos:prefLabel "Shire of Esperance" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-exmouth> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-exmouth" ;
+    skos:prefLabel "Shire of Exmouth" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-gingin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-gingin" ;
+    skos:prefLabel "Shire of Gingin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-gnowangerup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-gnowangerup" ;
+    skos:prefLabel "Shire of Gnowangerup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-goomalling> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-goomalling" ;
+    skos:prefLabel "Shire of Goomalling" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-halls-creek> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-halls-creek" ;
+    skos:prefLabel "Shire of Halls Creek" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-harvey> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-harvey" ;
+    skos:prefLabel "Shire of Harvey" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-irwin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-irwin" ;
+    skos:prefLabel "Shire of Irwin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-jerramungup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-jerramungup" ;
+    skos:prefLabel "Shire of Jerramungup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-katanning> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-katanning" ;
+    skos:prefLabel "Shire of Katanning" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-kellerberrin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-kellerberrin" ;
+    skos:prefLabel "Shire of Kellerberrin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-kent> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-kent" ;
+    skos:prefLabel "Shire of Kent" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-kojonup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-kojonup" ;
+    skos:prefLabel "Shire of Kojonup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-kondinin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-kondinin" ;
+    skos:prefLabel "Shire of Kondinin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-koorda> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-koorda" ;
+    skos:prefLabel "Shire of Koorda" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-kulin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-kulin" ;
+    skos:prefLabel "Shire of Kulin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-lake-grace> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-lake-grace" ;
+    skos:prefLabel "Shire of Lake Grace" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-laverton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-laverton" ;
+    skos:prefLabel "Shire of Laverton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-leonora> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-leonora" ;
+    skos:prefLabel "Shire of Leonora" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-manjimup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-manjimup" ;
+    skos:prefLabel "Shire of Manjimup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-meekatharra> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-meekatharra" ;
+    skos:prefLabel "Shire of Meekatharra" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-menzies> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-menzies" ;
+    skos:prefLabel "Shire of Menzies" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-merredin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-merredin" ;
+    skos:prefLabel "Shire of Merredin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-mingenew> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-mingenew" ;
+    skos:prefLabel "Shire of Mingenew" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-moora> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-moora" ;
+    skos:prefLabel "Shire of Moora" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-morawa> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-morawa" ;
+    skos:prefLabel "Shire of Morawa" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-mount-magnet> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-mount-magnet" ;
+    skos:prefLabel "Shire of Mount Magnet" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-mount-marshall> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-mount-marshall" ;
+    skos:prefLabel "Shire of Mount Marshall" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-mukinbudin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-mukinbudin" ;
+    skos:prefLabel "Shire of Mukinbudin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-mundaring> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-mundaring" ;
+    skos:prefLabel "Shire of Mundaring" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-murchison> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-murchison" ;
+    skos:prefLabel "Shire of Murchison" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-murray> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-murray" ;
+    skos:prefLabel "Shire of Murray" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-nannup> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-nannup" ;
+    skos:prefLabel "Shire of Nannup" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-narembeen> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-narembeen" ;
+    skos:prefLabel "Shire of Narembeen" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-narrogin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-narrogin" ;
+    skos:prefLabel "Shire of Narrogin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-ngaanyatjarraku> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-ngaanyatjarraku" ;
+    skos:prefLabel "Shire of Ngaanyatjarraku" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-northam> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-northam" ;
+    skos:prefLabel "Shire of Northam" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-northampton> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-northampton" ;
+    skos:prefLabel "Shire of Northampton" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-nungarin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-nungarin" ;
+    skos:prefLabel "Shire of Nungarin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-peppermint-grove> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-peppermint-grove" ;
+    skos:prefLabel "Shire of Peppermint Grove" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-perenjori> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-perenjori" ;
+    skos:prefLabel "Shire of Perenjori" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-pingelly> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-pingelly" ;
+    skos:prefLabel "Shire of Pingelly" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-plantagenet> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-plantagenet" ;
+    skos:prefLabel "Shire of Plantagenet" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-quairading> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-quairading" ;
+    skos:prefLabel "Shire of Quairading" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-ravensthorpe> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-ravensthorpe" ;
+    skos:prefLabel "Shire of Ravensthorpe" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-sandstone> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-sandstone" ;
+    skos:prefLabel "Shire of Sandstone" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-serpentine-jarrahdale> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-serpentine-jarrahdale" ;
+    skos:prefLabel "Shire of Serpentine-Jarrahdale" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-shark-bay> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-shark-bay" ;
+    skos:prefLabel "Shire of Shark Bay" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-tammin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-tammin" ;
+    skos:prefLabel "Shire of Tammin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-three-springs> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-three-springs" ;
+    skos:prefLabel "Shire of Three Springs" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-toodyay> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-toodyay" ;
+    skos:prefLabel "Shire of Toodyay" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-trayning> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-trayning" ;
+    skos:prefLabel "Shire of Trayning" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-upper-gascoyne> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-upper-gascoyne" ;
+    skos:prefLabel "Shire of Upper Gascoyne" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-victoria-plains> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-victoria-plains" ;
+    skos:prefLabel "Shire of Victoria Plains" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wagin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wagin" ;
+    skos:prefLabel "Shire of Wagin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wandering> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wandering" ;
+    skos:prefLabel "Shire of Wandering" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-waroona> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-waroona" ;
+    skos:prefLabel "Shire of Waroona" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-west-arthur> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-west-arthur" ;
+    skos:prefLabel "Shire of West Arthur" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-westonia> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-westonia" ;
+    skos:prefLabel "Shire of Westonia" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wickepin> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wickepin" ;
+    skos:prefLabel "Shire of Wickepin" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-williams> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-williams" ;
+    skos:prefLabel "Shire of Williams" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wiluna> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wiluna" ;
+    skos:prefLabel "Shire of Wiluna" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wongan-ballidu> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wongan-ballidu" ;
+    skos:prefLabel "Shire of Wongan-Ballidu" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-woodanilling> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-woodanilling" ;
+    skos:prefLabel "Shire of Woodanilling" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wyalkatchem> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wyalkatchem" ;
+    skos:prefLabel "Shire of Wyalkatchem" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-wyndham-east-kimberley> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-wyndham-east-kimberley" ;
+    skos:prefLabel "Shire of Wyndham-East Kimberley" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-yalgoo> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-yalgoo" ;
+    skos:prefLabel "Shire of Yalgoo" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-yilgarn> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-yilgarn" ;
+    skos:prefLabel "Shire of Yilgarn" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/shire-of-york> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "shire-of-york" ;
+    skos:prefLabel "Shire of York" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-bassendean> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-bassendean" ;
+    skos:prefLabel "Town of Bassendean" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-cambridge> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-cambridge" ;
+    skos:prefLabel "Town of Cambridge" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-claremont> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-claremont" ;
+    skos:prefLabel "Town of Claremont" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-cottesloe> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-cottesloe" ;
+    skos:prefLabel "Town of Cottesloe" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-east-fremantle> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-east-fremantle" ;
+    skos:prefLabel "Town of East Fremantle" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-mosman-park> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-mosman-park" ;
+    skos:prefLabel "Town of Mosman Park" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-port-hedland> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-port-hedland" ;
+    skos:prefLabel "Town of Port Hedland" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government/town-of-victoria-park> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-local-government> ;
+    skos:notation "town-of-victoria-park" ;
+    skos:prefLabel "Town of Victoria Park" .
+
+<https://linked.data.gov.au/def/csdm/wa-local-government> a skos:ConceptScheme ;
+    skos:prefLabel "WA Local Government Districts" ;
+    skos:scopeNote "termtype:AdminUnit" .
+
+_:N4c9772b51abe40c0a932db2a276bb762 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-parcel-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-parcel-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Parcel State",
+  "class": "termtype:ParcelState",
+  "concepts": [
+    {
+      "preflabel": "Affected",
+      "definition": "An existing parcel subject to amendment due to new boundary adoption from an abutting parcel",
+      "notation": "affected",
+      "altlabel": null,
+      "related": null,
+      "@id": "affected",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Created",
+      "definition": "A new parcel being created in a plan (e.g. (PS) plan of subdivision; (OP) original plan",
+      "notation": "created",
+      "altlabel": null,
+      "related": null,
+      "@id": "created",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Encroached",
+      "definition": "An existing parcel encroached by a new boundary adoption from an abutting parcel",
+      "notation": "encroached",
+      "altlabel": null,
+      "related": null,
+      "@id": "encroached",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Existing",
+      "definition": "A parcel that exists on the cadastre and the boundaries are not affected",
+      "notation": "existing",
+      "altlabel": null,
+      "related": null,
+      "@id": "existing",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cancelled",
+      "definition": "An existing parcel subject to cancellation",
+      "notation": "cancelled",
+      "altlabel": null,
+      "related": null,
+      "@id": "cancelled",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Removed",
+      "definition": "An easement / restriction subject to removal",
+      "notation": "removed",
+      "altlabel": null,
+      "related": null,
+      "@id": "removed",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

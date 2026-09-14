@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N457fbe901a8e4a5bab0ba8469c96ddd0 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:57.084677"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:57.006217"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-type.csv> ] ;
+            prov:wasAssociatedWith _:N457fbe901a8e4a5bab0ba8469c96ddd0 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/au> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "A unit that is designed for use with any principal unit (including, without limitation, a garden, garage, car parking space, storage space, swimming pool, laundry, stairway, or passage) and that is shown on a unit plan as an accessory unit (Unit Titles Act 2010)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "au" ;
+    skos:prefLabel "Accessory Unit" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/fdu> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "In relation to a subdivision of land or a principal unit into units in stages, means a unit that is proposed to be developed or subdivided into 1 or more principal units (with or without accessory units or common property) at a later stage of the development, and that is shown on a stage unit plan as a future development unit (Unit Titles Act 2010)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "fdu" ;
+    skos:prefLabel "Future Development Unit" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/l> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "An area of land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "l" ;
+    skos:prefLabel "Lot" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/pu> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "A unit: (a) that is designed for use (whether in conjunction with any accessory unit or not) as a place of residence or business or for any other use of any nature, and that is shown on a unit plan as a principal unit; and (b) that (i) contains a building or part of a building or is contained in a building (although the unit may or may not be bounded by the physical dimensions of the building); or (ii) is 1 or more car parks (Unit Titles Act 2010)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "pu" ;
+    skos:prefLabel "Principal unit" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/s> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "An area of land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "s" ;
+    skos:prefLabel "Section" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type/u> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Means a part of the land consisting of a space of any shape situated below, on, or above the surface of the land, or partly in one such situation and partly in another or others, all the dimensions of which are limited, and that is designed for separate ownership" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-parcel-type> ;
+    skos:notation "u" ;
+    skos:prefLabel "Unit" .
+
+<https://linked.data.gov.au/def/csdm/nz-parcel-type> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Parcel Type" ;
+    skos:scopeNote "surv:ParcelType" .
+
+_:N457fbe901a8e4a5bab0ba8469c96ddd0 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

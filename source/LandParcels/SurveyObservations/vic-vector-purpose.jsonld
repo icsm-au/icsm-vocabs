@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-vector-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Vector Purpose",
+  "class": "termtype:VectorPurpose",
+  "concepts": [
+    {
+      "preflabel": "Sideshot",
+      "definition": "Used for all radiations",
+      "notation": "sideshot",
+      "altlabel": null,
+      "related": null,
+      "@id": "sideshot",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Normal",
+      "definition": "Used for all boundaries",
+      "notation": "normal",
+      "altlabel": null,
+      "related": null,
+      "@id": "normal",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Traverse",
+      "definition": "Used for all Traverses",
+      "notation": " traverse",
+      "altlabel": null,
+      "related": null,
+      "@id": "traverse",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Topo",
+      "definition": "Used for all secondary interest fixing (e.g. to fix a floating easement to nearest lot corner)",
+      "notation": "topo",
+      "altlabel": null,
+      "related": null,
+      "@id": "topo",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

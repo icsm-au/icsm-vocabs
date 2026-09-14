@@ -1,0 +1,112 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-distance-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-distance-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Distance Type",
+  "class": "surv:Distance",
+  "concepts": [
+    {
+      "preflabel": "Ellipsoid",
+      "definition": "The minimal length of a curve that joins two survey marks on a reference ellipsoid",
+      "notation": "ellipsoid",
+      "altlabel": null,
+      "related": "geodetic",
+      "@id": "ellipsoid",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic",
+      "definition": "The minimal length of a curve that joins two survey marks on a geodetic reference ellipsoid",
+      "notation": "geodetic",
+      "altlabel": null,
+      "related": null,
+      "@id": "geodetic",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Slope",
+      "definition": "The reduced observed distance between two survey marks at ground level",
+      "notation": "slope",
+      "altlabel": null,
+      "related": null,
+      "@id": "slope",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Horizontal",
+      "definition": "The reduced observed distance between two survey marks further reduced to a horizontal plane",
+      "notation": "horizontal",
+      "altlabel": null,
+      "related": null,
+      "@id": "horizontal",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ground",
+      "definition": "The reduced observed distance between two survey marks at ground level",
+      "notation": "ground",
+      "altlabel": "G",
+      "related": null,
+      "@id": "ground",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mean Elevation",
+      "definition": " The reduced observed horizontal distance between two survey marks adjusted to the mean elevation of the line measured",
+      "notation": "mean-elevation",
+      "altlabel": "Horizontal ground distance at mean elevation",
+      "related": null,
+      "@id": "mean-elevation",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3D Vector",
+      "definition": "The reduced observed slope distance between two survey marks.",
+      "notation": "3d-vector",
+      "altlabel": "Slope",
+      "related": null,
+      "@id": "3d-vector",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Spheroid",
+      "definition": "The shortest distance between two points along the surface of a reference spheroid",
+      "notation": "spheroid",
+      "altlabel": "S",
+      "related": "Ellipsoid",
+      "@id": "spheroid",
+      "type": "surv:Distance",
+      "@type": "skos:Concept"
+    }
+  ]
+}

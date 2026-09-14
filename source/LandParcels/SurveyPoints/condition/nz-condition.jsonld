@@ -1,0 +1,212 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-monument-condition/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-monument-condition",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Monument Condition",
+  "class": "surv:ConditionCode",
+  "concepts": [
+    {
+      "preflabel": "Conversion",
+      "definition": "Derived from DCDB",
+      "notation": "conv",
+      "altlabel": null,
+      "related": null,
+      "@id": "conv",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Destroyed",
+      "definition": "The mark was destroyed",
+      "notation": "dest",
+      "altlabel": null,
+      "related": null,
+      "@id": "dest",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Damaged",
+      "definition": "The mark was damaged",
+      "notation": "dmgd",
+      "altlabel": null,
+      "related": null,
+      "@id": "dmgd",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dangerous",
+      "definition": null,
+      "notation": "dngr",
+      "altlabel": null,
+      "related": null,
+      "@id": "dngr",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Emplaced",
+      "definition": "New mark placed",
+      "notation": "empl",
+      "altlabel": null,
+      "related": null,
+      "@id": "empl",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Impracticable to Mark",
+      "definition": "The boundary mark could not be placed",
+      "notation": "impm",
+      "altlabel": null,
+      "related": null,
+      "@id": "impm",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Found",
+      "definition": "The mark is in good condition and is suitable for survey purposes",
+      "notation": "mkfd",
+      "altlabel": null,
+      "related": "Reliably Placed",
+      "@id": "mkfd",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moved",
+      "definition": "The mark has been disturbed from its original position",
+      "notation": "move",
+      "altlabel": "Disturbed",
+      "related": null,
+      "@id": "move",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Accessible",
+      "definition": "The mark was not accessible",
+      "notation": "nacc",
+      "altlabel": null,
+      "related": null,
+      "@id": "nacc",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Searched For and Not Found",
+      "definition": "The mark has been searched for and could not be found",
+      "notation": "nfnd",
+      "altlabel": null,
+      "related": null,
+      "@id": "nfnd",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Specified",
+      "definition": "The condition of the mark was not determined while the survey was being conducted",
+      "notation": "nspe",
+      "altlabel": null,
+      "related": null,
+      "@id": "nspe",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reliably Placed",
+      "definition": "The mark is in good condition and is suitable for survey purposes",
+      "notation": "relb",
+      "altlabel": "Reliable",
+      "related": null,
+      "@id": "relb",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Removed",
+      "definition": "The mark was removed when the survey was conducted",
+      "notation": "remv",
+      "altlabel": null,
+      "related": null,
+      "@id": "remv",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Submerged",
+      "definition": "The mark was submerged",
+      "notation": "subm",
+      "altlabel": null,
+      "related": null,
+      "@id": "subm",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Temporary",
+      "definition": "The mark used during the survey was only a temporary mark",
+      "notation": "temp",
+      "altlabel": null,
+      "related": null,
+      "@id": "temp",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Threatened",
+      "definition": "The mark was in a position where it may become damaged or destroyed in future e.g., the mark is now the edge of a subsiding cliff",
+      "notation": "thrt",
+      "altlabel": null,
+      "related": null,
+      "@id": "thrt",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Uncertain Existence",
+      "definition": null,
+      "notation": "unxt",
+      "altlabel": null,
+      "related": null,
+      "@id": "unxt",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unstable",
+      "definition": "The mark was in an unstable position",
+      "notation": "unst",
+      "altlabel": null,
+      "related": null,
+      "@id": "unst",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    }
+  ]
+}

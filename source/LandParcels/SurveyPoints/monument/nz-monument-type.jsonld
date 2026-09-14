@@ -1,0 +1,172 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-monument-form/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-monument-form",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Monument Form",
+  "class": "surv:MonumentForm",
+  "concepts": [
+    {
+      "preflabel": "Plaque",
+      "definition": "The monument is a plaque, including a bronze plaque",
+      "notation": "bp",
+      "altlabel": null,
+      "related": null,
+      "@id": "bp",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "DCDB",
+      "definition": null,
+      "notation": "dcdb",
+      "altlabel": null,
+      "related": null,
+      "@id": "dcdb",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Disk",
+      "definition": "The monument is a disk, including a disk on a post",
+      "notation": "disk",
+      "altlabel": null,
+      "related": null,
+      "@id": "disk",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Forced Centering",
+      "definition": null,
+      "notation": "fctr",
+      "altlabel": null,
+      "related": null,
+      "@id": "fctr",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Spike",
+      "definition": "The monument is a Spike, typically an iron spike, but includes a Bar, Bolt, Rod, Dog, etc.",
+      "notation": "is",
+      "altlabel": null,
+      "related": null,
+      "@id": "is",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tube",
+      "definition": "The monument is a tube, typically an iron tube",
+      "notation": "it",
+      "altlabel": null,
+      "related": null,
+      "@id": "it",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lead Plug",
+      "definition": "The monument is a plug, typically a lead plug",
+      "notation": "lp",
+      "altlabel": "plug",
+      "related": null,
+      "@id": "lp",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail",
+      "definition": "The monument is a nail",
+      "notation": "nail",
+      "altlabel": null,
+      "related": null,
+      "@id": "nail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": "General catchall for a momument type not listed",
+      "notation": "othr",
+      "altlabel": null,
+      "related": null,
+      "@id": "othr",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Peg",
+      "definition": "The monument is a peg",
+      "notation": "peg",
+      "altlabel": null,
+      "related": null,
+      "@id": "peg",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pin",
+      "definition": "The monument is a pin",
+      "notation": "pin",
+      "altlabel": null,
+      "related": null,
+      "@id": "pin",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Post",
+      "definition": "The monument is a post",
+      "notation": "post",
+      "altlabel": null,
+      "related": null,
+      "@id": "post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unknown",
+      "definition": "The type of monument is unknown",
+      "notation": "unkw",
+      "altlabel": null,
+      "related": null,
+      "@id": "unkw",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unmarked",
+      "definition": "The survey point does not have a physical monument identifying its position",
+      "notation": "unmk",
+      "altlabel": null,
+      "related": null,
+      "@id": "unmk",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    }
+  ]
+}

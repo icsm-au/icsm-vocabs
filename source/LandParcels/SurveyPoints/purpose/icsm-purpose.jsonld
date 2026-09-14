@@ -1,0 +1,162 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Survey Point Purpose",
+  "class": "surv:SurveyPointPurpose",
+  "concepts": [
+    {
+      "preflabel": "monument",
+      "definition": null,
+      "notation": "monument",
+      "altlabel": null,
+      "related": null,
+      "@id": "monument",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "control",
+      "definition": null,
+      "notation": "control",
+      "altlabel": null,
+      "related": null,
+      "@id": "control",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "sideshot",
+      "definition": null,
+      "notation": "sideshot",
+      "altlabel": null,
+      "related": null,
+      "@id": "sideshot",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "boundary",
+      "definition": null,
+      "notation": "boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "natural boundary",
+      "definition": null,
+      "notation": "natural-boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "natural-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "traverse",
+      "definition": null,
+      "notation": "traverse",
+      "altlabel": null,
+      "related": null,
+      "@id": "traverse",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "reference",
+      "definition": null,
+      "notation": "reference",
+      "altlabel": null,
+      "related": null,
+      "@id": "reference",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "administrative",
+      "definition": null,
+      "notation": "administrative",
+      "altlabel": null,
+      "related": null,
+      "@id": "administrative",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "unmarked boundary",
+      "definition": null,
+      "notation": "unmarked",
+      "altlabel": null,
+      "related": null,
+      "@id": "unmarked",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "occupation",
+      "definition": null,
+      "notation": "occupation",
+      "altlabel": null,
+      "related": null,
+      "@id": "occupation",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "survey",
+      "definition": null,
+      "notation": "survey",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unknown",
+      "definition": null,
+      "notation": "unknown",
+      "altlabel": null,
+      "related": null,
+      "@id": "unknown",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": null,
+      "notation": "other",
+      "altlabel": null,
+      "related": null,
+      "@id": "other",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

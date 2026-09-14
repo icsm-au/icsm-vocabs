@@ -1,0 +1,77 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/icsm-admin-unit-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nf46903ad6d604298a725e577e55acb86 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:08.746788"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:08.666601"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/icsm-admin-unit-type.csv> ] ;
+            prov:wasAssociatedWith _:Nf46903ad6d604298a725e577e55acb86 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/county> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:definition "A Victorian cadastral division for cadastral or land administration purposes" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "county" ;
+    skos:prefLabel "County" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/landDistrict> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:definition "A Land District is a NZ administrative area that all titles and surveys were registered against prior to Landonline." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "landDistrict" ;
+    skos:prefLabel "Land District" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/localGovernmentArea> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:altLabel "Local Government" ;
+    skos:definition "Local government is the third level of government in Australia, administered with limited autonomy under the states and territories, and in turn beneath the federal government" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "localGovernmentArea" ;
+    skos:prefLabel "Local Government Area" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/locality> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:definition "A subdivision of a Western Australian Local Government Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "locality" ;
+    skos:prefLabel "Locality" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/parish> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:definition "A subdivision of a Victorian County" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "parish" ;
+    skos:prefLabel "Parish" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/territorialAuthority> a skos:Concept,
+        termtype:AdminUnitType ;
+    skos:altLabel "Municipality" ;
+    skos:definition "A NZ territorial authority is defined under the Local Government Act 2002, NZ, as a city or a district council" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> ;
+    skos:notation "territorialAuthority" ;
+    skos:prefLabel "Territorial Authority" .
+
+<https://linked.data.gov.au/def/csdm/icsm-admin-unit-type> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Administrative Unit Types" ;
+    skos:scopeNote "termtype:AdminUnitType" .
+
+_:Nf46903ad6d604298a725e577e55acb86 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

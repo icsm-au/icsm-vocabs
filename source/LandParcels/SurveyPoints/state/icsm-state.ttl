@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/icsm-state.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nd6dc1fea0c9743c3b93d53fa2211d8b2 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:54.300024"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:54.224131"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/icsm-state.csv> ] ;
+            prov:wasAssociatedWith _:Nd6dc1fea0c9743c3b93d53fa2211d8b2 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/abandoned> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "abandoned" ;
+    skos:prefLabel "abandoned" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/destroyed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "destroyed" ;
+    skos:prefLabel "destroyed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/existing> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "existing" ;
+    skos:prefLabel "existing" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/proposed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "proposed" ;
+    skos:prefLabel "proposed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Monument State" ;
+    skos:scopeNote "surv:SurveyPointState" .
+
+_:Nd6dc1fea0c9743c3b93d53fa2211d8b2 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

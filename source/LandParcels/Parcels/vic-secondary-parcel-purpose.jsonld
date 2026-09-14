@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Secondary Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Drainage and Sewerage",
+      "definition": null,
+      "notation": "d-s",
+      "altlabel": null,
+      "related": null,
+      "@id": "d-s",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drainage",
+      "definition": null,
+      "notation": "d",
+      "altlabel": null,
+      "related": null,
+      "@id": "d",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Depth Limitation",
+      "definition": null,
+      "notation": "depth-limitation",
+      "altlabel": null,
+      "related": null,
+      "@id": "depth-limitation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement",
+      "definition": null,
+      "notation": "easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restriction",
+      "definition": null,
+      "notation": "restriction",
+      "altlabel": null,
+      "related": null,
+      "@id": "restriction",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Land Service",
+      "definition": null,
+      "notation": "crown-land-service",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-land-service",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-county.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N1f7abccb0fac4c519d77c967f96c6fe8 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.402350"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.297360"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-county.csv> ] ;
+            prov:wasAssociatedWith _:N1f7abccb0fac4c519d77c967f96c6fe8 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1001> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1001" ;
+    skos:prefLabel "Anglesey" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1002> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1002" ;
+    skos:prefLabel "Benambra" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1003> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1003" ;
+    skos:prefLabel "Bendigo" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1004> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1004" ;
+    skos:prefLabel "Bogong" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1005> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1005" ;
+    skos:prefLabel "Borung" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1006> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1006" ;
+    skos:prefLabel "Bourke" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1007> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1007" ;
+    skos:prefLabel "Buln Buln" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1008> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1008" ;
+    skos:prefLabel "Croajingolong" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1009> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1009" ;
+    skos:prefLabel "Dalhousie" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1010> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1010" ;
+    skos:prefLabel "Dargo" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1011> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1011" ;
+    skos:prefLabel "Delatite" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1012> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1012" ;
+    skos:prefLabel "Dundas" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1013> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1013" ;
+    skos:prefLabel "Evelyn" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1014> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1014" ;
+    skos:prefLabel "Follett" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1015> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1015" ;
+    skos:prefLabel "Gladstone" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1016> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1016" ;
+    skos:prefLabel "Grant" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1017> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1017" ;
+    skos:prefLabel "Grenville" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1018> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1018" ;
+    skos:prefLabel "Gunbower" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1019> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1019" ;
+    skos:prefLabel "Hampden" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1020> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1020" ;
+    skos:prefLabel "Heytesbury" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1021> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1021" ;
+    skos:prefLabel "Kara Kara" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1022> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1022" ;
+    skos:prefLabel "Karkarooc" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1023> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1023" ;
+    skos:prefLabel "Lowan" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1024> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1024" ;
+    skos:prefLabel "Millewa" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1025> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1025" ;
+    skos:prefLabel "Moira" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1026> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1026" ;
+    skos:prefLabel "Mornington" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1027> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1027" ;
+    skos:prefLabel "Normanby" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1028> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1028" ;
+    skos:prefLabel "Polwarth" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1029> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1029" ;
+    skos:prefLabel "Ripon" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1030> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1030" ;
+    skos:prefLabel "Rodney" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1031> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1031" ;
+    skos:prefLabel "Talbot" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1032> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1032" ;
+    skos:prefLabel "Tambo" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1033> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1033" ;
+    skos:prefLabel "Tanjil" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1034> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1034" ;
+    skos:prefLabel "Tatchera" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1035> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1035" ;
+    skos:prefLabel "Villiers" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1036> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1036" ;
+    skos:prefLabel "Weeah" .
+
+<https://linked.data.gov.au/def/csdm/vic-county/1037> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-county> ;
+    skos:notation "1037" ;
+    skos:prefLabel "Wonnangatta" .
+
+<https://linked.data.gov.au/def/csdm/vic-county> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Counties" ;
+    skos:scopeNote "termtype:AdminUnit" .
+
+_:N1f7abccb0fac4c519d77c967f96c6fe8 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

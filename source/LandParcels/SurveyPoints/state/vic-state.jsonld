@@ -1,0 +1,62 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-monument-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-monument-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Monument State",
+  "class": "surv:SurveyPointState",
+  "concepts": [
+    {
+      "preflabel": "Existing",
+      "definition": "A mark of any type that was existing at the time of the cadastral survey. For these marks, the condition defines what condition the mark is in when it was located.",
+      "notation": "existing",
+      "altlabel": null,
+      "related": null,
+      "@id": "existing",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "New",
+      "definition": "A mark of any type that is created as part of the cadastral survey",
+      "notation": "new",
+      "altlabel": null,
+      "related": null,
+      "@id": "new",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed",
+      "definition": null,
+      "notation": "proposed",
+      "altlabel": null,
+      "related": null,
+      "@id": "proposed",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

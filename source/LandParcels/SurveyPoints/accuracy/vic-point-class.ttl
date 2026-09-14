@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/accuracy/vic-point-class.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N08a66c79ab8a45ceab8ef4b889706fc9 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:57.688580"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:57.608976"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/accuracy/vic-point-class.csv> ] ;
+            prov:wasAssociatedWith _:N08a66c79ab8a45ceab8ef4b889706fc9 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/0> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "0" ;
+    skos:prefLabel "0" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/1> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "1" ;
+    skos:prefLabel "1" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/2> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "2" ;
+    skos:prefLabel "2" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/3> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "3" ;
+    skos:prefLabel "3" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/4> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "4" ;
+    skos:prefLabel "4" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/5> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "5" ;
+    skos:prefLabel "5" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class/99> a skos:Concept,
+        termtype:PointQualityClass ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-point-class> ;
+    skos:notation "99" ;
+    skos:prefLabel "99" .
+
+<https://linked.data.gov.au/def/csdm/vic-point-class> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Point Quality Classes" ;
+    skos:scopeNote "termtype:PointQualityClass" .
+
+_:N08a66c79ab8a45ceab8ef4b889706fc9 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

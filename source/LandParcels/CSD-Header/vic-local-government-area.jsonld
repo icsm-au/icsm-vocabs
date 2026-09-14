@@ -1,0 +1,902 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-local-government-area/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-local-government-area",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Local Government Areas",
+  "class": "termtype:AdminUnit",
+  "concepts": [
+    {
+      "preflabel": "Hobsons Bay",
+      "definition": "S035 1994 p4",
+      "notation": "331",
+      "altlabel": null,
+      "related": null,
+      "@id": "331",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Queenscliffe",
+      "definition": "G047 1863 p1039",
+      "notation": "360",
+      "altlabel": null,
+      "related": null,
+      "@id": "360",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Brimbank",
+      "definition": "S097 1994 p18",
+      "notation": "308",
+      "altlabel": null,
+      "related": null,
+      "@id": "308",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nillumbik",
+      "definition": "G047 2003 p2972",
+      "notation": "356",
+      "altlabel": null,
+      "related": null,
+      "@id": "356",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Darebin",
+      "definition": "S097 1994 p20",
+      "notation": "316",
+      "altlabel": null,
+      "related": null,
+      "@id": "316",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bayside",
+      "definition": "S097 1994 p18",
+      "notation": "306",
+      "altlabel": null,
+      "related": null,
+      "@id": "306",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Banyule",
+      "definition": "S097 1994 p17",
+      "notation": "303",
+      "altlabel": null,
+      "related": null,
+      "@id": "303",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moonee Valley",
+      "definition": "G050 2007 p3095",
+      "notation": "349",
+      "altlabel": null,
+      "related": null,
+      "@id": "349",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Whittlesea",
+      "definition": "G003 1999 p119",
+      "notation": "373",
+      "altlabel": null,
+      "related": null,
+      "@id": "373",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Manningham",
+      "definition": "S158 1999 p10",
+      "notation": "340",
+      "altlabel": null,
+      "related": null,
+      "@id": "340",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kingston",
+      "definition": "S097 1994 p22",
+      "notation": "335",
+      "altlabel": null,
+      "related": null,
+      "@id": "335",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stonnington",
+      "definition": "S035 1994 p22",
+      "notation": "363",
+      "altlabel": null,
+      "related": null,
+      "@id": "363",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Greater Geelong",
+      "definition": "S008 1994 p7",
+      "notation": "327",
+      "altlabel": null,
+      "related": null,
+      "@id": "327",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Melbourne",
+      "definition": "G050 2007 p3095",
+      "notation": "343",
+      "altlabel": null,
+      "related": null,
+      "@id": "343",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Merri-Bek",
+      "definition": "S097 1994 p26",
+      "notation": "351",
+      "altlabel": null,
+      "related": null,
+      "@id": "351",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boroondara",
+      "definition": "S035 1994 p18",
+      "notation": "307",
+      "altlabel": null,
+      "related": null,
+      "@id": "307",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Glen Eira",
+      "definition": "S097 1994 p21",
+      "notation": "322",
+      "altlabel": null,
+      "related": null,
+      "@id": "322",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Maroondah",
+      "definition": "S097 1994 p24",
+      "notation": "342",
+      "altlabel": null,
+      "related": null,
+      "@id": "342",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Port Phillip",
+      "definition": "S035 1994 p26",
+      "notation": "358",
+      "altlabel": null,
+      "related": null,
+      "@id": "358",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Whitehorse",
+      "definition": "S158 1999 p11",
+      "notation": "372",
+      "altlabel": null,
+      "related": null,
+      "@id": "372",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Casey",
+      "definition": "S097 1994 p20",
+      "notation": "312",
+      "altlabel": null,
+      "related": null,
+      "@id": "312",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Monash",
+      "definition": "S097 1994 p25",
+      "notation": "348",
+      "altlabel": null,
+      "related": null,
+      "@id": "348",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Maribyrnong",
+      "definition": "S097 1994 p24",
+      "notation": "341",
+      "altlabel": null,
+      "related": null,
+      "@id": "341",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Greater Dandenong",
+      "definition": "S097 1994 p22",
+      "notation": "326",
+      "altlabel": null,
+      "related": null,
+      "@id": "326",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cardinia",
+      "definition": "G040 2003 p2572",
+      "notation": "311",
+      "altlabel": null,
+      "related": null,
+      "@id": "311",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Knox",
+      "definition": "S097 1994 p23",
+      "notation": "336",
+      "altlabel": null,
+      "related": null,
+      "@id": "336",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wyndham",
+      "definition": "S097 1994 p31",
+      "notation": "375",
+      "altlabel": null,
+      "related": null,
+      "@id": "375",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mornington Peninsula",
+      "definition": "S097 1994 p27",
+      "notation": "352",
+      "altlabel": null,
+      "related": null,
+      "@id": "352",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Yarra",
+      "definition": "S035 1994 p14",
+      "notation": "376",
+      "altlabel": null,
+      "related": null,
+      "@id": "376",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hume",
+      "definition": "S097 1994 p22",
+      "notation": "333",
+      "altlabel": null,
+      "related": null,
+      "@id": "333",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Frankston",
+      "definition": "S097 1994 p21",
+      "notation": "320",
+      "altlabel": null,
+      "related": null,
+      "@id": "320",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Warrnambool",
+      "definition": "S063 1994 p15",
+      "notation": "369",
+      "altlabel": null,
+      "related": null,
+      "@id": "369",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Southern Grampians",
+      "definition": "G019 1996 p1218",
+      "notation": "362",
+      "altlabel": null,
+      "related": null,
+      "@id": "362",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Melton",
+      "definition": "G036 2012 p2017",
+      "notation": "344",
+      "altlabel": null,
+      "related": null,
+      "@id": "344",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Golden Plains",
+      "definition": "G012 1995 p742",
+      "notation": "324",
+      "altlabel": null,
+      "related": null,
+      "@id": "324",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Glenelg",
+      "definition": "G003 1997 p195",
+      "notation": "323",
+      "altlabel": null,
+      "related": null,
+      "@id": "323",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surf Coast",
+      "definition": "S063 1994 p15",
+      "notation": "365",
+      "altlabel": null,
+      "related": null,
+      "@id": "365",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moyne",
+      "definition": "G003 1996 p205",
+      "notation": "354",
+      "altlabel": null,
+      "related": null,
+      "@id": "354",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Latrobe",
+      "definition": "S094 1994 p12",
+      "notation": "337",
+      "altlabel": null,
+      "related": null,
+      "@id": "337",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moorabool",
+      "definition": "S097 1994 p25",
+      "notation": "350",
+      "altlabel": null,
+      "related": null,
+      "@id": "350",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bass Coast",
+      "definition": "S097 1994 p17",
+      "notation": "304",
+      "altlabel": null,
+      "related": null,
+      "@id": "304",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Colac Otway",
+      "definition": "S063 1994 p10",
+      "notation": "314",
+      "altlabel": null,
+      "related": null,
+      "@id": "314",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Murrindindi",
+      "definition": "G007 2012 p285",
+      "notation": "355",
+      "altlabel": null,
+      "related": null,
+      "@id": "355",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Baw Baw",
+      "definition": "S094 1994 p9",
+      "notation": "305",
+      "altlabel": null,
+      "related": null,
+      "@id": "305",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Corangamite",
+      "definition": "S063 1994 p11",
+      "notation": "315",
+      "altlabel": null,
+      "related": null,
+      "@id": "315",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "South Gippsland",
+      "definition": "S097 1994 p28",
+      "notation": "361",
+      "altlabel": null,
+      "related": null,
+      "@id": "361",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mitchell",
+      "definition": "G007 2012 p288",
+      "notation": "346",
+      "altlabel": null,
+      "related": null,
+      "@id": "346",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Greater Shepparton",
+      "definition": "S087 1994 p28",
+      "notation": "328",
+      "altlabel": null,
+      "related": null,
+      "@id": "328",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Yarra Ranges",
+      "definition": "G040 2003 p2574",
+      "notation": "377",
+      "altlabel": null,
+      "related": null,
+      "@id": "377",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Greater Bendigo",
+      "definition": "G016 1996 p30",
+      "notation": "325",
+      "altlabel": null,
+      "related": null,
+      "@id": "325",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mildura",
+      "definition": "S004 1995 p17",
+      "notation": "345",
+      "altlabel": null,
+      "related": null,
+      "@id": "345",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wodonga",
+      "definition": "G042 2015 p2266",
+      "notation": "374",
+      "altlabel": null,
+      "related": null,
+      "@id": "374",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ballarat",
+      "definition": "G012 1995 p740",
+      "notation": "302",
+      "altlabel": null,
+      "related": null,
+      "@id": "302",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Horsham",
+      "definition": "S004 1995 p16",
+      "notation": "332",
+      "altlabel": null,
+      "related": null,
+      "@id": "332",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wangaratta",
+      "definition": "G028 1996 p1872",
+      "notation": "368",
+      "altlabel": null,
+      "related": null,
+      "@id": "368",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ararat",
+      "definition": "G003 1996 p203",
+      "notation": "301",
+      "altlabel": null,
+      "related": null,
+      "@id": "301",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Swan Hill",
+      "definition": "S004 1995 p23",
+      "notation": "366",
+      "altlabel": null,
+      "related": null,
+      "@id": "366",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wellington",
+      "definition": "S094 1994 p16",
+      "notation": "370",
+      "altlabel": null,
+      "related": null,
+      "@id": "370",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Campaspe",
+      "definition": "S004 1995 p13",
+      "notation": "310",
+      "altlabel": null,
+      "related": null,
+      "@id": "310",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "East Gippsland",
+      "definition": "S094 1994 p11",
+      "notation": "319",
+      "altlabel": null,
+      "related": null,
+      "@id": "319",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pyrenees",
+      "definition": "S004 1995 p20",
+      "notation": "359",
+      "altlabel": null,
+      "related": null,
+      "@id": "359",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Loddon",
+      "definition": "S002 1995 p14",
+      "notation": "338",
+      "altlabel": null,
+      "related": null,
+      "@id": "338",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hepburn",
+      "definition": "S002 1995 p12",
+      "notation": "329",
+      "altlabel": null,
+      "related": null,
+      "@id": "329",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moira",
+      "definition": "S087 1994 p28",
+      "notation": "347",
+      "altlabel": null,
+      "related": null,
+      "@id": "347",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mount Alexander",
+      "definition": "S002 1995 p21",
+      "notation": "353",
+      "altlabel": null,
+      "related": null,
+      "@id": "353",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Northern Grampians",
+      "definition": "G009 1996 p657",
+      "notation": "357",
+      "altlabel": null,
+      "related": null,
+      "@id": "357",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Macedon Ranges",
+      "definition": "S002 1995 p17",
+      "notation": "339",
+      "altlabel": null,
+      "related": null,
+      "@id": "339",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Central Goldfields",
+      "definition": "S002 1995 p9",
+      "notation": "313",
+      "altlabel": null,
+      "related": null,
+      "@id": "313",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Indigo",
+      "definition": "G042 2015 p2266",
+      "notation": "334",
+      "altlabel": null,
+      "related": null,
+      "@id": "334",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Strathbogie",
+      "definition": "G012 1995 p738",
+      "notation": "364",
+      "altlabel": null,
+      "related": null,
+      "@id": "364",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Yarriambiack",
+      "definition": "G003 1996 p200",
+      "notation": "378",
+      "altlabel": null,
+      "related": null,
+      "@id": "378",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gannawarra",
+      "definition": "S004 1995 p14",
+      "notation": "321",
+      "altlabel": null,
+      "related": null,
+      "@id": "321",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mansfield",
+      "definition": "G042 2002 p2839",
+      "notation": "382",
+      "altlabel": null,
+      "related": null,
+      "@id": "382",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Buloke",
+      "definition": "G009 1996 p655",
+      "notation": "309",
+      "altlabel": null,
+      "related": null,
+      "@id": "309",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Alpine",
+      "definition": "G046 1998 p2822",
+      "notation": "300",
+      "altlabel": null,
+      "related": null,
+      "@id": "300",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Benalla",
+      "definition": "G042 2002 p2837",
+      "notation": "381",
+      "altlabel": null,
+      "related": null,
+      "@id": "381",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "West Wimmera",
+      "definition": "S004 1995 p24",
+      "notation": "371",
+      "altlabel": null,
+      "related": null,
+      "@id": "371",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Towong",
+      "definition": "G042 1996 p2787",
+      "notation": "367",
+      "altlabel": null,
+      "related": null,
+      "@id": "367",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hindmarsh",
+      "definition": "S004 1995 p16",
+      "notation": "330",
+      "altlabel": null,
+      "related": null,
+      "@id": "330",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "French-Elizabeth-Sandstone Islands (Uninc)",
+      "definition": null,
+      "notation": "379",
+      "altlabel": null,
+      "related": null,
+      "@id": "379",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Falls Creek Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "386",
+      "altlabel": null,
+      "related": null,
+      "@id": "386",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gabo Island (Uninc)",
+      "definition": null,
+      "notation": "389",
+      "altlabel": null,
+      "related": null,
+      "@id": "389",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lake Mountain Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "385",
+      "altlabel": null,
+      "related": null,
+      "@id": "385",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mount Baw Baw Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "383",
+      "altlabel": null,
+      "related": null,
+      "@id": "383",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mount Buller Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "384",
+      "altlabel": null,
+      "related": null,
+      "@id": "384",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mount Hotham Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "388",
+      "altlabel": null,
+      "related": null,
+      "@id": "388",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mount Stirling Alpine Resort (Uninc)",
+      "definition": null,
+      "notation": "387",
+      "altlabel": null,
+      "related": null,
+      "@id": "387",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-annotation.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ndc274fd765204a2f902b94ae07061ccd ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:57.772334"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:57.691611"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-annotation.csv> ] ;
+            prov:wasAssociatedWith _:Ndc274fd765204a2f902b94ae07061ccd ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/parcel-derived> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "parcel-derived" ;
+    skos:prefLabel "Parcel and area derived" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/public-acquisition> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "public-acquisition" ;
+    skos:prefLabel "Public Acquisition" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/r-26a> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition "Survey carried out under Reg 26a Special Survey Areas, Licensed Surveyors (General Surveying Practice) Regulations 1961" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "r-26a" ;
+    skos:prefLabel "Special Survey Area Guidelines" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/sp> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition " Survey plan note stating survey sheet information has priority" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "sp" ;
+    skos:prefLabel "Information priority" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/surveyed-dimensions> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition "Description of method for deriving dimensions contained in the data and on related survey plans" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "surveyed-dimensions" ;
+    skos:prefLabel "Surveyed Dimensions" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/total-area> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "total-area" ;
+    skos:prefLabel "Total Subdivided Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/transfer-of-land-exempt> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "transfer-of-land-exempt" ;
+    skos:prefLabel "Transfer of Land (Survey) Regulations 1995 Exemption" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/unsurveyed-dimensions> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "unsurveyed-dimensions" ;
+    skos:prefLabel "Unsurveyed Dimensions" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation> a skos:ConceptScheme ;
+    skos:prefLabel "WA CSD Annotation" ;
+    skos:scopeNote "termtype:Annotation" .
+
+_:Ndc274fd765204a2f902b94ae07061ccd a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

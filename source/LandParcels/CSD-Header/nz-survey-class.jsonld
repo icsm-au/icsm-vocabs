@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-survey-class/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-survey-class",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Survey Class",
+  "class": "termtype:SurveyType",
+  "concepts": [
+    {
+      "preflabel": "Class A",
+      "definition": "Urban and the most accurate. The class A tolerance for boundary points increases from 0.06m at a rate of 0.015m per 100m.",
+      "notation": "a",
+      "altlabel": null,
+      "related": null,
+      "@id": "a",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Class B",
+      "definition": "Rural and not as accurate as class A. The class B tolerance for boundary points increases from 0.30m at a rate of 0.06m per 100m.",
+      "notation": "b",
+      "altlabel": null,
+      "related": null,
+      "@id": "b",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Class C",
+      "definition": "Used in specified rural circumstances where a less accurate boundary is acceptable. The class C tolerance for boundary points increases from 1.00m at a rate of 0.30m per 100m.",
+      "notation": "c",
+      "altlabel": null,
+      "related": null,
+      "@id": "c",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Class D",
+      "definition": "(used in exceptional circumstances where the existing boundary accuracy is unknown or unable to be determined and it is appropriate to permit these inaccuracies to remain",
+      "notation": "d",
+      "altlabel": null,
+      "related": null,
+      "@id": "d",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

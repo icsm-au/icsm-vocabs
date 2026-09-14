@@ -1,0 +1,110 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-state.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nb88bde7b1d604528912f212af6101cdb ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:07.694106"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:07.607174"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-state.csv> ] ;
+            prov:wasAssociatedWith _:Nb88bde7b1d604528912f212af6101cdb ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/abuttal> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document State:parcel is relevant to display" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "abuttal" ;
+    skos:prefLabel "Abuttal" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/affected-tenure> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is to be encumbured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "affected-tenure" ;
+    skos:prefLabel "Affected tenure" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/cancelled> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document and Database State: Plan/Scheme unregistered and cancelled" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "cancelled" ;
+    skos:prefLabel "Cancelled" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/created> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is being created by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "created" ;
+    skos:prefLabel "Created" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/former-tenure> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is being replaced by one or more parcels created by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "former-tenure" ;
+    skos:prefLabel "Former tenure" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/inset> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is an inset lot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "inset" ;
+    skos:prefLabel "Inset" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/lodged> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Database state: Lodged" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "lodged" ;
+    skos:prefLabel "Lodged" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/referenced> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is referenced by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "referenced" ;
+    skos:prefLabel "Referenced" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/registered> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Database state: Element registered" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "registered" ;
+    skos:prefLabel "Registered" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/superseded> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition " Database State: Element further subdivided or removed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "superseded" ;
+    skos:prefLabel "Superseded" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state/terminated> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document and Database State: Plan/Scheme terminated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-state> ;
+    skos:notation "terminated" ;
+    skos:prefLabel "Terminated" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-state> a skos:ConceptScheme ;
+    skos:prefLabel "WA Parcel State" ;
+    skos:scopeNote "termtype:ParcelState" .
+
+_:Nb88bde7b1d604528912f212af6101cdb a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

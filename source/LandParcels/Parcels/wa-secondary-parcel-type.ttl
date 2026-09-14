@@ -1,0 +1,61 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-parcel-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N2091cee9912a4b46929c35ed4ae40325 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.690119"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.610827"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-parcel-type.csv> ] ;
+            prov:wasAssociatedWith _:N2091cee9912a4b46929c35ed4ae40325 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/crown> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Crown Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type> ;
+    skos:notation "crown" ;
+    skos:prefLabel "Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/easement-area> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "An are3a defining multiple easements. May be Freehold, Crown, or Leasehold land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type> ;
+    skos:notation "easement-area" ;
+    skos:prefLabel "Easement Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/freehold> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Freehold Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type> ;
+    skos:notation "freehold" ;
+    skos:prefLabel "Freehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/leasehold> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Leasehold" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type> ;
+    skos:notation "leasehold" ;
+    skos:prefLabel "Leasehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type> a skos:ConceptScheme ;
+    skos:prefLabel "WA Secondary Parcel Type" ;
+    skos:scopeNote "surv:ParcelType" .
+
+_:N2091cee9912a4b46929c35ed4ae40325 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

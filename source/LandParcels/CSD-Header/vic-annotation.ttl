@@ -1,0 +1,279 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-annotation.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N5780c7d44c414cad8dbc243f68b432f5 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:08.657301"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:08.547025"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-annotation.csv> ] ;
+            prov:wasAssociatedWith _:N5780c7d44c414cad8dbc243f68b432f5 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/afrn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "afrn" ;
+    skos:prefLabel "Abstract of Field Records Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/app> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "app" ;
+    skos:prefLabel "Additional Purpose of Plan" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/bbn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "bbn" ;
+    skos:prefLabel "Building Boundary Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/beoce> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "beoce" ;
+    skos:prefLabel "Balance Of Existing OC Entitlement" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/beocl> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "beocl" ;
+    skos:prefLabel "Balance Of Existing OC Liability" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ca> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ca" ;
+    skos:prefLabel "Crown Allotment" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/corp-parcel> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "corp-parcel" ;
+    skos:prefLabel "Corporation Parcel" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/cp> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "cp" ;
+    skos:prefLabel "Crown Portion" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/cs> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "cs" ;
+    skos:prefLabel "Crown Section" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/eb> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "eb" ;
+    skos:prefLabel "Easement Beneficiary" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/eo> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "eo" ;
+    skos:prefLabel "Easement Origin" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ep> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ep" ;
+    skos:prefLabel "Easement Purpose" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/eq> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "eq" ;
+    skos:prefLabel "Easement Qualification" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ew> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ew" ;
+    skos:prefLabel "Easement Width" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/fpn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "fpn" ;
+    skos:prefLabel "Future Plan Number" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/gen> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "gen" ;
+    skos:prefLabel "General Easement Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/gfv> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "gfv" ;
+    skos:prefLabel "Grounds for Vesting" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/gpn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "gpn" ;
+    skos:prefLabel "General Plan Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/gr> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "gr" ;
+    skos:prefLabel "Grounds for Removal" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/gv> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "gv" ;
+    skos:prefLabel "Grounds for Variation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/hop> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "hop" ;
+    skos:prefLabel "Head of Power" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/icd> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "icd" ;
+    skos:prefLabel "Instrument and Calibration Details" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ien> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ien" ;
+    skos:prefLabel "Implied Easement Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ocd> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ocd" ;
+    skos:prefLabel "Other Crown Description" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ocn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ocn" ;
+    skos:prefLabel "Owners Corporation Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/pad> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "pad" ;
+    skos:prefLabel "Parcel with Area by Deduction" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/pop> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "pop" ;
+    skos:prefLabel "Purpose of Plan" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/pos18-a> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "pos18-a" ;
+    skos:prefLabel "public open space under section 18 or 18A of the Subdivision Act 1988" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/pp> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "pp" ;
+    skos:prefLabel "Planning Permit" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ps> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ps" ;
+    skos:prefLabel "Prior Survey" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/red> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "red" ;
+    skos:prefLabel "Restriction Expiry Date" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/rod> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "rod" ;
+    skos:prefLabel "Report on Datum" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s12-2-a> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s12-2-a" ;
+    skos:prefLabel "Section 12(2) of the Subdivision Act 1988 applies vide this plan" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s12-2-dn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s12-2-dn" ;
+    skos:prefLabel "Section 12(2) of the Subdivision Act 1988 does not apply vide this plan" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s35-a> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s35-a" ;
+    skos:prefLabel "Section 35 Agreement" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s35-c> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s35-c" ;
+    skos:prefLabel "Section 35 Compulsory" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s35-rvta> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s35-rvta" ;
+    skos:prefLabel "Section 35 - See Recording of Vesting Table Attached" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/s6> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "s6" ;
+    skos:prefLabel "Plan certified under Section 6 of the Subdivision Act 1988" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/srn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "srn" ;
+    skos:prefLabel "Surveyor's Report Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/ssfrn> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "ssfrn" ;
+    skos:prefLabel "Supply of Supplementary Field Record Notation" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation/tcj> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-annotation> ;
+    skos:notation "tcj" ;
+    skos:prefLabel "Title Closure Justification" .
+
+<https://linked.data.gov.au/def/csdm/vic-annotation> a skos:ConceptScheme ;
+    skos:prefLabel "VIC CSD Annotation" ;
+    skos:scopeNote "termtype:Annotation" .
+
+_:N5780c7d44c414cad8dbc243f68b432f5 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

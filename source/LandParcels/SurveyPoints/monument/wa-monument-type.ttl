@@ -1,0 +1,294 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/monument/wa-monument-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ne1687f709e8543d6b41e3302230f1b01 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.997128"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.891859"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/monument/wa-monument-type.csv> ] ;
+            prov:wasAssociatedWith _:Ne1687f709e8543d6b41e3302230f1b01 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/beacon> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "beacon" ;
+    skos:prefLabel "Beacon" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/bench-mark> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "bench-mark" ;
+    skos:prefLabel "Bench Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/brass-plaque> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "brass-plaque" ;
+    skos:prefLabel "Brass Plaque" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/building> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "building" ;
+    skos:prefLabel "Building" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/cadastral-point-unmarked> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,60,61,78,150,181,200,201,202" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "cadastral-point-unmarked" ;
+    skos:prefLabel "Cadastral Point Unmarked" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/cairn> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "cairn" ;
+    skos:prefLabel "Cairn" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/concrete-plinth> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "concrete-plinth" ;
+    skos:prefLabel "Concrete Plinth" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/concrete-plinth-with-hatch> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "concrete-plinth-with-hatch" ;
+    skos:prefLabel "Concrete Plinth with hatch" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/deck-spike> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202",
+        "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "deck-spike" ;
+    skos:prefLabel "Deck Spike" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/deck-spike-with-plate> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "deck-spike-with-plate" ;
+    skos:prefLabel "Deck Spike with Plate" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/drill-hole> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "drill-hole" ;
+    skos:prefLabel "Drill Hole" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/fence> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "fence" ;
+    skos:prefLabel "Fence" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/hallmark> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "hallmark" ;
+    skos:prefLabel "Hallmark" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/interest-peg> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O ; purpose-wa-internal: 12,21,22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "interest-peg" ;
+    skos:prefLabel "Interest Peg" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/interest-point-unmarked> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O ; purpose-wa-internal: 12,21,22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "interest-point-unmarked" ;
+    skos:prefLabel "Interest Point Unmarked" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/kilometre-post> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "kilometre-post" ;
+    skos:prefLabel "Kilometre Post" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/mile-post> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "mile-post" ;
+    skos:prefLabel "Mile Post" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/nail> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "nail" ;
+    skos:prefLabel "Nail" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/nail-and-plate> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "nail-and-plate" ;
+    skos:prefLabel "Nail and Plate" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/non-standard-mark> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "non-standard-mark" ;
+    skos:prefLabel "Non Standard Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/other> a skos:Concept,
+        surv:MonumentForm ;
+    skos:definition "Monument form defined as Other in CSD" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "other" ;
+    skos:prefLabel "Other" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/peg> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "peg" ;
+    skos:prefLabel "Peg" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/pipe> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "pipe" ;
+    skos:prefLabel "Pipe" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/pole> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "pole" ;
+    skos:prefLabel "Pole" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/post> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "post" ;
+    skos:prefLabel "Post" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/ramset-plug> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "ramset-plug" ;
+    skos:prefLabel "Ramset plug" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/spike> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "spike" ;
+    skos:prefLabel "Spike" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/star-picket> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "star-picket" ;
+    skos:prefLabel "Star picket" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/steel-post> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "steel-post" ;
+    skos:prefLabel "Steel Post" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/structure> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "structure" ;
+    skos:prefLabel "Structure" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/trench> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "trench" ;
+    skos:prefLabel "Trench" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/trigonometrical-station> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "trigonometrical-station" ;
+    skos:prefLabel "Trigonometrical Station" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/tube> a skos:Concept,
+        surv:MonumentForm ;
+    skos:altLabel "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202" ;
+    skos:definition "Object in compliance with WA legislation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "tube" ;
+    skos:prefLabel "Tube" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form/wall> a skos:Concept,
+        surv:MonumentForm ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-form> ;
+    skos:notation "wall" ;
+    skos:prefLabel "Wall" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-form> a skos:ConceptScheme ;
+    skos:prefLabel "WA Monument Form" ;
+    skos:scopeNote "surv:MonumentForm" .
+
+_:Ne1687f709e8543d6b41e3302230f1b01 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

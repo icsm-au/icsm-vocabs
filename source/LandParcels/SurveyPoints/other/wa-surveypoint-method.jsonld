@@ -1,0 +1,102 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Survey Point Creation Method",
+  "class": "termtype:PointCreationMethod",
+  "concepts": [
+    {
+      "preflabel": "Least Squares Adjustment (Phase 1)",
+      "definition": "Phase 1 Least Square Adjustment - minimally constrained?",
+      "notation": "D",
+      "altlabel": null,
+      "related": null,
+      "@id": "D",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Traverse Adjustment",
+      "definition": "Traverse Adjustment - generally all traditional surveys that are not precalculated.",
+      "notation": "T",
+      "altlabel": null,
+      "related": null,
+      "@id": "T",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Map Projection Transformation",
+      "definition": "Transformation - Map Projection Conversions",
+      "notation": "F",
+      "altlabel": null,
+      "related": null,
+      "@id": "F",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Coordinate entry",
+      "definition": "Keyed In - e.g. by co ordinates",
+      "notation": "K",
+      "altlabel": null,
+      "related": null,
+      "@id": "K",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Graphical",
+      "definition": "Graphical Construction - e.g. CO-GO, calculated, digitised",
+      "notation": "G",
+      "altlabel": null,
+      "related": null,
+      "@id": "G",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Least Squares Adjustment (Phase 2)",
+      "definition": "Phase 2 Least Square Adjustment - fully constrained?",
+      "notation": "L",
+      "altlabel": null,
+      "related": null,
+      "@id": "L",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Precalculated",
+      "definition": "Precal - all SSA surveys",
+      "notation": "P",
+      "altlabel": null,
+      "related": null,
+      "@id": "P",
+      "type": "termtype:PointCreationMethod",
+      "@type": "skos:Concept"
+    }
+  ]
+}

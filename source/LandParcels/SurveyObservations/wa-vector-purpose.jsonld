@@ -1,0 +1,1322 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-vector-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Vector Purpose",
+  "class": "termtype:VectorPurpose",
+  "concepts": [
+    {
+      "preflabel": "Control Network",
+      "definition": "Control Network",
+      "notation": "control-network",
+      "altlabel": "11",
+      "related": "APX-05:N; DSD:13,43,44,46",
+      "@id": "control-network",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Long GNSS Control Network Connection",
+      "definition": "Long GNSS Control Network Connection",
+      "notation": "long-gnss-control-network-connection",
+      "altlabel": "11",
+      "related": "APX-05:N; DSD:13,46",
+      "@id": "long-gnss-control-network-connection",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lot Boundary",
+      "definition": "Lot Boundary",
+      "notation": "lot-boundary",
+      "altlabel": "2",
+      "related": "APX-05:I; DSD:2",
+      "@id": "lot-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Boundary",
+      "definition": "Road Boundary",
+      "notation": "road-boundary",
+      "altlabel": "1",
+      "related": "APX-05:R; DSD:1",
+      "@id": "road-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Construct",
+      "definition": "Road Construct",
+      "notation": "road-construction",
+      "altlabel": "11",
+      "related": "APX-05:C; DSD:11",
+      "@id": "road-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Boundary",
+      "definition": "Interest Boundary",
+      "notation": "interest-boundary",
+      "altlabel": "21",
+      "related": "APX-05:E; DSD:21",
+      "@id": "interest-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Construct",
+      "definition": "Interest Construct",
+      "notation": "interest-construction",
+      "altlabel": "22",
+      "related": "APX-05:K; DSD:22",
+      "@id": "interest-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mining Boundary",
+      "definition": "Mining Boundary",
+      "notation": "mining-boundary",
+      "altlabel": "60",
+      "related": "APX-05:R,I; DSD:53-77",
+      "@id": "mining-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mining Construct",
+      "definition": "Mining Construct",
+      "notation": "mining-construction",
+      "altlabel": "78",
+      "related": "APX-05:C; DSD:78",
+      "@id": "mining-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cadastral Construct",
+      "definition": "Cadastral Construct",
+      "notation": "cadastral-construction",
+      "altlabel": "11",
+      "related": "APX-05:C; DSD:11,12,15",
+      "@id": "cadastral-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cadastral Connection",
+      "definition": "Cadastral Connection",
+      "notation": "cadastral-connection",
+      "altlabel": "11",
+      "related": "APX-05:C; DSD:11,12,15",
+      "@id": "cadastral-connection",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Townsite Boundary",
+      "definition": "Townsite Boundary",
+      "notation": "townsite-boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "townsite-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Port Authority Boundary",
+      "definition": "Port Authority Boundary",
+      "notation": "port-authority-boundary",
+      "altlabel": "190",
+      "related": null,
+      "@id": "port-authority-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Local Government Boundary",
+      "definition": "Local Government Boundary",
+      "notation": "local-government-boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "local-government-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "State Forrest Boundary",
+      "definition": "State Forrest Boundary",
+      "notation": "state-forrest-boundary",
+      "altlabel": "175",
+      "related": null,
+      "@id": "state-forrest-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Depth Limit Boundary",
+      "definition": "Location Boundary for DepthLimit",
+      "notation": "depth-limit-boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "depth-limit-boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Depth Limit Construct",
+      "definition": "Depth Limit Construct",
+      "notation": "depth-limit-construction",
+      "altlabel": null,
+      "related": null,
+      "@id": "depth-limit-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fence",
+      "definition": "Structure - Fence",
+      "notation": "fence",
+      "altlabel": null,
+      "related": null,
+      "@id": "fence",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Structure Clockwise Left",
+      "definition": "Structure - Left",
+      "notation": "structure-cw-left",
+      "altlabel": null,
+      "related": null,
+      "@id": "structure-cw-left",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Structure Clockwise Right",
+      "definition": "Structure - Right",
+      "notation": "structure-cw-right",
+      "altlabel": null,
+      "related": null,
+      "@id": "structure-cw-right",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mineral Reservation",
+      "definition": "Mineral Reservation",
+      "notation": "mineral-reservation",
+      "altlabel": null,
+      "related": null,
+      "@id": "mineral-reservation",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Abuttal",
+      "definition": "Abuttal",
+      "notation": "abuttal",
+      "altlabel": null,
+      "related": null,
+      "@id": "abuttal",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant Restrictive Covenant",
+      "definition": "Linear Interest linetype",
+      "notation": "covernant-restrictive-covenant",
+      "altlabel": null,
+      "related": null,
+      "@id": "covernant-restrictive-covenant",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MHWM Boundary",
+      "definition": "Mean High Water Mark Boundary",
+      "notation": "MHWM-Boundary",
+      "altlabel": "3",
+      "related": "APX-05:W",
+      "@id": "MHWM-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Group Boundary",
+      "definition": "Group Boundary",
+      "notation": "Group-Boundary",
+      "altlabel": "4",
+      "related": "APX-05:I",
+      "@id": "Group-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Common Boundary",
+      "definition": "Common Boundary",
+      "notation": "Common-Boundary",
+      "altlabel": "5",
+      "related": "APX-05:I",
+      "@id": "Common-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "HWM Boundary",
+      "definition": "High Water Mark Boundary",
+      "notation": "HWM-Boundary",
+      "altlabel": "6",
+      "related": "APX-05:W",
+      "@id": "HWM-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LWM Boundary",
+      "definition": "Low Water Mark Boundary",
+      "notation": "LWM-Boundary",
+      "altlabel": "7",
+      "related": "APX-05:W",
+      "@id": "LWM-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nautical Boundary",
+      "definition": "Nautical Boundary",
+      "notation": "Nautical-Boundary",
+      "altlabel": "8",
+      "related": "APX-05:W",
+      "@id": "Nautical-Boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Network Construct",
+      "definition": "Network Construct",
+      "notation": "Network-Construct",
+      "altlabel": "11",
+      "related": "APX-05:C",
+      "@id": "Network-Construct",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Poly Tie Construct",
+      "definition": "Poly Tie Construct",
+      "notation": "Poly-Tie-Construct",
+      "altlabel": "12",
+      "related": "APX-05:C",
+      "@id": "Poly-Tie-Construct",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3D Normal",
+      "definition": "3D Normal",
+      "notation": "3D-Normal",
+      "altlabel": "14",
+      "related": "APX-05:I",
+      "@id": "3D-Normal",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3D Construct",
+      "definition": "3D Construct",
+      "notation": "3D-Construct",
+      "altlabel": "15",
+      "related": "APX-05:C",
+      "@id": "3D-Construct",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superline",
+      "definition": "Superline",
+      "notation": "Superline",
+      "altlabel": "23",
+      "related": null,
+      "@id": "Superline",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "HAT",
+      "definition": "Highest Astronomical Tide-ICSM-SP9",
+      "notation": "HAT",
+      "altlabel": "6",
+      "related": null,
+      "@id": "HAT",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MHWS",
+      "definition": "Mean High Water Springs-ICSM-SP9",
+      "notation": "MHWS",
+      "altlabel": "6",
+      "related": null,
+      "@id": "MHWS",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MHW",
+      "definition": "Mean High Water-Common Law-ICSM-SP9",
+      "notation": "MHW",
+      "altlabel": "6",
+      "related": null,
+      "@id": "MHW",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MSL",
+      "definition": "Mean Sea Level-ICSM-SP9",
+      "notation": "MSL",
+      "altlabel": null,
+      "related": null,
+      "@id": "MSL",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLWS",
+      "definition": "Mean Low Water Springs-ICSM-SP9",
+      "notation": "MLWS",
+      "altlabel": "7",
+      "related": null,
+      "@id": "MLWS",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLW",
+      "definition": "Mean Low Water-ICSM-SP9",
+      "notation": "MLW",
+      "altlabel": "7",
+      "related": null,
+      "@id": "MLW",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LAT",
+      "definition": "Lowest Astronomical Tide-ICSM-SP9",
+      "notation": "LAT",
+      "altlabel": "7",
+      "related": null,
+      "@id": "LAT",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surround",
+      "definition": "Surround",
+      "notation": "Surround",
+      "altlabel": "181",
+      "related": null,
+      "@id": "Surround",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Surround",
+      "definition": "Interest Surround",
+      "notation": "Interest-Surround",
+      "altlabel": "182",
+      "related": null,
+      "@id": "Interest-Surround",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cancelled Surround",
+      "definition": "Cancelled Surround",
+      "notation": "Cancelled-Surround",
+      "altlabel": "183",
+      "related": null,
+      "@id": "Cancelled-Surround",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Retired Surround",
+      "definition": "Retired Surround",
+      "notation": "Retired-Surround",
+      "altlabel": "184",
+      "related": null,
+      "@id": "Retired-Surround",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conversion",
+      "definition": "Conversion",
+      "notation": "Conversion",
+      "altlabel": "186",
+      "related": null,
+      "@id": "Conversion",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Statutory Plan",
+      "definition": "Statutory Plan",
+      "notation": "Statutory-Plan",
+      "altlabel": "187",
+      "related": null,
+      "@id": "Statutory-Plan",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Crown",
+      "definition": "Superseded Crown",
+      "notation": "Superseded-Crown",
+      "altlabel": "200",
+      "related": null,
+      "@id": "Superseded-Crown",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Freehold",
+      "definition": "Superseded Freehold",
+      "notation": "Superseded-Freehold",
+      "altlabel": "201",
+      "related": null,
+      "@id": "Superseded-Freehold",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Lease",
+      "definition": "Superseded Lease",
+      "notation": "Superseded-Lease",
+      "altlabel": "202",
+      "related": null,
+      "@id": "Superseded-Lease",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RO Construct",
+      "definition": "RO Construct",
+      "notation": "RO-Construct",
+      "altlabel": "13",
+      "related": "APX-05:N",
+      "@id": "RO-Construct",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic Connection",
+      "definition": "Non Geodetic Connection",
+      "notation": "Non-Geodetic-Connection",
+      "altlabel": "43",
+      "related": "APX-05:N",
+      "@id": "Non-Geodetic-Connection",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic Precal",
+      "definition": "Non Geodetic Precal",
+      "notation": "Non-Geodetic-Precal",
+      "altlabel": "44",
+      "related": "APX-05:N",
+      "@id": "Non-Geodetic-Precal",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic Connection GDA94",
+      "definition": "Non Geodetic Connection GDA94",
+      "notation": "Non-Geodetic-Connection-GDA94",
+      "altlabel": "46",
+      "related": "APX-05:N",
+      "@id": "Non-Geodetic-Connection-GDA94",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RO Construct Mining",
+      "definition": "RO Construct Mining",
+      "notation": "RO-Construct-Mining",
+      "altlabel": "53",
+      "related": null,
+      "@id": "RO-Construct-Mining",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mining District",
+      "definition": "Mining District",
+      "notation": "Mining-District",
+      "altlabel": "55",
+      "related": null,
+      "@id": "Mining-District",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mining Field",
+      "definition": "Mining Field",
+      "notation": "Mining-Field",
+      "altlabel": "56",
+      "related": null,
+      "@id": "Mining-Field",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Current Mining",
+      "definition": "Current Mining",
+      "notation": "Current-Mining",
+      "altlabel": "60",
+      "related": null,
+      "@id": "Current-Mining",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 1",
+      "definition": "Superseded Mining Level 1",
+      "notation": "Superseded-Mining-Level-1",
+      "altlabel": "61",
+      "related": null,
+      "@id": "Superseded-Mining-Level-1",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 2",
+      "definition": "Superseded Mining Level 2",
+      "notation": "Superseded-Mining-Level-2",
+      "altlabel": "62",
+      "related": null,
+      "@id": "Superseded-Mining-Level-2",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 3",
+      "definition": "Superseded Mining Level 3",
+      "notation": "Superseded-Mining-Level-3",
+      "altlabel": "63",
+      "related": null,
+      "@id": "Superseded-Mining-Level-3",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 4",
+      "definition": "Superseded Mining Level 4",
+      "notation": "Superseded-Mining-Level-4",
+      "altlabel": "64",
+      "related": null,
+      "@id": "Superseded-Mining-Level-4",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 5",
+      "definition": "Superseded Mining Level 5",
+      "notation": "Superseded-Mining-Level-5",
+      "altlabel": "65",
+      "related": null,
+      "@id": "Superseded-Mining-Level-5",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 6",
+      "definition": "Superseded Mining Level 6",
+      "notation": "Superseded-Mining-Level-6",
+      "altlabel": "66",
+      "related": null,
+      "@id": "Superseded-Mining-Level-6",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 7",
+      "definition": "Superseded Mining Level 7",
+      "notation": "Superseded-Mining-Level-7",
+      "altlabel": "67",
+      "related": null,
+      "@id": "Superseded-Mining-Level-7",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 8",
+      "definition": "Superseded Mining Level 8",
+      "notation": "Superseded-Mining-Level-8",
+      "altlabel": "68",
+      "related": null,
+      "@id": "Superseded-Mining-Level-8",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 9",
+      "definition": "Superseded Mining Level 9",
+      "notation": "Superseded-Mining-Level-9",
+      "altlabel": "69",
+      "related": null,
+      "@id": "Superseded-Mining-Level-9",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 10",
+      "definition": "Superseded Mining Level 10",
+      "notation": "Superseded-Mining-Level-10",
+      "altlabel": "70",
+      "related": null,
+      "@id": "Superseded-Mining-Level-10",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 11",
+      "definition": "Superseded Mining Level 11",
+      "notation": "Superseded-Mining-Level-11",
+      "altlabel": "71",
+      "related": null,
+      "@id": "Superseded-Mining-Level-11",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 12",
+      "definition": "Superseded Mining Level 12",
+      "notation": "Superseded-Mining-Level-12",
+      "altlabel": "72",
+      "related": null,
+      "@id": "Superseded-Mining-Level-12",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 13",
+      "definition": "Superseded Mining Level 13",
+      "notation": "Superseded-Mining-Level-13",
+      "altlabel": "73",
+      "related": null,
+      "@id": "Superseded-Mining-Level-13",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 14",
+      "definition": "Superseded Mining Level 14",
+      "notation": "Superseded-Mining-Level-14",
+      "altlabel": "74",
+      "related": null,
+      "@id": "Superseded-Mining-Level-14",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 15",
+      "definition": "Superseded Mining Level 15",
+      "notation": "Superseded-Mining-Level-15",
+      "altlabel": "75",
+      "related": null,
+      "@id": "Superseded-Mining-Level-15",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 16",
+      "definition": "Superseded Mining Level 16",
+      "notation": "Superseded-Mining-Level-16",
+      "altlabel": "76",
+      "related": null,
+      "@id": "Superseded-Mining-Level-16",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining Level 17",
+      "definition": "Superseded Mining Level 17",
+      "notation": "Superseded-Mining-Level-17",
+      "altlabel": "77",
+      "related": null,
+      "@id": "Superseded-Mining-Level-17",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Infrastructure 1",
+      "definition": "Infrastructure 1",
+      "notation": "Infrastructure-1",
+      "altlabel": "146",
+      "related": null,
+      "@id": "Infrastructure-1",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Infrastructure 2",
+      "definition": "Infrastructure 2",
+      "notation": "Infrastructure-2",
+      "altlabel": "147",
+      "related": null,
+      "@id": "Infrastructure-2",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Critical Port Areas (CPA)",
+      "definition": "Critical Port Areas (CPA)",
+      "notation": "Critical-Port-Areas-CPA",
+      "altlabel": "148",
+      "related": null,
+      "@id": "Critical-Port-Areas-CPA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) ILUA",
+      "definition": "LCMU (Native Title) ILUA",
+      "notation": "LCMU-Native-Title-ILUA",
+      "altlabel": "149",
+      "related": null,
+      "@id": "LCMU-Native-Title-ILUA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LGA Town-site",
+      "definition": "LGA Town-site",
+      "notation": "LGA-Town-site",
+      "altlabel": "151",
+      "related": null,
+      "@id": "LGA-Town-site",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Postal Locality",
+      "definition": "Postal Locality",
+      "notation": "Postal-Locality",
+      "altlabel": "152",
+      "related": null,
+      "@id": "Postal-Locality",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Linked LGA",
+      "definition": "Linked LGA",
+      "notation": "Linked-LGA",
+      "altlabel": "153",
+      "related": null,
+      "@id": "Linked-LGA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LGA Ward",
+      "definition": "LGA Ward",
+      "notation": "LGA-Ward",
+      "altlabel": "154",
+      "related": null,
+      "@id": "LGA-Ward",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PreGazetted LGA Ward",
+      "definition": "PreGazetted LGA Ward",
+      "notation": "PreGazetted-LGA-Ward",
+      "altlabel": "155",
+      "related": null,
+      "@id": "PreGazetted-LGA-Ward",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 1",
+      "definition": "Project 1",
+      "notation": "Project-1",
+      "altlabel": "156",
+      "related": null,
+      "@id": "Project-1",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 2",
+      "definition": "Project 2",
+      "notation": "Project-2",
+      "altlabel": "157",
+      "related": null,
+      "@id": "Project-2",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 3",
+      "definition": "Project 3",
+      "notation": "Project-3",
+      "altlabel": "158",
+      "related": null,
+      "@id": "Project-3",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Project 4",
+      "definition": "Project 4",
+      "notation": "Project-4",
+      "altlabel": "159",
+      "related": null,
+      "@id": "Project-4",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLA",
+      "definition": "MLA",
+      "notation": "MLA",
+      "altlabel": "160",
+      "related": null,
+      "@id": "MLA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLC",
+      "definition": "MLC",
+      "notation": "MLC",
+      "altlabel": "161",
+      "related": null,
+      "@id": "MLC",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed MLA",
+      "definition": "Proposed MLA",
+      "notation": "Proposed-MLA",
+      "altlabel": "162",
+      "related": null,
+      "@id": "Proposed-MLA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Proposed MLC",
+      "definition": "Proposed MLC",
+      "notation": "Proposed-MLC",
+      "altlabel": "163",
+      "related": null,
+      "@id": "Proposed-MLC",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PreGazetted LGA",
+      "definition": "PreGazetted LGA",
+      "notation": "PreGazetted-LGA",
+      "altlabel": "164",
+      "related": null,
+      "@id": "PreGazetted-LGA",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "State Border",
+      "definition": "State Border",
+      "notation": "State-Border",
+      "altlabel": "165",
+      "related": null,
+      "@id": "State-Border",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Division",
+      "definition": "Land Division",
+      "notation": "Land-Division",
+      "altlabel": "166",
+      "related": null,
+      "@id": "Land-Division",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land District",
+      "definition": "Land District",
+      "notation": "Land-District",
+      "altlabel": "167",
+      "related": null,
+      "@id": "Land-District",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Agricultural Area",
+      "definition": "Agricultural Area",
+      "notation": "Agricultural-Area",
+      "altlabel": "168",
+      "related": null,
+      "@id": "Agricultural-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Suburban Area",
+      "definition": "Suburban Area",
+      "notation": "Suburban-Area",
+      "altlabel": "169",
+      "related": null,
+      "@id": "Suburban-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Estate Area",
+      "definition": "Estate Area",
+      "notation": "Estate-Area",
+      "altlabel": "170",
+      "related": null,
+      "@id": "Estate-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Town-site Land Act",
+      "definition": "Town-site Land Act",
+      "notation": "Town-site-Land-Act",
+      "altlabel": "171",
+      "related": null,
+      "@id": "Town-site-Land-Act",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Settlement Area",
+      "definition": "Special Settlement Area",
+      "notation": "Special-Settlement-Area",
+      "altlabel": "172",
+      "related": null,
+      "@id": "Special-Settlement-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Riverpark Area",
+      "definition": "Riverpark Area",
+      "notation": "Riverpark-Area",
+      "altlabel": "173",
+      "related": null,
+      "@id": "Riverpark-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Development Control Area",
+      "definition": "Development Control Area",
+      "notation": "Development-Control-Area",
+      "altlabel": "174",
+      "related": null,
+      "@id": "Development-Control-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "State Forest",
+      "definition": "State Forest",
+      "notation": "State-Forest",
+      "altlabel": "175",
+      "related": null,
+      "@id": "State-Forest",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Timber Reserve",
+      "definition": "Timber Reserve",
+      "notation": "Timber-Reserve",
+      "altlabel": "176",
+      "related": null,
+      "@id": "Timber-Reserve",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Park",
+      "definition": "Marine Park",
+      "notation": "Marine-Park",
+      "altlabel": "177",
+      "related": null,
+      "@id": "Marine-Park",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Nature Reserve",
+      "definition": "Marine Nature Reserve",
+      "notation": "Marine-Nature-Reserve",
+      "altlabel": "178",
+      "related": null,
+      "@id": "Marine-Nature-Reserve",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine Management Area",
+      "definition": "Marine Management Area",
+      "notation": "Marine-Management-Area",
+      "altlabel": "179",
+      "related": null,
+      "@id": "Marine-Management-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Water Control Area",
+      "definition": "Water Control Area",
+      "notation": "Water-Control-Area",
+      "altlabel": "185",
+      "related": null,
+      "@id": "Water-Control-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Port Authority",
+      "definition": "Port Authority",
+      "notation": "Port-Authority",
+      "altlabel": "190",
+      "related": null,
+      "@id": "Port-Authority",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Marine & Harbour Area",
+      "definition": "Marine & Harbour Area",
+      "notation": "Marine-&-Harbour-Area",
+      "altlabel": "191",
+      "related": null,
+      "@id": "Marine---Harbour-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Survey Area",
+      "definition": "Special Survey Area",
+      "notation": "Special-Survey-Area",
+      "altlabel": "192",
+      "related": null,
+      "@id": "Special-Survey-Area",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Shipping and Pilotage",
+      "definition": "Shipping and Pilotage",
+      "notation": "Shipping-and-Pilotage",
+      "altlabel": "193",
+      "related": null,
+      "@id": "Shipping-and-Pilotage",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Railway Corridor",
+      "definition": "Railway Corridor",
+      "notation": "Railway-Corridor",
+      "altlabel": "194",
+      "related": null,
+      "@id": "Railway-Corridor",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "DBNGP Corridor",
+      "definition": "DBNGP Corridor",
+      "notation": "DBNGP-Corridor",
+      "altlabel": "195",
+      "related": null,
+      "@id": "DBNGP-Corridor",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) NNTT",
+      "definition": "LCMU (Native Title) NNTT",
+      "notation": "LCMU-Native-Title-NNTT",
+      "altlabel": "196",
+      "related": null,
+      "@id": "LCMU-Native-Title-NNTT",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) Fed",
+      "definition": "LCMU (Native Title) Fed",
+      "notation": "LCMU-Native-Title-Fed",
+      "altlabel": "197",
+      "related": null,
+      "@id": "LCMU-Native-Title-Fed",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LCMU (Native Title) Det",
+      "definition": "LCMU (Native Title) Det",
+      "notation": "LCMU-Native-Title-Det",
+      "altlabel": "198",
+      "related": null,
+      "@id": "LCMU-Native-Title-Det",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Administrative Boundary Construct",
+      "definition": "Administrative Boundary Construct",
+      "notation": "Administrative-Boundary-Construct",
+      "altlabel": "199",
+      "related": null,
+      "@id": "Administrative-Boundary-Construct",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement",
+      "definition": "Easement Boundary",
+      "notation": "easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Construct",
+      "definition": "Easement Construction Line",
+      "notation": "easement-construction",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-construction",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Traverse",
+      "definition": null,
+      "notation": "traverse",
+      "altlabel": null,
+      "related": null,
+      "@id": "traverse",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Radiation",
+      "definition": null,
+      "notation": "radiation",
+      "altlabel": null,
+      "related": null,
+      "@id": "radiation",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Check",
+      "definition": null,
+      "notation": "check",
+      "altlabel": null,
+      "related": null,
+      "@id": "check",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary",
+      "definition": null,
+      "notation": "boundary",
+      "altlabel": null,
+      "related": null,
+      "@id": "boundary",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Abuttal",
+      "definition": null,
+      "notation": "abuttal",
+      "altlabel": null,
+      "related": null,
+      "@id": "abuttal",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Astronomical Azimuth",
+      "definition": " The angle between two planes - one which passes through the observing station and the rotation axis or (true) north and the second which passes through the observing station and a second point being observed",
+      "notation": "astronomical-azimuth",
+      "altlabel": null,
+      "related": null,
+      "@id": "astronomical-azimuth",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Azimuth",
+      "definition": "The angle between two planes - one of which passes through the observing station and the north pole of the ellipsoid and the second which passes through this same the observing station and a second point being observed",
+      "notation": "geodetic-azimuth",
+      "altlabel": null,
+      "related": null,
+      "@id": "geodetic-azimuth",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grid Azimuth",
+      "definition": "The angle between grid north and the tangent to the arc at the observing station. It is measured from grid north clockwise",
+      "notation": "grid-azimuth",
+      "altlabel": null,
+      "related": null,
+      "@id": "grid-azimuth",
+      "type": "termtype:VectorPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

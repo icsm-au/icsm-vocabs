@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-annotation/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-annotation",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ CSD Annotation",
+  "class": "termtype:Annotation",
+  "concepts": [
+    {
+      "preflabel": "Certification",
+      "definition": null,
+      "notation": "certification",
+      "altlabel": null,
+      "related": null,
+      "@id": "certification",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N79c0401dfd044e1e963f74213242272d ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.846160"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.721189"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N79c0401dfd044e1e963f74213242272d ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/amalgamation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict amalgamations of Māori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "amalgamation" ;
+    skos:prefLabel "Amalgamations" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/application> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used when registering land under the Land Transfer Act for the first time – usually from Deeds Registered land. Includes Adverse Possession under the Land Transfer Amendment Act 1963. Application for Accretion. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "application" ;
+    skos:prefLabel "Application" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/cbr> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Used to record one or more boundary marks when the boundary points are not required by the Cadastral Survey Rules 2021. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "cbr" ;
+    skos:prefLabel "Complex Boundary Reinstatement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ce> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict areas of land of customary entitlement (other than Nohoanga (campsite) sites) in Māori Claim Settlement legislation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in Customary Entitlement sites only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ce" ;
+    skos:prefLabel "Customary Entitlement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/cfl> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict Crown Forest License areas. Note: to be recorded in terms of OSG Policy 1997/01. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in crown forest licenses only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "cfl" ;
+    skos:prefLabel "Crown Forest Lease" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/consolidation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict consolidations of Māori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "consolidation" ;
+    skos:prefLabel "Consolidations" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/csp> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict subdivisions of Crown land. Includes definition of a single Crown land parcel. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "csp" ;
+    skos:prefLabel "Crown Subdivision Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/csup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a complete Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "csup" ;
+    skos:prefLabel "Complete Stage Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/csup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a complete Unit Title staged development CSD with survey sheet produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "csup-ss" ;
+    skos:prefLabel "Complete Stage Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/easement> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used for depicting an easement when it is not part of a current land subdivision survey. Includes survey of Profit-a-Prendre and Esplanade Strips. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in easements only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "easement" ;
+    skos:prefLabel "Easement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/fpcp> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard CSD that shows Flats or Cross Leases. Survey of Restrictive Covenant areas only. No survey system information is provided. Tenure system information may be used to define interests in flat and cross lease parcels only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "fpcp" ;
+    skos:prefLabel "Flat plan/Crosslease Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/fpcp-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard CSD that shows Flats or Cross Leases and Survey of Restrictive Covenant areas only that includes a survey sheet. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in flat and cross lease parcels, easements or covenants only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "fpcp-ss" ;
+    skos:prefLabel "Flat plan/Crosslease with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/fsup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict the first stage of a Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "fsup" ;
+    skos:prefLabel "First Stage Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/fsup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict the first stage of a Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "fsup-ss" ;
+    skos:prefLabel "First Stage Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-c-s> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Crown Parcel Definition" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-c-s" ;
+    skos:prefLabel "Crown Subdivision" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-cbr> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Boundary Reinstatement - Full CSD" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-cbr" ;
+    skos:prefLabel "Complex Boundary Reinstatement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-covenant> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Covenant" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-covenant" ;
+    skos:prefLabel "Land Transfer Plan Land Covenant, or Survey Office Plan Land Covenant" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-na> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Compiled Survey Information OR Offsetting (for record purposes only) OR Redefinition Record Purposes Only OR Statutory Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-na" ;
+    skos:prefLabel "Not Applicable" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-s-i> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Control OR Offsetting (for approval as to survey) OR Traverses OR Inspection" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-s-i" ;
+    skos:prefLabel "Survey Information" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/h-sbr> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Historical survey purpose - Monumentation CSD" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "h-sbr" ;
+    skos:prefLabel "Simple Boundary Reinstatement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/lease> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict parcels for leasehold title. These overlay but do not supersede the underlying cadastre. Survey system information may be adopted by other surveys. Tenure system information may be used to define leasehold interest in the land only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "lease" ;
+    skos:prefLabel "Lease" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/legalisation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict land to be taken for road or other public purpose. Also may include definition of severances or areas of road to be closed. Includes Treaty Settlement Plans. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "legalisation" ;
+    skos:prefLabel "Legalisation" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/lt> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict a definition or subdivision of land owned in fee simple when that land is held in a title Limited asto parcels. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "lt" ;
+    skos:prefLabel "Limited Title" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ltlc> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used for depicting land covenants on registered land when only the covenant is shown on the plan i.e. not associated with a current land subdivision survey. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in land covenants only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ltlc" ;
+    skos:prefLabel "Land Transfer Plan Land Covenant" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/lts> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict subdivisions of land owned in fee simple. Includes a new definition of a single parcel. Includes surveys of Amalgamation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "lts" ;
+    skos:prefLabel "LT Subdivision" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/mf> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict areas required for Marine Farming purposes. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in marine farming leases only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "mf" ;
+    skos:prefLabel "Marine Farming" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/mining> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict areas of land (including water) with a mining permit or license. These overlay but do not supersede the underlying cadastre. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "mining" ;
+    skos:prefLabel "Mining" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/n-c> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict areas of land designated as Nohoanga (campsite) sites in Māori Claim Settlement legislation. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in Nohoanga sites only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "n-c" ;
+    skos:prefLabel "Nohoanga (Campsite)" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/partition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict partitions (subdivisions) in accordance with a Māori Land Court Partition Order. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "partition" ;
+    skos:prefLabel "Partition" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/pud> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard proposed Unit Development CSD produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "pud" ;
+    skos:prefLabel "Proposed Unit Development" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/pud-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a proposed Unit Development plan with survey sheet produced under the Unit Titles Act 1972. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "pud-ss" ;
+    skos:prefLabel "Proposed Unit Development with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/reclamation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict land registered under the LandTransfer Act for reclamation of seabed, foreshore, stream/riverbed, or lakebed. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "reclamation" ;
+    skos:prefLabel "Reclamation" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/revesting> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict parcels to be revested as Māori land Blocks. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "revesting" ;
+    skos:prefLabel "Revesting" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/roadway> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used to depict roadways over Māori land. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "roadway" ;
+    skos:prefLabel "Roadway" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/rup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a redevelopment Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "rup" ;
+    skos:prefLabel "Redevelopment Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/rup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a redevelopment Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "rup-ss" ;
+    skos:prefLabel "Redevelopment Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sbr> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "Used to record the placement of one or more boundary marks on an existing boundary point in accordance with Cadastral Survey Rules 2021. Mandatory supporting document (survey report) is to be attached. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in all land tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sbr" ;
+    skos:prefLabel "Simple Boundary Reinstatement" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/se-r> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used for depicting a statutory easement or right when it is not part of a current land subdivision survey. Includes plans of Marginal Strips. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in statutory easements or rights only. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "se-r" ;
+    skos:prefLabel "Statutory Easement/Right" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/si> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict survey work which does not define parcels. Survey system information may be adopted by other surveys. These surveys contain no tenure system information. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "si" ;
+    skos:prefLabel "Survey Information" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/soplc> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To be used for depicting land covenants over unregistered land when only the covenant is shown on the plan (ie not associated with a current land subdivision survey) Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in land covenants only. . " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "soplc" ;
+    skos:prefLabel "Survey Office Plan Land Covenant" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/spud> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a subsidiary proposed Unit Development CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "spud" ;
+    skos:prefLabel "Subsidiary Proposed Unit Development" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/spud-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a subsidiary proposed Unit Development CSD with survey sheet, produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "spud-ss" ;
+    skos:prefLabel "Subsidiary Proposed Unit Development with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/srup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a simple redevelopment Unit Title CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "srup" ;
+    skos:prefLabel "Simple Redevelopment Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/srup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a simple redevelopment Unit Title CSD with survey sheet produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "srup-ss" ;
+    skos:prefLabel "Simple Redevelopment Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ssup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a subsidiary standard Unit Title CSD produced under the Unit Titles Act 2010. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ssup" ;
+    skos:prefLabel "Subsidiary Standard Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ssup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a subsidiary standard Unit Title CSD with survey sheet produced under the Unit Titles Act 2010. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ssup-ss" ;
+    skos:prefLabel "Subsidiary Standard Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/stage-up> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a further stage (other than the complete stage) of a Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "stage-up" ;
+    skos:prefLabel "Stage Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/stage-up-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a further stage (other than the complete stage) of a Unit Title staged development CSD with survey sheet, produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "stage-up-ss" ;
+    skos:prefLabel "Stage Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sub-pud> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a substituted proposed Unit Title staged development CSD produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sub-pud" ;
+    skos:prefLabel "Substituted Proposed Unit Development" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sub-udp-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a substituted proposed Unit Title staged development CSD with survey sheet produced under the Unit Titles Act 1972 and the Unit Titles Amendment Act 1979. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sub-udp-ss" ;
+    skos:prefLabel "Substituted Proposed Unit Development with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sup> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard Unit Title CSD produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sup" ;
+    skos:prefLabel "Standard Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sup-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard Unit Title CSD with survey sheet produced under the Unit Titles Act 1972. Survey system information may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sup-ss" ;
+    skos:prefLabel "Standard Unit Plan with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/sv> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict the boundary of a land area when such is required for Statutory vesting purposes only. Survey system information may be adopted by other surveys. Tenure system information to be used for the Statutory vesting purposes only. It is NOT to be used for any land tenure or title purposes." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "sv" ;
+    skos:prefLabel "Statutory Vesting" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ups> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict a standard Unit Title ‘CSD in substitution’ produced under the Unit Titles Act 1972. No survey system information is provided. Tenure system information may be used, or adopted for use, in defining applicable interests in unit tenures." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ups" ;
+    skos:prefLabel "Unit Plan in Substitution" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose/ups-ss> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:definition "To depict Unit Title ‘CSD in substitution’ with survey sheet produced under the Unit Titles Act 1972. Survey system information  may be adopted by other surveys. Tenure system information may be used to define interests in units, easements or covenants only." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-purpose> ;
+    skos:notation "ups-ss" ;
+    skos:prefLabel "Unit Plan in Substitution with Survey Sheet" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Survey Purpose" ;
+    skos:scopeNote "surv:SurveyPurpose" .
+
+_:N79c0401dfd044e1e963f74213242272d a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

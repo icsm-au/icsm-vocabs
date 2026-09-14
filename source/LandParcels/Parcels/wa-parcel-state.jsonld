@@ -1,0 +1,142 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-parcel-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-parcel-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Parcel State",
+  "class": "termtype:ParcelState",
+  "concepts": [
+    {
+      "preflabel": "Lodged",
+      "definition": "Database state: Lodged",
+      "notation": "lodged",
+      "altlabel": null,
+      "related": null,
+      "@id": "lodged",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded",
+      "definition": " Database State: Element further subdivided or removed",
+      "notation": "superseded",
+      "altlabel": null,
+      "related": null,
+      "@id": "superseded",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Registered",
+      "definition": "Database state: Element registered",
+      "notation": "registered",
+      "altlabel": null,
+      "related": null,
+      "@id": "registered",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cancelled",
+      "definition": "Document and Database State: Plan/Scheme unregistered and cancelled",
+      "notation": "cancelled",
+      "altlabel": null,
+      "related": null,
+      "@id": "cancelled",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Terminated",
+      "definition": "Document and Database State: Plan/Scheme terminated",
+      "notation": "terminated",
+      "altlabel": null,
+      "related": null,
+      "@id": "terminated",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Created",
+      "definition": "Document state: The parcel is being created by the survey",
+      "notation": "created",
+      "altlabel": null,
+      "related": "nz-parcel-state:created",
+      "@id": "created",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Referenced",
+      "definition": "Document state: The parcel is referenced by the survey",
+      "notation": "referenced",
+      "altlabel": null,
+      "related": "nz-parcel-state:referenced",
+      "@id": "referenced",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Former tenure",
+      "definition": "Document state: The parcel is being replaced by one or more parcels created by the survey",
+      "notation": "former-tenure",
+      "altlabel": null,
+      "related": "nz-parcel-state:extinguished",
+      "@id": "former-tenure",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Inset",
+      "definition": "Document state: The parcel is an inset lot",
+      "notation": "inset",
+      "altlabel": null,
+      "related": null,
+      "@id": "inset",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Affected tenure",
+      "definition": "Document state: The parcel is to be encumbured",
+      "notation": "affected-tenure",
+      "altlabel": null,
+      "related": null,
+      "@id": "affected-tenure",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Abuttal",
+      "definition": "Document State:parcel is relevant to display",
+      "notation": "abuttal",
+      "altlabel": null,
+      "related": null,
+      "@id": "abuttal",
+      "type": "termtype:ParcelState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

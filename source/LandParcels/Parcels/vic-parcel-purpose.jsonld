@@ -1,0 +1,112 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Lot",
+      "definition": null,
+      "notation": "lot",
+      "altlabel": null,
+      "related": null,
+      "@id": "lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Stage Lot",
+      "definition": null,
+      "notation": "stage-lot",
+      "altlabel": null,
+      "related": null,
+      "@id": "stage-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road",
+      "definition": null,
+      "notation": "road",
+      "altlabel": null,
+      "related": null,
+      "@id": "road",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve",
+      "definition": null,
+      "notation": "reserve",
+      "altlabel": null,
+      "related": null,
+      "@id": "reserve",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Common Property",
+      "definition": null,
+      "notation": "common-property",
+      "altlabel": null,
+      "related": null,
+      "@id": "common-property",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Allotment",
+      "definition": null,
+      "notation": "crown-allotment",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-allotment",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Portion",
+      "definition": null,
+      "notation": "crown-portion",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-portion",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Corporation",
+      "definition": null,
+      "notation": "owners-corporation",
+      "altlabel": null,
+      "related": null,
+      "@id": "owners-corporation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

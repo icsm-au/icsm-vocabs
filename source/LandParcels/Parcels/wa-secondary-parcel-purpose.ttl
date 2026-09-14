@@ -1,0 +1,453 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-parcel-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Na70e896fc76f4dad85d1ff849630b3e1 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:57.401055"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:57.273563"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-secondary-parcel-purpose.csv> ] ;
+            prov:wasAssociatedWith _:Na70e896fc76f4dad85d1ff849630b3e1 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/DBNGP-corridor> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "DBNGP Corridor" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "DBNGP-corridor" ;
+    skos:prefLabel "DBNGP Corridor" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/LCMU-native-title-Det> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "LCMU (Native Title) Det" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "LCMU-native-title-Det" ;
+    skos:prefLabel "LCMU (Native Title) Det" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/LCMU-native-title-Fed> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "LCMU (Native Title) Fed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "LCMU-native-title-Fed" ;
+    skos:prefLabel "LCMU (Native Title) Fed" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/LCMU-native-title-NNTT> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "LCMU (Native Title) NNTT" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "LCMU-native-title-NNTT" ;
+    skos:prefLabel "LCMU (Native Title) NNTT" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/LGA-town-site> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "LGA Town-site" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "LGA-town-site" ;
+    skos:prefLabel "LGA Town-site" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/LGA-ward> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "LGA Ward" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "LGA-ward" ;
+    skos:prefLabel "LGA Ward" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/MLA> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "MLA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "MLA" ;
+    skos:prefLabel "MLA" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/MLC> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "MLC" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "MLC" ;
+    skos:prefLabel "MLC" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/SSA> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Special Survey Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "SSA" ;
+    skos:prefLabel "Special Survey Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/agricultural-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Agricultural Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "agricultural-area" ;
+    skos:prefLabel "Agricultural Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/cancelled-surround> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Cancelled Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "cancelled-surround" ;
+    skos:prefLabel "Cancelled Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/conversion> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Conversion" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "conversion" ;
+    skos:prefLabel "Conversion" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/critical-port-areas-cpa> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Critical Port Areas (CPA)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "critical-port-areas-cpa" ;
+    skos:prefLabel "Critical Port Areas (CPA)" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/development-control-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Development Control Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "development-control-area" ;
+    skos:prefLabel "Development Control Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/drain-reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Drain Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "drain-reserve" ;
+    skos:prefLabel "Drain Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/estate-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Estate Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "estate-area" ;
+    skos:prefLabel "Estate Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/ilua> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "ILUA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "ilua" ;
+    skos:prefLabel "ILUA" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/infrastructure-1> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Infrastructure 1" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "infrastructure-1" ;
+    skos:prefLabel "Infrastructure 1" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/infrastructure-2> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Infrastructure 2" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "infrastructure-2" ;
+    skos:prefLabel "Infrastructure 2" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/interest> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Interest or encumbrance" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "interest" ;
+    skos:prefLabel "Interest" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/interest-surround> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Interest Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "interest-surround" ;
+    skos:prefLabel "Interest Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/land-district> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Land District" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "land-district" ;
+    skos:prefLabel "Land District" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/land-division> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Land Division" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "land-division" ;
+    skos:prefLabel "Land Division" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/lease> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Lease" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "lease" ;
+    skos:prefLabel "Lease" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/linked-LGA> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Linked LGA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "linked-LGA" ;
+    skos:prefLabel "Linked LGA" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/marine-and-harbour-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Marine & Harbour Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "marine-and-harbour-area" ;
+    skos:prefLabel "Marine & Harbour Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/marine-management-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Marine Management Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "marine-management-area" ;
+    skos:prefLabel "Marine Management Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/marine-nature-reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Marine Nature Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "marine-nature-reserve" ;
+    skos:prefLabel "Marine Nature Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/marine-park> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Marine Park" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "marine-park" ;
+    skos:prefLabel "Marine Park" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/marine-reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Marine Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "marine-reserve" ;
+    skos:prefLabel "Marine Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/parent-of-survey-strata> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Parent of Survey Strata" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "parent-of-survey strata" ;
+    skos:prefLabel "Parent of Survey Strata" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/port-authority> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Port Authority" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "port-authority" ;
+    skos:prefLabel "Port Authority" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/postal-locality> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Postal Locality" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "postal-locality" ;
+    skos:prefLabel "Postal Locality" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/pre-gazetted-LGA-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Pre Gazetted LGA Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "pre-gazetted-LGA-land" ;
+    skos:prefLabel "Pre Gazetted LGA Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/pregazetted-LGA-ward> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "PreGazetted LGA Ward" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "pregazetted-LGA-ward" ;
+    skos:prefLabel "PreGazetted LGA Ward" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/project-1-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Project 1 Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "project-1-land" ;
+    skos:prefLabel "Project 1 Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/project-2-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Project 2 Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "project-2-land" ;
+    skos:prefLabel "Project 2 Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/project-3-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Project 3 Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "project-3-land" ;
+    skos:prefLabel "Project 3 Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/project-4-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Project 4 Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "project-4-land" ;
+    skos:prefLabel "Project 4 Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/proposed-MLA-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Proposed MLA Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "proposed-MLA-land" ;
+    skos:prefLabel "Proposed MLA Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/proposed-MLC-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Proposed MLC Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "proposed-MLC-land" ;
+    skos:prefLabel "Proposed MLC Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/railway-corridor> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Railway Corridor" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "railway-corridor" ;
+    skos:prefLabel "Railway Corridor" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "reserve" ;
+    skos:prefLabel "Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/retired-surround> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Retired Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "retired-surround" ;
+    skos:prefLabel "Retired Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/riverpark-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Riverpark Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "riverpark-area" ;
+    skos:prefLabel "Riverpark Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/shipping-and-pilotage-land> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Shipping and Pilotage Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "shipping-and-pilotage-land" ;
+    skos:prefLabel "Shipping and Pilotage Land" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/special-settlement-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Special Settlement Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "special-settlement-area" ;
+    skos:prefLabel "Special Settlement Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/state-border> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "State Border" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "state-border" ;
+    skos:prefLabel "State Border" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/state-forest> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "State Forrest" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "state-forest" ;
+    skos:prefLabel "State Forest" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/statutory-plan> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Statutory Plan" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "statutory-plan" ;
+    skos:prefLabel "Statutory Plan" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/stock-route> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Stock Route" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "stock-route" ;
+    skos:prefLabel "Stock Route" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/suburban-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Suburban Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "suburban-area" ;
+    skos:prefLabel "Suburban Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/superseded-crown> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Superseded Crown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "superseded-crown" ;
+    skos:prefLabel "Superseded Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/surround> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "surround" ;
+    skos:prefLabel "Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/timber-reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Timber Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "timber-reserve" ;
+    skos:prefLabel "Timber Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/town-site-land-act> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Town-site Land Act" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "town-site-land-act" ;
+    skos:prefLabel "Town-site Land Act" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/tramway> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Tramway" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "tramway" ;
+    skos:prefLabel "Tramway" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/ucl> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Unallocated Crown Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "ucl" ;
+    skos:prefLabel "UCL" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/water-control-area> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Water Control Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "water-control-area" ;
+    skos:prefLabel "Water Control Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/water-feature> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:definition "Water Feature" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> ;
+    skos:notation "water-feature" ;
+    skos:prefLabel "Water Feature" .
+
+<https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "WA Secondary Parcel Purpose" ;
+    skos:scopeNote "termtype:ParcelPurpose" .
+
+_:Na70e896fc76f4dad85d1ff849630b3e1 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,410 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-crs.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Na309ebde1b27477cb417f2793e0d1267 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.626871"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.505484"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-crs.csv> ] ;
+            prov:wasAssociatedWith _:Na309ebde1b27477cb417f2793e0d1267 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<http://www.opengis.net/def/crs/EPSG/0/2105> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "EDENTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2105" ;
+    skos:prefLabel "NZGD2000 / Mount Eden 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2106> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "PLENTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2106" ;
+    skos:prefLabel "NZGD2000 / Bay of Plenty 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2107> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "POVETM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2107" ;
+    skos:prefLabel "NZGD2000 / Poverty Bay 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2108> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "HAWKTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2108" ;
+    skos:prefLabel "NZGD2000 / Hawkes Bay 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2109> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TARATM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2109" ;
+    skos:prefLabel "NZGD2000 / Taranaki 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2110> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TUHITM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2110" ;
+    skos:prefLabel "NZGD2000 / Tuhirangi 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2111> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WANGTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2111" ;
+    skos:prefLabel "NZGD2000 / Wanganui 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2112> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WAIRTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2112" ;
+    skos:prefLabel "NZGD2000 / Wairarapa 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2113> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WELLTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2113" ;
+    skos:prefLabel "NZGD2000 / Wellington 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2114> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "COLLTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2114" ;
+    skos:prefLabel "NZGD2000 / Collingwood 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2115> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NELSTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2115" ;
+    skos:prefLabel "NZGD2000 / Nelson 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2116> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "KARATM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2116" ;
+    skos:prefLabel "NZGD2000 / Karamea 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2118> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "GREYTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2118" ;
+    skos:prefLabel "NZGD2000 / Grey 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2120> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MARLTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2120" ;
+    skos:prefLabel "NZGD2000 / Marlborough 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2121> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "HOKITM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2121" ;
+    skos:prefLabel "NZGD2000 / Hokitika 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2122> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "OKARTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2122" ;
+    skos:prefLabel "NZGD2000 / Okarito 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2123> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "JACKTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2123" ;
+    skos:prefLabel "NZGD2000 / Jacksons Bay 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2124> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "PLEATM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2124" ;
+    skos:prefLabel "NZGD2000 / Mount Pleasant 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2125> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "GAWLTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2125" ;
+    skos:prefLabel "NZGD2000 / Gawler 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2126> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TIMATM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2126" ;
+    skos:prefLabel "NZGD2000 / Timaru 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2127> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "LINDTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2127" ;
+    skos:prefLabel "NZGD2000 / Lindis Peak 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2128> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NICHTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2128" ;
+    skos:prefLabel "NZGD2000 / Mount Nicholas 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2129> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "YORKTM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2129" ;
+    skos:prefLabel "NZGD2000 / Mount York 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2130> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "OBSETM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2130" ;
+    skos:prefLabel "NZGD2000 / Observation Point 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2131> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TAIETM2000" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2131" ;
+    skos:prefLabel "NZGD2000 / North Taieri 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/2193> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NZTM" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "2193" ;
+    skos:prefLabel "NZGD2000 / New Zealand Transverse Mercator 2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27200> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NZMG" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27200" ;
+    skos:prefLabel "NZGD49 / New Zealand Map Grid" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27205> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "EDENTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27205" ;
+    skos:prefLabel "NZGD49 / Mount Eden Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27206> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "PLENTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27206" ;
+    skos:prefLabel "NZGD49 / Bay of Plenty Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27207> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "POVETM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27207" ;
+    skos:prefLabel "NZGD49 / Poverty Bay Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27208> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "HAWKTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27208" ;
+    skos:prefLabel "NZGD49 / Hawkes Bay Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27209> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TARATM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27209" ;
+    skos:prefLabel "NZGD49 / Taranaki Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27210> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TUHITM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27210" ;
+    skos:prefLabel "NZGD49 / Tuhirangi Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27211> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WANGTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27211" ;
+    skos:prefLabel "NZGD49 / Wanganui Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27212> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WAIRTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27212" ;
+    skos:prefLabel "NZGD49 / Wairarapa Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27213> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WELLTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27213" ;
+    skos:prefLabel "NZGD49 / Wellington Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27214> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "COLLTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27214" ;
+    skos:prefLabel "NZGD49 / Collingwood Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27215> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NELSTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27215" ;
+    skos:prefLabel "NZGD49 / Nelson Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27216> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "KARATM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27216" ;
+    skos:prefLabel "NZGD49 / Karamea Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27218> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "GREYTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27218" ;
+    skos:prefLabel "NZGD49 / Grey Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27220> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MARLTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27220" ;
+    skos:prefLabel "NZGD49 / Marlborough Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27221> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "HOKITM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27221" ;
+    skos:prefLabel "NZGD49 / Hokitika Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27222> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "OKARTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27222" ;
+    skos:prefLabel "NZGD49 / Okarito Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27223> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "JACKTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27223" ;
+    skos:prefLabel "NZGD49 / Jacksons Bay Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27224> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "PLEATM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27224" ;
+    skos:prefLabel "NZGD49 / Mount Pleasant Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27225> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "GAWLTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27225" ;
+    skos:prefLabel "NZGD49 / Gawler Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27226> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TIMATM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27226" ;
+    skos:prefLabel "NZGD49 / Timaru Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27227> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "LINDTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27227" ;
+    skos:prefLabel "NZGD49 / Lindis Peak Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27228> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NICHTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27228" ;
+    skos:prefLabel "NZGD49 / Mount Nicholas Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27229> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "YORKTM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27229" ;
+    skos:prefLabel "NZGD49 / Mount York Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27230> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "OBSETM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27230" ;
+    skos:prefLabel "NZGD49 / Observation Point Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/27231> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TAIETM1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "27231" ;
+    skos:prefLabel "NZGD49 / North Taieri Circuit" .
+
+<http://www.opengis.net/def/crs/EPSG/0/4167> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "4167" ;
+    skos:prefLabel "NZGD2000" .
+
+<http://www.opengis.net/def/crs/EPSG/0/4272> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NZGD1949" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "4272" ;
+    skos:prefLabel "NZGD49" .
+
+<http://www.opengis.net/def/crs/EPSG/0> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Coordinate Reference Systems" ;
+    skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" .
+
+_:Na309ebde1b27477cb417f2793e0d1267 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-survey-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-survey-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Survey Type",
+  "class": "termtype:SurveyType",
+  "concepts": [
+    {
+      "preflabel": "Deposited Plan",
+      "definition": "A cadastral survey plan or dataset that has been prepared under the Land Transfer Act and has had new titles created.",
+      "notation": "dp",
+      "altlabel": null,
+      "related": null,
+      "@id": "dp",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LT Plan (except Unit Plans)",
+      "definition": "Land Transfer Plan is a plan prepared under the Land Transfer Act but has not yet had new titles created.",
+      "notation": "ltp",
+      "altlabel": null,
+      "related": null,
+      "@id": "ltp",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LT Unit Plan",
+      "definition": "An LT Unit Plan is a plan prepared under the Unit Titles Act showing show the location of the units, auxiliary units and common areas.",
+      "notation": "ltup",
+      "altlabel": null,
+      "related": null,
+      "@id": "ltup",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Office Plan",
+      "definition": "A Survey Office Plan is prepared for surveys of land held under Crown ownership",
+      "notation": "so",
+      "altlabel": null,
+      "related": null,
+      "@id": "so",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "M\u0101ori Land Plan",
+      "definition": "A M\u0101ori Land Plan is prepared for the sudivision or partition of M\u0101ori land",
+      "notation": "mlp",
+      "altlabel": null,
+      "related": null,
+      "@id": "mlp",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Historical Survey",
+      "definition": "Types of surveys included for historical purposes. Not to be used for new surveys.",
+      "notation": "hs",
+      "altlabel": null,
+      "related": null,
+      "@id": "hs",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

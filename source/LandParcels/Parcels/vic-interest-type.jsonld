@@ -1,0 +1,1019 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-interest-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-interest-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Memorial Types",
+  "class": "surv:InterestType",
+  "concepts": [
+    {
+      "preflabel": "Amalgamation",
+      "definition": null,
+      "notation": "a",
+      "altlabel": null,
+      "related": null,
+      "@id": "a",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant",
+      "definition": null,
+      "notation": "c",
+      "altlabel": null,
+      "related": null,
+      "@id": "c",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Certificate of Title",
+      "definition": null,
+      "notation": "c-t",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-t",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Freehold",
+      "definition": null,
+      "notation": "fh",
+      "altlabel": null,
+      "related": null,
+      "@id": "fh",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Owners Corporation",
+      "definition": null,
+      "notation": "o-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "o-c",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement in Gross (Sewerage)",
+      "definition": null,
+      "notation": "easement-in-gross-sewerage",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-in-gross-sewerage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - Drainage",
+      "definition": null,
+      "notation": "easement-drainage",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-drainage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Alpine Lease",
+      "definition": null,
+      "notation": "alpine-lease",
+      "altlabel": null,
+      "related": null,
+      "@id": "alpine-lease",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Grant",
+      "definition": null,
+      "notation": "crown-grant",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-grant",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Grant(Part)",
+      "definition": null,
+      "notation": "crown-grant-part",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-grant-part",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Land",
+      "definition": null,
+      "notation": "crown-land",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-land",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Lease",
+      "definition": null,
+      "notation": "crown-lease",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-lease",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Freehold(Part)",
+      "definition": null,
+      "notation": "freehold-part",
+      "altlabel": null,
+      "related": null,
+      "@id": "freehold-part",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Identified",
+      "definition": null,
+      "notation": "identified",
+      "altlabel": null,
+      "related": null,
+      "@id": "identified",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mineral 'Includes'",
+      "definition": null,
+      "notation": "mineral-includes",
+      "altlabel": null,
+      "related": null,
+      "@id": "mineral-includes",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mineral 'Excludes'",
+      "definition": null,
+      "notation": "mineral-excludes",
+      "altlabel": null,
+      "related": null,
+      "@id": "mineral-excludes",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Treasurer's Receipt",
+      "definition": null,
+      "notation": "treasurer-receipt",
+      "altlabel": null,
+      "related": null,
+      "@id": "treasurer-receipt",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Benefit",
+      "definition": null,
+      "notation": "easement-benefit",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-benefit",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restriction Benefit",
+      "definition": null,
+      "notation": "restriction-benefit",
+      "altlabel": null,
+      "related": null,
+      "@id": "restriction-benefit",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restriction Burden",
+      "definition": null,
+      "notation": "restriction-burden",
+      "altlabel": null,
+      "related": null,
+      "@id": "restriction-burden",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Depth Limitation",
+      "definition": null,
+      "notation": "depth-limitation",
+      "altlabel": null,
+      "related": null,
+      "@id": "depth-limitation",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Depth Limitation(Part)",
+      "definition": null,
+      "notation": "depth-limitation-part",
+      "@id": "depth-limitation-part",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Air Supply",
+      "definition": null,
+      "notation": "air-supply",
+      "altlabel": null,
+      "related": null,
+      "@id": "air-supply",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Channel",
+      "definition": null,
+      "notation": "channel",
+      "altlabel": null,
+      "related": null,
+      "@id": "channel",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flow of Air",
+      "definition": null,
+      "notation": "flow-of-air",
+      "altlabel": null,
+      "related": null,
+      "@id": "flow-of-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Data Transmission",
+      "definition": null,
+      "notation": "data-transmission",
+      "altlabel": null,
+      "related": null,
+      "@id": "data-transmission",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Passage of Air",
+      "definition": null,
+      "notation": "passage-of-air",
+      "altlabel": null,
+      "related": null,
+      "@id": "passage-of-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supply of Electricity",
+      "definition": null,
+      "notation": "supply-of-electricity",
+      "altlabel": null,
+      "related": null,
+      "@id": "supply-of-electricity",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Air Exhaust and Ventilation",
+      "definition": null,
+      "notation": "air-exhaust-ventilation",
+      "altlabel": null,
+      "related": null,
+      "@id": "air-exhaust-ventilation",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Transmission of Electricity",
+      "definition": null,
+      "notation": "transmission-electricity",
+      "altlabel": null,
+      "related": null,
+      "@id": "transmission-electricity",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carriageway",
+      "definition": null,
+      "notation": "carriageway",
+      "altlabel": null,
+      "related": null,
+      "@id": "carriageway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ground Water Monitoring",
+      "definition": null,
+      "notation": "ground-water-monitoring",
+      "altlabel": null,
+      "related": null,
+      "@id": "ground-water-monitoring",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drainage",
+      "definition": null,
+      "notation": "drainage",
+      "altlabel": null,
+      "related": null,
+      "@id": "drainage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Irrigation",
+      "definition": null,
+      "notation": "irrigation",
+      "altlabel": null,
+      "related": null,
+      "@id": "irrigation",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drainage and Floodway",
+      "definition": null,
+      "notation": "drainage-floodway",
+      "altlabel": null,
+      "related": null,
+      "@id": "drainage-floodway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Loading and Unloading Heavy Equipment",
+      "definition": null,
+      "notation": "load-unload-heavy-equipment",
+      "altlabel": null,
+      "related": null,
+      "@id": "load-unload-heavy-equipment",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drainage and Sewerage",
+      "definition": null,
+      "notation": "drainage-sewage",
+      "altlabel": null,
+      "related": null,
+      "@id": "drainage-sewage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mail Collection",
+      "definition": null,
+      "notation": "mail-collection",
+      "altlabel": null,
+      "related": null,
+      "@id": "mail-collection",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drainage and Waterway",
+      "definition": null,
+      "notation": "drainage-waterway",
+      "altlabel": null,
+      "related": null,
+      "@id": "drainage-waterway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Overhanging Projections",
+      "definition": null,
+      "notation": "overhanging-projections",
+      "altlabel": null,
+      "related": null,
+      "@id": "overhanging-projections",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Erosion",
+      "definition": null,
+      "notation": "erosion",
+      "altlabel": null,
+      "related": null,
+      "@id": "erosion",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Sanitary Convenience",
+      "definition": null,
+      "notation": "sanitary-convenience",
+      "altlabel": null,
+      "related": null,
+      "@id": "sanitary-convenience",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fire Access",
+      "definition": null,
+      "notation": "fire-access",
+      "altlabel": null,
+      "related": null,
+      "@id": "fire-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supply of Recycled Water",
+      "definition": null,
+      "notation": "supply-recycled-water",
+      "altlabel": null,
+      "related": null,
+      "@id": "supply-recycled-water",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fire Escape",
+      "definition": null,
+      "notation": "fire-escape",
+      "altlabel": null,
+      "related": null,
+      "@id": "fire-escape",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supply of Water",
+      "definition": null,
+      "notation": "supply-water",
+      "altlabel": null,
+      "related": null,
+      "@id": "supply-water",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fire Egress",
+      "definition": null,
+      "notation": "fire-egress",
+      "altlabel": null,
+      "@id": "fire-egress",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Support",
+      "definition": null,
+      "notation": "support",
+      "altlabel": null,
+      "related": null,
+      "@id": "support",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Floodway",
+      "definition": null,
+      "notation": "floodway",
+      "altlabel": null,
+      "related": null,
+      "@id": "floodway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Telecommunications",
+      "definition": null,
+      "notation": "telecommunications",
+      "altlabel": null,
+      "related": null,
+      "@id": "telecommunications",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flooding",
+      "definition": null,
+      "notation": "flooding",
+      "altlabel": null,
+      "related": null,
+      "@id": "flooding",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Underground Effluent Disposal",
+      "definition": null,
+      "notation": "underground-effluent-disposal",
+      "altlabel": null,
+      "related": null,
+      "@id": "underground-effluent-disposal",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flow of Light and Air",
+      "definition": null,
+      "notation": "flow-light-air",
+      "altlabel": null,
+      "related": null,
+      "@id": "flow-light-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Use of Stairway",
+      "definition": null,
+      "notation": "use-stairway",
+      "altlabel": null,
+      "related": null,
+      "@id": "use-stairway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Footway",
+      "definition": null,
+      "notation": "footway",
+      "altlabel": null,
+      "related": null,
+      "@id": "footway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vehicle Parking",
+      "definition": null,
+      "notation": "vehicle-parking",
+      "altlabel": null,
+      "related": null,
+      "@id": "vehicle-parking",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gas Distribution Pipeline",
+      "definition": null,
+      "notation": "gas-distribution-pipeline",
+      "altlabel": null,
+      "related": null,
+      "@id": "gas-distribution-pipeline",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waste Disposal",
+      "definition": null,
+      "notation": "waste-disposal",
+      "altlabel": null,
+      "related": null,
+      "@id": "waste-disposal",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gas Transmission Pipeline",
+      "definition": null,
+      "notation": "gas-transmission-pipeline",
+      "altlabel": null,
+      "related": null,
+      "@id": "gas-transmission-pipeline",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wetland",
+      "definition": null,
+      "notation": "wetland",
+      "altlabel": null,
+      "related": null,
+      "@id": "wetland",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Supply of Gas",
+      "definition": null,
+      "notation": "supply-gas",
+      "altlabel": null,
+      "related": null,
+      "@id": "supply-gas",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Flow of Light",
+      "definition": null,
+      "notation": "flow-light",
+      "altlabel": null,
+      "related": null,
+      "@id": "flow-light",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Passage of Light",
+      "definition": null,
+      "notation": "passage-light",
+      "altlabel": null,
+      "related": null,
+      "@id": "passage-light",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bore",
+      "definition": null,
+      "notation": "bore",
+      "altlabel": null,
+      "related": null,
+      "@id": "bore",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Windmill and Tank",
+      "definition": null,
+      "notation": "windmill-tank",
+      "altlabel": null,
+      "related": null,
+      "@id": "windmill-tank",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": null,
+      "notation": "other",
+      "altlabel": null,
+      "related": null,
+      "@id": "other",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Garbage Collection/Garbage",
+      "definition": null,
+      "notation": "garbage-collection",
+      "altlabel": null,
+      "related": null,
+      "@id": "garbage-collection",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Overhanging Eaves",
+      "definition": null,
+      "notation": "overhanging-eaves",
+      "altlabel": null,
+      "related": null,
+      "@id": "overhanging-eaves",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Laying Water Pipes",
+      "definition": null,
+      "notation": "laying-water-pipes",
+      "altlabel": null,
+      "related": null,
+      "@id": "laying-water-pipes",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Overhanging Spouting",
+      "definition": null,
+      "notation": "overhanging-spouting",
+      "altlabel": null,
+      "related": null,
+      "@id": "overhanging-spouting",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nuisance or Annoyance",
+      "definition": null,
+      "notation": "nuisance-annoyance",
+      "altlabel": null,
+      "related": null,
+      "@id": "nuisance-annoyance",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Overhanging Balcony",
+      "definition": null,
+      "notation": "overhanging-balcony",
+      "altlabel": null,
+      "related": null,
+      "@id": "overhanging-balcony",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Public Conveniences",
+      "definition": null,
+      "notation": "public-conveniences",
+      "altlabel": null,
+      "related": null,
+      "@id": "public-conveniences",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Party Wall",
+      "definition": null,
+      "notation": "party-wall",
+      "altlabel": null,
+      "related": null,
+      "@id": "party-wall",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Public Highway",
+      "definition": null,
+      "notation": "public-highway",
+      "altlabel": null,
+      "related": null,
+      "@id": "public-highway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Chimney",
+      "definition": null,
+      "notation": "chimney",
+      "altlabel": null,
+      "related": null,
+      "@id": "chimney",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Quarrying and Blasting",
+      "definition": null,
+      "notation": "quarrying-blasting",
+      "altlabel": null,
+      "related": null,
+      "@id": "quarrying-blasting",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Passage of Light and Air",
+      "definition": null,
+      "notation": "passage-light-air",
+      "altlabel": null,
+      "related": null,
+      "@id": "passage-light-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Recreation and Garden",
+      "definition": null,
+      "notation": "recreation-garden",
+      "altlabel": null,
+      "related": null,
+      "@id": "recreation-garden",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pipeline or Ancillary Purposes",
+      "definition": null,
+      "notation": "pipline-ancillary-purposes",
+      "altlabel": null,
+      "related": null,
+      "@id": "pipline-ancillary-purposes",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Signboard",
+      "definition": null,
+      "notation": "signboard",
+      "altlabel": null,
+      "related": null,
+      "@id": "signboard",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Signage",
+      "definition": null,
+      "notation": "signage",
+      "altlabel": null,
+      "related": null,
+      "@id": "signage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Powerline",
+      "definition": null,
+      "notation": "powerline",
+      "altlabel": null,
+      "related": null,
+      "@id": "powerline",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tree Planting",
+      "definition": null,
+      "notation": "tree-planting",
+      "altlabel": null,
+      "related": null,
+      "@id": "tree-planting",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right of Entry",
+      "definition": null,
+      "notation": "right-entry",
+      "altlabel": null,
+      "related": null,
+      "@id": "right-entry",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Sewerage",
+      "definition": null,
+      "notation": "sewage",
+      "altlabel": null,
+      "related": null,
+      "@id": "sewage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Soakage by Water",
+      "definition": null,
+      "notation": "soakage-water",
+      "altlabel": null,
+      "related": null,
+      "@id": "soakage-water",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Air Exhaust",
+      "definition": null,
+      "notation": "air-exhaust",
+      "altlabel": null,
+      "related": null,
+      "@id": "air-exhaust",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ventilation and Access",
+      "definition": null,
+      "notation": "ventilation-access",
+      "altlabel": null,
+      "related": null,
+      "@id": "ventilation-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Submergence",
+      "definition": null,
+      "notation": "submergence",
+      "altlabel": null,
+      "related": null,
+      "@id": "submergence",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vehicle Parking",
+      "definition": null,
+      "notation": "vehicle-parking",
+      "altlabel": null,
+      "related": null,
+      "@id": "vehicle-parking",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Walkway",
+      "definition": null,
+      "notation": "walkway",
+      "altlabel": null,
+      "related": null,
+      "@id": "walkway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carriageway (with Limitation and Obligation)",
+      "definition": null,
+      "notation": "carriageway-l-o",
+      "altlabel": null,
+      "related": null,
+      "@id": "carriageway-l-o",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Walkway in the event of \u2018activity\u2019 in \u2018specific location\u2019",
+      "definition": null,
+      "notation": "walkway-activity-specific-location",
+      "altlabel": null,
+      "related": null,
+      "@id": "walkway-activity-specific-location",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right of Access",
+      "definition": null,
+      "notation": "right-access",
+      "altlabel": null,
+      "related": null,
+      "@id": "right-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waterway",
+      "definition": null,
+      "notation": "waterway",
+      "altlabel": null,
+      "related": null,
+      "@id": "waterway",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Waterway Management",
+      "definition": null,
+      "notation": "waterway-management",
+      "altlabel": null,
+      "related": null,
+      "@id": "waterway-management",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Way",
+      "definition": null,
+      "notation": "way",
+      "altlabel": null,
+      "related": null,
+      "@id": "way",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vest",
+      "definition": "To place or give into possession or discretion of some person or authority",
+      "notation": "vest",
+      "altlabel": null,
+      "related": null,
+      "@id": "vest",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

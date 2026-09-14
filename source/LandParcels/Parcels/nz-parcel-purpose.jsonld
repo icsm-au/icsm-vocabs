@@ -1,0 +1,132 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Common Marine and Coastal Area",
+      "definition": "The marine and coastal area other than: (a) specified freehold land located in that area; and (b) any area that is owned by the Crown and has the status of any of the following kinds: (i) a conservation area within the meaning of section 2(1) of the Conservation Act 1987; (ii) a national park within the meaning of section 2 of the National Parks Act 1980; (iii) a reserve within the meaning of section 2(1) of the Reserves Act 1977; and (c) the bed of Te Whaanga Lagoon in the Chatham Islands (Marine and Coastal Area (Takutai Moana) Act 2011)",
+      "notation": "cmca",
+      "altlabel": null,
+      "related": null,
+      "@id": "cmca",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Erosion",
+      "definition": "A primary parcel defining the portion of land that has been eroded from a parcel being extinguished.",
+      "notation": "erosion",
+      "altlabel": null,
+      "related": null,
+      "@id": "erosion",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fee Simple Title",
+      "definition": "A primary parcel created for a Fee Simple title, including a parcel with a height limited/stratum boundary. This could include a SO Crown subdivision parcel, reclamation parcel or a parcel shown on a Legalisation CSD (other than a balance parcel)",
+      "notation": "fst",
+      "altlabel": null,
+      "related": null,
+      "@id": "fst",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hydro",
+      "definition": "A Primary Parcel defining the residual or balance portion of the bed of a lake, river, stream or the sea. Includes land that has already become part of the common marine and coastal area pursuant to the Marine & Coastal Area Act 2011. Land that will become common marine and coastal area on subdivision pursuant to Sec 237A (1)(b) RM Act must have the parcel intent of Common Marine and Coastal Area.",
+      "notation": "hydro",
+      "altlabel": null,
+      "related": null,
+      "@id": "hydro",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Legalisation",
+      "definition": "A primary parcel on a Legalisation CSD, including a parcel with a height-limited/stratum boundary, that is intended to be subject to a statutory action (including road to be stopped and land to be taken for road). For new parcels not directly subject to the proposed legalisation, but which are required under rule 39 (accounting for all of the land in existing primary parcels), the parcel intent should reflect its current status, for example Fee Simple Title for a fee simple parcel.",
+      "notation": "legalisation",
+      "altlabel": null,
+      "related": null,
+      "@id": "legalisation",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "M\u0101ori",
+      "definition": "Primary parcel created on a M\u0101ori Land CSD by an order from the M\u0101ori Land Court (MLC). (Includes Roadways if the MLC has declared the roadway to be a separate primary parcel similar in the nature of a Road).",
+      "notation": "m\u0101ori",
+      "altlabel": null,
+      "related": null,
+      "@id": "m-ori",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Railway",
+      "definition": "A primary parcel which is to remain railway (for example when creating a balance railway parcel).",
+      "notation": "railway",
+      "altlabel": null,
+      "related": null,
+      "@id": "railway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Residual Parcel",
+      "definition": "A parcel that is the residual portion of a primary parcel remaining as a result of a survey: i. for removal of limitations as to parcels, or ii. for an adverse possession claim, or iii. to change the registration of land from the Deeds Registration Act 1908 to the Land Transfer Act 2017.",
+      "notation": "residual",
+      "altlabel": null,
+      "related": null,
+      "@id": "residual",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road",
+      "definition": "A primary parcel which is to remain legal road (for example when creating a balance road parcel).",
+      "notation": "road",
+      "altlabel": null,
+      "related": null,
+      "@id": "road",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vesting on deposit",
+      "definition": "A primary parcel vested on Deposit. Vested parcels include accessways, Government Purpose Reserves, historic reserves (Crown or Territorial Authority), Local Purpose Reserve, Nature Reserve (Crown or Territorial Authority), Recreation Reserve (Crown or Territorial Authority), Road, Scenic Reserve (Crown or Territorial Authority), Scientific Reserve (Crown or Territorial Authority), Service Lane, in Lieu of a Reserve (Crown or Territorial Authority), in the Crown under sec. 239(1)(c) of the Resource Management Act 1991 or the territorial Authority under sec. 237A(1)(a) of the Resource management Act 1991.",
+      "notation": "vest",
+      "altlabel": null,
+      "related": null,
+      "@id": "vest",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

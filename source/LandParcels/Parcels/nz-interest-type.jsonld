@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-interest-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-interest-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Memorial Types",
+  "class": "surv:InterestType",
+  "concepts": [
+    {
+      "preflabel": "Amalgamation",
+      "definition": null,
+      "notation": "a",
+      "altlabel": null,
+      "related": null,
+      "@id": "a",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant",
+      "definition": null,
+      "notation": "c",
+      "altlabel": null,
+      "related": null,
+      "@id": "c",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Certificate of Title",
+      "definition": null,
+      "notation": "c-t",
+      "altlabel": null,
+      "related": null,
+      "@id": "c-t",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Territorial Authority Consent Condition",
+      "definition": null,
+      "notation": "ta-c-c",
+      "altlabel": null,
+      "related": null,
+      "@id": "ta-c-c",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

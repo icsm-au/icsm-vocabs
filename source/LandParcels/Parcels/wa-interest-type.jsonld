@@ -1,0 +1,902 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-interest-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-interest-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Memorial Types",
+  "class": "surv:InterestType",
+  "concepts": [
+    {
+      "preflabel": "Certificate of Title",
+      "definition": "Certificate of Title",
+      "notation": "ct",
+      "altlabel": null,
+      "related": null,
+      "@id": "ct",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Record",
+      "definition": "Crown Land Record",
+      "notation": "land-record",
+      "altlabel": null,
+      "related": null,
+      "@id": "land-record",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Memorial Book",
+      "definition": "Land held under Deed",
+      "notation": "memorial-book",
+      "altlabel": null,
+      "related": null,
+      "@id": "memorial-book",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Enrollment Country",
+      "definition": "Enrollment Country",
+      "notation": "enrollment-country",
+      "altlabel": null,
+      "related": null,
+      "@id": "enrollment-country",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Enrollment Town",
+      "definition": "Enrollment Town",
+      "notation": "enrollment-town",
+      "altlabel": null,
+      "related": null,
+      "@id": "enrollment-town",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Lease",
+      "definition": "Crown Lease",
+      "notation": "crown-lease",
+      "altlabel": null,
+      "related": null,
+      "@id": "crown-lease",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Crown Grant in Trust",
+      "definition": "Crown Grant in Trust",
+      "notation": "crown-grant-in-trust",
+      "altlabel": "17",
+      "related": null,
+      "@id": "crown-grant-in-trust",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Right",
+      "definition": "Interest",
+      "notation": "carbon-right",
+      "altlabel": "23",
+      "related": null,
+      "@id": "carbon-right",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tree Plantation",
+      "definition": "Interest",
+      "notation": "tree-plantation",
+      "altlabel": "24",
+      "related": null,
+      "@id": "tree-plantation",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Covenant - Burden",
+      "definition": "Interest",
+      "notation": "carbon covenant-burden",
+      "altlabel": "25",
+      "related": null,
+      "@id": "carbon-covenant-burden",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Carbon Covenant - Benefit",
+      "definition": "Interest",
+      "notation": "carbon covenant-benefit",
+      "altlabel": "26",
+      "related": null,
+      "@id": "carbon-covenant-benefit",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Contaminated Site",
+      "definition": "Interest",
+      "notation": "contaminated site",
+      "altlabel": "27",
+      "related": null,
+      "@id": "contaminated-site",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Caveat",
+      "definition": "Interest",
+      "notation": "caveat",
+      "altlabel": "28",
+      "related": null,
+      "@id": "caveat",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - doc",
+      "definition": "Interest",
+      "notation": "easement-doc",
+      "altlabel": "29",
+      "related": null,
+      "@id": "easement-doc",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - LAA 144",
+      "definition": "SEC 144 OF THE LAA",
+      "notation": "easement-laa-144",
+      "altlabel": "30",
+      "related": null,
+      "@id": "easement-laa-144",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement in Gross - LAA 195",
+      "definition": "SEC 195 OF THE LAA",
+      "notation": "easement-in-gross-laa-195",
+      "altlabel": "31",
+      "related": null,
+      "@id": "easement-in-gross-laa-195",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement Public Access LAA 195/196",
+      "definition": "SEC 195 & 196 OF THE LAA",
+      "notation": "easement-public-access-laa-195-196",
+      "altlabel": "32",
+      "related": null,
+      "@id": "easement-public-access-laa-195-196",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - STA 5D",
+      "definition": "Interest",
+      "notation": "easement-sta-5D",
+      "altlabel": "33",
+      "related": null,
+      "@id": "easement-sta-5D",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TLA 136C",
+      "definition": "Interest",
+      "notation": "easement-tla-136C",
+      "altlabel": "34",
+      "related": null,
+      "@id": "easement-tla-136C",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TLA 136D",
+      "definition": "Interest",
+      "notation": "easement-tla-136D",
+      "altlabel": null,
+      "related": null,
+      "@id": "easement-tla-136D",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TLA 167A",
+      "definition": "Interest",
+      "notation": "easement-tla-167A",
+      "altlabel": "35",
+      "related": null,
+      "@id": "easement-tla-167A",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TP&D 27A Reg 5",
+      "definition": "SEC 27A OF THE TP&D ACT, REG 5",
+      "notation": "easement-tp-d-27A-reg-5",
+      "altlabel": "36",
+      "related": null,
+      "@id": "easement-tp-d-27A-reg-5",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TP&D 27A Reg 6",
+      "definition": "SEC 27A OF THE TP&D ACT, REG 6",
+      "notation": "easement-tp-d-27A-reg-6",
+      "altlabel": "37",
+      "related": null,
+      "@id": "easement-tp-d-27A-reg-6",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TP&D 27A Reg 7",
+      "definition": "SEC 27A OF THE TP&D ACT, REG 7",
+      "notation": "easement-tp-d-27A-reg-7",
+      "altlabel": "38",
+      "related": null,
+      "@id": "easement-tp-d-27A-reg-7",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TP&D 27A Reg 8",
+      "definition": "SEC 27A OF THE TP&D ACT, REG 8",
+      "notation": "easement-tp-d-27A-reg-8",
+      "altlabel": "39",
+      "related": null,
+      "@id": "easement-tp-d-27A-reg-8",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - TP&D 27A Reg 9",
+      "definition": "SEC 27A OF THE TP&D ACT, REG 9",
+      "notation": "easement-tp-d-27A-reg-9",
+      "altlabel": "40",
+      "related": null,
+      "@id": "easement-tp-d-27A-reg-9",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Freehold Lease",
+      "definition": "Interest",
+      "notation": "freehold-lease",
+      "altlabel": "400",
+      "related": null,
+      "@id": "freehold-lease",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Memorial",
+      "definition": "Interest",
+      "notation": "memorial",
+      "altlabel": "401",
+      "related": null,
+      "@id": "memorial",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Notification",
+      "definition": "Interest",
+      "notation": "notification",
+      "altlabel": "402",
+      "related": null,
+      "@id": "notification",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Profit a prendre",
+      "definition": "Interest",
+      "notation": "profit-a-prendre",
+      "altlabel": "403",
+      "related": null,
+      "@id": "profit-a-prendre",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant - Benefit",
+      "definition": "Interest",
+      "notation": "restrictive-covenant-benefit",
+      "altlabel": "404",
+      "related": null,
+      "@id": "restrictive-covenant-benefit",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Restrictive Covenant - Burden",
+      "definition": "Interest",
+      "notation": "restrictive-covenant-burden",
+      "altlabel": "405",
+      "related": null,
+      "@id": "restrictive-covenant-burden",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Covenant - LAA 15",
+      "definition": "SEC 15 OF THE LAA",
+      "notation": "covenant-laa-15",
+      "altlabel": "406",
+      "related": null,
+      "@id": "covenant-laa-15",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 5",
+      "definition": "SEC 167 OF THE P&D ACT, REG 5",
+      "notation": "easement-p-d-167-reg-5",
+      "altlabel": "407",
+      "related": null,
+      "@id": "easement-p-d-167-reg-5",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 6",
+      "definition": "SEC 167 OF THE P&D ACT, REG 6",
+      "notation": "easement-p-d-167-reg-6",
+      "altlabel": "408",
+      "related": null,
+      "@id": "easement-p-d-167-reg-6",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 7",
+      "definition": "SEC 167 OF THE P&D ACT, REG 7",
+      "notation": "easement-p-d-167-reg-7",
+      "altlabel": "409",
+      "related": null,
+      "@id": "easement-p-d-167-reg-7",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 8",
+      "definition": "SEC 167 OF THE P&D ACT, REG 8",
+      "notation": "easement-p-d-167-reg-8",
+      "altlabel": "410",
+      "related": null,
+      "@id": "easement-p-d-167-reg-8",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 9",
+      "definition": "SEC 167 OF THE P&D ACT, REG 9",
+      "notation": "easement-p-d-167-reg-9",
+      "altlabel": "411",
+      "related": null,
+      "@id": "easement-p-d-167-reg-9",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 33(a)",
+      "definition": "SEC 167 OF THE P&D ACT, REG 33(a)",
+      "notation": "easement-p-d-167-reg-33(a)",
+      "altlabel": "412",
+      "related": null,
+      "@id": "easement-p-d-167-reg-33-a-",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 33(b)",
+      "definition": "SEC 167 OF THE P&D ACT, REG 33(b)",
+      "notation": "easement-p-d-167-reg-33(b)",
+      "altlabel": "413",
+      "related": null,
+      "@id": "easement-p-d-167-reg-33-b-",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 33(c)",
+      "definition": "SEC 167 OF THE P&D ACT, REG 33(c)",
+      "notation": "easement-p-d-167-reg-33(c)",
+      "altlabel": "414",
+      "related": null,
+      "@id": "easement-p-d-167-reg-33-c-",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 33(d)",
+      "definition": "SEC 167 OF THE P&D ACT, REG 33(d)",
+      "notation": "easement-p-d-167-reg-33(d)",
+      "altlabel": "415",
+      "related": null,
+      "@id": "easement-p-d-167-reg-33-d-",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Easement - P&D 167 Reg 33(e)",
+      "definition": "SEC 167 OF THE P&D ACT, REG 33(e)",
+      "notation": "easement-p-d-167-reg-33(e)",
+      "altlabel": "416",
+      "related": null,
+      "@id": "easement-p-d-167-reg-33-e-",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "EaseBen:STA 33",
+      "definition": "Sec. 33 of the STA 1985",
+      "notation": "easeben:sta3333",
+      "altlabel": "417",
+      "related": null,
+      "@id": "easeben-sta3333",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 31 Vehicle Access",
+      "definition": "Sec. 33 of the STA 1985, Reg 31 of the STGR 2019",
+      "notation": "ease-sta-33-reg-31-vehicle-access",
+      "altlabel": "418",
+      "related": null,
+      "@id": "ease-sta-33-reg-31-vehicle-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 32 Light & Air",
+      "definition": "Sec. 33 of the STA 1985, Reg 32 of the STGR 2019",
+      "notation": "ease-sta-33-reg-32-light-air",
+      "altlabel": "420",
+      "related": null,
+      "@id": "ease-sta-33-reg-32-light-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 33 Party Wall",
+      "definition": "Sec. 33 of the STA 1985, Reg 33 of the STGR 2019",
+      "notation": "ease-sta-33-reg-33-party-wall",
+      "altlabel": "422",
+      "related": null,
+      "@id": "ease-sta-33-reg-33-party-wall",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 34 Intrusion",
+      "definition": "Sec. 33 of the STA 1985, Reg 34 of the STGR 2019",
+      "notation": "ease-sta-33-reg-34-intrusion",
+      "altlabel": "424",
+      "related": null,
+      "@id": "ease-sta-33-reg-34-intrusion",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 35 Ped Access",
+      "definition": "Sec. 33 of the STA 1985, Reg 35 of the STGR 2019",
+      "notation": "ease-sta-33-reg-35-ped-access",
+      "altlabel": "426",
+      "related": null,
+      "@id": "ease-sta-33-reg-35-ped-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 36 Ease in Gross",
+      "definition": "Sec. 33 of the STA 1985, Reg 36 of the STGR 2019",
+      "notation": "ease-sta-33-reg-36-ease-in-gross",
+      "altlabel": "427",
+      "related": null,
+      "@id": "ease-sta-33-reg-36-ease-in-gross",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Water supply",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-water-supply",
+      "altlabel": "428",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-water-supply",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Drainage",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-drainage",
+      "altlabel": "429",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-drainage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Gas supply",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-gas-supply",
+      "altlabel": "430",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-gas-supply",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Overhead Elec",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-overhead-elec",
+      "altlabel": "431",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-overhead-elec",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 UndGnd Elec",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-undgnd-elec",
+      "altlabel": "432",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-undgnd-elec",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Overhead Comms",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-overhead-comms",
+      "altlabel": "433",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-overhead-comms",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 UndGnd Comms",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-undgnd-comms",
+      "altlabel": "434",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-undgnd-comms",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:STA 33 Reg 37 Sewerage",
+      "definition": "Sec. 33 of the STA 1985, Reg 37 of the STGR 2019",
+      "notation": "ease-sta-33-reg-37-sewerage",
+      "altlabel": "435",
+      "related": null,
+      "@id": "ease-sta-33-reg-37-sewerage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:STA 33 Reg 43 RoW",
+      "definition": "Sec. 33 of the STA 1985, Reg 43 of the STGR 2019",
+      "notation": "restrcov-sta-33-reg-43-row",
+      "altlabel": "436",
+      "related": null,
+      "@id": "restrcov-sta-33-reg-43-row",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:STA 33 Reg 44 Land use",
+      "definition": "Sec. 33 of the STA 1985, Reg 44 of the STGR 2019",
+      "notation": "restrcov-sta-33-reg-44-land-use",
+      "altlabel": "437",
+      "related": null,
+      "@id": "restrcov-sta-33-reg-44-land-use",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:STA 33 Reg 45 Conserv",
+      "definition": "Sec. 33 of the STA 1985, Reg 45 of the STGR 2019",
+      "notation": "restrcov-sta-33-reg-45-conserv",
+      "altlabel": "438",
+      "related": null,
+      "@id": "restrcov-sta-33-reg-45-conserv",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:STA 33 Reg 46 Build Env",
+      "definition": "Sec. 33 of the STA 1985,-reg-46 of the STGR 2019",
+      "notation": "restrcov-sta-33-reg-46 Build Env",
+      "altlabel": "439",
+      "related": null,
+      "@id": "restrcov-sta-33-reg-46-Build-Env",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:STA 33 Reg 47 Fire",
+      "definition": "Sec. 33 of the STA 1985, Reg 47 of the STGR 2019",
+      "notation": "restrcov-sta-33-reg-47 Fire",
+      "altlabel": "440",
+      "related": null,
+      "@id": "restrcov-sta-33-reg-47-Fire",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "EaseBen:CTA 38",
+      "definition": "Sec. 38 of the CTA 2018",
+      "notation": "easeben-cta-38",
+      "altlabel": "442",
+      "related": null,
+      "@id": "easeben-cta-38",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 40 Vehicle Access",
+      "definition": "Sec. 38 of the CTA 2018, Reg 40 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-40-vehicle-access",
+      "altlabel": "443",
+      "related": null,
+      "@id": "ease-cta-38-reg-40-vehicle-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 41 Light & Air",
+      "definition": "Sec. 38 of the CTA 2018, Reg 41 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-41-light-air",
+      "altlabel": "444",
+      "related": null,
+      "@id": "ease-cta-38-reg-41-light-air",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 42 Party Wall",
+      "definition": "Sec. 38 of the CTA 2018, Reg 42 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-42-party-wall",
+      "altlabel": "445",
+      "related": null,
+      "@id": "ease-cta-38-reg-42-party-wall",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 43 Intrusion",
+      "definition": "Sec. 38 of the CTA 2018, Reg 43 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-43-intrusion",
+      "altlabel": "446",
+      "related": null,
+      "@id": "ease-cta-38-reg-43-intrusion",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 44 Ped Access",
+      "definition": "Sec. 38 of the CTA 2018, Reg 44 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-44-ped-access",
+      "altlabel": "447",
+      "related": null,
+      "@id": "ease-cta-38-reg-44-ped-access",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 45 Ease in Gross",
+      "definition": "Sec. 38 of the CTA 2018, Reg 45 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-45-ease-in-gross",
+      "altlabel": "448",
+      "related": null,
+      "@id": "ease-cta-38-reg-45-ease-in-gross",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Water supply",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-water-supply",
+      "altlabel": "449",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-water-supply",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Drainage",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-drainage",
+      "altlabel": "450",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-drainage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Gas supply",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-gas-supply",
+      "altlabel": "451",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-gas-supply",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Overhead Elec",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-overhead-elec",
+      "altlabel": "452",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-overhead-elec",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 UndGnd Elec",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-undgnd-elec",
+      "altlabel": "453",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-undgnd-elec",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Overhead Comms",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-overhead-comms",
+      "altlabel": "454",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-overhead-comms",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 UndGnd Comms",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-undgnd-comms",
+      "altlabel": "455",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-undgnd-comms",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Sewerage",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-sewerage",
+      "altlabel": "456",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-sewerage",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ease:CTA 38 Reg 46 Energy",
+      "definition": "Sec. 38 of the CTA 2018, Reg 46 of the CTAR 2021",
+      "notation": "ease-cta-38-reg-46-energy",
+      "altlabel": "457",
+      "related": null,
+      "@id": "ease-cta-38-reg-46-energy",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:CTA 38 Reg 52 RoW",
+      "definition": "Sec. 38 of the CTA 2018, Reg 52 of the CTAR 2021",
+      "notation": "res-cov-cta-38-reg-52-rowW",
+      "altlabel": "458",
+      "related": null,
+      "@id": "res-cov-cta-38-reg-52-rowW",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:CTA 38 Reg 53 Land use",
+      "definition": "Sec. 38 of the CTA 2018, Reg 53 of the CTAR 2021",
+      "notation": "res-cov-CTA 38-reg-53-land-use",
+      "altlabel": "459",
+      "related": null,
+      "@id": "res-cov-CTA-38-reg-53-land-use",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:CTA 38 Reg 54 Conserv",
+      "definition": "Sec. 38 of the CTA 2018, Reg 54 of the CTAR 2021",
+      "notation": "res-cov-cta-38-reg-54-conserv",
+      "altlabel": "460",
+      "related": null,
+      "@id": "res-cov-cta-38-reg-54-conserv",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:CTA 38 Reg 55 Build Env",
+      "definition": "Sec. 38 of the CTA 2018, Reg 55 of the CTAR 2021",
+      "notation": "res-cov-cta-38-reg-55-build-env",
+      "altlabel": "461",
+      "related": null,
+      "@id": "res-cov-cta-38-reg-55-build-env",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "RestrCov:CTA 38 Reg 56 Fire",
+      "definition": "Sec. 38 of the CTA 2018, Reg 56 of the CTAR 2021",
+      "notation": "res-cov-cta-38-reg-56-fire",
+      "altlabel": "462",
+      "related": null,
+      "@id": "res-cov-cta-38-reg-56-fire",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Notification: Sec. 70A of the T.L.A",
+      "definition": " Notification",
+      "notation": "70a-tla",
+      "altlabel": null,
+      "related": null,
+      "@id": "70a-tla",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Notification: Sec. 165 of the P. & D. Act",
+      "definition": "Notification",
+      "notation": "165-pda",
+      "altlabel": null,
+      "related": null,
+      "@id": "165-pda",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non-extinguishment of Native Title",
+      "definition": null,
+      "notation": "native-title",
+      "altlabel": null,
+      "related": null,
+      "@id": "native-title",
+      "type": "surv:InterestType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

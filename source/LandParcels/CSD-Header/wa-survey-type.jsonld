@@ -1,0 +1,182 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-survey-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-survey-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA CSD Survey Type",
+  "class": "termtype:SurveyType",
+  "concepts": [
+    {
+      "preflabel": "FieldRecord",
+      "definition": "Field Record ",
+      "notation": "field-record",
+      "altlabel": "FB",
+      "related": null,
+      "@id": "field-record",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "DepositedPlan",
+      "definition": "Deposited Plan",
+      "notation": "deposited-plan",
+      "altlabel": "DP",
+      "related": null,
+      "@id": "deposited-plan",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "StrataPlan",
+      "definition": "Strata Plan",
+      "notation": "strata-plan",
+      "altlabel": "BSP",
+      "related": null,
+      "@id": "strata-plan",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "SurveyStrataPlan",
+      "definition": "Survey-Strata Plan",
+      "notation": "survey-strata-plan",
+      "altlabel": "SSP",
+      "related": null,
+      "@id": "survey-strata-plan",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "SchemePlan",
+      "definition": "Scheme",
+      "notation": "scheme-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "scheme-plan",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "CSD",
+      "definition": "Cadastral Survey Data (APX-05) attribute equivalent",
+      "notation": "csd",
+      "altlabel": null,
+      "related": null,
+      "@id": "csd",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "DSD",
+      "definition": "Landgate Database extract attribute equivalent",
+      "notation": "dsd",
+      "altlabel": null,
+      "related": null,
+      "@id": "dsd",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "CommunityTitle(Land)",
+      "definition": "Community Title (Land) Plan",
+      "notation": "community-title-land",
+      "altlabel": "CTL",
+      "related": null,
+      "@id": "community-title-land",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "CommunityTitle(Building)",
+      "definition": "Community Title (Building) Plan",
+      "notation": "community-title-building",
+      "altlabel": "CTB",
+      "related": null,
+      "@id": "community-title-building",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Sheet",
+      "definition": "Survey Sheet",
+      "notation": "survey-sheet",
+      "altlabel": "SSA",
+      "related": null,
+      "@id": "survey-sheet",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conventional",
+      "definition": "Survey - Conventional Survey",
+      "notation": "conventional",
+      "altlabel": null,
+      "related": null,
+      "@id": "conventional",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conventional-unsurveyed lots",
+      "definition": "Survey with unsurveyed Lots(s) - Conventional Survey with unsurveyed Lots(s)",
+      "notation": "conventional-unsurveyed-lots",
+      "altlabel": null,
+      "related": null,
+      "@id": "conventional-unsurveyed-lots",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Compiled",
+      "definition": "No additional survey performed",
+      "notation": "compiled",
+      "altlabel": null,
+      "related": null,
+      "@id": "compiled",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Survey Area",
+      "definition": "Survey in compliance with Survey Practice Guidelines for Subdivisions within Special Survey Areas (WA)",
+      "notation": "SSA",
+      "altlabel": null,
+      "related": null,
+      "@id": "SSA",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Coordinates",
+      "definition": "Survey by Coordinates",
+      "notation": "survey-by-coordinates",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey-by-coordinates",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

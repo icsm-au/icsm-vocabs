@@ -1,0 +1,145 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/icsm-parcel-state.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nc232cb2c19f64c05a14085f376885d20 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.961213"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.874388"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/icsm-parcel-state.csv> ] ;
+            prov:wasAssociatedWith _:Nc232cb2c19f64c05a14085f376885d20 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/a> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel must be amalgamated with one or more parcels created by the survey when the survey is deposited" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "a" ;
+    skos:prefLabel "affected" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/affected-tenure> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is to be encumbured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "affected-tenure" ;
+    skos:prefLabel "affected tenure" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/c> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel is being created by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "c" ;
+    skos:prefLabel "created" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/cancelled> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document and Database State: Plan/Scheme unregistered and cancelled" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "cancelled" ;
+    skos:prefLabel "cancelled" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/enc> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel has been subject to natural erosion and/or accretion and the definition of the parcel has been/should be updated. Relevant where the parcel affected by the accretion/erosion is not extinguished by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "enc" ;
+    skos:prefLabel "encroached" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/exist> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel is referenced by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "exist" ;
+    skos:prefLabel "existing" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/exting> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel is being replaced by one or more parcels created by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "exting" ;
+    skos:prefLabel "extinguished" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/former-tenure> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is being replaced by one or more parcels created by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "former-tenure" ;
+    skos:prefLabel "former tenure" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/inset> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document state: The parcel is an inset lot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "inset" ;
+    skos:prefLabel "inset" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/lodged> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Database state: Lodged" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "lodged" ;
+    skos:prefLabel "lodged" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/prop> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel is introduced on the survey but has not actually been ‘created’. This will generally only apply to parcels such as Future Development Units (FDU) on a Proposed Unit Development plan (PUD). The parcel will be created in a subsequent plan, e.g., Stage 1 of the Unit Development" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "prop" ;
+    skos:prefLabel "proposed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/ref> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "The parcel is referenced by the survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "ref" ;
+    skos:prefLabel "referenced" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/registered> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Database state: Element registered" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "registered" ;
+    skos:prefLabel "registered" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/removed> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "An easement / restriction subject to removal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "removed" ;
+    skos:prefLabel "removed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/superseded> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Database State: Element further subdivided or removed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "superseded" ;
+    skos:prefLabel "superseded" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state/terminated> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "Document and Database State: Plan/Scheme terminated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-parcel-state> ;
+    skos:notation "terminated" ;
+    skos:prefLabel "terminated" .
+
+<https://linked.data.gov.au/def/csdm/icsm-parcel-state> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Parcel State" ;
+    skos:scopeNote "termtype:ParcelState" .
+
+_:Nc232cb2c19f64c05a14085f376885d20 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

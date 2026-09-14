@@ -1,0 +1,232 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Survey Point Purpose",
+  "class": "surv:SurveyPointPurpose",
+  "concepts": [
+    {
+      "preflabel": "Boundary Accepted",
+      "definition": null,
+      "notation": "bacc",
+      "altlabel": null,
+      "related": null,
+      "@id": "bacc",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary Defined by Adoption",
+      "definition": null,
+      "notation": "bnda",
+      "altlabel": null,
+      "related": null,
+      "@id": "bnda",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary Defined by Survey",
+      "definition": null,
+      "notation": "bnds",
+      "altlabel": null,
+      "related": null,
+      "@id": "bnds",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary",
+      "definition": "The mark was used as a boundary mark",
+      "notation": "bndy",
+      "altlabel": null,
+      "related": null,
+      "@id": "bndy",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Boundary Not Defined",
+      "definition": null,
+      "notation": "bnnd",
+      "altlabel": null,
+      "related": null,
+      "@id": "bnnd",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "CSNM/VCM",
+      "definition": "A mark that is used as either a cadastral survey network mark or vertical control mark",
+      "notation": "csnm-vcm",
+      "altlabel": null,
+      "related": null,
+      "@id": "csnm-vcm",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Natural Boundary Node",
+      "definition": null,
+      "notation": "natb",
+      "altlabel": null,
+      "related": null,
+      "@id": "natb",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin/Boundary",
+      "definition": null,
+      "notation": "orbd",
+      "altlabel": null,
+      "related": null,
+      "@id": "orbd",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin",
+      "definition": null,
+      "notation": "orig",
+      "altlabel": null,
+      "related": null,
+      "@id": "orig",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin/Witness/Boundary",
+      "definition": null,
+      "notation": "orwb",
+      "altlabel": null,
+      "related": null,
+      "@id": "orwb",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin/Witness",
+      "definition": null,
+      "notation": "orwi",
+      "altlabel": null,
+      "related": null,
+      "@id": "orwi",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PRM/Boundary",
+      "definition": "The mark was used as a PRM and as a boundary mark",
+      "notation": "prbd",
+      "altlabel": null,
+      "related": null,
+      "@id": "prbd",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Permanent Reference Mark",
+      "definition": "The mark is used as a permanent reference mark",
+      "notation": "prm",
+      "altlabel": null,
+      "related": null,
+      "@id": "prm",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Boundary",
+      "definition": "The mark was used as a non-boundary mark",
+      "notation": "non-bdy",
+      "altlabel": null,
+      "related": null,
+      "@id": "non-bdy",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Witness/Boundary",
+      "definition": null,
+      "notation": "wibd",
+      "altlabel": null,
+      "related": null,
+      "@id": "wibd",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Witness",
+      "definition": null,
+      "notation": "witn",
+      "altlabel": null,
+      "related": null,
+      "@id": "witn",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "BNDS not requiring witnessing - created on the fly in caj_adjust_node table only",
+      "definition": null,
+      "notation": "xbds",
+      "altlabel": null,
+      "related": null,
+      "@id": "xbds",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "PRBD not requiring witnessing - created on the fly in caj_adjust_node table only",
+      "definition": null,
+      "notation": "xprb",
+      "altlabel": null,
+      "related": null,
+      "@id": "xprb",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "WIBD not requiring witnessing - created on the fly in caj_adjust_node table only",
+      "definition": null,
+      "notation": "xwib",
+      "altlabel": null,
+      "related": null,
+      "@id": "xwib",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Occupation Observation",
+      "definition": null,
+      "notation": "occupation",
+      "altlabel": null,
+      "related": null,
+      "@id": "occupation",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

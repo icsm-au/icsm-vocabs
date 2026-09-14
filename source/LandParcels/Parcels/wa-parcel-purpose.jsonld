@@ -1,0 +1,232 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Primary Parcel Purpose",
+  "class": "termtype:ParcelPurpose",
+  "concepts": [
+    {
+      "preflabel": "Lot",
+      "definition": "Lot",
+      "notation": "lot",
+      "altlabel": "1",
+      "related": null,
+      "@id": "lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Strata Lot",
+      "definition": "Strata Lot",
+      "notation": "strata-lot",
+      "altlabel": "19",
+      "related": null,
+      "@id": "strata-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey-Strata Lot",
+      "definition": "Survey-Strata Lot",
+      "notation": "survey-strata-lot",
+      "altlabel": "16",
+      "related": null,
+      "@id": "survey-strata-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Right of Way",
+      "definition": "Right of Way",
+      "notation": "right-of-way",
+      "altlabel": "1",
+      "related": null,
+      "@id": "right-of-way",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pedestrian Access Way",
+      "definition": "Pedestrian Access Way",
+      "notation": "pedestrian-access-way",
+      "altlabel": "1",
+      "related": null,
+      "@id": "pedestrian-access-way",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road",
+      "definition": "Road",
+      "notation": "road",
+      "altlabel": "13",
+      "related": null,
+      "@id": "road",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Widening",
+      "definition": "Road Widening",
+      "notation": "road-widening",
+      "altlabel": "13",
+      "related": null,
+      "@id": "road-widening",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Community Building Lot",
+      "definition": "Community Building Lot",
+      "notation": "community-building-lot",
+      "altlabel": "19",
+      "related": null,
+      "@id": "community-building-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Community Land Lot",
+      "definition": "Community Land Lot",
+      "notation": "community-land-lot",
+      "altlabel": "16",
+      "related": null,
+      "@id": "community-land-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Common Property",
+      "definition": "Common Property",
+      "notation": "common-property",
+      "altlabel": "16,19",
+      "related": null,
+      "@id": "common-property",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Vacant Strata Lot",
+      "definition": "Vacant Strata Lot",
+      "notation": "vacant-strata-lot",
+      "altlabel": "19",
+      "related": null,
+      "@id": "vacant-strata-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Location",
+      "definition": "Location",
+      "notation": "location",
+      "altlabel": "1",
+      "related": null,
+      "@id": "location",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Townsite Lot",
+      "definition": "Townsite Lot",
+      "notation": "townsite-lot",
+      "altlabel": "1",
+      "related": null,
+      "@id": "townsite-lot",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Miscellaneous",
+      "definition": "Miscellaneous",
+      "notation": "miscellaneous",
+      "altlabel": "1",
+      "related": null,
+      "@id": "miscellaneous",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Transfer of Land Act",
+      "definition": "Transfer of Land Act",
+      "notation": "transfer-of-land-act",
+      "altlabel": "1",
+      "related": null,
+      "@id": "transfer-of-land-act",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Land Act",
+      "definition": "Land Act",
+      "notation": "land-act",
+      "altlabel": "1",
+      "related": null,
+      "@id": "land-act",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Closed Road",
+      "definition": "Closed Road",
+      "notation": "closed-road",
+      "altlabel": "7",
+      "related": null,
+      "@id": "closed-road",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Railway",
+      "definition": "Railway",
+      "notation": "railway",
+      "altlabel": "10",
+      "related": null,
+      "@id": "railway",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reserve to Vest for Recreation",
+      "definition": "Reserve for Recreation",
+      "notation": "reserve-vest",
+      "altlabel": null,
+      "related": null,
+      "@id": "reserve-vest",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road to Vest",
+      "definition": "Road to Vest",
+      "notation": " road-vest",
+      "altlabel": null,
+      "related": null,
+      "@id": "road-vest",
+      "type": "termtype:ParcelPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-monument-condition/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-monument-condition",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Monument Condition",
+  "class": "surv:ConditionCode",
+  "concepts": [
+    {
+      "preflabel": "Abandoned",
+      "definition": null,
+      "notation": "abandoned",
+      "altlabel": null,
+      "related": null,
+      "@id": "abandoned",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Damaged",
+      "definition": null,
+      "notation": "damaged",
+      "altlabel": null,
+      "related": null,
+      "@id": "damaged",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Destroyed",
+      "definition": null,
+      "notation": "destroyed",
+      "altlabel": null,
+      "related": null,
+      "@id": "destroyed",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Disturbed",
+      "definition": null,
+      "notation": "disturbed",
+      "altlabel": null,
+      "related": null,
+      "@id": "disturbed",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Found",
+      "definition": null,
+      "notation": "found",
+      "altlabel": null,
+      "related": null,
+      "@id": "found",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Leaning",
+      "definition": null,
+      "notation": "leaning",
+      "altlabel": null,
+      "related": null,
+      "@id": "leaning",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Loose",
+      "definition": null,
+      "notation": "loose",
+      "altlabel": null,
+      "related": null,
+      "@id": "loose",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nipple Damaged",
+      "definition": null,
+      "notation": "nipple-damaged",
+      "altlabel": null,
+      "related": null,
+      "@id": "nipple-damaged",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Found",
+      "definition": null,
+      "notation": "not-found",
+      "altlabel": null,
+      "related": null,
+      "@id": "not-found",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Used",
+      "definition": null,
+      "notation": "not-used",
+      "altlabel": null,
+      "related": null,
+      "@id": "not-used",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "OK",
+      "definition": null,
+      "notation": "ok",
+      "altlabel": null,
+      "related": null,
+      "@id": "ok",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin",
+      "definition": null,
+      "notation": "origin",
+      "altlabel": null,
+      "related": null,
+      "@id": "origin",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Origin unknown",
+      "definition": null,
+      "notation": "origin-unknown",
+      "altlabel": null,
+      "related": null,
+      "@id": "origin-unknown",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plaque Missing",
+      "definition": null,
+      "notation": "plaque-missing",
+      "altlabel": null,
+      "related": null,
+      "@id": "plaque-missing",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Remains",
+      "definition": null,
+      "notation": "remains",
+      "altlabel": null,
+      "related": null,
+      "@id": "remains",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Removed",
+      "definition": null,
+      "notation": "removed",
+      "altlabel": null,
+      "related": null,
+      "@id": "removed",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Replaced",
+      "definition": null,
+      "notation": "replaced",
+      "altlabel": null,
+      "related": null,
+      "@id": "replaced",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Suspect",
+      "definition": null,
+      "notation": "suspect",
+      "altlabel": null,
+      "related": null,
+      "@id": "suspect",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unknown",
+      "definition": null,
+      "notation": "unknown",
+      "altlabel": null,
+      "related": null,
+      "@id": "unknown",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unstable",
+      "definition": null,
+      "notation": "unstable",
+      "altlabel": null,
+      "related": null,
+      "@id": "unstable",
+      "type": "surv:ConditionCode",
+      "@type": "skos:Concept"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-monument-form/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-monument-form",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Monument Form",
+  "class": "surv:MonumentForm",
+  "concepts": [
+    {
+      "preflabel": "Peg",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "peg",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "peg",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "nail",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "nail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail and Plate",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "nail-and-plate",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "nail-and-plate",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Spike",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "spike",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "spike",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drill Hole",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "drill-hole",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "drill-hole",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Deck Spike",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "deck-spike",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "deck-spike",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Deck Spike with Plate",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "deck-spike-with-plate",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "deck-spike-with-plate",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hallmark",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "hallmark",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "hallmark",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Post",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "post",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kilometre Post",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "kilometre-post",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "kilometre-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mile Post",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "mile-post",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "mile-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cadastral Point Unmarked",
+      "definition": null,
+      "notation": "cadastral-point-unmarked",
+      "altlabel": "purpose-wa-external: O ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "cadastral-point-unmarked",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Point Unmarked",
+      "definition": null,
+      "notation": "interest-point-unmarked",
+      "altlabel": "purpose-wa-external: O ; purpose-wa-internal: 12,21,22",
+      "related": null,
+      "@id": "interest-point-unmarked",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Peg",
+      "definition": null,
+      "notation": "interest-peg",
+      "altlabel": "purpose-wa-external: O ; purpose-wa-internal: 12,21,22",
+      "related": null,
+      "@id": "interest-peg",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Deck Spike",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "deck-spike",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "deck-spike",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ramset plug",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "ramset-plug",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "ramset-plug",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Star picket",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "star-picket",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "star-picket",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Standard Mark",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "non-standard-mark",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "non-standard-mark",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Concrete Plinth",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "concrete-plinth",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "concrete-plinth",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Concrete Plinth with hatch",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "concrete-plinth-with-hatch",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "concrete-plinth-with-hatch",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bench Mark",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "bench-mark",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "bench-mark",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wall",
+      "definition": null,
+      "notation": "wall",
+      "altlabel": null,
+      "related": null,
+      "@id": "wall",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Fence",
+      "definition": null,
+      "notation": "fence",
+      "altlabel": null,
+      "related": null,
+      "@id": "fence",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Structure",
+      "definition": null,
+      "notation": "structure",
+      "altlabel": null,
+      "related": null,
+      "@id": "structure",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Steel Post",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "steel-post",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "steel-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cairn",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "cairn",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "cairn",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Trench",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "trench",
+      "altlabel": "purpose-wa-external: O,T ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,42,43,44,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "trench",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Building",
+      "definition": null,
+      "notation": "building",
+      "altlabel": null,
+      "related": null,
+      "@id": "building",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Brass Plaque",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "brass-plaque",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "brass-plaque",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Beacon",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "beacon",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "beacon",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tube",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "tube",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "tube",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pipe",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "pipe",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "pipe",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pole",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "pole",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "pole",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Trigonometrical Station",
+      "definition": "Object in compliance with WA legislation",
+      "notation": "trigonometrical-station",
+      "altlabel": "purpose-wa-external: O,T,S ; purpose-wa-internal: 1,2,3,6,7,8,11,12,14,21,22,41,42,43,44,45,46,47,48,49,60,61,78,150,181,200,201,202",
+      "related": null,
+      "@id": "trigonometrical-station",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": "Monument form defined as Other in CSD",
+      "notation": "other",
+      "altlabel": null,
+      "related": null,
+      "@id": "other",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    }
+  ]
+}

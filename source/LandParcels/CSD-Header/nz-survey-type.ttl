@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N7be72f0cd2fa4161a15e87bd82776b96 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:01.864766"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:01.785914"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-survey-type.csv> ] ;
+            prov:wasAssociatedWith _:N7be72f0cd2fa4161a15e87bd82776b96 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/dp> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "A cadastral survey plan or dataset that has been prepared under the Land Transfer Act and has had new titles created." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "dp" ;
+    skos:prefLabel "Deposited Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/hs> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Types of surveys included for historical purposes. Not to be used for new surveys." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "hs" ;
+    skos:prefLabel "Historical Survey" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/ltp> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "Land Transfer Plan is a plan prepared under the Land Transfer Act but has not yet had new titles created." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "ltp" ;
+    skos:prefLabel "LT Plan (except Unit Plans)" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/ltup> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "An LT Unit Plan is a plan prepared under the Unit Titles Act showing show the location of the units, auxiliary units and common areas." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "ltup" ;
+    skos:prefLabel "LT Unit Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/mlp> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "A Māori Land Plan is prepared for the sudivision or partition of Māori land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "mlp" ;
+    skos:prefLabel "Māori Land Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type/so> a skos:Concept,
+        termtype:SurveyType ;
+    skos:definition "A Survey Office Plan is prepared for surveys of land held under Crown ownership" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-survey-type> ;
+    skos:notation "so" ;
+    skos:prefLabel "Survey Office Plan" .
+
+<https://linked.data.gov.au/def/csdm/nz-survey-type> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Survey Type" ;
+    skos:scopeNote "termtype:SurveyType" .
+
+_:N7be72f0cd2fa4161a15e87bd82776b96 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

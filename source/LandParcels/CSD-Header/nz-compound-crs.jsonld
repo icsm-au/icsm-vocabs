@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "http://www.opengis.net/def/crs/EPSG/0/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "http://www.opengis.net/def/crs/EPSG/0",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Compound Coordinate Reference Systems",
+  "class": "termtype:AllowableCoordinateReferenceSystem",
+  "concepts": [
+    {
+      "preflabel": "NZGD2000 + NZVD2016 height",
+      "definition": null,
+      "notation": "9528",
+      "altlabel": null,
+      "related": null,
+      "@id": "9528",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    }
+  ]
+}

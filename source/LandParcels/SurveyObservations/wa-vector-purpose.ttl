@@ -1,0 +1,1033 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-vector-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nc0e760314d6a4ebbb739b724e81fcf76 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.686510"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.495366"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/wa-vector-purpose.csv> ] ;
+            prov:wasAssociatedWith _:Nc0e760314d6a4ebbb739b724e81fcf76 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/3D-Construct> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "15" ;
+    skos:definition "3D Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "3D-Construct" ;
+    skos:prefLabel "3D Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/3D-Normal> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "14" ;
+    skos:definition "3D Normal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "3D-Normal" ;
+    skos:prefLabel "3D Normal" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Administrative-Boundary-Construct> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "199" ;
+    skos:definition "Administrative Boundary Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Administrative-Boundary-Construct" ;
+    skos:prefLabel "Administrative Boundary Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Agricultural-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "168" ;
+    skos:definition "Agricultural Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Agricultural-Area" ;
+    skos:prefLabel "Agricultural Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Cancelled-Surround> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "183" ;
+    skos:definition "Cancelled Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Cancelled-Surround" ;
+    skos:prefLabel "Cancelled Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Common-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "5" ;
+    skos:definition "Common Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Common-Boundary" ;
+    skos:prefLabel "Common Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Conversion> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "186" ;
+    skos:definition "Conversion" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Conversion" ;
+    skos:prefLabel "Conversion" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Critical-Port-Areas-CPA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "148" ;
+    skos:definition "Critical Port Areas (CPA)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Critical-Port-Areas-CPA" ;
+    skos:prefLabel "Critical Port Areas (CPA)" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Current-Mining> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "60" ;
+    skos:definition "Current Mining" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Current-Mining" ;
+    skos:prefLabel "Current Mining" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/DBNGP-Corridor> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "195" ;
+    skos:definition "DBNGP Corridor" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "DBNGP-Corridor" ;
+    skos:prefLabel "DBNGP Corridor" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Development-Control-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "174" ;
+    skos:definition "Development Control Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Development-Control-Area" ;
+    skos:prefLabel "Development Control Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Estate-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "170" ;
+    skos:definition "Estate Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Estate-Area" ;
+    skos:prefLabel "Estate Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Group-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "4" ;
+    skos:definition "Group Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Group-Boundary" ;
+    skos:prefLabel "Group Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/HAT> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Highest Astronomical Tide-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "HAT" ;
+    skos:prefLabel "HAT" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/HWM-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "High Water Mark Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "HWM-Boundary" ;
+    skos:prefLabel "HWM Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Infrastructure-1> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "146" ;
+    skos:definition "Infrastructure 1" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Infrastructure-1" ;
+    skos:prefLabel "Infrastructure 1" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Infrastructure-2> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "147" ;
+    skos:definition "Infrastructure 2" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Infrastructure-2" ;
+    skos:prefLabel "Infrastructure 2" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Interest-Surround> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "182" ;
+    skos:definition "Interest Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Interest-Surround" ;
+    skos:prefLabel "Interest Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LAT> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Lowest Astronomical Tide-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LAT" ;
+    skos:prefLabel "LAT" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LCMU-Native-Title-Det> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "198" ;
+    skos:definition "LCMU (Native Title) Det" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LCMU-Native-Title-Det" ;
+    skos:prefLabel "LCMU (Native Title) Det" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LCMU-Native-Title-Fed> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "197" ;
+    skos:definition "LCMU (Native Title) Fed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LCMU-Native-Title-Fed" ;
+    skos:prefLabel "LCMU (Native Title) Fed" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LCMU-Native-Title-ILUA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "149" ;
+    skos:definition "LCMU (Native Title) ILUA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LCMU-Native-Title-ILUA" ;
+    skos:prefLabel "LCMU (Native Title) ILUA" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LCMU-Native-Title-NNTT> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "196" ;
+    skos:definition "LCMU (Native Title) NNTT" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LCMU-Native-Title-NNTT" ;
+    skos:prefLabel "LCMU (Native Title) NNTT" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LGA-Town-site> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "151" ;
+    skos:definition "LGA Town-site" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LGA-Town-site" ;
+    skos:prefLabel "LGA Town-site" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LGA-Ward> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "154" ;
+    skos:definition "LGA Ward" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LGA-Ward" ;
+    skos:prefLabel "LGA Ward" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/LWM-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Low Water Mark Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "LWM-Boundary" ;
+    skos:prefLabel "LWM Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Land-District> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "167" ;
+    skos:definition "Land District" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Land-District" ;
+    skos:prefLabel "Land District" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Land-Division> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "166" ;
+    skos:definition "Land Division" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Land-Division" ;
+    skos:prefLabel "Land Division" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Linked-LGA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "153" ;
+    skos:definition "Linked LGA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Linked-LGA" ;
+    skos:prefLabel "Linked LGA" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MHW> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Mean High Water-Common Law-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MHW" ;
+    skos:prefLabel "MHW" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MHWM-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "3" ;
+    skos:definition "Mean High Water Mark Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MHWM-Boundary" ;
+    skos:prefLabel "MHWM Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MHWS> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "6" ;
+    skos:definition "Mean High Water Springs-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MHWS" ;
+    skos:prefLabel "MHWS" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MLA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "160" ;
+    skos:definition "MLA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MLA" ;
+    skos:prefLabel "MLA" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MLC> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "161" ;
+    skos:definition "MLC" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MLC" ;
+    skos:prefLabel "MLC" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MLW> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Mean Low Water-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MLW" ;
+    skos:prefLabel "MLW" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MLWS> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "7" ;
+    skos:definition "Mean Low Water Springs-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MLWS" ;
+    skos:prefLabel "MLWS" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/MSL> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Mean Sea Level-ICSM-SP9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "MSL" ;
+    skos:prefLabel "MSL" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Marine---Harbour-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "191" ;
+    skos:definition "Marine & Harbour Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Marine-&-Harbour-Area" ;
+    skos:prefLabel "Marine & Harbour Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Marine-Management-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "179" ;
+    skos:definition "Marine Management Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Marine-Management-Area" ;
+    skos:prefLabel "Marine Management Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Marine-Nature-Reserve> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "178" ;
+    skos:definition "Marine Nature Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Marine-Nature-Reserve" ;
+    skos:prefLabel "Marine Nature Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Marine-Park> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "177" ;
+    skos:definition "Marine Park" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Marine-Park" ;
+    skos:prefLabel "Marine Park" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Mining-District> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "55" ;
+    skos:definition "Mining District" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Mining-District" ;
+    skos:prefLabel "Mining District" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Mining-Field> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "56" ;
+    skos:definition "Mining Field" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Mining-Field" ;
+    skos:prefLabel "Mining Field" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Nautical-Boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "8" ;
+    skos:definition "Nautical Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Nautical-Boundary" ;
+    skos:prefLabel "Nautical Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Network-Construct> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Network Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Network-Construct" ;
+    skos:prefLabel "Network Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Non-Geodetic-Connection> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "43" ;
+    skos:definition "Non Geodetic Connection" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Non-Geodetic-Connection" ;
+    skos:prefLabel "Non Geodetic Connection" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Non-Geodetic-Connection-GDA94> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "46" ;
+    skos:definition "Non Geodetic Connection GDA94" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Non-Geodetic-Connection-GDA94" ;
+    skos:prefLabel "Non Geodetic Connection GDA94" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Non-Geodetic-Precal> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "44" ;
+    skos:definition "Non Geodetic Precal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Non-Geodetic-Precal" ;
+    skos:prefLabel "Non Geodetic Precal" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Poly-Tie-Construct> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "12" ;
+    skos:definition "Poly Tie Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Poly-Tie-Construct" ;
+    skos:prefLabel "Poly Tie Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Port-Authority> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "190" ;
+    skos:definition "Port Authority" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Port-Authority" ;
+    skos:prefLabel "Port Authority" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Postal-Locality> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "152" ;
+    skos:definition "Postal Locality" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Postal-Locality" ;
+    skos:prefLabel "Postal Locality" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/PreGazetted-LGA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "164" ;
+    skos:definition "PreGazetted LGA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "PreGazetted-LGA" ;
+    skos:prefLabel "PreGazetted LGA" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/PreGazetted-LGA-Ward> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "155" ;
+    skos:definition "PreGazetted LGA Ward" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "PreGazetted-LGA-Ward" ;
+    skos:prefLabel "PreGazetted LGA Ward" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Project-1> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "156" ;
+    skos:definition "Project 1" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Project-1" ;
+    skos:prefLabel "Project 1" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Project-2> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "157" ;
+    skos:definition "Project 2" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Project-2" ;
+    skos:prefLabel "Project 2" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Project-3> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "158" ;
+    skos:definition "Project 3" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Project-3" ;
+    skos:prefLabel "Project 3" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Project-4> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "159" ;
+    skos:definition "Project 4" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Project-4" ;
+    skos:prefLabel "Project 4" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Proposed-MLA> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "162" ;
+    skos:definition "Proposed MLA" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Proposed-MLA" ;
+    skos:prefLabel "Proposed MLA" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Proposed-MLC> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "163" ;
+    skos:definition "Proposed MLC" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Proposed-MLC" ;
+    skos:prefLabel "Proposed MLC" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/RO-Construct> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "13" ;
+    skos:definition "RO Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "RO-Construct" ;
+    skos:prefLabel "RO Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/RO-Construct-Mining> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "53" ;
+    skos:definition "RO Construct Mining" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "RO-Construct-Mining" ;
+    skos:prefLabel "RO Construct Mining" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Railway-Corridor> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "194" ;
+    skos:definition "Railway Corridor" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Railway-Corridor" ;
+    skos:prefLabel "Railway Corridor" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Retired-Surround> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "184" ;
+    skos:definition "Retired Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Retired-Surround" ;
+    skos:prefLabel "Retired Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Riverpark-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "173" ;
+    skos:definition "Riverpark Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Riverpark-Area" ;
+    skos:prefLabel "Riverpark Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Shipping-and-Pilotage> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "193" ;
+    skos:definition "Shipping and Pilotage" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Shipping-and-Pilotage" ;
+    skos:prefLabel "Shipping and Pilotage" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Special-Settlement-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "172" ;
+    skos:definition "Special Settlement Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Special-Settlement-Area" ;
+    skos:prefLabel "Special Settlement Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Special-Survey-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "192" ;
+    skos:definition "Special Survey Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Special-Survey-Area" ;
+    skos:prefLabel "Special Survey Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/State-Border> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "165" ;
+    skos:definition "State Border" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "State-Border" ;
+    skos:prefLabel "State Border" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/State-Forest> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "175" ;
+    skos:definition "State Forest" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "State-Forest" ;
+    skos:prefLabel "State Forest" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Statutory-Plan> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "187" ;
+    skos:definition "Statutory Plan" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Statutory-Plan" ;
+    skos:prefLabel "Statutory Plan" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Suburban-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "169" ;
+    skos:definition "Suburban Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Suburban-Area" ;
+    skos:prefLabel "Suburban Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superline> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "23" ;
+    skos:definition "Superline" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superline" ;
+    skos:prefLabel "Superline" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Crown> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "200" ;
+    skos:definition "Superseded Crown" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Crown" ;
+    skos:prefLabel "Superseded Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Freehold> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "201" ;
+    skos:definition "Superseded Freehold" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Freehold" ;
+    skos:prefLabel "Superseded Freehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Lease> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "202" ;
+    skos:definition "Superseded Lease" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Lease" ;
+    skos:prefLabel "Superseded Lease" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-1> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "61" ;
+    skos:definition "Superseded Mining Level 1" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-1" ;
+    skos:prefLabel "Superseded Mining Level 1" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-10> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "70" ;
+    skos:definition "Superseded Mining Level 10" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-10" ;
+    skos:prefLabel "Superseded Mining Level 10" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-11> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "71" ;
+    skos:definition "Superseded Mining Level 11" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-11" ;
+    skos:prefLabel "Superseded Mining Level 11" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-12> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "72" ;
+    skos:definition "Superseded Mining Level 12" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-12" ;
+    skos:prefLabel "Superseded Mining Level 12" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-13> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "73" ;
+    skos:definition "Superseded Mining Level 13" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-13" ;
+    skos:prefLabel "Superseded Mining Level 13" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-14> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "74" ;
+    skos:definition "Superseded Mining Level 14" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-14" ;
+    skos:prefLabel "Superseded Mining Level 14" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-15> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "75" ;
+    skos:definition "Superseded Mining Level 15" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-15" ;
+    skos:prefLabel "Superseded Mining Level 15" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-16> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "76" ;
+    skos:definition "Superseded Mining Level 16" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-16" ;
+    skos:prefLabel "Superseded Mining Level 16" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-17> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "77" ;
+    skos:definition "Superseded Mining Level 17" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-17" ;
+    skos:prefLabel "Superseded Mining Level 17" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-2> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "62" ;
+    skos:definition "Superseded Mining Level 2" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-2" ;
+    skos:prefLabel "Superseded Mining Level 2" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-3> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "63" ;
+    skos:definition "Superseded Mining Level 3" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-3" ;
+    skos:prefLabel "Superseded Mining Level 3" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-4> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "64" ;
+    skos:definition "Superseded Mining Level 4" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-4" ;
+    skos:prefLabel "Superseded Mining Level 4" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-5> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "65" ;
+    skos:definition "Superseded Mining Level 5" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-5" ;
+    skos:prefLabel "Superseded Mining Level 5" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-6> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "66" ;
+    skos:definition "Superseded Mining Level 6" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-6" ;
+    skos:prefLabel "Superseded Mining Level 6" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-7> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "67" ;
+    skos:definition "Superseded Mining Level 7" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-7" ;
+    skos:prefLabel "Superseded Mining Level 7" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-8> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "68" ;
+    skos:definition "Superseded Mining Level 8" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-8" ;
+    skos:prefLabel "Superseded Mining Level 8" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Superseded-Mining-Level-9> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "69" ;
+    skos:definition "Superseded Mining Level 9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Superseded-Mining-Level-9" ;
+    skos:prefLabel "Superseded Mining Level 9" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Surround> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "181" ;
+    skos:definition "Surround" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Surround" ;
+    skos:prefLabel "Surround" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Timber-Reserve> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "176" ;
+    skos:definition "Timber Reserve" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Timber-Reserve" ;
+    skos:prefLabel "Timber Reserve" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Town-site-Land-Act> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "171" ;
+    skos:definition "Town-site Land Act" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Town-site-Land-Act" ;
+    skos:prefLabel "Town-site Land Act" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/Water-Control-Area> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "185" ;
+    skos:definition "Water Control Area" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "Water-Control-Area" ;
+    skos:prefLabel "Water Control Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/abuttal> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Abuttal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "abuttal" ;
+    skos:prefLabel "Abuttal" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/astronomical-azimuth> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition " The angle between two planes - one which passes through the observing station and the rotation axis or (true) north and the second which passes through the observing station and a second point being observed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "astronomical-azimuth" ;
+    skos:prefLabel "Astronomical Azimuth" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "boundary" ;
+    skos:prefLabel "Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/cadastral-connection> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Cadastral Connection" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "cadastral-connection" ;
+    skos:prefLabel "Cadastral Connection" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/cadastral-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Cadastral Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "cadastral-construction" ;
+    skos:prefLabel "Cadastral Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/check> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "check" ;
+    skos:prefLabel "Check" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/control-network> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Control Network" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "control-network" ;
+    skos:prefLabel "Control Network" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/covernant-restrictive-covenant> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Linear Interest linetype" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "covernant-restrictive-covenant" ;
+    skos:prefLabel "Covenant Restrictive Covenant" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/depth-limit-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Location Boundary for DepthLimit" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "depth-limit-boundary" ;
+    skos:prefLabel "Depth Limit Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/depth-limit-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Depth Limit Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "depth-limit-construction" ;
+    skos:prefLabel "Depth Limit Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/easement> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Easement Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "easement" ;
+    skos:prefLabel "Easement" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/easement-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Easement Construction Line" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "easement-construction" ;
+    skos:prefLabel "Easement Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/fence> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Structure - Fence" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "fence" ;
+    skos:prefLabel "Fence" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/geodetic-azimuth> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The angle between two planes - one of which passes through the observing station and the north pole of the ellipsoid and the second which passes through this same the observing station and a second point being observed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "geodetic-azimuth" ;
+    skos:prefLabel "Geodetic Azimuth" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/grid-azimuth> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The angle between grid north and the tangent to the arc at the observing station. It is measured from grid north clockwise" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "grid-azimuth" ;
+    skos:prefLabel "Grid Azimuth" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/interest-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "21" ;
+    skos:definition "Interest Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "interest-boundary" ;
+    skos:prefLabel "Interest Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/interest-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "22" ;
+    skos:definition "Interest Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "interest-construction" ;
+    skos:prefLabel "Interest Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/local-government-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Local Government Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "local-government-boundary" ;
+    skos:prefLabel "Local Government Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/long-gnss-control-network-connection> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Long GNSS Control Network Connection" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "long-gnss-control-network-connection" ;
+    skos:prefLabel "Long GNSS Control Network Connection" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/lot-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "2" ;
+    skos:definition "Lot Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "lot-boundary" ;
+    skos:prefLabel "Lot Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/mineral-reservation> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Mineral Reservation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "mineral-reservation" ;
+    skos:prefLabel "Mineral Reservation" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/mining-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "60" ;
+    skos:definition "Mining Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "mining-boundary" ;
+    skos:prefLabel "Mining Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/mining-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "78" ;
+    skos:definition "Mining Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "mining-construction" ;
+    skos:prefLabel "Mining Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/port-authority-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "190" ;
+    skos:definition "Port Authority Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "port-authority-boundary" ;
+    skos:prefLabel "Port Authority Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/radiation> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "radiation" ;
+    skos:prefLabel "Radiation" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/road-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "1" ;
+    skos:definition "Road Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "road-boundary" ;
+    skos:prefLabel "Road Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/road-construction> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "11" ;
+    skos:definition "Road Construct" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "road-construction" ;
+    skos:prefLabel "Road Construct" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/state-forrest-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "175" ;
+    skos:definition "State Forrest Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "state-forrest-boundary" ;
+    skos:prefLabel "State Forrest Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/structure-cw-left> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Structure - Left" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "structure-cw-left" ;
+    skos:prefLabel "Structure Clockwise Left" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/structure-cw-right> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Structure - Right" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "structure-cw-right" ;
+    skos:prefLabel "Structure Clockwise Right" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/townsite-boundary> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Townsite Boundary" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "townsite-boundary" ;
+    skos:prefLabel "Townsite Boundary" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose/traverse> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-vector-purpose> ;
+    skos:notation "traverse" ;
+    skos:prefLabel "Traverse" .
+
+<https://linked.data.gov.au/def/csdm/wa-vector-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "WA Vector Purpose" ;
+    skos:scopeNote "termtype:VectorPurpose" .
+
+_:Nc0e760314d6a4ebbb739b724e81fcf76 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,142 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-procedure-used/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-procedure-used",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Survey Procedures",
+  "class": "sosa:Procedure",
+  "concepts": [
+    {
+      "preflabel": "Measured",
+      "definition": " \"Distances that have been physically measured including precal",
+      "notation": " original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances",
+      "altlabel": " such Sketch on Transfer boundaries and interest boundaries are also considered Measured\"",
+      "related": "measured",
+      "@id": "original-distances-and-lot-interest-distances-from-physical-measurements--Distances-that-are-calculated-from-physically-measured-distances",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Calculated",
+      "definition": "Cadastral Boundaries created under the Operational Directives, such as Survey Registration Minute 1/98 and Executive Minutes 17/90 and 10/92 are to be shown as \"Calculated\".",
+      "notation": "calculated",
+      "altlabel": null,
+      "related": null,
+      "@id": "calculated",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Derived",
+      "definition": " Unsurveyed. Only applicable for mid azimuths and is derived from a mean of the reverse azimuths calculated from the two end points.",
+      "notation": "derived",
+      "altlabel": null,
+      "related": null,
+      "@id": "derived",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Described",
+      "definition": "Unsurveyed",
+      "notation": "described",
+      "altlabel": null,
+      "related": null,
+      "@id": "described",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Approximate",
+      "definition": "Highly inaccurate",
+      "notation": "approximate",
+      "altlabel": null,
+      "related": null,
+      "@id": "approximate",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Adopted",
+      "definition": "Adopted from previous dimension",
+      "notation": "adopted",
+      "altlabel": null,
+      "related": null,
+      "@id": "adopted",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conventional",
+      "definition": "Survey - Conventional Survey",
+      "notation": "conventional",
+      "altlabel": null,
+      "related": null,
+      "@id": "conventional",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Conventional-unsurveyed lots",
+      "definition": "Survey with unsurveyed Lots(s) - Conventional Survey with unsurveyed Lots(s)",
+      "notation": "conventional-unsurveyed-lots",
+      "altlabel": null,
+      "related": null,
+      "@id": "conventional-unsurveyed-lots",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Compiled",
+      "definition": "No additional survey performed",
+      "notation": "compiled",
+      "altlabel": null,
+      "related": null,
+      "@id": "compiled",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Survey Area",
+      "definition": "Survey in compliance with Survey Practice Guidelines for Subdivisions within Special Survey Areas (WA)",
+      "notation": "SSA",
+      "altlabel": null,
+      "related": null,
+      "@id": "SSA",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Coordinates",
+      "definition": "Survey by Coordinates",
+      "notation": "survey-by-coordinates",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey-by-coordinates",
+      "type": "sosa:Procedure",
+      "@type": "skos:Concept"
+    }
+  ]
+}

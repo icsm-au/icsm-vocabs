@@ -1,0 +1,472 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Survey Point Purpose",
+  "class": "surv:SurveyPointPurpose",
+  "concepts": [
+    {
+      "preflabel": "Monument",
+      "definition": "Monument",
+      "notation": "monument",
+      "altlabel": null,
+      "related": null,
+      "@id": "monument",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Control",
+      "definition": "Control",
+      "notation": "control",
+      "altlabel": null,
+      "related": null,
+      "@id": "control",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Admin",
+      "definition": "Admin",
+      "notation": "admin",
+      "altlabel": "150",
+      "related": null,
+      "@id": "admin",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey",
+      "definition": "Survey",
+      "notation": "survey",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Unknown",
+      "definition": "Unknown",
+      "notation": "unknown",
+      "altlabel": null,
+      "related": null,
+      "@id": "unknown",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Standard Survey Mark",
+      "definition": "Standard Survey Mark",
+      "notation": "standard-survey-mark",
+      "altlabel": "45",
+      "related": null,
+      "@id": "standard-survey-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": "Other",
+      "notation": "other",
+      "altlabel": null,
+      "related": null,
+      "@id": "other",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Temporary Control Point",
+      "definition": "Temporary Control Point",
+      "notation": "temporary-control-point",
+      "altlabel": "44",
+      "related": null,
+      "@id": "temporary-control-point",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Road Boundary",
+      "definition": "Road Boundary",
+      "notation": "road-boundary",
+      "altlabel": "1",
+      "related": null,
+      "@id": "road-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Internal Boundary",
+      "definition": "Internal Boundary",
+      "notation": "internal-boundary",
+      "altlabel": "2",
+      "related": null,
+      "@id": "internal-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Water Boundary",
+      "definition": "Water Boundary",
+      "notation": "water-boundary",
+      "altlabel": "3",
+      "related": null,
+      "@id": "water-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Group Boundary",
+      "definition": "Group Boundary",
+      "notation": "group-boundary",
+      "altlabel": "4",
+      "related": null,
+      "@id": "group-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "HWM Boundary",
+      "definition": "HWM Boundary",
+      "notation": "hwm-boundary",
+      "altlabel": "6",
+      "related": null,
+      "@id": "hwm-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LWM Boundary",
+      "definition": "LWM Boundary",
+      "notation": "lwm-boundary",
+      "altlabel": "7",
+      "related": null,
+      "@id": "lwm-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nautical Boundary",
+      "definition": "Nautical Boundary",
+      "notation": "nautical-boundary",
+      "altlabel": "8",
+      "related": null,
+      "@id": "nautical-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Network Construct",
+      "definition": "Network Construct",
+      "notation": "network-construct",
+      "altlabel": "11",
+      "related": null,
+      "@id": "network-construct",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Poly Tie Construct",
+      "definition": "Poly Tie Construct",
+      "notation": "poly-tie-construct",
+      "altlabel": "12",
+      "related": null,
+      "@id": "poly-tie-construct",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3D Normal",
+      "definition": "3D Normal",
+      "notation": "3d-normal",
+      "altlabel": "14",
+      "related": null,
+      "@id": "3d-normal",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Boundary",
+      "definition": "Interest Boundary",
+      "notation": "interest-boundary",
+      "altlabel": "21",
+      "related": null,
+      "@id": "interest-boundary",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Interest Construct",
+      "definition": "Interest Construct",
+      "notation": "interest-construct",
+      "altlabel": "22",
+      "related": null,
+      "@id": "interest-construct",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Permanent Survey Mark",
+      "definition": "Permanent Survey Mark",
+      "notation": "permanent-survey-mark",
+      "altlabel": "41",
+      "related": null,
+      "@id": "permanent-survey-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Permanent Control Mark",
+      "definition": "Permanent Control Mark",
+      "notation": "permanent-control-mark",
+      "altlabel": "42",
+      "related": null,
+      "@id": "permanent-control-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic Connection",
+      "definition": "Non Geodetic Connection",
+      "notation": "non-geodetic-connection",
+      "altlabel": "43",
+      "related": null,
+      "@id": "non-geodetic-connection",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic Temporary Control Mark",
+      "definition": "Non Geodetic Temporary Control Mark",
+      "notation": "non-geodetic-temporary-control-mark",
+      "altlabel": "44",
+      "related": null,
+      "@id": "non-geodetic-temporary-control-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Bench Mark",
+      "definition": "Geodetic Bench Mark",
+      "notation": "geodetic-bench-mark",
+      "altlabel": "46",
+      "related": null,
+      "@id": "geodetic-bench-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Temporary Control Mark",
+      "definition": "Geodetic Temporary Control Mark",
+      "notation": "geodetic-temporary-control-mark",
+      "altlabel": "47",
+      "related": null,
+      "@id": "geodetic-temporary-control-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Geodetic Reference Mark",
+      "definition": "Geodetic Reference Mark",
+      "notation": "geodetic-reference-mark",
+      "altlabel": "48",
+      "related": null,
+      "@id": "geodetic-reference-mark",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Non Geodetic",
+      "definition": "Non Geodetic",
+      "notation": "non-geodetic",
+      "altlabel": "49",
+      "related": null,
+      "@id": "non-geodetic",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "General Mining",
+      "definition": "General Mining",
+      "notation": "general-mining",
+      "altlabel": "60",
+      "related": null,
+      "@id": "general-mining",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Mining",
+      "definition": "Superseded Mining",
+      "notation": "superseded-mining",
+      "altlabel": "61",
+      "related": null,
+      "@id": "superseded-mining",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Construct Mining",
+      "definition": "Construct Mining",
+      "notation": "construct-mining",
+      "altlabel": "78",
+      "related": null,
+      "@id": "construct-mining",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Administration point",
+      "definition": "Administration point",
+      "notation": "administration-point",
+      "altlabel": "150",
+      "related": null,
+      "@id": "administration-point",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surround Point",
+      "definition": "Surround Point",
+      "notation": "surround-point",
+      "altlabel": "181",
+      "related": null,
+      "@id": "surround-point",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Crown",
+      "definition": "Superseded Crown",
+      "notation": "superseded-crown",
+      "altlabel": "200",
+      "related": null,
+      "@id": "superseded-crown",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Freehold",
+      "definition": "Superseded Freehold",
+      "notation": "superseded-freehold",
+      "altlabel": "201",
+      "related": null,
+      "@id": "superseded-freehold",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Superseded Lease",
+      "definition": "Superseded Lease",
+      "notation": "superseded-lease",
+      "altlabel": "202",
+      "related": null,
+      "@id": "superseded-lease",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surround Point",
+      "definition": "Surround Point",
+      "notation": "surround-point",
+      "altlabel": "203",
+      "related": null,
+      "@id": "surround-point",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "HAT",
+      "definition": "Highest Astronomical Tide-ICSM-SP9",
+      "notation": "hat",
+      "altlabel": "6",
+      "related": null,
+      "@id": "hat",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MHWS",
+      "definition": "Mean High Water Springs-ICSM-SP9",
+      "notation": "mhws",
+      "altlabel": "6",
+      "related": null,
+      "@id": "mhws",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MHW",
+      "definition": "Mean High Water-Common Law-ICSM-SP9",
+      "notation": "mhw",
+      "altlabel": "6",
+      "related": null,
+      "@id": "mhw",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MSL",
+      "definition": "Mean Sea Level-ICSM-SP9",
+      "notation": "msl",
+      "altlabel": null,
+      "related": null,
+      "@id": "msl",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLWS",
+      "definition": "Mean Low Water Springs-ICSM-SP9",
+      "notation": "mlws",
+      "altlabel": "7",
+      "related": null,
+      "@id": "mlws",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "MLW",
+      "definition": "Mean Low Water-ICSM-SP9",
+      "notation": "mlw",
+      "altlabel": "7",
+      "related": null,
+      "@id": "mlw",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "LAT",
+      "definition": "Lowest Astronomical Tide-ICSM-SP9",
+      "notation": "lat",
+      "altlabel": "7",
+      "related": null,
+      "@id": "lat",
+      "type": "surv:SurveyPointPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

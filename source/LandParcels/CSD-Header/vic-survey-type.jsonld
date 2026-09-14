@@ -1,0 +1,62 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-survey-type/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-survey-type",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Survey Type",
+  "class": "termtype:SurveyType",
+  "concepts": [
+    {
+      "preflabel": "Non-Survey",
+      "definition": "Plan is not based on survey.",
+      "notation": "non-survey",
+      "altlabel": null,
+      "related": null,
+      "@id": "non-survey",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Partial Survey",
+      "definition": "Plan meets criteria for partial survey.",
+      "notation": "partial-survey",
+      "altlabel": null,
+      "related": null,
+      "@id": "partial-survey",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey",
+      "definition": "Plan is based on full survey.",
+      "notation": "survey",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey",
+      "type": "termtype:SurveyType",
+      "@type": "skos:Concept"
+    }
+  ]
+}

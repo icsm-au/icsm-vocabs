@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "http://www.opengis.net/def/crs/EPSG/0/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "http://www.opengis.net/def/crs/EPSG/0",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Coordinate Reference Systems",
+  "class": "termtype:AllowableCoordinateReferenceSystem",
+  "concepts": [
+    {
+      "preflabel": "GDA2020 / MGA zone 54",
+      "definition": null,
+      "notation": "7854",
+      "altlabel": "MGA2020_Zone54",
+      "related": null,
+      "@id": "7854",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA2020 / MGA zone 55",
+      "definition": null,
+      "notation": "7855",
+      "altlabel": "MGA2020_Zone55",
+      "related": null,
+      "@id": "7855",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 54",
+      "definition": null,
+      "notation": "28354",
+      "altlabel": "MGA94_Zone54",
+      "related": null,
+      "@id": "28354",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "GDA94 / MGA zone 55",
+      "definition": null,
+      "notation": "28355",
+      "altlabel": "MGA94_Zone55",
+      "related": null,
+      "@id": "28355",
+      "type": "termtype:AllowableCoordinateReferenceSystem",
+      "@type": "skos:Concept"
+    }
+  ]
+}

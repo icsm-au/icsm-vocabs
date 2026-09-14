@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/icsm-monument-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/icsm-monument-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "ICSM Monument State",
+  "class": "surv:SurveyPointState",
+  "concepts": [
+    {
+      "preflabel": "abandoned",
+      "definition": null,
+      "notation": "abandoned",
+      "altlabel": null,
+      "related": null,
+      "@id": "abandoned",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "destroyed",
+      "definition": null,
+      "notation": "destroyed",
+      "altlabel": null,
+      "related": null,
+      "@id": "destroyed",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "existing",
+      "definition": null,
+      "notation": "existing",
+      "altlabel": null,
+      "related": null,
+      "@id": "existing",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "proposed",
+      "definition": null,
+      "notation": "proposed",
+      "altlabel": null,
+      "related": null,
+      "@id": "proposed",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

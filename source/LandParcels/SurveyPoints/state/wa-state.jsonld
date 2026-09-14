@@ -1,0 +1,142 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-monument-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-monument-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA Monument State",
+  "class": "surv:SurveyPointState",
+  "concepts": [
+    {
+      "preflabel": "Unmarked",
+      "definition": null,
+      "notation": "unmarked",
+      "altlabel": null,
+      "related": null,
+      "@id": "unmarked",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "New Mark",
+      "definition": null,
+      "notation": "new-mark",
+      "altlabel": null,
+      "related": null,
+      "@id": "new-mark",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Found",
+      "definition": null,
+      "notation": "mark-found",
+      "altlabel": "M.F.",
+      "related": null,
+      "@id": "mark-found",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Found and Renewed",
+      "definition": null,
+      "notation": "mark-found-and-renewed",
+      "altlabel": "M.F. Renewed",
+      "related": "Mark Found and Replaced",
+      "@id": "mark-found-and-renewed",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Found and Adjusted",
+      "definition": null,
+      "notation": "mark-found-and-adjusted",
+      "altlabel": "M.F. Adj.",
+      "related": null,
+      "@id": "mark-found-and-adjusted",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Gone",
+      "definition": null,
+      "notation": "mark-gone",
+      "altlabel": "M.G.",
+      "related": null,
+      "@id": "mark-gone",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Gone and Replaced",
+      "definition": null,
+      "notation": "mark-gone-and-replaced",
+      "altlabel": "M.G. Replaced",
+      "related": null,
+      "@id": "mark-gone-and-replaced",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mark Found and Replaced",
+      "definition": null,
+      "notation": "mark-found-and-replaced",
+      "altlabel": "M.G. Replaced",
+      "related": "Mark Found and Renewed",
+      "@id": "mark-found-and-replaced",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Found",
+      "definition": null,
+      "notation": "not-found",
+      "altlabel": null,
+      "related": null,
+      "@id": "not-found",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Presumed gone",
+      "definition": null,
+      "notation": "presumed-gone",
+      "altlabel": null,
+      "related": "Did not search?",
+      "@id": "presumed-gone",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Did not search",
+      "definition": null,
+      "notation": "did-not-search",
+      "altlabel": null,
+      "related": "Presumed gone",
+      "@id": "did-not-search",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

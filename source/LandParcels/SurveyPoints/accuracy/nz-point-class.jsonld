@@ -1,0 +1,162 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-point-class/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-point-class",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Point Quality Classes",
+  "class": "termtype:PointQualityClass",
+  "concepts": [
+    {
+      "preflabel": "0",
+      "definition": "National reference frame",
+      "notation": "0",
+      "altlabel": null,
+      "related": null,
+      "@id": "0",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "1",
+      "definition": "National deformation monitoring",
+      "notation": "1",
+      "altlabel": null,
+      "related": null,
+      "@id": "1",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "2",
+      "definition": "Regional deformation monitoring",
+      "notation": "2",
+      "altlabel": null,
+      "related": null,
+      "@id": "2",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "3",
+      "definition": null,
+      "notation": "3",
+      "altlabel": null,
+      "related": null,
+      "@id": "3",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "4",
+      "definition": "Local deformation monitoring",
+      "notation": "4",
+      "altlabel": null,
+      "related": null,
+      "@id": "4",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "5",
+      "definition": "Cadastral horizontal control. Basic geospatial network",
+      "notation": "5",
+      "altlabel": null,
+      "related": null,
+      "@id": "5",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "6",
+      "definition": "Cadastral permanent reference marks. Cadastral witness marks",
+      "notation": "6",
+      "altlabel": null,
+      "related": null,
+      "@id": "6",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "7",
+      "definition": "Class A boundary marks",
+      "notation": "7",
+      "altlabel": null,
+      "related": null,
+      "@id": "7",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "8",
+      "definition": "Class B boundary marks",
+      "notation": "8",
+      "altlabel": null,
+      "related": null,
+      "@id": "8",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "9",
+      "definition": "Class C boundary marks",
+      "notation": "9",
+      "altlabel": null,
+      "related": null,
+      "@id": "9",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "10",
+      "definition": null,
+      "notation": "10",
+      "altlabel": null,
+      "related": null,
+      "@id": "10",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "11",
+      "definition": null,
+      "notation": "11",
+      "altlabel": null,
+      "related": null,
+      "@id": "11",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "12",
+      "definition": null,
+      "notation": "12",
+      "altlabel": null,
+      "related": null,
+      "@id": "12",
+      "type": "termtype:PointQualityClass",
+      "@type": "skos:Concept"
+    }
+  ]
+}

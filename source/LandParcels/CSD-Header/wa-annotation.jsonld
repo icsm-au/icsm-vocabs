@@ -1,0 +1,112 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/wa-annotation/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/wa-annotation",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "WA CSD Annotation",
+  "class": "termtype:Annotation",
+  "concepts": [
+    {
+      "preflabel": "Unsurveyed Dimensions",
+      "definition": null,
+      "notation": "unsurveyed-dimensions",
+      "altlabel": null,
+      "related": null,
+      "@id": "unsurveyed-dimensions",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Parcel and area derived",
+      "definition": null,
+      "notation": "parcel-derived",
+      "altlabel": null,
+      "related": null,
+      "@id": "parcel-derived",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Transfer of Land (Survey) Regulations 1995 Exemption",
+      "definition": null,
+      "notation": "transfer-of-land-exempt",
+      "altlabel": null,
+      "related": null,
+      "@id": "transfer-of-land-exempt",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Public Acquisition",
+      "definition": null,
+      "notation": "public-acquisition",
+      "altlabel": null,
+      "related": null,
+      "@id": "public-acquisition",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Total Subdivided Area",
+      "definition": null,
+      "notation": "total-area",
+      "altlabel": null,
+      "related": null,
+      "@id": "total-area",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Special Survey Area Guidelines",
+      "definition": "Survey carried out under Reg 26a Special Survey Areas, Licensed Surveyors (General Surveying Practice) Regulations 1961",
+      "notation": "r-26a",
+      "altlabel": null,
+      "related": null,
+      "@id": "r-26a",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Information priority",
+      "definition": " Survey plan note stating survey sheet information has priority",
+      "notation": "sp",
+      "altlabel": null,
+      "related": null,
+      "@id": "sp",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Surveyed Dimensions",
+      "definition": "Description of method for deriving dimensions contained in the data and on related survey plans",
+      "notation": "surveyed-dimensions",
+      "altlabel": null,
+      "related": null,
+      "@id": "surveyed-dimensions",
+      "type": "termtype:Annotation",
+      "@type": "skos:Concept"
+    }
+  ]
+}

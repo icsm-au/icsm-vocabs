@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/icsm-angle-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nff7196bf871c444b9f593a8061593aca ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:58.607834"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:58.528982"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/icsm-angle-type.csv> ] ;
+            prov:wasAssociatedWith _:Nff7196bf871c444b9f593a8061593aca ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/angle> a skos:Concept,
+        surv:Angle ;
+    skos:definition "The acute horizontal angle measured from a reference vector to the observed vector" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "angle" ;
+    skos:prefLabel "Angle" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/azimuth> a skos:Concept,
+        surv:Angle ;
+    skos:definition "The horizontal angle measured clockwise from any reference meridian to the observed vector" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "azimuth" ;
+    skos:prefLabel "Azimuth" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/bearing> a skos:Concept,
+        surv:Angle ;
+    skos:definition "The horizontal angle measured clockwise from the CRS meridian to the observed vector" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "bearing" ;
+    skos:prefLabel "Bearing" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/mid-azimuth> a skos:Concept,
+        surv:Angle ;
+    skos:definition "The mean of the forward azimuth at the start of the line and the reverse azimuth at the end of the line" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "mid-azimuth" ;
+    skos:prefLabel "Mid-azimuth" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/subtended> a skos:Concept,
+        surv:Angle ;
+    skos:definition "A subtended angle is an angle formed by two lines, or line segments that originate from the same point and extend to two different points on a circle's circumference." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "subtended" ;
+    skos:prefLabel "Subtended" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type/v-angle> a skos:Concept,
+        surv:Angle ;
+    skos:definition "The vertical angle measured from the horizontal plane to the observed vector" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-angle-type> ;
+    skos:notation "v-angle" ;
+    skos:prefLabel "Vertical Angle" .
+
+<https://linked.data.gov.au/def/csdm/icsm-angle-type> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Angle Types" ;
+    skos:scopeNote "surv:Angle" .
+
+_:Nff7196bf871c444b9f593a8061593aca a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

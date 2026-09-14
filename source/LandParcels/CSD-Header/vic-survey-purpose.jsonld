@@ -1,0 +1,422 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-survey-purpose/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Survey Purpose",
+  "class": "surv:SurveyPurpose",
+  "concepts": [
+    {
+      "preflabel": "Section 6(1)(K)",
+      "definition": null,
+      "notation": "6-1-k",
+      "altlabel": null,
+      "related": null,
+      "@id": "6-1-k",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 22-Plan of Subdivision",
+      "definition": null,
+      "notation": "22-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "22-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 22-Plan of Consolidation",
+      "definition": null,
+      "notation": "22-consolidation",
+      "altlabel": null,
+      "related": null,
+      "@id": "22-consolidation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Creation of Easement",
+      "definition": null,
+      "notation": "23-create-easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-create-easement",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Removal of Easement",
+      "definition": null,
+      "notation": "23-remove-easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-remove-easement",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Variation of Easement",
+      "definition": null,
+      "notation": "23-vary-easement",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-vary-easement",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Creation and Removal of Easement",
+      "definition": null,
+      "notation": "23-create-remove-easements",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-create-remove-easements",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Creation and Variation of Easement",
+      "definition": null,
+      "notation": "23-create-vary-easements",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-create-vary-easements",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Removal and Variation of Easement",
+      "definition": null,
+      "notation": "23-remove-vary-easements",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-remove-vary-easements",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Creation and Removal and Variation of Easement",
+      "definition": null,
+      "notation": "23-create-remove-vary-easements",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-create-remove-vary-easements",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Variation of Condition in Crown Grant",
+      "definition": null,
+      "notation": "23-vary-crown-condition",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-vary-crown-condition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Removal of Condition in Crown Grant",
+      "definition": null,
+      "notation": "23-remove-crown-condition",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-remove-crown-condition",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Creation of Restriction",
+      "definition": null,
+      "notation": "23-create-restriction",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-create-restriction",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Removal of Restriction",
+      "definition": null,
+      "notation": "23-remove-restriction",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-remove-restriction",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 23-Variation of Restriction",
+      "definition": null,
+      "notation": "23-vary-restriction",
+      "altlabel": null,
+      "related": null,
+      "@id": "23-vary-restriction",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 24a-Vesting of a Reserve",
+      "definition": null,
+      "notation": "24a-vest-reserve",
+      "altlabel": null,
+      "related": null,
+      "@id": "24a-vest-reserve",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 24a-Removal of a Reserve (Plan of Subdivision)",
+      "definition": null,
+      "notation": "24a-remove-reserve-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "24a-remove-reserve-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 24a-Removal of a Reserve (Plan of Consolidation)",
+      "definition": null,
+      "notation": "24a-remove-reserve-consolidation",
+      "altlabel": null,
+      "related": null,
+      "@id": "24a-remove-reserve-consolidation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 24a-Removal and Vesting of a Reserve (Plan of Subdivision)",
+      "definition": null,
+      "notation": "24a-remove-vest-reserve-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "24a-remove-vest-reserve-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 24a-Removal and Vesting of a Reserve (Plan of Consolidation)",
+      "definition": null,
+      "notation": "24a-remove-vest-reserve-consolidation",
+      "altlabel": null,
+      "related": null,
+      "@id": "24a-remove-vest-reserve-consolidation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 26",
+      "definition": null,
+      "notation": "26",
+      "altlabel": null,
+      "related": null,
+      "@id": "26",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32-Plan to alter land affected by an owners corporation (Plan of Subdivision)",
+      "definition": null,
+      "notation": "32-alter-l-o-c-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "32-alter-l-o-c-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32-Plan to alter land affected by an owners corporation (Registered Plan)",
+      "definition": null,
+      "notation": "32-alter-l-o-c-registered-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "32-alter-l-o-c-registered-plan",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32-Plan to alter land affected by an owners corporation (Strata Plan)",
+      "definition": null,
+      "notation": "32-alter-l-o-c-strata-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "32-alter-l-o-c-strata-plan",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32-Plan to alter land affected by an owners corporation (Cluster Subdivision)",
+      "definition": null,
+      "notation": "32-alter-l-o-c-cluster",
+      "altlabel": null,
+      "related": null,
+      "@id": "32-alter-l-o-c-cluster",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32a-Plan of Subdivision of land if an owners corporation is affected",
+      "definition": null,
+      "notation": "32a-o-c-affected-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "32a-o-c-affected-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32a-Plan of Consolidation of land if an owners corporation is affected",
+      "definition": null,
+      "notation": "32a-o-c-affected-consolidation",
+      "altlabel": null,
+      "related": null,
+      "@id": "32a-o-c-affected-consolidation",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32b-Plan to create an owners corporation (Existing Plan)",
+      "definition": null,
+      "notation": "32b-create-o-c-existing",
+      "altlabel": null,
+      "related": null,
+      "@id": "32b-create-o-c-existing",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 32b-Plan to create an owners corporation (New Plan)",
+      "definition": null,
+      "notation": "32b-create-o-c-new",
+      "altlabel": null,
+      "related": null,
+      "@id": "32b-create-o-c-new",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35-Acquisition of land by acquiring authority",
+      "definition": null,
+      "notation": "35-acquisition-authority",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-acquisition-authority",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35-Acquisition of land if an owners corporation is affected (Plan of Subdivision)",
+      "definition": null,
+      "notation": "35-acquisition-o-c-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-acquisition-o-c-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35-Acquisition of land if an owners corporation is affected (Registered Plan)",
+      "definition": null,
+      "notation": "35-acquisition-o-c-registered-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-acquisition-o-c-registered-plan",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35-Acquisition of land if an owners corporation is affected (Strata Plan)",
+      "definition": null,
+      "notation": "35-acquisition-o-c-strata-plan",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-acquisition-o-c-strata-plan",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35-Acquisition of land if an owners corporation is affected (Cluster Subdivision)",
+      "definition": null,
+      "notation": "35-acquisition-o-c-cluster",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-acquisition-o-c-cluster",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35(8)-Subdivision of land vested or registered in authority",
+      "definition": null,
+      "notation": "35-8-subdivision-vest-authority",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-8-subdivision-vest-authority",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 35(8)-Consolidation of land vested or registered in authority",
+      "definition": null,
+      "notation": "35-8-consolidation-vest-authority",
+      "altlabel": null,
+      "related": null,
+      "@id": "35-8-consolidation-vest-authority",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 37-Plan of Subdivision (Staged Plan)",
+      "definition": null,
+      "notation": "37-stage-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "37-stage-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 37-Acquisition of land (Plan of Subdivision (Staged))",
+      "definition": null,
+      "notation": "37-acquisition-stage-subdivision",
+      "altlabel": null,
+      "related": null,
+      "@id": "37-acquisition-stage-subdivision",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Section 37(8)",
+      "definition": null,
+      "notation": "37-8",
+      "altlabel": null,
+      "related": null,
+      "@id": "37-8",
+      "type": "surv:SurveyPurpose",
+      "@type": "skos:Concept"
+    }
+  ]
+}

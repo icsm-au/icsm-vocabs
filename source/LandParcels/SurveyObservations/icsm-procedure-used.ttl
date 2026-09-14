@@ -1,0 +1,85 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/icsm-procedure-used.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N956654c7085343c5b693c7ce6511d9c7 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:54.466674"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:54.387043"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/icsm-procedure-used.csv> ] ;
+            prov:wasAssociatedWith _:N956654c7085343c5b693c7ce6511d9c7 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/adopted> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were adopted from a previous survey where the dimensions had been measured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "adopted" ;
+    skos:prefLabel "adopted" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/approximate> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Inaccurate - does not meet applicable standards of accuracy for cadastral surveys" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "approximate" ;
+    skos:prefLabel "approximate" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/calculated> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Cadastral Boundaries created under the Operational Directives, such as Survey Registration Minute 1/98 and Executive Minutes 17/90 and 10/92 are to be shown as \"Calculated\".",
+        "The dimensions of the observation where calculated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "calculated" ;
+    skos:prefLabel "Calculated",
+        "calculated" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/derived> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition " Unsurveyed. Only applicable for mid azimuths and is derived from a mean of the reverse azimuths calculated from the two end points." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "derived" ;
+    skos:prefLabel "derived" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/described> a skos:Concept,
+        sosa:Procedure ;
+    skos:altLabel "metes & bounds" ;
+    skos:definition "Unsurveyed. Directions and distances from physical monuments to define and describe the boundaries of the parcel. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "described" ;
+    skos:prefLabel "described" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/measured> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were measured when the survey was conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "measured" ;
+    skos:prefLabel "measured" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/scaled> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were scaled from a graphical plot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "scaled" ;
+    skos:prefLabel "scaled" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Survey Procedures" ;
+    skos:scopeNote "sosa:Procedure" .
+
+_:N956654c7085343c5b693c7ce6511d9c7 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

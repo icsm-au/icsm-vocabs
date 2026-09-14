@@ -1,0 +1,634 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-local-government-area.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nf17620c2a813466a99d53c0acc99e4fd ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.097577"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:01.946826"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-local-government-area.csv> ] ;
+            prov:wasAssociatedWith _:Nf17620c2a813466a99d53c0acc99e4fd ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/300> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G046 1998 p2822" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "300" ;
+    skos:prefLabel "Alpine" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/301> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G003 1996 p203" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "301" ;
+    skos:prefLabel "Ararat" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/302> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G012 1995 p740" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "302" ;
+    skos:prefLabel "Ballarat" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/303> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p17" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "303" ;
+    skos:prefLabel "Banyule" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/304> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p17" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "304" ;
+    skos:prefLabel "Bass Coast" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/305> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S094 1994 p9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "305" ;
+    skos:prefLabel "Baw Baw" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/306> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p18" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "306" ;
+    skos:prefLabel "Bayside" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/307> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S035 1994 p18" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "307" ;
+    skos:prefLabel "Boroondara" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/308> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p18" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "308" ;
+    skos:prefLabel "Brimbank" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/309> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G009 1996 p655" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "309" ;
+    skos:prefLabel "Buloke" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/310> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p13" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "310" ;
+    skos:prefLabel "Campaspe" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/311> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G040 2003 p2572" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "311" ;
+    skos:prefLabel "Cardinia" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/312> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p20" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "312" ;
+    skos:prefLabel "Casey" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/313> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S002 1995 p9" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "313" ;
+    skos:prefLabel "Central Goldfields" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/314> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S063 1994 p10" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "314" ;
+    skos:prefLabel "Colac Otway" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/315> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S063 1994 p11" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "315" ;
+    skos:prefLabel "Corangamite" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/316> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p20" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "316" ;
+    skos:prefLabel "Darebin" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/319> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S094 1994 p11" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "319" ;
+    skos:prefLabel "East Gippsland" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/320> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p21" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "320" ;
+    skos:prefLabel "Frankston" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/321> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p14" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "321" ;
+    skos:prefLabel "Gannawarra" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/322> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p21" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "322" ;
+    skos:prefLabel "Glen Eira" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/323> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G003 1997 p195" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "323" ;
+    skos:prefLabel "Glenelg" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/324> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G012 1995 p742" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "324" ;
+    skos:prefLabel "Golden Plains" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/325> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G016 1996 p30" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "325" ;
+    skos:prefLabel "Greater Bendigo" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/326> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "326" ;
+    skos:prefLabel "Greater Dandenong" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/327> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S008 1994 p7" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "327" ;
+    skos:prefLabel "Greater Geelong" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/328> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S087 1994 p28" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "328" ;
+    skos:prefLabel "Greater Shepparton" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/329> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S002 1995 p12" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "329" ;
+    skos:prefLabel "Hepburn" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/330> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p16" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "330" ;
+    skos:prefLabel "Hindmarsh" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/331> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S035 1994 p4" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "331" ;
+    skos:prefLabel "Hobsons Bay" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/332> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p16" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "332" ;
+    skos:prefLabel "Horsham" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/333> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "333" ;
+    skos:prefLabel "Hume" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/334> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G042 2015 p2266" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "334" ;
+    skos:prefLabel "Indigo" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/335> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "335" ;
+    skos:prefLabel "Kingston" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/336> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p23" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "336" ;
+    skos:prefLabel "Knox" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/337> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S094 1994 p12" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "337" ;
+    skos:prefLabel "Latrobe" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/338> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S002 1995 p14" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "338" ;
+    skos:prefLabel "Loddon" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/339> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S002 1995 p17" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "339" ;
+    skos:prefLabel "Macedon Ranges" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/340> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S158 1999 p10" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "340" ;
+    skos:prefLabel "Manningham" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/341> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p24" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "341" ;
+    skos:prefLabel "Maribyrnong" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/342> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p24" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "342" ;
+    skos:prefLabel "Maroondah" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/343> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G050 2007 p3095" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "343" ;
+    skos:prefLabel "Melbourne" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/344> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G036 2012 p2017" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "344" ;
+    skos:prefLabel "Melton" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/345> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p17" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "345" ;
+    skos:prefLabel "Mildura" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/346> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G007 2012 p288" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "346" ;
+    skos:prefLabel "Mitchell" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/347> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S087 1994 p28" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "347" ;
+    skos:prefLabel "Moira" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/348> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p25" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "348" ;
+    skos:prefLabel "Monash" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/349> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G050 2007 p3095" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "349" ;
+    skos:prefLabel "Moonee Valley" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/350> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p25" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "350" ;
+    skos:prefLabel "Moorabool" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/351> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p26" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "351" ;
+    skos:prefLabel "Merri-Bek" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/352> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p27" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "352" ;
+    skos:prefLabel "Mornington Peninsula" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/353> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S002 1995 p21" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "353" ;
+    skos:prefLabel "Mount Alexander" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/354> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G003 1996 p205" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "354" ;
+    skos:prefLabel "Moyne" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/355> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G007 2012 p285" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "355" ;
+    skos:prefLabel "Murrindindi" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/356> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G047 2003 p2972" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "356" ;
+    skos:prefLabel "Nillumbik" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/357> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G009 1996 p657" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "357" ;
+    skos:prefLabel "Northern Grampians" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/358> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S035 1994 p26" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "358" ;
+    skos:prefLabel "Port Phillip" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/359> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p20" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "359" ;
+    skos:prefLabel "Pyrenees" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/360> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G047 1863 p1039" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "360" ;
+    skos:prefLabel "Queenscliffe" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/361> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p28" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "361" ;
+    skos:prefLabel "South Gippsland" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/362> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G019 1996 p1218" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "362" ;
+    skos:prefLabel "Southern Grampians" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/363> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S035 1994 p22" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "363" ;
+    skos:prefLabel "Stonnington" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/364> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G012 1995 p738" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "364" ;
+    skos:prefLabel "Strathbogie" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/365> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S063 1994 p15" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "365" ;
+    skos:prefLabel "Surf Coast" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/366> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p23" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "366" ;
+    skos:prefLabel "Swan Hill" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/367> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G042 1996 p2787" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "367" ;
+    skos:prefLabel "Towong" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/368> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G028 1996 p1872" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "368" ;
+    skos:prefLabel "Wangaratta" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/369> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S063 1994 p15" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "369" ;
+    skos:prefLabel "Warrnambool" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/370> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S094 1994 p16" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "370" ;
+    skos:prefLabel "Wellington" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/371> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S004 1995 p24" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "371" ;
+    skos:prefLabel "West Wimmera" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/372> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S158 1999 p11" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "372" ;
+    skos:prefLabel "Whitehorse" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/373> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G003 1999 p119" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "373" ;
+    skos:prefLabel "Whittlesea" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/374> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G042 2015 p2266" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "374" ;
+    skos:prefLabel "Wodonga" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/375> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S097 1994 p31" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "375" ;
+    skos:prefLabel "Wyndham" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/376> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "S035 1994 p14" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "376" ;
+    skos:prefLabel "Yarra" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/377> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G040 2003 p2574" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "377" ;
+    skos:prefLabel "Yarra Ranges" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/378> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G003 1996 p200" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "378" ;
+    skos:prefLabel "Yarriambiack" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/379> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "379" ;
+    skos:prefLabel "French-Elizabeth-Sandstone Islands (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/381> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G042 2002 p2837" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "381" ;
+    skos:prefLabel "Benalla" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/382> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:definition "G042 2002 p2839" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "382" ;
+    skos:prefLabel "Mansfield" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/383> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "383" ;
+    skos:prefLabel "Mount Baw Baw Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/384> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "384" ;
+    skos:prefLabel "Mount Buller Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/385> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "385" ;
+    skos:prefLabel "Lake Mountain Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/386> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "386" ;
+    skos:prefLabel "Falls Creek Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/387> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "387" ;
+    skos:prefLabel "Mount Stirling Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/388> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "388" ;
+    skos:prefLabel "Mount Hotham Alpine Resort (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area/389> a skos:Concept,
+        termtype:AdminUnit ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-local-government-area> ;
+    skos:notation "389" ;
+    skos:prefLabel "Gabo Island (Uninc)" .
+
+<https://linked.data.gov.au/def/csdm/vic-local-government-area> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Local Government Areas" ;
+    skos:scopeNote "termtype:AdminUnit" .
+
+_:Nf17620c2a813466a99d53c0acc99e4fd a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

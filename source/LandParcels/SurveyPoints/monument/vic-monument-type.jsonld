@@ -1,0 +1,352 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-monument-form/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-monument-form",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Monument Form",
+  "class": "surv:MonumentForm",
+  "concepts": [
+    {
+      "preflabel": "Bolt",
+      "definition": null,
+      "notation": "bolt",
+      "altlabel": null,
+      "related": null,
+      "@id": "bolt",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Chisel Cut",
+      "definition": null,
+      "notation": "chisel-cut",
+      "altlabel": null,
+      "related": null,
+      "@id": "chisel-cut",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Cross Head Nail",
+      "definition": null,
+      "notation": "cross-head-nail",
+      "altlabel": null,
+      "related": null,
+      "@id": "cross-head-nail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Deep Driven Rod",
+      "definition": null,
+      "notation": "deep-driven-rod",
+      "altlabel": null,
+      "related": null,
+      "@id": "deep-driven-rod",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drill Hole",
+      "definition": null,
+      "notation": "drill-hole",
+      "altlabel": null,
+      "related": null,
+      "@id": "drill-hole",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Drill Hole with Wings",
+      "definition": null,
+      "notation": "drill-hole-with-wings",
+      "altlabel": null,
+      "related": null,
+      "@id": "drill-hole-with-wings",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dumpy",
+      "definition": null,
+      "notation": "dumpy",
+      "altlabel": null,
+      "related": null,
+      "@id": "dumpy",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "G.I. Nail",
+      "definition": null,
+      "notation": "g-i-nail",
+      "altlabel": null,
+      "related": null,
+      "@id": "g-i-nail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "G.I. Pipe",
+      "definition": null,
+      "notation": "g-i-pipe",
+      "altlabel": null,
+      "related": null,
+      "@id": "g-i-pipe",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail in Join",
+      "definition": null,
+      "notation": "nail-in-join",
+      "altlabel": null,
+      "related": null,
+      "@id": "nail-in-join",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail in Peg",
+      "definition": null,
+      "notation": "nail-in-peg",
+      "altlabel": null,
+      "related": null,
+      "@id": "nail-in-peg",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail in Post",
+      "definition": null,
+      "notation": "nail-in-post",
+      "altlabel": null,
+      "related": null,
+      "@id": "nail-in-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Nail in Rail",
+      "definition": null,
+      "notation": "nail-in-rail",
+      "altlabel": null,
+      "related": null,
+      "@id": "nail-in-rail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Not Marked",
+      "definition": null,
+      "notation": "nm",
+      "altlabel": null,
+      "related": null,
+      "@id": "nm",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Other",
+      "definition": null,
+      "notation": "other",
+      "altlabel": null,
+      "related": null,
+      "@id": "other",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Peg",
+      "definition": null,
+      "notation": "peg",
+      "altlabel": null,
+      "related": null,
+      "@id": "peg",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Peg and Trench",
+      "definition": null,
+      "notation": "peg-in-trench",
+      "altlabel": null,
+      "related": null,
+      "@id": "peg-in-trench",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pin",
+      "definition": null,
+      "notation": "pin",
+      "altlabel": null,
+      "related": null,
+      "@id": "pin",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Pipe",
+      "definition": null,
+      "notation": "pipe",
+      "altlabel": null,
+      "related": null,
+      "@id": "pipe",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Plaque",
+      "definition": null,
+      "notation": "plaque",
+      "altlabel": null,
+      "related": null,
+      "@id": "plaque",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Reference Tree",
+      "definition": null,
+      "notation": "reference-tree",
+      "altlabel": null,
+      "related": null,
+      "@id": "reference-tree",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rivet",
+      "definition": null,
+      "notation": "rivet",
+      "altlabel": null,
+      "related": null,
+      "@id": "rivet",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rod",
+      "definition": null,
+      "notation": "rod",
+      "altlabel": null,
+      "related": null,
+      "@id": "rod",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Round Post",
+      "definition": null,
+      "notation": "round-post",
+      "altlabel": null,
+      "related": null,
+      "@id": "round-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Standard Survey Mark",
+      "definition": null,
+      "notation": "ssm",
+      "altlabel": "SSM",
+      "related": null,
+      "@id": "ssm",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Screw",
+      "definition": null,
+      "notation": "screw",
+      "altlabel": null,
+      "related": null,
+      "@id": "screw",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Spike",
+      "definition": null,
+      "notation": "spike",
+      "altlabel": null,
+      "related": null,
+      "@id": "spike",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Split Post",
+      "definition": null,
+      "notation": "split-post",
+      "altlabel": null,
+      "related": null,
+      "@id": "split-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Square Post",
+      "definition": null,
+      "notation": "square-post",
+      "altlabel": null,
+      "related": null,
+      "@id": "square-post",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Star Picket",
+      "definition": null,
+      "notation": "star-picket",
+      "altlabel": null,
+      "related": null,
+      "@id": "star-picket",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Survey Nail",
+      "definition": null,
+      "notation": "survey-nail",
+      "altlabel": null,
+      "related": null,
+      "@id": "survey-nail",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tree",
+      "definition": null,
+      "notation": "tree",
+      "altlabel": null,
+      "related": null,
+      "@id": "tree",
+      "type": "surv:MonumentForm",
+      "@type": "skos:Concept"
+    }
+  ]
+}

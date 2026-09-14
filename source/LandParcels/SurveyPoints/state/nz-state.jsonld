@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/nz-monument-state/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/nz-monument-state",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "NZ Monument State",
+  "class": "surv:SurveyPointState",
+  "concepts": [
+    {
+      "preflabel": "Adopted",
+      "definition": "The mark existed before the survey was conducted and was adopted from a previous survey, i.e., It was not surveyed for this survey.",
+      "notation": "adpt",
+      "altlabel": "0",
+      "related": null,
+      "@id": "adpt",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "New",
+      "definition": "The mark was created by this survey.",
+      "notation": "new",
+      "altlabel": "1",
+      "related": null,
+      "@id": "new",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Old",
+      "definition": "The mark existed before the survey was conducted. The mark is undisturbed and considered to be original. The mark was surveyed as part of this survey.",
+      "notation": "old",
+      "altlabel": "2",
+      "related": null,
+      "@id": "old",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "System Added",
+      "definition": null,
+      "notation": "sysa",
+      "altlabel": "3",
+      "related": null,
+      "@id": "sysa",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Disturbed",
+      "definition": "The mark has been disturbed, hence a new coordinated position.",
+      "notation": "dist",
+      "altlabel": null,
+      "related": null,
+      "@id": "dist",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Replaced",
+      "definition": "The mark replaces an existing mark.",
+      "notation": "repl",
+      "altlabel": null,
+      "related": null,
+      "@id": "repl",
+      "type": "surv:SurveyPointState",
+      "@type": "skos:Concept"
+    }
+  ]
+}

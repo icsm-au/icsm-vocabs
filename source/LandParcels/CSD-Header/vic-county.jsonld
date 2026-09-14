@@ -1,0 +1,402 @@
+{
+  "@context": [
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/vic-county/"
+    },
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+      "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "container": "https://linked.data.gov.au/def/csdm/container/",
+      "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+      "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+      "preflabel": "skos:prefLabel",
+      "type": "@type",
+      "altlabel": "skos:altLabel",
+      "class": "skos:scopeNote",
+      "definition": "skos:definition",
+      "notation": "skos:notation",
+      "concepts": {
+        "@reverse": "skos:inScheme"
+      }
+    }
+  ],
+  "@id": "https://linked.data.gov.au/def/csdm/vic-county",
+  "@type": "skos:ConceptScheme",
+  "skos:prefLabel": "VIC Counties",
+  "class": "termtype:AdminUnit",
+  "concepts": [
+    {
+      "preflabel": "Anglesey",
+      "definition": null,
+      "notation": "1001",
+      "altlabel": null,
+      "related": null,
+      "@id": "1001",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Benambra",
+      "definition": null,
+      "notation": "1002",
+      "altlabel": null,
+      "related": null,
+      "@id": "1002",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bendigo",
+      "definition": null,
+      "notation": "1003",
+      "altlabel": null,
+      "related": null,
+      "@id": "1003",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bogong",
+      "definition": null,
+      "notation": "1004",
+      "altlabel": null,
+      "related": null,
+      "@id": "1004",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Borung",
+      "definition": null,
+      "notation": "1005",
+      "altlabel": null,
+      "related": null,
+      "@id": "1005",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Bourke",
+      "definition": null,
+      "notation": "1006",
+      "altlabel": null,
+      "related": null,
+      "@id": "1006",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Buln Buln",
+      "definition": null,
+      "notation": "1007",
+      "altlabel": null,
+      "related": null,
+      "@id": "1007",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Croajingolong",
+      "definition": null,
+      "notation": "1008",
+      "altlabel": null,
+      "related": null,
+      "@id": "1008",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dalhousie",
+      "definition": null,
+      "notation": "1009",
+      "altlabel": null,
+      "related": null,
+      "@id": "1009",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dargo",
+      "definition": null,
+      "notation": "1010",
+      "altlabel": null,
+      "related": null,
+      "@id": "1010",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Delatite",
+      "definition": null,
+      "notation": "1011",
+      "altlabel": null,
+      "related": null,
+      "@id": "1011",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Dundas",
+      "definition": null,
+      "notation": "1012",
+      "altlabel": null,
+      "related": null,
+      "@id": "1012",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Evelyn",
+      "definition": null,
+      "notation": "1013",
+      "altlabel": null,
+      "related": null,
+      "@id": "1013",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Follett",
+      "definition": null,
+      "notation": "1014",
+      "altlabel": null,
+      "related": null,
+      "@id": "1014",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gladstone",
+      "definition": null,
+      "notation": "1015",
+      "altlabel": null,
+      "related": null,
+      "@id": "1015",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grant",
+      "definition": null,
+      "notation": "1016",
+      "altlabel": null,
+      "related": null,
+      "@id": "1016",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Grenville",
+      "definition": null,
+      "notation": "1017",
+      "altlabel": null,
+      "related": null,
+      "@id": "1017",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Gunbower",
+      "definition": null,
+      "notation": "1018",
+      "altlabel": null,
+      "related": null,
+      "@id": "1018",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Hampden",
+      "definition": null,
+      "notation": "1019",
+      "altlabel": null,
+      "related": null,
+      "@id": "1019",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Heytesbury",
+      "definition": null,
+      "notation": "1020",
+      "altlabel": null,
+      "related": null,
+      "@id": "1020",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Kara Kara",
+      "definition": null,
+      "notation": "1021",
+      "altlabel": null,
+      "related": null,
+      "@id": "1021",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Karkarooc",
+      "definition": null,
+      "notation": "1022",
+      "altlabel": null,
+      "related": null,
+      "@id": "1022",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Lowan",
+      "definition": null,
+      "notation": "1023",
+      "altlabel": null,
+      "related": null,
+      "@id": "1023",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Millewa",
+      "definition": null,
+      "notation": "1024",
+      "altlabel": null,
+      "related": null,
+      "@id": "1024",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Moira",
+      "definition": null,
+      "notation": "1025",
+      "altlabel": null,
+      "related": null,
+      "@id": "1025",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Mornington",
+      "definition": null,
+      "notation": "1026",
+      "altlabel": null,
+      "related": null,
+      "@id": "1026",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Normanby",
+      "definition": null,
+      "notation": "1027",
+      "altlabel": null,
+      "related": null,
+      "@id": "1027",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Polwarth",
+      "definition": null,
+      "notation": "1028",
+      "altlabel": null,
+      "related": null,
+      "@id": "1028",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Ripon",
+      "definition": null,
+      "notation": "1029",
+      "altlabel": null,
+      "related": null,
+      "@id": "1029",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Rodney",
+      "definition": null,
+      "notation": "1030",
+      "altlabel": null,
+      "related": null,
+      "@id": "1030",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Talbot",
+      "definition": null,
+      "notation": "1031",
+      "altlabel": null,
+      "related": null,
+      "@id": "1031",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tambo",
+      "definition": null,
+      "notation": "1032",
+      "altlabel": null,
+      "related": null,
+      "@id": "1032",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tanjil",
+      "definition": null,
+      "notation": "1033",
+      "altlabel": null,
+      "related": null,
+      "@id": "1033",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Tatchera",
+      "definition": null,
+      "notation": "1034",
+      "altlabel": null,
+      "related": null,
+      "@id": "1034",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Villiers",
+      "definition": null,
+      "notation": "1035",
+      "altlabel": null,
+      "related": null,
+      "@id": "1035",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Weeah",
+      "definition": null,
+      "notation": "1036",
+      "altlabel": null,
+      "related": null,
+      "@id": "1036",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    },
+    {
+      "preflabel": "Wonnangatta",
+      "definition": null,
+      "notation": "1037",
+      "altlabel": null,
+      "related": null,
+      "@id": "1037",
+      "type": "termtype:AdminUnit",
+      "@type": "skos:Concept"
+    }
+  ]
+}

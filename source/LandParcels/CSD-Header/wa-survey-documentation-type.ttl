@@ -1,0 +1,159 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-documentation-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N2ce1d814b48c430ab6b7b6ebc0262e24 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:02.291192"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:02.201299"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-documentation-type.csv> ] ;
+            prov:wasAssociatedWith _:N2ce1d814b48c430ab6b7b6ebc0262e24 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/2-year-certificate> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "2-year-certificate" ;
+    skos:prefLabel "2 year certificate" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/2d-plan> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Plan in PDF format" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "2d-plan" ;
+    skos:prefLabel "Plan (PDF)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/2d-plan-survey-sheet> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Plan Survey Sheet in PDF format" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "2d-plan-survey-sheet" ;
+    skos:prefLabel "Plan - Survey Sheet (PDF)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/3d-plan> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Plan in 3DCSDM format" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "3d-plan" ;
+    skos:prefLabel "Plan (3DCSDM)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/3d-plan-survey-sheet> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Plan Survey Sheet in 3DCSDM format" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "3d-plan-survey-sheet" ;
+    skos:prefLabel "Plan - Survey Sheet (3DCSDM)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/field-record> a skos:Concept,
+        termtype:DocType ;
+    skos:definition " \"Field book in PDF or image format\"" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "field-record" ;
+    skos:prefLabel "Field record" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/field-record-certificate> a skos:Concept,
+        termtype:DocType ;
+    skos:definition " Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "field-record-certificate" ;
+    skos:prefLabel "Field record certificate" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/final-survey-certificate> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "final-survey-certificate" ;
+    skos:prefLabel "Final Survey Certificate" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/initial-survey-certificate> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "initial-survey-certificate" ;
+    skos:prefLabel "Initial Survey Certificate" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/limited-marking-approval> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "limited-marking-approval" ;
+    skos:prefLabel "Limited marking approval" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/plan-scheme> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Scheme Reference that this is parent or child of which this is part" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "plan-scheme" ;
+    skos:prefLabel "Plan Scheme" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/road-name-exemption> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "road-name-exemption" ;
+    skos:prefLabel "Road Name Exemption" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/scheme-form> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Multiple forms for additional scheme information" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "scheme-form" ;
+    skos:prefLabel "Scheme Form" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/scheme-record-form> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Record of Scheme Schedule (formerly Form 8)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "scheme-record-form" ;
+    skos:prefLabel "Scheme Record Form" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/scheme-ue> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Scheme Schedule of Unit Entitlement (version required)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "scheme-ue" ;
+    skos:prefLabel "Scheme (UE)" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/sketch-plan> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Supporting document" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "sketch-plan" ;
+    skos:prefLabel "Sketch plan" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/survey-report> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Survey Report and/or additional notes" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "survey-report" ;
+    skos:prefLabel "Survey Report" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type/wapc-exemption> a skos:Concept,
+        termtype:DocType ;
+    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> ;
+    skos:notation "wapc-exemption" ;
+    skos:prefLabel "WAPC exemption" .
+
+<https://linked.data.gov.au/def/csdm/wa-survey-documentation-type> a skos:ConceptScheme ;
+    skos:prefLabel "WA Survey Documentation" ;
+    skos:scopeNote "termtype:DocType" .
+
+_:N2ce1d814b48c430ab6b7b6ebc0262e24 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,267 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N2694bb63dcf543048305eab1c1140dc6 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:25:03.495679"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.386923"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N2694bb63dcf543048305eab1c1140dc6 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/22-consolidation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "22-consolidation" ;
+    skos:prefLabel "Section 22-Plan of Consolidation" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/22-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "22-subdivision" ;
+    skos:prefLabel "Section 22-Plan of Subdivision" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-create-easement> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-create-easement" ;
+    skos:prefLabel "Section 23-Creation of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-create-remove-easements> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-create-remove-easements" ;
+    skos:prefLabel "Section 23-Creation and Removal of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-create-remove-vary-easements> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-create-remove-vary-easements" ;
+    skos:prefLabel "Section 23-Creation and Removal and Variation of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-create-restriction> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-create-restriction" ;
+    skos:prefLabel "Section 23-Creation of Restriction" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-create-vary-easements> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-create-vary-easements" ;
+    skos:prefLabel "Section 23-Creation and Variation of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-remove-crown-condition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-remove-crown-condition" ;
+    skos:prefLabel "Section 23-Removal of Condition in Crown Grant" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-remove-easement> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-remove-easement" ;
+    skos:prefLabel "Section 23-Removal of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-remove-restriction> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-remove-restriction" ;
+    skos:prefLabel "Section 23-Removal of Restriction" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-remove-vary-easements> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-remove-vary-easements" ;
+    skos:prefLabel "Section 23-Removal and Variation of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-vary-crown-condition> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-vary-crown-condition" ;
+    skos:prefLabel "Section 23-Variation of Condition in Crown Grant" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-vary-easement> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-vary-easement" ;
+    skos:prefLabel "Section 23-Variation of Easement" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/23-vary-restriction> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "23-vary-restriction" ;
+    skos:prefLabel "Section 23-Variation of Restriction" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/24a-remove-reserve-consolidation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "24a-remove-reserve-consolidation" ;
+    skos:prefLabel "Section 24a-Removal of a Reserve (Plan of Consolidation)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/24a-remove-reserve-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "24a-remove-reserve-subdivision" ;
+    skos:prefLabel "Section 24a-Removal of a Reserve (Plan of Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/24a-remove-vest-reserve-consolidation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "24a-remove-vest-reserve-consolidation" ;
+    skos:prefLabel "Section 24a-Removal and Vesting of a Reserve (Plan of Consolidation)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/24a-remove-vest-reserve-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "24a-remove-vest-reserve-subdivision" ;
+    skos:prefLabel "Section 24a-Removal and Vesting of a Reserve (Plan of Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/24a-vest-reserve> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "24a-vest-reserve" ;
+    skos:prefLabel "Section 24a-Vesting of a Reserve" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/26> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "26" ;
+    skos:prefLabel "Section 26" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32-alter-l-o-c-cluster> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32-alter-l-o-c-cluster" ;
+    skos:prefLabel "Section 32-Plan to alter land affected by an owners corporation (Cluster Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32-alter-l-o-c-registered-plan> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32-alter-l-o-c-registered-plan" ;
+    skos:prefLabel "Section 32-Plan to alter land affected by an owners corporation (Registered Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32-alter-l-o-c-strata-plan> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32-alter-l-o-c-strata-plan" ;
+    skos:prefLabel "Section 32-Plan to alter land affected by an owners corporation (Strata Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32-alter-l-o-c-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32-alter-l-o-c-subdivision" ;
+    skos:prefLabel "Section 32-Plan to alter land affected by an owners corporation (Plan of Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32a-o-c-affected-consolidation> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32a-o-c-affected-consolidation" ;
+    skos:prefLabel "Section 32a-Plan of Consolidation of land if an owners corporation is affected" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32a-o-c-affected-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32a-o-c-affected-subdivision" ;
+    skos:prefLabel "Section 32a-Plan of Subdivision of land if an owners corporation is affected" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32b-create-o-c-existing> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32b-create-o-c-existing" ;
+    skos:prefLabel "Section 32b-Plan to create an owners corporation (Existing Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/32b-create-o-c-new> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "32b-create-o-c-new" ;
+    skos:prefLabel "Section 32b-Plan to create an owners corporation (New Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-8-consolidation-vest-authority> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-8-consolidation-vest-authority" ;
+    skos:prefLabel "Section 35(8)-Consolidation of land vested or registered in authority" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-8-subdivision-vest-authority> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-8-subdivision-vest-authority" ;
+    skos:prefLabel "Section 35(8)-Subdivision of land vested or registered in authority" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-acquisition-authority> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-acquisition-authority" ;
+    skos:prefLabel "Section 35-Acquisition of land by acquiring authority" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-acquisition-o-c-cluster> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-acquisition-o-c-cluster" ;
+    skos:prefLabel "Section 35-Acquisition of land if an owners corporation is affected (Cluster Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-acquisition-o-c-registered-plan> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-acquisition-o-c-registered-plan" ;
+    skos:prefLabel "Section 35-Acquisition of land if an owners corporation is affected (Registered Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-acquisition-o-c-strata-plan> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-acquisition-o-c-strata-plan" ;
+    skos:prefLabel "Section 35-Acquisition of land if an owners corporation is affected (Strata Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/35-acquisition-o-c-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "35-acquisition-o-c-subdivision" ;
+    skos:prefLabel "Section 35-Acquisition of land if an owners corporation is affected (Plan of Subdivision)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/37-8> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "37-8" ;
+    skos:prefLabel "Section 37(8)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/37-acquisition-stage-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "37-acquisition-stage-subdivision" ;
+    skos:prefLabel "Section 37-Acquisition of land (Plan of Subdivision (Staged))" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/37-stage-subdivision> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "37-stage-subdivision" ;
+    skos:prefLabel "Section 37-Plan of Subdivision (Staged Plan)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose/6-1-k> a skos:Concept,
+        surv:SurveyPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-survey-purpose> ;
+    skos:notation "6-1-k" ;
+    skos:prefLabel "Section 6(1)(K)" .
+
+<https://linked.data.gov.au/def/csdm/vic-survey-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Survey Purpose" ;
+    skos:scopeNote "surv:SurveyPurpose" .
+
+_:N2694bb63dcf543048305eab1c1140dc6 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

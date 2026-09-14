@@ -1,0 +1,622 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/vic-interest-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ne9d664845bff4e9c93425d7ccc5a273f ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:24:57.252711"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:57.087777"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/vic-interest-type.csv> ] ;
+            prov:wasAssociatedWith _:Ne9d664845bff4e9c93425d7ccc5a273f ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/a> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "a" ;
+    skos:prefLabel "Amalgamation" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/air-exhaust> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "air-exhaust" ;
+    skos:prefLabel "Air Exhaust" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/air-exhaust-ventilation> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "air-exhaust-ventilation" ;
+    skos:prefLabel "Air Exhaust and Ventilation" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/air-supply> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "air-supply" ;
+    skos:prefLabel "Air Supply" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/alpine-lease> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "alpine-lease" ;
+    skos:prefLabel "Alpine Lease" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/bore> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "bore" ;
+    skos:prefLabel "Bore" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/c> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "c" ;
+    skos:prefLabel "Covenant" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/c-t> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "c-t" ;
+    skos:prefLabel "Certificate of Title" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/carriageway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "carriageway" ;
+    skos:prefLabel "Carriageway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/carriageway-l-o> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "carriageway-l-o" ;
+    skos:prefLabel "Carriageway (with Limitation and Obligation)" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/channel> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "channel" ;
+    skos:prefLabel "Channel" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/chimney> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "chimney" ;
+    skos:prefLabel "Chimney" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/crown-grant> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "crown-grant" ;
+    skos:prefLabel "Crown Grant" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/crown-grant-part> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "crown-grant-part" ;
+    skos:prefLabel "Crown Grant(Part)" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/crown-land> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "crown-land" ;
+    skos:prefLabel "Crown Land" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/crown-lease> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "crown-lease" ;
+    skos:prefLabel "Crown Lease" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/data-transmission> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "data-transmission" ;
+    skos:prefLabel "Data Transmission" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/depth-limitation> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "depth-limitation" ;
+    skos:prefLabel "Depth Limitation" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/depth-limitation-part> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "depth-limitation-part" ;
+    skos:prefLabel "Depth Limitation(Part)" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/drainage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "drainage" ;
+    skos:prefLabel "Drainage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/drainage-floodway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "drainage-floodway" ;
+    skos:prefLabel "Drainage and Floodway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/drainage-sewage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "drainage-sewage" ;
+    skos:prefLabel "Drainage and Sewerage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/drainage-waterway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "drainage-waterway" ;
+    skos:prefLabel "Drainage and Waterway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/easement-benefit> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "easement-benefit" ;
+    skos:prefLabel "Easement Benefit" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/easement-drainage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "easement-drainage" ;
+    skos:prefLabel "Easement - Drainage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/easement-in-gross-sewerage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "easement-in-gross-sewerage" ;
+    skos:prefLabel "Easement in Gross (Sewerage)" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/erosion> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "erosion" ;
+    skos:prefLabel "Erosion" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/fh> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "fh" ;
+    skos:prefLabel "Freehold" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/fire-access> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "fire-access" ;
+    skos:prefLabel "Fire Access" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/fire-egress> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "fire-egress" ;
+    skos:prefLabel "Fire Egress" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/fire-escape> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "fire-escape" ;
+    skos:prefLabel "Fire Escape" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/flooding> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "flooding" ;
+    skos:prefLabel "Flooding" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/floodway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "floodway" ;
+    skos:prefLabel "Floodway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/flow-light> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "flow-light" ;
+    skos:prefLabel "Flow of Light" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/flow-light-air> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "flow-light-air" ;
+    skos:prefLabel "Flow of Light and Air" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/flow-of-air> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "flow-of-air" ;
+    skos:prefLabel "Flow of Air" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/footway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "footway" ;
+    skos:prefLabel "Footway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/freehold-part> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "freehold-part" ;
+    skos:prefLabel "Freehold(Part)" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/garbage-collection> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "garbage-collection" ;
+    skos:prefLabel "Garbage Collection/Garbage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/gas-distribution-pipeline> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "gas-distribution-pipeline" ;
+    skos:prefLabel "Gas Distribution Pipeline" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/gas-transmission-pipeline> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "gas-transmission-pipeline" ;
+    skos:prefLabel "Gas Transmission Pipeline" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/ground-water-monitoring> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "ground-water-monitoring" ;
+    skos:prefLabel "Ground Water Monitoring" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/identified> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "identified" ;
+    skos:prefLabel "Identified" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/irrigation> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "irrigation" ;
+    skos:prefLabel "Irrigation" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/laying-water-pipes> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "laying-water-pipes" ;
+    skos:prefLabel "Laying Water Pipes" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/load-unload-heavy-equipment> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "load-unload-heavy-equipment" ;
+    skos:prefLabel "Loading and Unloading Heavy Equipment" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/mail-collection> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "mail-collection" ;
+    skos:prefLabel "Mail Collection" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/mineral-excludes> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "mineral-excludes" ;
+    skos:prefLabel "Mineral 'Excludes'" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/mineral-includes> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "mineral-includes" ;
+    skos:prefLabel "Mineral 'Includes'" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/nuisance-annoyance> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "nuisance-annoyance" ;
+    skos:prefLabel "Nuisance or Annoyance" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/o-c> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "o-c" ;
+    skos:prefLabel "Owners Corporation" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/other> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "other" ;
+    skos:prefLabel "Other" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/overhanging-balcony> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "overhanging-balcony" ;
+    skos:prefLabel "Overhanging Balcony" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/overhanging-eaves> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "overhanging-eaves" ;
+    skos:prefLabel "Overhanging Eaves" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/overhanging-projections> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "overhanging-projections" ;
+    skos:prefLabel "Overhanging Projections" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/overhanging-spouting> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "overhanging-spouting" ;
+    skos:prefLabel "Overhanging Spouting" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/party-wall> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "party-wall" ;
+    skos:prefLabel "Party Wall" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/passage-light> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "passage-light" ;
+    skos:prefLabel "Passage of Light" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/passage-light-air> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "passage-light-air" ;
+    skos:prefLabel "Passage of Light and Air" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/passage-of-air> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "passage-of-air" ;
+    skos:prefLabel "Passage of Air" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/pipline-ancillary-purposes> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "pipline-ancillary-purposes" ;
+    skos:prefLabel "Pipeline or Ancillary Purposes" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/powerline> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "powerline" ;
+    skos:prefLabel "Powerline" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/public-conveniences> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "public-conveniences" ;
+    skos:prefLabel "Public Conveniences" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/public-highway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "public-highway" ;
+    skos:prefLabel "Public Highway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/quarrying-blasting> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "quarrying-blasting" ;
+    skos:prefLabel "Quarrying and Blasting" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/recreation-garden> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "recreation-garden" ;
+    skos:prefLabel "Recreation and Garden" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/restriction-benefit> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "restriction-benefit" ;
+    skos:prefLabel "Restriction Benefit" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/restriction-burden> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "restriction-burden" ;
+    skos:prefLabel "Restriction Burden" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/right-access> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "right-access" ;
+    skos:prefLabel "Right of Access" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/right-entry> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "right-entry" ;
+    skos:prefLabel "Right of Entry" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/sanitary-convenience> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "sanitary-convenience" ;
+    skos:prefLabel "Sanitary Convenience" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/sewage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "sewage" ;
+    skos:prefLabel "Sewerage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/signage> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "signage" ;
+    skos:prefLabel "Signage" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/signboard> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "signboard" ;
+    skos:prefLabel "Signboard" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/soakage-water> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "soakage-water" ;
+    skos:prefLabel "Soakage by Water" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/submergence> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "submergence" ;
+    skos:prefLabel "Submergence" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/supply-gas> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "supply-gas" ;
+    skos:prefLabel "Supply of Gas" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/supply-of-electricity> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "supply-of-electricity" ;
+    skos:prefLabel "Supply of Electricity" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/supply-recycled-water> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "supply-recycled-water" ;
+    skos:prefLabel "Supply of Recycled Water" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/supply-water> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "supply-water" ;
+    skos:prefLabel "Supply of Water" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/support> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "support" ;
+    skos:prefLabel "Support" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/telecommunications> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "telecommunications" ;
+    skos:prefLabel "Telecommunications" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/transmission-electricity> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "transmission-electricity" ;
+    skos:prefLabel "Transmission of Electricity" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/treasurer-receipt> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "treasurer-receipt" ;
+    skos:prefLabel "Treasurer's Receipt" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/tree-planting> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "tree-planting" ;
+    skos:prefLabel "Tree Planting" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/underground-effluent-disposal> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "underground-effluent-disposal" ;
+    skos:prefLabel "Underground Effluent Disposal" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/use-stairway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "use-stairway" ;
+    skos:prefLabel "Use of Stairway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/vehicle-parking> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "vehicle-parking" ;
+    skos:prefLabel "Vehicle Parking" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/ventilation-access> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "ventilation-access" ;
+    skos:prefLabel "Ventilation and Access" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/vest> a skos:Concept,
+        surv:InterestType ;
+    skos:definition "To place or give into possession or discretion of some person or authority" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "vest" ;
+    skos:prefLabel "Vest" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/walkway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "walkway" ;
+    skos:prefLabel "Walkway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/walkway-activity-specific-location> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "walkway-activity-specific-location" ;
+    skos:prefLabel "Walkway in the event of ‘activity’ in ‘specific location’" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/waste-disposal> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "waste-disposal" ;
+    skos:prefLabel "Waste Disposal" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/waterway> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "waterway" ;
+    skos:prefLabel "Waterway" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/waterway-management> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "waterway-management" ;
+    skos:prefLabel "Waterway Management" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/way> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "way" ;
+    skos:prefLabel "Way" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/wetland> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "wetland" ;
+    skos:prefLabel "Wetland" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type/windmill-tank> a skos:Concept,
+        surv:InterestType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-interest-type> ;
+    skos:notation "windmill-tank" ;
+    skos:prefLabel "Windmill and Tank" .
+
+<https://linked.data.gov.au/def/csdm/vic-interest-type> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Memorial Types" ;
+    skos:scopeNote "surv:InterestType" .
+
+_:Ne9d664845bff4e9c93425d7ccc5a273f a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+
