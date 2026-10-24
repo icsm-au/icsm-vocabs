@@ -88,17 +88,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:ct
-    a
-        skos:Concept ,
-        termtype:SurveyType ;
-    skos:definition "An official document issued by an appropriate jurisdictional authority identifying the owner(s) of Real property along with any encumbrances over the property." ;
-    skos:inScheme cs: ;
-    skos:notation "ct" ;
-    skos:prefLabel "Certificate of Title" ;
-    skos:topConceptOf cs: ;
-.
-
 :deposited-plan
     a
         skos:Concept ,
@@ -203,7 +192,6 @@ cs:
         :conventional ,
         :conventional-unsurveyed-lots ,
         :csd ,
-        :ct ,
         :deposited-plan ,
         :dsd ,
         :field-record ,
@@ -217,7 +205,7 @@ cs:
     skos:scopeNote "termtype:SurveyType" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2026-10-13"^^xsd:date ;
+    schema:dateModified "2026-10-19"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;

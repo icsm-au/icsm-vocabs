@@ -7,3 +7,4 @@ Ground,The reduced observed distance between two survey marks at ground level,gr
 Mean Elevation, The reduced observed horizontal distance between two survey marks adjusted to the mean elevation of the line measured,mean-elevation,Horizontal ground distance at mean elevation,
 3D Vector,The reduced observed slope distance between two survey marks.,3d-vector,Slope,
 Spheroid,The shortest distance between two points along the surface of a reference spheroid,spheroid,S,Ellipsoid
+Grid,The distance between two survey marks on the projection plane,grid,Grid,

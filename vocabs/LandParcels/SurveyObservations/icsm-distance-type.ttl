@@ -43,6 +43,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:grid
+    a
+        skos:Concept ,
+        surv:Distance ;
+    skos:altLabel "Grid" ;
+    skos:definition "The distance between two survey marks on the projection plane" ;
+    skos:inScheme cs: ;
+    skos:notation "grid" ;
+    skos:prefLabel "Grid" ;
+    skos:topConceptOf cs: ;
+.
+
 :ground
     a
         skos:Concept ,
@@ -108,6 +120,7 @@ cs:
         :3d-vector ,
         :ellipsoid ,
         :geodetic ,
+        :grid ,
         :ground ,
         :horizontal ,
         :mean-elevation ,

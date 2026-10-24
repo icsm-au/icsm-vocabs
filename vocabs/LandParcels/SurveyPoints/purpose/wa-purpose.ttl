@@ -68,18 +68,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-:derived-boundary
-    a
-        skos:Concept ,
-        surv:SurveyPointPurpose ;
-    skos:altLabel "derived boundary" ;
-    skos:definition "Boundary mark derived from a parcels spatial representation definition" ;
-    skos:inScheme cs: ;
-    skos:notation "derived-boundary" ;
-    skos:prefLabel "Derived 3D Boundary" ;
-    skos:topConceptOf cs: ;
-.
-
 :general-mining
     a
         skos:Concept ,
@@ -542,7 +530,6 @@ cs:
         :administration-point ,
         :construct-mining ,
         :control ,
-        :derived-boundary ,
         :general-mining ,
         :geodetic-bench-mark ,
         :geodetic-reference-mark ,
@@ -586,7 +573,7 @@ cs:
     skos:scopeNote "surv:SurveyPointPurpose" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2026-10-13"^^xsd:date ;
+    schema:dateModified "2026-10-19"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;

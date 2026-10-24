@@ -14,6 +14,26 @@ transform:
     walk(if type == "object" and ( .notation // .preflabel)
     then ."@id" = ((.notation // .preflabel) | gsub("^ +| +$"; "") | gsub("[^a-zA-Z0-9_-]"; "-") )
     else . end)
+  # Split '|'-separated altlabel values into one skos:altLabel each.
+  # A CSV with a 'broader' column uses the 3D CSDM draft format
+  # (preflabel,definition,notation,altlabel,broader,related,scopenote): its broader and
+  # related cells are '|'-separated concept references, either a notation in the same
+  # scheme (resolved against the concept base) or prefix:notation for another
+  # https://linked.data.gov.au/def/csdm/<prefix> scheme. Older CSVs have no 'broader'
+  # column and keep their free-text 'related' column unmapped, so their output is unchanged.
+  - |
+    def items: if . == null then [] else (tostring | split("|") | map(gsub("^\\s+|\\s+$"; "")) | map(select(length > 0))) end;
+    def ref: if test("^https?://") then .
+      elif test("^[A-Za-z][A-Za-z0-9-]*:[^/]") then (capture("^(?<p>[^:]+):(?<l>.+)$") | "https://linked.data.gov.au/def/csdm/\(.p)/\(.l)")
+      else . end;
+    walk(if type == "object" and has("notation") then
+      (if has("altlabel") then .altlabel = (.altlabel | items | if length == 0 then null else . end) else . end)
+      | (if has("broader") then
+          .broaderConcept = (.broader | items | map(ref))
+          | .relatedConcept = (.related | items | map(ref))
+          | del(.broader, .related)
+        else . end)
+    else . end)
   # Add ConceptScheme
   - |
     def csMapping: {
@@ -134,6 +154,13 @@ context:
     type: '@type'
     altlabel: skos:altLabel
     class: skos:scopeNote
+    scopenote: skos:scopeNote
+    broaderConcept:
+      '@id': skos:broader
+      '@type': '@id'
+    relatedConcept:
+      '@id': skos:related
+      '@type': '@id'
     definition: skos:definition
     notation: skos:notation
     concepts:

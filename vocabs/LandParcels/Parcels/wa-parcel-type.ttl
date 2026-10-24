@@ -64,6 +64,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:miscellaneous
+    a
+        skos:Concept ,
+        surv:ParcelType ;
+    skos:definition "Parcel is a miscellaneous parcel" ;
+    skos:inScheme cs: ;
+    skos:notation "miscellaneous" ;
+    skos:prefLabel "Miscellaneous" ;
+    skos:topConceptOf cs: ;
+.
+
+:road
+    a
+        skos:Concept ,
+        surv:ParcelType ;
+    skos:definition "Parcel is a road casement, or road reserve" ;
+    skos:inScheme cs: ;
+    skos:notation "road" ;
+    skos:prefLabel "Road" ;
+    skos:topConceptOf cs: ;
+.
+
 cs:
     a skos:ConceptScheme ;
     skos:definition "WA Parcel Type"@en ;
@@ -72,7 +94,9 @@ cs:
         :community-titles-land-scheme ,
         :crown ,
         :freehold ,
-        :leasehold ;
+        :leasehold ,
+        :miscellaneous ,
+        :road ;
     skos:historyNote """2025-05 NJC: Added status experimental""" ;
     skos:prefLabel "WA Parcel Type" ;
     skos:scopeNote "surv:ParcelType" ;

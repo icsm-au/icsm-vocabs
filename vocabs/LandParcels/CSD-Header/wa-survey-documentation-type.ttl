@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "A certificate by the licensed surveyor, required where a plan of survey is not lodged within 2 years of ground marking, that the survey has been inspected and all marks are intact (regulation 53A of the Licensed Surveyors (General Surveying Practice) Regulations 1961)." ;
     skos:inScheme cs: ;
     skos:notation "2-year-certificate" ;
     skos:prefLabel "2 year certificate" ;
@@ -90,7 +90,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition " \"Field book in PDF or image format\"" ;
+    skos:definition "Field book in PDF or image format" ;
     skos:inScheme cs: ;
     skos:notation "field-record" ;
     skos:prefLabel "Field record" ;
@@ -101,7 +101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition " Note: To be confirmed if part of final schema design" ;
+    skos:definition "The certificate by which the licensed surveyor who carried out an authorised survey accepts full responsibility for the field record and the survey it represents (regulation 17(1) of the Licensed Surveyors (General Surveying Practice) Regulations 1961)." ;
     skos:inScheme cs: ;
     skos:notation "field-record-certificate" ;
     skos:prefLabel "Field record certificate" ;
@@ -112,7 +112,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "A certificate by the licensed surveyor that the marks shown on the plan of survey and in the referenced field records were in place on a stated date, lodged before the plan is made in order for dealings (regulation 55E of the Licensed Surveyors (General Surveying Practice) Regulations 1961)." ;
     skos:inScheme cs: ;
     skos:notation "final-survey-certificate" ;
     skos:prefLabel "Final Survey Certificate" ;
@@ -123,7 +123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "A certificate by the licensed surveyor, lodged with the Inspector of Plans and Surveys where final marking is deferred under a regulation 26A approval, that the survey complies with the conditions of that approval, with an undertaking to complete the marking and lodge survey sheets after construction (Land Surveyors Licensing Board, Survey Practice Guidelines for Subdivisions within Special Survey Areas, guideline 9.3)." ;
     skos:inScheme cs: ;
     skos:notation "initial-survey-certificate" ;
     skos:prefLabel "Initial Survey Certificate" ;
@@ -134,7 +134,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "An approval from the Inspector of Plans and Surveys at Landgate, under regulation 26A of the Licensed Surveyors (General Surveying Practice) Regulations 1961, for a survey to be marked or referenced in a limited or deferred way rather than in full, for example a road casement survey." ;
     skos:inScheme cs: ;
     skos:notation "limited-marking-approval" ;
     skos:prefLabel "Limited marking approval" ;
@@ -156,7 +156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "Evidence, lodged with a plan that creates a road or road extension, that an approved road name is not required for that road." ;
     skos:inScheme cs: ;
     skos:notation "road-name-exemption" ;
     skos:prefLabel "Road Name Exemption" ;
@@ -222,7 +222,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         termtype:DocType ;
-    skos:definition "Note: To be confirmed if part of final schema design" ;
+    skos:definition "Evidence, lodged with a plan, that the plan does not need Western Australian Planning Commission approval because it is for a public work under section 6 of the Planning and Development Act 2005." ;
     skos:inScheme cs: ;
     skos:notation "wapc-exemption" ;
     skos:prefLabel "WAPC exemption" ;
@@ -258,7 +258,7 @@ cs:
     skos:scopeNote "termtype:DocType" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2026-10-13"^^xsd:date ;
+    schema:dateModified "2026-10-19"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
