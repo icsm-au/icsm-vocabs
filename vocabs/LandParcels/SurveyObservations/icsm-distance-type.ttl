@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :3d-vector
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:altLabel "Slope" ;
     skos:definition "The reduced observed slope distance between two survey marks." ;
     skos:inScheme cs: ;
@@ -24,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ellipsoid
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:definition "The minimal length of a curve that joins two survey marks on a reference ellipsoid" ;
     skos:inScheme cs: ;
     skos:notation "ellipsoid" ;
@@ -35,7 +35,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :geodetic
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:definition "The minimal length of a curve that joins two survey marks on a geodetic reference ellipsoid" ;
     skos:inScheme cs: ;
     skos:notation "geodetic" ;
@@ -46,7 +46,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :grid
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:altLabel "Grid" ;
     skos:definition "The distance between two survey marks on the projection plane" ;
     skos:inScheme cs: ;
@@ -58,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ground
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:altLabel "G" ;
     skos:definition "The reduced observed distance between two survey marks at ground level" ;
     skos:inScheme cs: ;
@@ -70,7 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :horizontal
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:definition "The reduced observed distance between two survey marks further reduced to a horizontal plane" ;
     skos:inScheme cs: ;
     skos:notation "horizontal" ;
@@ -81,7 +81,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :mean-elevation
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:altLabel "Horizontal ground distance at mean elevation" ;
     skos:definition " The reduced observed horizontal distance between two survey marks adjusted to the mean elevation of the line measured" ;
     skos:inScheme cs: ;
@@ -93,7 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :slope
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:definition "The reduced observed distance between two survey marks at ground level" ;
     skos:inScheme cs: ;
     skos:notation "slope" ;
@@ -104,7 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :spheroid
     a
         skos:Concept ,
-        surv:Distance ;
+        surv:DistanceType ;
     skos:altLabel "S" ;
     skos:definition "The shortest distance between two points along the surface of a reference spheroid" ;
     skos:inScheme cs: ;
@@ -126,12 +126,12 @@ cs:
         :mean-elevation ,
         :slope ,
         :spheroid ;
-    skos:historyNote """2025-05 NJC: Added status experimental""" ;
+    skos:historyNote "2025-05 NJC: Added status experimental" ;
     skos:prefLabel "ICSM Distance Type" ;
-    skos:scopeNote "surv:Distance" ;
+    skos:scopeNote "surv:DistanceType" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2025-05-23"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
